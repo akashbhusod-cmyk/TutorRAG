@@ -1,0 +1,4 @@
+templates/*.html linguist-vendored
+jsons/*.json linguist-vendored
+newjsons/*.json linguist-vendored
+unused/*.json linguist-vendored
