@@ -5,3 +5,6 @@ prompt.txt
 response.txt
 audios/
 videos/
+__pycache__/
+*.pyc
+embeddings.joblib
