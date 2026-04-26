@@ -1,4 +1,4 @@
-## TutorRAG – RAG-Based AI Teaching Assistant
+### TutorRAG – RAG-Based AI Teaching Assistant
 
 TutorRAG is a Retrieval-Augmented Generation (RAG) system designed to help users learn from structured course content. It enables users to search for specific topics within educational material and receive context-aware answers with precise timestamps.
 
