@@ -1,24 +1,25 @@
-# TutorRAG – RAG-Based AI Teaching Assistant
+## TutorRAG – RAG-Based AI Teaching Assistant
 
-TutorRAG is a Retrieval-Augmented Generation (RAG) system that helps users find **exact topics from a Python course with timestamps** and provides clear, context-based answers.
+TutorRAG is a Retrieval-Augmented Generation (RAG) system designed to help users learn from structured course content. It enables users to search for specific topics within educational material and receive context-aware answers with precise timestamps.
 
-It combines **semantic search (embeddings)** with a **local LLM** to deliver accurate responses.
+The system combines semantic search using embeddings with a locally hosted language model to provide accurate and relevant responses.
 
----
+# Features
+Semantic search over course content using embeddings
+Retrieval of relevant chunks with timestamps
+Context-aware answer generation using a local LLM
+End-to-end pipeline from video/audio to searchable knowledge
+Lightweight and runs locally without external API dependency
 
-## 🚀 Features
+# Tech Stack
+Backend: Python
+Embeddings: BGE-M3 model
+LLM: Ollama (local inference)
+Database: SQLite / local storage
+Frontend: HTML (templates)
+Tools: FFmpeg, Joblib
 
-* Ask course-related questions
-* Get **video number + exact timestamp**
-* Clean, concise answers
-* ChatGPT-style web UI (Flask)
-* Semantic search using embeddings (`bge-m3`)
-* Local LLM inference (Llama 3.2 / DeepSeek)
-* SQLite database (`tutorrag.db`) for chat history
-
----
-
-## 🧠 How It Works
+# How It Works
 
 1. Videos → converted to audio
 2. Audio → converted to JSON subtitles
@@ -30,7 +31,7 @@ It combines **semantic search (embeddings)** with a **local LLM** to deliver acc
 
 ---
 
-## 📁 Project Structure
+# Project Structure
 
 ```bash
 TutorRAG/
@@ -64,7 +65,7 @@ TutorRAG/
 
 ---
 
-## ⚙️ Installation
+# Installation
 
 ```bash
 git clone https://github.com/akashbhusod-cmyk/TutorRAG.git
@@ -74,7 +75,7 @@ cd TutorRAG
 
 ---
 
-## ▶️ Run the Application
+# Run the Application
 
 ```bash
 python app.py
@@ -88,7 +89,7 @@ http://127.0.0.1:5000
 
 ---
 
-## 🧾 Data Processing Pipeline
+# Data Processing Pipeline
 
 Run these steps only when preparing data:
 
@@ -118,7 +119,7 @@ python preprocess_json.py
 
 ---
 
-## 🗄️ Database
+# Database
 
 * SQLite database: `tutorrag.db`
 * Stores:
@@ -128,19 +129,7 @@ python preprocess_json.py
 
 ---
 
-## 🧰 Tech Stack
-
-* Python
-* Flask
-* SQLite
-* Pandas / NumPy
-* Scikit-learn (cosine similarity)
-* Ollama (local LLM)
-* bge-m3 embeddings
-
----
-
-## 💡 Example Query
+# Example Query
 
 > Where is swapping variables taught?
 
@@ -151,7 +140,7 @@ python preprocess_json.py
 
 ---
 
-## 📌 Future Improvements
+# Future Improvements
 
 * Streaming responses (typing effect)
 * Chat history sidebar
@@ -161,22 +150,14 @@ python preprocess_json.py
 
 ---
 
-## 📷 Demo
+---
 
-*Add your UI screenshot here*
+# Author
 
-```
-![App Screenshot](screenshot.png)
-```
+## Akash Bhusod
 
 ---
 
-## 👨‍💻 Author
-
-Akash Bhusod
-
----
-
-## 📜 License
+# License
 
 For educational and portfolio purposes.
