@@ -1,0 +1,2287 @@
+{
+  "chunks": [
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 0.0,
+      "end": 8.68,
+      "text": " Welcome back aliens my name is Avin20 and let's continue with the series on Python and"
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 8.68,
+      "end": 11.24,
+      "text": " in this video we will talk about loops."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 11.24,
+      "end": 13.18,
+      "text": " Now what exactly loop means?"
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 13.18,
+      "end": 17.16,
+      "text": " Now in programming what you do is you sometimes you need to repeat the statements."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 17.16,
+      "end": 22.080000000000002,
+      "text": " Example let's say you have written 5 statements and maybe you want to repeat them."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 22.080000000000002,
+      "end": 23.080000000000002,
+      "text": " How will you repeat them?"
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 23.080000000000002,
+      "end": 27.6,
+      "text": " Of course there is one way you can copy paste the same code multiple times."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 27.6,
+      "end": 30.18,
+      "text": " Example let's say I want to print telescope."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 30.18,
+      "end": 33.88,
+      "text": " So I want to print telescope once and if I run this code of course it will print only"
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 33.88,
+      "end": 34.88,
+      "text": " once."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 34.88,
+      "end": 36.88,
+      "text": " What if I want to print telescope 2 times?"
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 36.88,
+      "end": 38.800000000000004,
+      "text": " So what we can do is we can just copy paste it."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 38.800000000000004,
+      "end": 40.84,
+      "text": " So we are good with this."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 40.84,
+      "end": 44.72,
+      "text": " So I will copy paste it and we got 2 telescopes and if I run this code you can see we got"
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 44.72,
+      "end": 45.72,
+      "text": " 2 telescopes."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 45.72,
+      "end": 46.84,
+      "text": " That's working."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 46.84,
+      "end": 49.16,
+      "text": " What if I want to print telescope 10 times?"
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 49.16,
+      "end": 50.2,
+      "text": " What you will do now?"
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 50.2,
+      "end": 52.44,
+      "text": " Of course you can copy paste it 10 times."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 52.44,
+      "end": 55.36,
+      "text": " But don't you think you are doing manual work?"
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 55.36,
+      "end": 57.08,
+      "text": " What if I want to print 1000 times?"
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 57.08,
+      "end": 58.519999999999996,
+      "text": " It will be difficult to do that right?"
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 58.519999999999996,
+      "end": 62.0,
+      "text": " Now the best way to do it is applying a loop."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 62.0,
+      "end": 67.24,
+      "text": " What you can do here is you can say hey python I want to repeat the same statement multiple"
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 67.24,
+      "end": 68.24,
+      "text": " times."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 68.24,
+      "end": 69.88,
+      "text": " To do that we can use loops."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 69.88,
+      "end": 71.36,
+      "text": " And we can use 2 type of loops."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 71.36,
+      "end": 75.03999999999999,
+      "text": " One is called as while loop and second is called as for loop."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 75.03999999999999,
+      "end": 76.58,
+      "text": " Let's focus on while here."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 76.58,
+      "end": 78.4,
+      "text": " So we can use a while."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 78.4,
+      "end": 82.4,
+      "text": " So while is a keyword and then you have to specify the condition."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 82.4,
+      "end": 86.32,
+      "text": " See while will say ok my job is to repeat this statement multiple times but then tell"
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 86.32,
+      "end": 88.16,
+      "text": " me for how much time you want to do that."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 88.16,
+      "end": 90.36,
+      "text": " I will say ok do it for 5 times."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 90.36,
+      "end": 91.83999999999999,
+      "text": " But how will I do that?"
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 91.83999999999999,
+      "end": 94.63999999999999,
+      "text": " So when you say you want to do it for 5 times we count right?"
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 94.63999999999999,
+      "end": 95.63999999999999,
+      "text": " We need a counter here."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 95.63999999999999,
+      "end": 99.0,
+      "text": " Example if I say hey you say hello 5 times."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 99.0,
+      "end": 100.52,
+      "text": " I am talking to you here ok."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 100.52,
+      "end": 101.52,
+      "text": " So say hello 5 times."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 101.52,
+      "end": 106.75999999999999,
+      "text": " What you will do is in your mind you will be saying hello once ok hello second time"
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 106.75999999999999,
+      "end": 108.32,
+      "text": " hello hello and hello."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 108.32,
+      "end": 109.32,
+      "text": " So you have a counter there right?"
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 109.32,
+      "end": 112.52,
+      "text": " In the same way we need a counter here."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 112.52,
+      "end": 117.39999999999999,
+      "text": " For that I will be using a variable called as i and I will say i starts with 1 and then"
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 117.39999999999999,
+      "end": 119.64,
+      "text": " every time ok first of all you have to check right?"
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 119.64,
+      "end": 120.64,
+      "text": " How will I check?"
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 120.64,
+      "end": 123.56,
+      "text": " If the value of i is less than equal to 5."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 123.56,
+      "end": 125.8,
+      "text": " Ok we have to apply a condition right?"
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 125.8,
+      "end": 130.92,
+      "text": " So step 1 would be take a counter a variable which is i in this case and check if the value"
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 130.92,
+      "end": 137.0,
+      "text": " of i is less than 5 and every time you print the disco just increment the value of i right?"
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 137.0,
+      "end": 138.0,
+      "text": " So because you are doing it here right?"
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 138.0,
+      "end": 139.8,
+      "text": " So you are saying hello hello."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 139.8,
+      "end": 141.5,
+      "text": " So you are incrementing the value."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 141.5,
+      "end": 144.74,
+      "text": " So you will say i is equal to i plus 1."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 144.74,
+      "end": 145.74,
+      "text": " That's it."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 145.74,
+      "end": 146.74,
+      "text": " It's so simple."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 146.74,
+      "end": 147.74,
+      "text": " And remember the syntax."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 147.74,
+      "end": 151.86,
+      "text": " So we have to use a while then we have to specify the condition and a colon."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 151.86,
+      "end": 156.1,
+      "text": " Now this colon specifies whatever is coming ahead is a part of this block."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 156.1,
+      "end": 158.78,
+      "text": " And this to statement belongs to the same suit."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 158.78,
+      "end": 161.78,
+      "text": " Because we are using a proper indentation here."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 161.78,
+      "end": 166.1,
+      "text": " And now let me just run this code and you can see we got the disco 5 times."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 166.1,
+      "end": 168.1,
+      "text": " So what is happening behind the scene?"
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 168.1,
+      "end": 169.1,
+      "text": " And how do I know that?"
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 169.1,
+      "end": 170.1,
+      "text": " It's very simple."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 170.1,
+      "end": 172.29999999999998,
+      "text": " So I have the breakpoint and now let's debug it."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 172.29999999999998,
+      "end": 177.22,
+      "text": " I love this thing debugging and then say f8 and you can see the value of i is 1."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 177.22,
+      "end": 178.66,
+      "text": " Okay that's done."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 178.66,
+      "end": 182.74,
+      "text": " And then if I again say f8 it is printing the disco once and you can see that in the"
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 182.74,
+      "end": 183.74,
+      "text": " console."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 183.74,
+      "end": 187.9,
+      "text": " Okay you can see that we got hello once and if I go back to debug it again the value of"
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 187.9,
+      "end": 192.06,
+      "text": " i now so the moment I say f8 the value of i becomes 2."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 192.06,
+      "end": 196.62,
+      "text": " You can see the value of i is 2 now and it will check if 2 is less than 5."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 196.62,
+      "end": 199.66,
+      "text": " Yes it will go ahead and it will print telescope."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 200.22,
+      "end": 204.7,
+      "text": " You can see if I go back to console it telescope will print second time and then if I say f8"
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 204.7,
+      "end": 207.38,
+      "text": " again you can see we got value of i is 3."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 207.38,
+      "end": 208.82,
+      "text": " Is 3 less than 5?"
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 208.82,
+      "end": 210.57999999999998,
+      "text": " Yes it will go ahead it will print."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 210.57999999999998,
+      "end": 213.98,
+      "text": " It will then try to print the statement which is telescope and you can see in the console"
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 213.98,
+      "end": 218.38,
+      "text": " we got telescope 3 times and now the value of i is 4."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 218.38,
+      "end": 220.54,
+      "text": " So you can see the value of i is 4."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 220.54,
+      "end": 223.3,
+      "text": " And then if I say f8 it will print telescope fourth time."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 223.3,
+      "end": 224.7,
+      "text": " You can see that in console."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 224.7,
+      "end": 228.38,
+      "text": " If I switch back to there you can see we got telescope 4 times and then the value of i"
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 228.38,
+      "end": 229.38,
+      "text": " now is 5."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 229.38,
+      "end": 232.14,
+      "text": " Is 5 less than or equal to 5?"
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 232.14,
+      "end": 234.18,
+      "text": " Yes you can see we have equal to there."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 234.18,
+      "end": 235.9,
+      "text": " The evaluation is also true."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 235.9,
+      "end": 237.29999999999998,
+      "text": " You can see that the pop up."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 237.29999999999998,
+      "end": 239.82,
+      "text": " If I say f8 it will print telescope fifth time."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 239.82,
+      "end": 244.9,
+      "text": " You can see we got fifth time and if I go to debug it again say f8 and you can see the"
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 244.9,
+      "end": 246.54,
+      "text": " value of i is 6."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 246.54,
+      "end": 248.74,
+      "text": " Now the value of i is 6."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 248.74,
+      "end": 250.38,
+      "text": " Is 6 less than or equal to 5?"
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 250.38,
+      "end": 251.38,
+      "text": " No that's a false."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 251.38,
+      "end": 256.46,
+      "text": " You can see the pop up which is false and if I say f8 now it will come out and that's"
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 256.46,
+      "end": 259.41999999999996,
+      "text": " why you got 5 times telescope."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 259.41999999999996,
+      "end": 260.82,
+      "text": " So this is how you can use while loop."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 260.82,
+      "end": 263.18,
+      "text": " Now three things are important here."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 263.18,
+      "end": 266.06,
+      "text": " First is the initialization."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 266.06,
+      "end": 268.74,
+      "text": " Second is the condition and third one is increment."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 268.74,
+      "end": 271.29999999999995,
+      "text": " Oh can we do decrement here?"
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 271.29999999999995,
+      "end": 272.29999999999995,
+      "text": " Yes we can do decrement as well."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 272.29999999999995,
+      "end": 273.9,
+      "text": " So you can do reverse right."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 273.9,
+      "end": 278.21999999999997,
+      "text": " Sometimes we go in this way hello hello hello hello hello or we can say so let's say we"
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 278.21999999999997,
+      "end": 279.21999999999997,
+      "text": " will do reverse."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 279.21999999999997,
+      "end": 281.7,
+      "text": " Hello hello hello hello hello right."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 281.7,
+      "end": 283.09999999999997,
+      "text": " So we can do that as well."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 283.1,
+      "end": 287.62,
+      "text": " So we start with 5 and then we reverse the condition we'll say i is greater than or equal"
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 287.62,
+      "end": 292.58000000000004,
+      "text": " to 1 and instead of saying i is equal to i plus 1 we'll say i is equal to i minus 1."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 292.58000000000004,
+      "end": 293.58000000000004,
+      "text": " We are going reverse order."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 293.58000000000004,
+      "end": 294.58000000000004,
+      "text": " Let's run this code."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 294.58000000000004,
+      "end": 295.58000000000004,
+      "text": " It works."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 295.58000000000004,
+      "end": 297.22,
+      "text": " You can see we got 5 times hello."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 297.22,
+      "end": 300.06,
+      "text": " So we can go ascending or we can do descending your choice."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 300.06,
+      "end": 301.86,
+      "text": " So there are three things important here."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 301.86,
+      "end": 305.94,
+      "text": " One assign the value then condition and then increment or decrement."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 305.94,
+      "end": 308.3,
+      "text": " Now let's say I don't want to print telescope here."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 308.3,
+      "end": 312.14000000000004,
+      "text": " I want to print the value itself or maybe I want to print telescope with the value."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 312.18,
+      "end": 313.18,
+      "text": " So we can do that."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 313.18,
+      "end": 316.97999999999996,
+      "text": " So we can say space comma I want to print the value of i as well."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 316.97999999999996,
+      "end": 320.06,
+      "text": " Let's run this code and you can see it is printing telescope 5 telescope 4 telescope"
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 320.06,
+      "end": 321.34,
+      "text": " 3 telescope 2 telescope 1."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 321.34,
+      "end": 322.34,
+      "text": " So you can do that."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 322.34,
+      "end": 324.46,
+      "text": " OK this is how you work with while loop."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 324.46,
+      "end": 329.26,
+      "text": " Now can I use multiple while inside of while you can do that."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 329.26,
+      "end": 330.65999999999997,
+      "text": " So we have done that before as well."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 330.65999999999997,
+      "end": 331.65999999999997,
+      "text": " Right."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 331.65999999999997,
+      "end": 335.78,
+      "text": " Example I will print telescope once and then while I'm printing telescope once I want to"
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 335.78,
+      "end": 337.97999999999996,
+      "text": " print telescope rocks multiple times."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 337.97999999999996,
+      "end": 339.26,
+      "text": " I want to print telescope rocks."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 339.26,
+      "end": 341.78,
+      "text": " I want to print rocks five times."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 342.41999999999996,
+      "end": 343.41999999999996,
+      "text": " So I will do I will say while."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 343.41999999999996,
+      "end": 346.38,
+      "text": " Oh now I want to say five times I have to use a different variable."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 346.38,
+      "end": 347.38,
+      "text": " Right."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 347.38,
+      "end": 350.97999999999996,
+      "text": " And I will be using a variable here which is J is equal to 1 again."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 350.97999999999996,
+      "end": 354.05999999999995,
+      "text": " We'll say J less than equal to 4."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 354.05999999999995,
+      "end": 356.34,
+      "text": " Let's say I want to I want to print rocks four times."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 356.34,
+      "end": 360.17999999999995,
+      "text": " We'll give a colon and we'll say print rocks."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 360.17999999999995,
+      "end": 361.17999999999995,
+      "text": " That's good."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 361.17999999999995,
+      "end": 364.58,
+      "text": " So it will print telescope and then rocks four times."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 364.58,
+      "end": 366.29999999999995,
+      "text": " I don't want to print the value of i now."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 366.29999999999995,
+      "end": 368.94,
+      "text": " So it will print telescope and rocks four times."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 368.94,
+      "end": 371.58,
+      "text": " So before executing this you try to get the output."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 371.58,
+      "end": 372.58,
+      "text": " OK."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 372.58,
+      "end": 373.58,
+      "text": " It's you it's depend upon you now."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 373.58,
+      "end": 374.58,
+      "text": " You tell me what's the output."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 374.58,
+      "end": 375.58,
+      "text": " OK."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 375.58,
+      "end": 376.58,
+      "text": " Will it print telescope rocks."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 376.58,
+      "end": 380.26,
+      "text": " See telescope itself will get will be getting printed five times."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 380.26,
+      "end": 381.26,
+      "text": " Right."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 381.26,
+      "end": 383.1,
+      "text": " And then on every line you will get rocks four times."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 383.1,
+      "end": 384.1,
+      "text": " This is what you want."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 384.1,
+      "end": 385.1,
+      "text": " Right."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 385.1,
+      "end": 386.1,
+      "text": " But if I run this code."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 386.1,
+      "end": 387.1,
+      "text": " Oh that's weird."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 387.1,
+      "end": 388.65999999999997,
+      "text": " It's not stopping anywhere."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 388.65999999999997,
+      "end": 393.62,
+      "text": " You know why it's not stopping because we forgot to increment the value of J."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 393.62,
+      "end": 394.98,
+      "text": " And now you learn from mistakes."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 394.98,
+      "end": 395.98,
+      "text": " Let's run this code once again."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 396.38,
+      "end": 400.90000000000003,
+      "text": " And you can see we got the telescope rocks rocks rocks four times and then again telescope"
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 400.90000000000003,
+      "end": 401.90000000000003,
+      "text": " four times."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 401.90000000000003,
+      "end": 404.18,
+      "text": " That's that's that is not something which we want."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 404.18,
+      "end": 405.94,
+      "text": " What is going wrong here."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 405.94,
+      "end": 406.94,
+      "text": " Let's try to debug this."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 406.94,
+      "end": 407.94,
+      "text": " You know."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 407.94,
+      "end": 411.22,
+      "text": " So I will just say hey debug the application."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 411.22,
+      "end": 412.86,
+      "text": " Now you can see the value of i is five."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 412.86,
+      "end": 415.22,
+      "text": " In fact you know just to make it more simple."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 415.22,
+      "end": 416.22,
+      "text": " Let's go with one."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 416.22,
+      "end": 419.22,
+      "text": " Let's go with increment so that it will be easier for understanding because once you"
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 419.22,
+      "end": 422.66,
+      "text": " understand the basic stuff you can try it on your own."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 422.66,
+      "end": 425.38,
+      "text": " And remember this we are using while inside a while."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 425.78,
+      "end": 427.21999999999997,
+      "text": " So this is nested while loop."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 427.21999999999997,
+      "end": 430.5,
+      "text": " Let me just debug this by applying a breakpoint."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 430.5,
+      "end": 433.21999999999997,
+      "text": " Let me say F8 and you can see the value of i is one."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 433.21999999999997,
+      "end": 437.34,
+      "text": " Remember this values the value of J is one is one less than five."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 437.34,
+      "end": 438.34,
+      "text": " Yes let's go inside."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 438.34,
+      "end": 442.9,
+      "text": " It will print telescope of course and you can see in the output console we will be getting"
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 442.9,
+      "end": 443.9,
+      "text": " telescope now."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 443.9,
+      "end": 444.9,
+      "text": " We got telescope."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 444.9,
+      "end": 445.9,
+      "text": " Now what's the value of J."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 445.9,
+      "end": 447.62,
+      "text": " It's one one less than four."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 447.62,
+      "end": 450.3,
+      "text": " Yes it will go ahead it will print rocks."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 450.3,
+      "end": 453.12,
+      "text": " It will execute this J equal to J plus one."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 453.12,
+      "end": 455.21999999999997,
+      "text": " So now the value for J is two."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 456.06,
+      "end": 458.54,
+      "text": " If I say F8 the value of J is two."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 458.54,
+      "end": 460.14000000000004,
+      "text": " But look at the jump."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 460.14000000000004,
+      "end": 461.86,
+      "text": " It is not jumping outside."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 461.86,
+      "end": 463.78000000000003,
+      "text": " It's not jumping back to this loop."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 463.78000000000003,
+      "end": 468.42,
+      "text": " It is jumping back to the inner loop because first it will complete the inner loop then"
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 468.42,
+      "end": 469.90000000000003,
+      "text": " it will go back to the outer loop."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 469.90000000000003,
+      "end": 470.90000000000003,
+      "text": " Right."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 470.90000000000003,
+      "end": 475.5,
+      "text": " It is something like you know we have seven days a week and each day has 24 hours."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 475.5,
+      "end": 476.5,
+      "text": " Right."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 476.5,
+      "end": 480.38000000000005,
+      "text": " So you can imagine the number of days is the outer loop and the number of hours is the"
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 480.38000000000005,
+      "end": 481.38000000000005,
+      "text": " inner loop."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 481.38000000000005,
+      "end": 482.38000000000005,
+      "text": " Right."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 482.38000000000005,
+      "end": 483.38000000000005,
+      "text": " So what it means."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 483.54,
+      "end": 484.54,
+      "text": " Let's say if you start with Sunday."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 484.54,
+      "end": 485.54,
+      "text": " Sunday has 24 hours."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 485.54,
+      "end": 489.62,
+      "text": " It will start with 0th hour then 1 hour 2nd hour 3rd hour 4th hour."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 489.62,
+      "end": 493.74,
+      "text": " Now when you complete the entire 24 hours it will go for the new day which is Monday"
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 493.74,
+      "end": 494.9,
+      "text": " in this case."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 494.9,
+      "end": 498.4,
+      "text": " On Monday as well we have the same hours right 0th hour 1th hour."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 498.4,
+      "end": 503.18,
+      "text": " So that means every time you change your day it will restart the number of counting for"
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 503.18,
+      "end": 504.18,
+      "text": " your hours."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 504.18,
+      "end": 505.82,
+      "text": " So it will first complete the hours."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 505.82,
+      "end": 506.82,
+      "text": " Right."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 506.82,
+      "end": 507.82,
+      "text": " So the same thing is happening here."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 507.82,
+      "end": 510.58,
+      "text": " So if I say F8 again it prints rocks."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 510.58,
+      "end": 512.98,
+      "text": " It will it will increment the value of J to three."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 513.58,
+      "end": 516.74,
+      "text": " And that's why you can see if you see the output we got one telescope but two time rocks."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 516.74,
+      "end": 517.74,
+      "text": " OK."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 517.74,
+      "end": 518.74,
+      "text": " So that works."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 518.74,
+      "end": 519.74,
+      "text": " In fact we wanted this right."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 519.74,
+      "end": 520.74,
+      "text": " We wanted one telescope and four rocks."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 520.74,
+      "end": 521.74,
+      "text": " OK."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 521.74,
+      "end": 522.74,
+      "text": " We'll do that."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 522.74,
+      "end": 523.74,
+      "text": " We'll think about that."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 523.74,
+      "end": 528.14,
+      "text": " If I run this you can see we got rocks and once it is getting completed once the value"
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 528.14,
+      "end": 532.22,
+      "text": " of J becomes five you can see that the value of J now is five."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 532.22,
+      "end": 535.86,
+      "text": " If I run this again it is false and now it is focusing on I."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 535.86,
+      "end": 537.48,
+      "text": " So I value is two now."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 537.48,
+      "end": 542.46,
+      "text": " It went back there and then again if I say F8 it will print telescope of course."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 542.94,
+      "end": 545.9000000000001,
+      "text": " But look at the value of J. J is five."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 545.9000000000001,
+      "end": 547.46,
+      "text": " That's what things are going wrong."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 547.46,
+      "end": 552.38,
+      "text": " Now since J is five it is not continuing ahead."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 552.38,
+      "end": 553.4200000000001,
+      "text": " That was a mistake."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 553.4200000000001,
+      "end": 556.46,
+      "text": " So to solve this problem what we can do is first we have to do two things."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 556.46,
+      "end": 558.22,
+      "text": " I want to print rocks on the same line."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 558.22,
+      "end": 559.22,
+      "text": " Right."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 559.22,
+      "end": 560.98,
+      "text": " I don't want to print rocks on new line."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 560.98,
+      "end": 567.02,
+      "text": " So what we can do is after telescope I can give a comma and say and is equal to double"
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 567.02,
+      "end": 568.02,
+      "text": " quotes."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 568.02,
+      "end": 571.4200000000001,
+      "text": " Now what it means by default when you say print it will print the statement and comes"
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 571.4200000000001,
+      "end": 572.4200000000001,
+      "text": " on new line."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 573.38,
+      "end": 574.38,
+      "text": " I don't want new line."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 574.38,
+      "end": 575.38,
+      "text": " I want to print on same line."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 575.38,
+      "end": 579.6999999999999,
+      "text": " Example here if you see it is printing telescope and then it is coming on new line."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 579.6999999999999,
+      "end": 580.6999999999999,
+      "text": " I don't want that."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 580.6999999999999,
+      "end": 582.02,
+      "text": " I want it to be."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 582.02,
+      "end": 585.62,
+      "text": " I want it to print telescope and stay on the same line."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 585.62,
+      "end": 586.74,
+      "text": " Same thing can be done for rocks."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 586.74,
+      "end": 590.0799999999999,
+      "text": " I would say hey don't go on new line stay on the same line."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 590.0799999999999,
+      "end": 592.74,
+      "text": " Now I hope it will come on same line."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 592.74,
+      "end": 593.74,
+      "text": " If I say run."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 593.74,
+      "end": 596.18,
+      "text": " So that we got everything on same line."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 596.18,
+      "end": 597.18,
+      "text": " OK we don't want that."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 597.18,
+      "end": 599.74,
+      "text": " We don't want all telescope on same line."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 599.74,
+      "end": 601.42,
+      "text": " We want telescope on new line."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 601.42,
+      "end": 605.78,
+      "text": " So after incrementing I will say print because see after completing one telescope I want"
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 605.78,
+      "end": 606.78,
+      "text": " to print on new line."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 606.78,
+      "end": 607.78,
+      "text": " So I will say run."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 607.78,
+      "end": 611.54,
+      "text": " You can see we got telescope on new lines but then rocks is coming only for four times"
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 611.54,
+      "end": 612.54,
+      "text": " here."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 612.54,
+      "end": 613.54,
+      "text": " What is going wrong."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 613.54,
+      "end": 616.4599999999999,
+      "text": " The value of j reached 5 here."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 616.4599999999999,
+      "end": 621.02,
+      "text": " So what I will do is every time I start with the outer loop I want to restart the value"
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 621.02,
+      "end": 622.62,
+      "text": " for j which is 1."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 622.62,
+      "end": 623.8199999999999,
+      "text": " It's important every time."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 623.8199999999999,
+      "end": 626.8199999999999,
+      "text": " In fact we don't we should not be declaring the value here."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 626.8199999999999,
+      "end": 627.8199999999999,
+      "text": " Let's start here."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 627.8199999999999,
+      "end": 629.54,
+      "text": " OK so it will initialize here."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 629.54,
+      "end": 632.4599999999999,
+      "text": " For the condition here and then increment here itself."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 632.4599999999999,
+      "end": 633.4599999999999,
+      "text": " Let's run this."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 633.4599999999999,
+      "end": 634.4599999999999,
+      "text": " This we want."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 634.4599999999999,
+      "end": 636.2199999999999,
+      "text": " So we got telescope rocks rocks rocks."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 636.2199999999999,
+      "end": 637.2199999999999,
+      "text": " Now how it is working."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 637.2199999999999,
+      "end": 638.5,
+      "text": " Let's again go for debug."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 638.5,
+      "end": 641.2199999999999,
+      "text": " We'll say debug and say f8."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 641.2199999999999,
+      "end": 642.54,
+      "text": " You can see the value of i is 1."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 642.54,
+      "end": 643.54,
+      "text": " i less than 5."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 643.54,
+      "end": 644.54,
+      "text": " Yes it's 1."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 644.54,
+      "end": 647.2199999999999,
+      "text": " It will print telescope and it will not go on new line."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 647.2199999999999,
+      "end": 649.02,
+      "text": " OK it will stay on the same line."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 649.02,
+      "end": 653.26,
+      "text": " Let me jump to console and you can see if I say f8 telescope on same line."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 653.26,
+      "end": 655.14,
+      "text": " OK there is not jumping to next line."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 655.14,
+      "end": 656.66,
+      "text": " The value for j is 1."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 656.66,
+      "end": 658.26,
+      "text": " Is 1 less than 4."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 658.26,
+      "end": 659.4599999999999,
+      "text": " Yes it will go ahead."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 659.58,
+      "end": 660.58,
+      "text": " And it will print rocks."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 660.58,
+      "end": 662.74,
+      "text": " And you can see rocks on the same line."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 662.74,
+      "end": 665.4200000000001,
+      "text": " And then the value of j is getting incremented to 2 now."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 665.4200000000001,
+      "end": 667.98,
+      "text": " So you can see the value for j is 2 here."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 667.98,
+      "end": 669.98,
+      "text": " And then again it will come back."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 669.98,
+      "end": 674.22,
+      "text": " It will print rocks and it will go for j value which is 3."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 674.22,
+      "end": 676.34,
+      "text": " And then it will again 3 is less than 4."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 676.34,
+      "end": 679.4200000000001,
+      "text": " It will print rocks and then j value is 4."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 679.4200000000001,
+      "end": 681.58,
+      "text": " And then it will check is 4 equal to 4."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 681.58,
+      "end": 683.34,
+      "text": " Yes it will print rocks."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 683.34,
+      "end": 685.1800000000001,
+      "text": " And the value for j is now 5."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 685.1800000000001,
+      "end": 687.1,
+      "text": " Now 5 is not less than equal to 4."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 687.1,
+      "end": 688.1,
+      "text": " It will come out."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 688.1,
+      "end": 689.1,
+      "text": " But where?"
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 689.26,
+      "end": 692.5,
+      "text": " It will come out to this next statement which is i is equal to i plus 1."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 692.5,
+      "end": 696.66,
+      "text": " Now in this case i equal to i plus 1 will increment the value for i."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 696.66,
+      "end": 698.38,
+      "text": " So it will make it 2."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 698.38,
+      "end": 700.02,
+      "text": " And then since we are printing."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 700.02,
+      "end": 702.82,
+      "text": " Since we are doing print it will come on new line."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 702.82,
+      "end": 703.82,
+      "text": " You can see the cursor now."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 703.82,
+      "end": 705.9,
+      "text": " Cursor is on new line."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 705.9,
+      "end": 706.9,
+      "text": " I will say."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 706.9,
+      "end": 707.9,
+      "text": " I mean it will continue."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 707.9,
+      "end": 709.78,
+      "text": " OK so it will do the same thing which we have done till now."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 709.78,
+      "end": 711.86,
+      "text": " So if I go fast fast fast see that."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 711.86,
+      "end": 712.86,
+      "text": " See the sequence."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 712.86,
+      "end": 715.14,
+      "text": " So this is how your loops are working."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 715.14,
+      "end": 718.02,
+      "text": " Now see since I am doing this I have worked on this for a long time."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 718.02,
+      "end": 719.46,
+      "text": " So I know how it works."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 719.46,
+      "end": 722.78,
+      "text": " Now if you are a fresher you might find this thing difficult."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 722.78,
+      "end": 726.18,
+      "text": " But trust me the only thing is this is not difficult."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 726.18,
+      "end": 727.66,
+      "text": " This is just unfamiliar."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 727.66,
+      "end": 729.1,
+      "text": " You just need to practice it."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 729.1,
+      "end": 732.5799999999999,
+      "text": " The more you practice this concept it will make your concept very clear."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 732.5799999999999,
+      "end": 733.5799999999999,
+      "text": " OK."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 733.5799999999999,
+      "end": 734.5799999999999,
+      "text": " So we will be doing that."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 734.5799999999999,
+      "end": 735.5799999999999,
+      "text": " We will be doing some more examples with this."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 735.5799999999999,
+      "end": 738.22,
+      "text": " You know printing the patterns like star star star real stuff."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 738.22,
+      "end": 739.78,
+      "text": " So we will do that in the further sessions."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 739.78,
+      "end": 742.14,
+      "text": " I hope you got some idea about while loop."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 742.14,
+      "end": 744.8199999999999,
+      "text": " In the next video we will talk about for loops."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 744.82,
+      "end": 747.9000000000001,
+      "text": " So if you are enjoying this series let me know in the comment section and do click the"
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 747.9000000000001,
+      "end": 748.9000000000001,
+      "text": " like button if you are enjoying it."
+    },
+    {
+      "number": "20",
+      "title": "Python Tutorial for Beginners | While Loop in Python",
+      "start": 748.9000000000001,
+      "end": 749.7800000000001,
+      "text": " Thanks for watching everyone."
+    }
+  ],
+  "text": " Welcome back aliens my name is Avin20 and let's continue with the series on Python and in this video we will talk about loops. Now what exactly loop means? Now in programming what you do is you sometimes you need to repeat the statements. Example let's say you have written 5 statements and maybe you want to repeat them. How will you repeat them? Of course there is one way you can copy paste the same code multiple times. Example let's say I want to print telescope. So I want to print telescope once and if I run this code of course it will print only once. What if I want to print telescope 2 times? So what we can do is we can just copy paste it. So we are good with this. So I will copy paste it and we got 2 telescopes and if I run this code you can see we got 2 telescopes. That's working. What if I want to print telescope 10 times? What you will do now? Of course you can copy paste it 10 times. But don't you think you are doing manual work? What if I want to print 1000 times? It will be difficult to do that right? Now the best way to do it is applying a loop. What you can do here is you can say hey python I want to repeat the same statement multiple times. To do that we can use loops. And we can use 2 type of loops. One is called as while loop and second is called as for loop. Let's focus on while here. So we can use a while. So while is a keyword and then you have to specify the condition. See while will say ok my job is to repeat this statement multiple times but then tell me for how much time you want to do that. I will say ok do it for 5 times. But how will I do that? So when you say you want to do it for 5 times we count right? We need a counter here. Example if I say hey you say hello 5 times. I am talking to you here ok. So say hello 5 times. What you will do is in your mind you will be saying hello once ok hello second time hello hello and hello. So you have a counter there right? In the same way we need a counter here. For that I will be using a variable called as i and I will say i starts with 1 and then every time ok first of all you have to check right? How will I check? If the value of i is less than equal to 5. Ok we have to apply a condition right? So step 1 would be take a counter a variable which is i in this case and check if the value of i is less than 5 and every time you print the disco just increment the value of i right? So because you are doing it here right? So you are saying hello hello. So you are incrementing the value. So you will say i is equal to i plus 1. That's it. It's so simple. And remember the syntax. So we have to use a while then we have to specify the condition and a colon. Now this colon specifies whatever is coming ahead is a part of this block. And this to statement belongs to the same suit. Because we are using a proper indentation here. And now let me just run this code and you can see we got the disco 5 times. So what is happening behind the scene? And how do I know that? It's very simple. So I have the breakpoint and now let's debug it. I love this thing debugging and then say f8 and you can see the value of i is 1. Okay that's done. And then if I again say f8 it is printing the disco once and you can see that in the console. Okay you can see that we got hello once and if I go back to debug it again the value of i now so the moment I say f8 the value of i becomes 2. You can see the value of i is 2 now and it will check if 2 is less than 5. Yes it will go ahead and it will print telescope. You can see if I go back to console it telescope will print second time and then if I say f8 again you can see we got value of i is 3. Is 3 less than 5? Yes it will go ahead it will print. It will then try to print the statement which is telescope and you can see in the console we got telescope 3 times and now the value of i is 4. So you can see the value of i is 4. And then if I say f8 it will print telescope fourth time. You can see that in console. If I switch back to there you can see we got telescope 4 times and then the value of i now is 5. Is 5 less than or equal to 5? Yes you can see we have equal to there. The evaluation is also true. You can see that the pop up. If I say f8 it will print telescope fifth time. You can see we got fifth time and if I go to debug it again say f8 and you can see the value of i is 6. Now the value of i is 6. Is 6 less than or equal to 5? No that's a false. You can see the pop up which is false and if I say f8 now it will come out and that's why you got 5 times telescope. So this is how you can use while loop. Now three things are important here. First is the initialization. Second is the condition and third one is increment. Oh can we do decrement here? Yes we can do decrement as well. So you can do reverse right. Sometimes we go in this way hello hello hello hello hello or we can say so let's say we will do reverse. Hello hello hello hello hello right. So we can do that as well. So we start with 5 and then we reverse the condition we'll say i is greater than or equal to 1 and instead of saying i is equal to i plus 1 we'll say i is equal to i minus 1. We are going reverse order. Let's run this code. It works. You can see we got 5 times hello. So we can go ascending or we can do descending your choice. So there are three things important here. One assign the value then condition and then increment or decrement. Now let's say I don't want to print telescope here. I want to print the value itself or maybe I want to print telescope with the value. So we can do that. So we can say space comma I want to print the value of i as well. Let's run this code and you can see it is printing telescope 5 telescope 4 telescope 3 telescope 2 telescope 1. So you can do that. OK this is how you work with while loop. Now can I use multiple while inside of while you can do that. So we have done that before as well. Right. Example I will print telescope once and then while I'm printing telescope once I want to print telescope rocks multiple times. I want to print telescope rocks. I want to print rocks five times. So I will do I will say while. Oh now I want to say five times I have to use a different variable. Right. And I will be using a variable here which is J is equal to 1 again. We'll say J less than equal to 4. Let's say I want to I want to print rocks four times. We'll give a colon and we'll say print rocks. That's good. So it will print telescope and then rocks four times. I don't want to print the value of i now. So it will print telescope and rocks four times. So before executing this you try to get the output. OK. It's you it's depend upon you now. You tell me what's the output. OK. Will it print telescope rocks. See telescope itself will get will be getting printed five times. Right. And then on every line you will get rocks four times. This is what you want. Right. But if I run this code. Oh that's weird. It's not stopping anywhere. You know why it's not stopping because we forgot to increment the value of J. And now you learn from mistakes. Let's run this code once again. And you can see we got the telescope rocks rocks rocks four times and then again telescope four times. That's that's that is not something which we want. What is going wrong here. Let's try to debug this. You know. So I will just say hey debug the application. Now you can see the value of i is five. In fact you know just to make it more simple. Let's go with one. Let's go with increment so that it will be easier for understanding because once you understand the basic stuff you can try it on your own. And remember this we are using while inside a while. So this is nested while loop. Let me just debug this by applying a breakpoint. Let me say F8 and you can see the value of i is one. Remember this values the value of J is one is one less than five. Yes let's go inside. It will print telescope of course and you can see in the output console we will be getting telescope now. We got telescope. Now what's the value of J. It's one one less than four. Yes it will go ahead it will print rocks. It will execute this J equal to J plus one. So now the value for J is two. If I say F8 the value of J is two. But look at the jump. It is not jumping outside. It's not jumping back to this loop. It is jumping back to the inner loop because first it will complete the inner loop then it will go back to the outer loop. Right. It is something like you know we have seven days a week and each day has 24 hours. Right. So you can imagine the number of days is the outer loop and the number of hours is the inner loop. Right. So what it means. Let's say if you start with Sunday. Sunday has 24 hours. It will start with 0th hour then 1 hour 2nd hour 3rd hour 4th hour. Now when you complete the entire 24 hours it will go for the new day which is Monday in this case. On Monday as well we have the same hours right 0th hour 1th hour. So that means every time you change your day it will restart the number of counting for your hours. So it will first complete the hours. Right. So the same thing is happening here. So if I say F8 again it prints rocks. It will it will increment the value of J to three. And that's why you can see if you see the output we got one telescope but two time rocks. OK. So that works. In fact we wanted this right. We wanted one telescope and four rocks. OK. We'll do that. We'll think about that. If I run this you can see we got rocks and once it is getting completed once the value of J becomes five you can see that the value of J now is five. If I run this again it is false and now it is focusing on I. So I value is two now. It went back there and then again if I say F8 it will print telescope of course. But look at the value of J. J is five. That's what things are going wrong. Now since J is five it is not continuing ahead. That was a mistake. So to solve this problem what we can do is first we have to do two things. I want to print rocks on the same line. Right. I don't want to print rocks on new line. So what we can do is after telescope I can give a comma and say and is equal to double quotes. Now what it means by default when you say print it will print the statement and comes on new line. I don't want new line. I want to print on same line. Example here if you see it is printing telescope and then it is coming on new line. I don't want that. I want it to be. I want it to print telescope and stay on the same line. Same thing can be done for rocks. I would say hey don't go on new line stay on the same line. Now I hope it will come on same line. If I say run. So that we got everything on same line. OK we don't want that. We don't want all telescope on same line. We want telescope on new line. So after incrementing I will say print because see after completing one telescope I want to print on new line. So I will say run. You can see we got telescope on new lines but then rocks is coming only for four times here. What is going wrong. The value of j reached 5 here. So what I will do is every time I start with the outer loop I want to restart the value for j which is 1. It's important every time. In fact we don't we should not be declaring the value here. Let's start here. OK so it will initialize here. For the condition here and then increment here itself. Let's run this. This we want. So we got telescope rocks rocks rocks. Now how it is working. Let's again go for debug. We'll say debug and say f8. You can see the value of i is 1. i less than 5. Yes it's 1. It will print telescope and it will not go on new line. OK it will stay on the same line. Let me jump to console and you can see if I say f8 telescope on same line. OK there is not jumping to next line. The value for j is 1. Is 1 less than 4. Yes it will go ahead. And it will print rocks. And you can see rocks on the same line. And then the value of j is getting incremented to 2 now. So you can see the value for j is 2 here. And then again it will come back. It will print rocks and it will go for j value which is 3. And then it will again 3 is less than 4. It will print rocks and then j value is 4. And then it will check is 4 equal to 4. Yes it will print rocks. And the value for j is now 5. Now 5 is not less than equal to 4. It will come out. But where? It will come out to this next statement which is i is equal to i plus 1. Now in this case i equal to i plus 1 will increment the value for i. So it will make it 2. And then since we are printing. Since we are doing print it will come on new line. You can see the cursor now. Cursor is on new line. I will say. I mean it will continue. OK so it will do the same thing which we have done till now. So if I go fast fast fast see that. See the sequence. So this is how your loops are working. Now see since I am doing this I have worked on this for a long time. So I know how it works. Now if you are a fresher you might find this thing difficult. But trust me the only thing is this is not difficult. This is just unfamiliar. You just need to practice it. The more you practice this concept it will make your concept very clear. OK. So we will be doing that. We will be doing some more examples with this. You know printing the patterns like star star star real stuff. So we will do that in the further sessions. I hope you got some idea about while loop. In the next video we will talk about for loops. So if you are enjoying this series let me know in the comment section and do click the like button if you are enjoying it. Thanks for watching everyone."
+}

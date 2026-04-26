@@ -1,0 +1,47 @@
+{
+    "chunks": [
+        {
+            "number": "13",
+            "title": "Python Tutorial for Beginners | IDLE Previous Command | Clear Screen？",
+            "start": 0.0,
+            "end": 31.959999999999997,
+            "text": " Subscribe the channel and press on the bell icon so that you will not miss any updates.  Welcome back aliens.  My name is Devin Reddy and in this video, we will talk about how do you access the previous  commands in IDLE.  Now when you work on Python, you know, so we write a lot of code, right?  Example, if I want to add two numbers or if I want to perform some operation like x equal  to 2 plus 4 plus 9.  Now in this case, when you say hit enter and if you want to access the same command again,  can you do it?  Now normally what happens is when you work on CMD, what we'd get is let's say if I perform"
+        },
+        {
+            "number": "13",
+            "title": "Python Tutorial for Beginners | IDLE Previous Command | Clear Screen？",
+            "start": 31.959999999999997,
+            "end": 60.86,
+            "text": " any operation here, example up, again, this is not a command in Windows, but let's try.  So when I say up and if I want to get the same command again, we just need to press  up arrow, right?  So when you say up arrow, you will get this.  Now, you know, when you work with IP config and you get this and again, if I want the  same command, you can say enter, just you just say up and enter, you get it.  That's not the case with IDLE.  In this case, if you want to access that, we don't have by default option.  So what you have to do is you just need to go to options and then you have to click on"
+        },
+        {
+            "number": "13",
+            "title": "Python Tutorial for Beginners | IDLE Previous Command | Clear Screen？",
+            "start": 60.86,
+            "end": 101.0,
+            "text": " configure IDLE and here you need to click on keys.  Now we need to find the history, right?  So just scroll down to search for history.  So it is your history previous.  Now by default, it will be, I guess, alt P in your machine because I've changed it in  my earlier session.  If you want to change it, just click on that and select get new keys for selection and  here you can select the up arrow.  So you can see we have up arrow.  Click on OK and click on OK now.  So if you want to access the last element or last command, you just say up arrow and  you get the command.  Now of course, when you are new to Python, you will not be knowing this but once you"
+        },
+        {
+            "number": "13",
+            "title": "Python Tutorial for Beginners | IDLE Previous Command | Clear Screen？",
+            "start": 101.0,
+            "end": 135.78,
+            "text": " start working on it, you will be needing this command a lot.  So this is how you find the previous command.  I got some more questions, you know, after the video.  So let's say if you reach here and in Windows, we have this command, it is CLS.  So when you say CLS, it clears the command.  Now that's not the case here, you know.  So that's not the case in IDLE.  You cannot simply clear the screen.  Even if I try, we don't have anything here.  I guess you can write some script which works on Python shell but that doesn't work in IDLE.  The only way you can do that is by closing IDLE and reopen it.  OK."
+        },
+        {
+            "number": "13",
+            "title": "Python Tutorial for Beginners | IDLE Previous Command | Clear Screen？",
+            "start": 135.78,
+            "end": 171.70000000000002,
+            "text": " Now if you have seen my videos, in my videos I have done that, you know.  So I was scrolling up but I was not scrolling in IDLE.  So it was an animation effect.  So when I was editing my video, I made sure that it goes up so that you can see those  things normally.  So the editing is done so that you can view it.  So I have not scrolled on IDLE.  So as per my knowledge, it's not possible.  Maybe there might be some hidden script or some technique.  So if you know that, let me know in the comment section so that it will be helpful for everyone.  So that's it.  That's how you get the previous command and that's how you, that's the answer for your"
+        },
+        {
+            "number": "13",
+            "title": "Python Tutorial for Beginners | IDLE Previous Command | Clear Screen？",
+            "start": 171.70000000000002,
+            "end": 180.16,
+            "text": " question about how to clear the screen.  So that's it everyone.  Thank you for watching.  I hope you are enjoying my series.  Let me know in the comment section.  So that's it.  Bye-bye."
+        }
+    ],
+    "text": " Subscribe the channel and press on the bell icon so that you will not miss any updates. Welcome back aliens. My name is Devin Reddy and in this video, we will talk about how do you access the previous commands in IDLE. Now when you work on Python, you know, so we write a lot of code, right? Example, if I want to add two numbers or if I want to perform some operation like x equal to 2 plus 4 plus 9. Now in this case, when you say hit enter and if you want to access the same command again, can you do it? Now normally what happens is when you work on CMD, what we'd get is let's say if I perform any operation here, example up, again, this is not a command in Windows, but let's try. So when I say up and if I want to get the same command again, we just need to press up arrow, right? So when you say up arrow, you will get this. Now, you know, when you work with IP config and you get this and again, if I want the same command, you can say enter, just you just say up and enter, you get it. That's not the case with IDLE. In this case, if you want to access that, we don't have by default option. So what you have to do is you just need to go to options and then you have to click on configure IDLE and here you need to click on keys. Now we need to find the history, right? So just scroll down to search for history. So it is your history previous. Now by default, it will be, I guess, alt P in your machine because I've changed it in my earlier session. If you want to change it, just click on that and select get new keys for selection and here you can select the up arrow. So you can see we have up arrow. Click on OK and click on OK now. So if you want to access the last element or last command, you just say up arrow and you get the command. Now of course, when you are new to Python, you will not be knowing this but once you start working on it, you will be needing this command a lot. So this is how you find the previous command. I got some more questions, you know, after the video. So let's say if you reach here and in Windows, we have this command, it is CLS. So when you say CLS, it clears the command. Now that's not the case here, you know. So that's not the case in IDLE. You cannot simply clear the screen. Even if I try, we don't have anything here. I guess you can write some script which works on Python shell but that doesn't work in IDLE. The only way you can do that is by closing IDLE and reopen it. OK. Now if you have seen my videos, in my videos I have done that, you know. So I was scrolling up but I was not scrolling in IDLE. So it was an animation effect. So when I was editing my video, I made sure that it goes up so that you can see those things normally. So the editing is done so that you can view it. So I have not scrolled on IDLE. So as per my knowledge, it's not possible. Maybe there might be some hidden script or some technique. So if you know that, let me know in the comment section so that it will be helpful for everyone. So that's it. That's how you get the previous command and that's how you, that's the answer for your question about how to clear the screen. So that's it everyone. Thank you for watching. I hope you are enjoying my series. Let me know in the comment section. So that's it. Bye-bye."
+}

@@ -1,0 +1,1377 @@
+{
+  "chunks": [
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 0.0,
+      "end": 8.8,
+      "text": " Welcome back aliens my name is Davin Reddy and let's continue with the series on Python."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 8.8,
+      "end": 11.72,
+      "text": " Now in this video we'll talk about binary formats."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 11.72,
+      "end": 15.48,
+      "text": " In fact not just binary we'll talk about different number systems."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 15.48,
+      "end": 19.52,
+      "text": " Normally when you work in the programming world we work with binary formats and we work"
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 19.52,
+      "end": 20.52,
+      "text": " with decimal system."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 20.52,
+      "end": 25.46,
+      "text": " So in the programming world we use a binary system and a decimal system."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 25.46,
+      "end": 30.48,
+      "text": " But apart from this we have two more systems which is octal and hexadecimal."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 30.48,
+      "end": 32.08,
+      "text": " Now when do we use all this stuff?"
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 32.08,
+      "end": 37.120000000000005,
+      "text": " So in the networking field we use MAC address which is normally defined in hexadecimal format."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 37.120000000000005,
+      "end": 40.260000000000005,
+      "text": " Same goes for IPv6 which is defined in hexadecimal format."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 40.260000000000005,
+      "end": 42.519999999999996,
+      "text": " In your computer we use binary format."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 42.519999999999996,
+      "end": 44.88,
+      "text": " In normal system we use decimal system."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 44.88,
+      "end": 49.34,
+      "text": " So let's understand how do we convert these values from one system to other system."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 49.34,
+      "end": 54.400000000000006,
+      "text": " Now of course you can do it on paper or you can do it in a software or with the help of"
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 54.4,
+      "end": 55.4,
+      "text": " codes."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 55.4,
+      "end": 60.44,
+      "text": " Now before understanding how do you convert this using Python let's try it on paper first."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 60.44,
+      "end": 62.28,
+      "text": " You know we can in fact we can do it."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 62.28,
+      "end": 68.0,
+      "text": " So if I open my IDE you can convert a number from decimal to binary format."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 68.0,
+      "end": 70.58,
+      "text": " Example if I want to convert a number let's say 25."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 70.58,
+      "end": 71.58,
+      "text": " So we have this number 25."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 71.58,
+      "end": 74.68,
+      "text": " I want to convert this into a binary format."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 74.68,
+      "end": 78.24,
+      "text": " Now I don't know how many people of you how many of you know how to convert a number into"
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 78.24,
+      "end": 79.24,
+      "text": " binary format."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 79.24,
+      "end": 82.8,
+      "text": " So people who are very beginner to the programming world they might not be knowing it."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 82.8,
+      "end": 84.8,
+      "text": " And if you have experience that's great."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 84.8,
+      "end": 89.0,
+      "text": " Now if you don't know how binary format works I would recommend you to go and watch some"
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 89.0,
+      "end": 92.44,
+      "text": " videos on binary format or we'll try to do some in this video."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 92.44,
+      "end": 93.64,
+      "text": " Let's say I want to convert this."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 93.64,
+      "end": 96.52,
+      "text": " We can use a function called as bin."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 96.52,
+      "end": 102.0,
+      "text": " So using bin function we can convert a number from decimal system to binary system."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 102.0,
+      "end": 105.8,
+      "text": " Now when you say decimal system it means the base of the system is 10."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 105.8,
+      "end": 107.88,
+      "text": " And in binary system the base is 2."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 107.88,
+      "end": 111.5,
+      "text": " Which means in decimal system we can go from 0 to 9."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 111.5,
+      "end": 113.08,
+      "text": " So we have 10 digits."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 113.08,
+      "end": 115.26,
+      "text": " In binary system we can go from 0 to 1."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 115.26,
+      "end": 116.26,
+      "text": " 2 digits."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 116.26,
+      "end": 120.18,
+      "text": " And that's why we say it's bits binary digits."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 120.18,
+      "end": 121.74,
+      "text": " So we have binary format there."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 121.74,
+      "end": 124.18,
+      "text": " In fact we have octal system where we have 8 digits."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 124.18,
+      "end": 127.53999999999999,
+      "text": " So it starts with 0 and it ends at 7."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 127.53999999999999,
+      "end": 131.46,
+      "text": " On the other hand we have hexadecimal system where we have 16 as a base."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 131.46,
+      "end": 132.9,
+      "text": " Now it starts with 0."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 132.9,
+      "end": 137.8,
+      "text": " It goes till 9 and after 9 it goes from A to F. So in total we have 16."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 137.8,
+      "end": 140.02,
+      "text": " So now let's come back from decimal to binary."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 140.02,
+      "end": 141.02,
+      "text": " We'll click on enter."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 141.02,
+      "end": 142.38000000000002,
+      "text": " And you can see this is your binary format."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 142.38000000000002,
+      "end": 143.38000000000002,
+      "text": " It's so simple."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 143.38000000000002,
+      "end": 147.62,
+      "text": " You just need to use a bin function and in bracket you have to pass 25."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 147.62,
+      "end": 148.62,
+      "text": " But hold on."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 148.62,
+      "end": 149.74,
+      "text": " How do you convert this number?"
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 149.74,
+      "end": 154.48000000000002,
+      "text": " And even if you get this output how do you know this is the correct output?"
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 154.48000000000002,
+      "end": 159.22,
+      "text": " So let me just take some time to explain you how to convert a number from a decimal system"
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 159.22,
+      "end": 160.38,
+      "text": " to a binary system."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 160.38,
+      "end": 162.70000000000002,
+      "text": " So for that let me open my paint."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 162.70000000000002,
+      "end": 164.06,
+      "text": " So let's try to understand how it works."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 164.06,
+      "end": 165.06,
+      "text": " So let's say we have a number 25."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 165.06,
+      "end": 167.5,
+      "text": " So we'll go for a number 25 here."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 167.5,
+      "end": 172.94,
+      "text": " And if I want to find a decimal binary format of this 25 what you do is you have to divide"
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 172.94,
+      "end": 174.18,
+      "text": " this number by 2."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 174.18,
+      "end": 175.3,
+      "text": " So whatever system you have."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 175.3,
+      "end": 180.38,
+      "text": " So example if you want to convert from decimal to octal decimal to hexadecimal system you"
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 180.38,
+      "end": 183.54,
+      "text": " have to divide this number by that system."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 183.54,
+      "end": 185.98,
+      "text": " Example here I want to find binary format."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 185.98,
+      "end": 187.74,
+      "text": " So I will divide this by 2."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 187.74,
+      "end": 188.74,
+      "text": " Now everyone knows right."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 188.74,
+      "end": 190.74,
+      "text": " So it is 2 into 12."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 190.74,
+      "end": 191.94,
+      "text": " You will get 24."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 191.94,
+      "end": 193.5,
+      "text": " So the remainder is 1."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 193.5,
+      "end": 197.02,
+      "text": " So when you say 2 into 12 we got 24 and the remainder is 1."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 197.54000000000002,
+      "end": 198.54000000000002,
+      "text": " So you have to continue this."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 198.54000000000002,
+      "end": 200.98000000000002,
+      "text": " So you have to say 2 you will get 6."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 200.98000000000002,
+      "end": 202.82000000000002,
+      "text": " So 2 into 6 you will get 12."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 202.82000000000002,
+      "end": 204.38000000000002,
+      "text": " So the remainder is 0."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 204.38000000000002,
+      "end": 206.58,
+      "text": " Then we have 2 into 3."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 206.58,
+      "end": 208.78,
+      "text": " The remainder is 0 again."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 208.78,
+      "end": 213.82000000000002,
+      "text": " And then we got 2 into 1 which is remainder is 1 in this case because 2 into 1 is 2 and"
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 213.82000000000002,
+      "end": 215.58,
+      "text": " then 3 minus 2 is 1."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 215.58,
+      "end": 217.18,
+      "text": " Now this is your numbers you know."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 217.18,
+      "end": 218.46,
+      "text": " So this is your binary format."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 218.46,
+      "end": 220.86,
+      "text": " So this is how you convert from decimal to binary format."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 220.86,
+      "end": 222.18,
+      "text": " But how do we read this?"
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 222.18,
+      "end": 223.98000000000002,
+      "text": " So we have to read this in a reverse order."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 224.01999999999998,
+      "end": 227.45999999999998,
+      "text": " So you have to start from this end and you have to go to top."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 227.45999999999998,
+      "end": 230.01999999999998,
+      "text": " So which is in this case this is 1."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 230.01999999999998,
+      "end": 234.1,
+      "text": " Then we have this is 1 0 0 1."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 234.1,
+      "end": 236.7,
+      "text": " So this is a binary format of 25."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 236.7,
+      "end": 240.98,
+      "text": " So this is how you convert a number from decimal system to binary format."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 240.98,
+      "end": 241.98,
+      "text": " It's so simple."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 241.98,
+      "end": 243.78,
+      "text": " Let me go back to the IDLE here."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 243.78,
+      "end": 246.01999999999998,
+      "text": " And here what I will do is so you can see the number here."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 246.01999999999998,
+      "end": 250.82,
+      "text": " We got 1 1 0 0 1 the same number."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 250.82,
+      "end": 251.82,
+      "text": " But what is before that?"
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 251.82,
+      "end": 255.85999999999999,
+      "text": " So you can see we got 0 and B. That's how you represent a binary format."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 255.85999999999999,
+      "end": 260.65999999999997,
+      "text": " So if you want to say there's a number which is 1 1 0 0 1 and you might be thinking if"
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 260.65999999999997,
+      "end": 262.7,
+      "text": " you got this number this may be decimal right."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 262.7,
+      "end": 265.9,
+      "text": " So to specify that hey this is not a decimal number."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 265.9,
+      "end": 269.53999999999996,
+      "text": " We will use 0 B. OK that's very important."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 269.53999999999996,
+      "end": 273.42,
+      "text": " In fact you can convert a number from binary system to decimal system."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 273.42,
+      "end": 274.42,
+      "text": " It's very easy."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 274.42,
+      "end": 280.53999999999996,
+      "text": " Just say 0 B. I will use a number which is 1 0 1 0 1 in this case which is actually a"
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 280.54,
+      "end": 281.54,
+      "text": " number 5."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 281.54,
+      "end": 282.54,
+      "text": " Right."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 282.54,
+      "end": 284.46000000000004,
+      "text": " So I will say enter you can see we got 5."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 284.46000000000004,
+      "end": 288.66,
+      "text": " So before the number or before the binary format if you put 0 B that means the number"
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 288.66,
+      "end": 291.66,
+      "text": " is binary format and it will give you the output in decimal format."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 291.66,
+      "end": 292.98,
+      "text": " We can do the same thing for octal."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 292.98,
+      "end": 293.98,
+      "text": " Right."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 293.98,
+      "end": 295.02000000000004,
+      "text": " So example let's go the same number."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 295.02000000000004,
+      "end": 297.86,
+      "text": " I will say oh which function we have to use."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 297.86,
+      "end": 298.86,
+      "text": " You can guess right."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 298.86,
+      "end": 302.74,
+      "text": " So for binary we have been for octal it should be oct."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 302.74,
+      "end": 304.54,
+      "text": " And then we'll give a number which is 25."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 304.54,
+      "end": 305.58000000000004,
+      "text": " I will say enter."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 305.58000000000004,
+      "end": 307.48,
+      "text": " Now this is octal format."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 307.48,
+      "end": 311.52000000000004,
+      "text": " So the octal conversion of 25 is 31."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 311.52000000000004,
+      "end": 313.6,
+      "text": " But what is before that it's 0 0."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 313.6,
+      "end": 314.6,
+      "text": " So 0 is octal."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 314.6,
+      "end": 315.6,
+      "text": " Right."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 315.6,
+      "end": 317.3,
+      "text": " So in the above case we have B that's for binary."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 317.3,
+      "end": 320.0,
+      "text": " The same thing can be done with hexadecimal."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 320.0,
+      "end": 322.6,
+      "text": " So I will say hex and I want to find 25."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 322.6,
+      "end": 323.64000000000004,
+      "text": " So I will say enter."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 323.64000000000004,
+      "end": 326.62,
+      "text": " You can see it is 0 X 1 9."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 326.62,
+      "end": 328.40000000000003,
+      "text": " And that's very important which is X here."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 328.40000000000003,
+      "end": 330.92,
+      "text": " So X is for hexadecimal number."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 330.92,
+      "end": 331.92,
+      "text": " Right."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 331.92,
+      "end": 335.40000000000003,
+      "text": " In fact I will just try to find the hex of 10."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 335.40000000000003,
+      "end": 337.02000000000004,
+      "text": " So hex of 10 is A. Right."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 337.06,
+      "end": 339.53999999999996,
+      "text": " So if I say enter you can see we got 0 X A."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 339.53999999999996,
+      "end": 340.94,
+      "text": " You can do the same thing in reverse order."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 340.94,
+      "end": 342.82,
+      "text": " You can say 0 X."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 342.82,
+      "end": 348.0,
+      "text": " Maybe I want to find maybe F. So in this case F is 15."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 348.0,
+      "end": 349.85999999999996,
+      "text": " So if I say enter you got 15."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 349.85999999999996,
+      "end": 353.15999999999997,
+      "text": " In fact in the subsequent videos which we are going to see we will be working with different"
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 353.15999999999997,
+      "end": 355.53999999999996,
+      "text": " operators like bitwise operator."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 355.53999999999996,
+      "end": 358.15999999999997,
+      "text": " And this video is very important for the bitwise operators."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 358.15999999999997,
+      "end": 361.65999999999997,
+      "text": " Make sure you know how to convert a decimal number into binary format."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 361.65999999999997,
+      "end": 363.18,
+      "text": " And for that let me give you some assignments."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 363.18,
+      "end": 367.18,
+      "text": " So what you can do is try to convert not on the Python command prompt."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 367.18,
+      "end": 368.18,
+      "text": " OK."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 368.18,
+      "end": 369.18,
+      "text": " If you do it by yourself."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 369.18,
+      "end": 373.02,
+      "text": " So try to find the binary format of let's say 31."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 373.02,
+      "end": 374.02,
+      "text": " Then try to."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 374.02,
+      "end": 375.02,
+      "text": " So this is your homework."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 375.02,
+      "end": 376.02,
+      "text": " OK."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 376.02,
+      "end": 377.02,
+      "text": " So try to find out binary format of 21."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 377.02,
+      "end": 378.02,
+      "text": " Then 52."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 378.02,
+      "end": 379.02,
+      "text": " Then 65."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 379.02,
+      "end": 381.18,
+      "text": " So these are some numbers you can try it out."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 381.18,
+      "end": 382.34000000000003,
+      "text": " And then you can also do reverse."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 382.34000000000003,
+      "end": 383.34000000000003,
+      "text": " OK."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 383.34000000000003,
+      "end": 384.5,
+      "text": " So let's say if I give you binary format."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 384.5,
+      "end": 387.9,
+      "text": " I have a number which is 0 B. And let's say this is number."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 387.9,
+      "end": 390.06,
+      "text": " I don't know what's the decimal format of this."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 390.06,
+      "end": 391.72,
+      "text": " You have to find this as well."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 391.72,
+      "end": 393.24,
+      "text": " So in this case it is 4 1 0."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 393.24,
+      "end": 394.52000000000004,
+      "text": " But how can we know that."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 394.52000000000004,
+      "end": 397.5,
+      "text": " So in that case you can do this in reverse order as well."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 397.5,
+      "end": 402.88000000000005,
+      "text": " So the number was 1 1 0 0 1 1 0 1 0."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 402.88000000000005,
+      "end": 404.76000000000005,
+      "text": " So how do you convert this number into decimal system."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 404.76000000000005,
+      "end": 406.48,
+      "text": " So first let's try with this number."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 406.48,
+      "end": 408.36,
+      "text": " And then you can try with this number by yourself."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 408.36,
+      "end": 411.72,
+      "text": " Now when you want to convert a number from binary to decimal it's very simple."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 411.72,
+      "end": 413.0,
+      "text": " Take start from the last number."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 413.0,
+      "end": 415.92,
+      "text": " So start from the last number and use 2 raised to 0."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 415.92,
+      "end": 417.78000000000003,
+      "text": " Second last number 2 raised to 1."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 417.78000000000003,
+      "end": 419.64000000000004,
+      "text": " So we have to go for 2 raised to 2."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 419.64000000000004,
+      "end": 420.88000000000005,
+      "text": " 2 raised to 3."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 420.88,
+      "end": 423.2,
+      "text": " And 2 raised to 4."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 423.2,
+      "end": 426.44,
+      "text": " Now this number belongs to one particular number here."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 426.44,
+      "end": 428.82,
+      "text": " So for this one we have 2 raised to 4."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 428.82,
+      "end": 430.76,
+      "text": " For this one we have 2 raised to 3."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 430.76,
+      "end": 433.88,
+      "text": " Now ignore all the zeros here because we don't need them."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 433.88,
+      "end": 435.4,
+      "text": " Focus only on ones."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 435.4,
+      "end": 437.84,
+      "text": " So what you will do is first you will find 2 raised to 0 is what."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 437.84,
+      "end": 438.84,
+      "text": " 2 raised to 0 is 1."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 438.84,
+      "end": 440.84,
+      "text": " 2 raised to 1 is 2."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 440.84,
+      "end": 443.04,
+      "text": " 2 raised to 2 is 4."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 443.04,
+      "end": 444.04,
+      "text": " OK."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 444.04,
+      "end": 445.58,
+      "text": " First of all we don't need these two numbers."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 445.58,
+      "end": 447.52,
+      "text": " Because those are zeros anyway."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 447.52,
+      "end": 449.76,
+      "text": " Then 2 raised to 3 is 8."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 450.28,
+      "end": 453.84,
+      "text": " 2 raised to 4 is 16."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 453.84,
+      "end": 456.0,
+      "text": " And then once you got this number you just need to add them."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 456.0,
+      "end": 458.71999999999997,
+      "text": " So you can say 16 plus 8 which is 24."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 458.71999999999997,
+      "end": 461.84,
+      "text": " 24 plus 1 we got 25."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 461.84,
+      "end": 466.03999999999996,
+      "text": " So first you have to use this format and then you have to add all the values you will get"
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 466.03999999999996,
+      "end": 467.15999999999997,
+      "text": " the decimal format."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 467.15999999999997,
+      "end": 469.09999999999997,
+      "text": " The same thing can be done with this."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 469.09999999999997,
+      "end": 473.0,
+      "text": " You try it out on your machine and let me know if you have done that."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 473.0,
+      "end": 474.48,
+      "text": " So that's it everyone."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 474.48,
+      "end": 478.36,
+      "text": " That's how you can work with different number system in Python."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 478.36,
+      "end": 479.36,
+      "text": " So I hope you enjoyed this video."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 479.96000000000004,
+      "end": 480.96000000000004,
+      "text": " Let me know in the comment section."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 480.96000000000004,
+      "end": 481.96000000000004,
+      "text": " So that's it everyone."
+    },
+    {
+      "number": "12",
+      "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+      "start": 481.96000000000004,
+      "end": 482.46000000000004,
+      "text": " Bye bye."
+    }
+  ],
+  "text": " Welcome back aliens my name is Davin Reddy and let's continue with the series on Python. Now in this video we'll talk about binary formats. In fact not just binary we'll talk about different number systems. Normally when you work in the programming world we work with binary formats and we work with decimal system. So in the programming world we use a binary system and a decimal system. But apart from this we have two more systems which is octal and hexadecimal. Now when do we use all this stuff? So in the networking field we use MAC address which is normally defined in hexadecimal format. Same goes for IPv6 which is defined in hexadecimal format. In your computer we use binary format. In normal system we use decimal system. So let's understand how do we convert these values from one system to other system. Now of course you can do it on paper or you can do it in a software or with the help of codes. Now before understanding how do you convert this using Python let's try it on paper first. You know we can in fact we can do it. So if I open my IDE you can convert a number from decimal to binary format. Example if I want to convert a number let's say 25. So we have this number 25. I want to convert this into a binary format. Now I don't know how many people of you how many of you know how to convert a number into binary format. So people who are very beginner to the programming world they might not be knowing it. And if you have experience that's great. Now if you don't know how binary format works I would recommend you to go and watch some videos on binary format or we'll try to do some in this video. Let's say I want to convert this. We can use a function called as bin. So using bin function we can convert a number from decimal system to binary system. Now when you say decimal system it means the base of the system is 10. And in binary system the base is 2. Which means in decimal system we can go from 0 to 9. So we have 10 digits. In binary system we can go from 0 to 1. 2 digits. And that's why we say it's bits binary digits. So we have binary format there. In fact we have octal system where we have 8 digits. So it starts with 0 and it ends at 7. On the other hand we have hexadecimal system where we have 16 as a base. Now it starts with 0. It goes till 9 and after 9 it goes from A to F. So in total we have 16. So now let's come back from decimal to binary. We'll click on enter. And you can see this is your binary format. It's so simple. You just need to use a bin function and in bracket you have to pass 25. But hold on. How do you convert this number? And even if you get this output how do you know this is the correct output? So let me just take some time to explain you how to convert a number from a decimal system to a binary system. So for that let me open my paint. So let's try to understand how it works. So let's say we have a number 25. So we'll go for a number 25 here. And if I want to find a decimal binary format of this 25 what you do is you have to divide this number by 2. So whatever system you have. So example if you want to convert from decimal to octal decimal to hexadecimal system you have to divide this number by that system. Example here I want to find binary format. So I will divide this by 2. Now everyone knows right. So it is 2 into 12. You will get 24. So the remainder is 1. So when you say 2 into 12 we got 24 and the remainder is 1. So you have to continue this. So you have to say 2 you will get 6. So 2 into 6 you will get 12. So the remainder is 0. Then we have 2 into 3. The remainder is 0 again. And then we got 2 into 1 which is remainder is 1 in this case because 2 into 1 is 2 and then 3 minus 2 is 1. Now this is your numbers you know. So this is your binary format. So this is how you convert from decimal to binary format. But how do we read this? So we have to read this in a reverse order. So you have to start from this end and you have to go to top. So which is in this case this is 1. Then we have this is 1 0 0 1. So this is a binary format of 25. So this is how you convert a number from decimal system to binary format. It's so simple. Let me go back to the IDLE here. And here what I will do is so you can see the number here. We got 1 1 0 0 1 the same number. But what is before that? So you can see we got 0 and B. That's how you represent a binary format. So if you want to say there's a number which is 1 1 0 0 1 and you might be thinking if you got this number this may be decimal right. So to specify that hey this is not a decimal number. We will use 0 B. OK that's very important. In fact you can convert a number from binary system to decimal system. It's very easy. Just say 0 B. I will use a number which is 1 0 1 0 1 in this case which is actually a number 5. Right. So I will say enter you can see we got 5. So before the number or before the binary format if you put 0 B that means the number is binary format and it will give you the output in decimal format. We can do the same thing for octal. Right. So example let's go the same number. I will say oh which function we have to use. You can guess right. So for binary we have been for octal it should be oct. And then we'll give a number which is 25. I will say enter. Now this is octal format. So the octal conversion of 25 is 31. But what is before that it's 0 0. So 0 is octal. Right. So in the above case we have B that's for binary. The same thing can be done with hexadecimal. So I will say hex and I want to find 25. So I will say enter. You can see it is 0 X 1 9. And that's very important which is X here. So X is for hexadecimal number. Right. In fact I will just try to find the hex of 10. So hex of 10 is A. Right. So if I say enter you can see we got 0 X A. You can do the same thing in reverse order. You can say 0 X. Maybe I want to find maybe F. So in this case F is 15. So if I say enter you got 15. In fact in the subsequent videos which we are going to see we will be working with different operators like bitwise operator. And this video is very important for the bitwise operators. Make sure you know how to convert a decimal number into binary format. And for that let me give you some assignments. So what you can do is try to convert not on the Python command prompt. OK. If you do it by yourself. So try to find the binary format of let's say 31. Then try to. So this is your homework. OK. So try to find out binary format of 21. Then 52. Then 65. So these are some numbers you can try it out. And then you can also do reverse. OK. So let's say if I give you binary format. I have a number which is 0 B. And let's say this is number. I don't know what's the decimal format of this. You have to find this as well. So in this case it is 4 1 0. But how can we know that. So in that case you can do this in reverse order as well. So the number was 1 1 0 0 1 1 0 1 0. So how do you convert this number into decimal system. So first let's try with this number. And then you can try with this number by yourself. Now when you want to convert a number from binary to decimal it's very simple. Take start from the last number. So start from the last number and use 2 raised to 0. Second last number 2 raised to 1. So we have to go for 2 raised to 2. 2 raised to 3. And 2 raised to 4. Now this number belongs to one particular number here. So for this one we have 2 raised to 4. For this one we have 2 raised to 3. Now ignore all the zeros here because we don't need them. Focus only on ones. So what you will do is first you will find 2 raised to 0 is what. 2 raised to 0 is 1. 2 raised to 1 is 2. 2 raised to 2 is 4. OK. First of all we don't need these two numbers. Because those are zeros anyway. Then 2 raised to 3 is 8. 2 raised to 4 is 16. And then once you got this number you just need to add them. So you can say 16 plus 8 which is 24. 24 plus 1 we got 25. So first you have to use this format and then you have to add all the values you will get the decimal format. The same thing can be done with this. You try it out on your machine and let me know if you have done that. So that's it everyone. That's how you can work with different number system in Python. So I hope you enjoyed this video. Let me know in the comment section. So that's it everyone. Bye bye."
+}

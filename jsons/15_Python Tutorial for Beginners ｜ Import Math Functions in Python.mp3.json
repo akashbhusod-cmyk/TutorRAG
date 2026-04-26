@@ -1,0 +1,1377 @@
+{
+  "chunks": [
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 0.0,
+      "end": 8.6,
+      "text": " Welcome back aliens my name is Devin Reddy and let's continue with the series on Python."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 8.6,
+      "end": 12.42,
+      "text": " So till this point we have seen a lot of stuff in Python right and now it's time to look"
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 12.42,
+      "end": 14.4,
+      "text": " at mathematical functions."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 14.4,
+      "end": 18.28,
+      "text": " Now of course we can do that manually as well right you can find a square of a number you"
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 18.28,
+      "end": 22.44,
+      "text": " can find a square root of a number as well but then we can use mathematical functions"
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 22.44,
+      "end": 24.44,
+      "text": " then why to do it manually."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 24.44,
+      "end": 27.68,
+      "text": " Now let's try something so what I will do is I will do some simple stuff."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 27.68,
+      "end": 31.32,
+      "text": " So how do you find a square root of a number it's very simple actually you just need to"
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 31.32,
+      "end": 35.4,
+      "text": " say x equal to I want to find a square root of 25."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 35.4,
+      "end": 41.88,
+      "text": " So it's very simple in Python we have an inbuilt function called a square root which is sqrt"
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 41.88,
+      "end": 45.120000000000005,
+      "text": " and in this bracket you just have to pass the number which is 25 in this case."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 45.120000000000005,
+      "end": 50.239999999999995,
+      "text": " I will say enter oh we got an error that's bad maybe spelling mistake."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 50.239999999999995,
+      "end": 52.36,
+      "text": " No it is sqrt that's right."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 52.36,
+      "end": 53.72,
+      "text": " What went wrong here."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 53.72,
+      "end": 56.96,
+      "text": " The thing is in Python we have a lot of modules to work with."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 56.96,
+      "end": 59.88,
+      "text": " But this modules are by default not there for you."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 59.88,
+      "end": 62.68,
+      "text": " Now if you want to use them you need to ask for it right."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 62.68,
+      "end": 66.84,
+      "text": " So we are living in a world where you need to ask for things."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 66.84,
+      "end": 68.44,
+      "text": " Now how do you ask for it."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 68.44,
+      "end": 73.08,
+      "text": " The way you can ask you can import it with the help of import of course and then you"
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 73.08,
+      "end": 78.18,
+      "text": " have to say import and then you have to mention a module name here called math."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 78.18,
+      "end": 81.28,
+      "text": " So math is a module in which you have all these functions."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 81.28,
+      "end": 82.28,
+      "text": " I will say enter."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 82.28,
+      "end": 83.28,
+      "text": " OK that's done right."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 83.28,
+      "end": 85.2,
+      "text": " So we got we got all the functions now."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 85.2,
+      "end": 92.0,
+      "text": " And now you can say x equal to math.sqrt and then you can find 25."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 92.0,
+      "end": 93.0,
+      "text": " Oh it works."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 93.0,
+      "end": 94.04,
+      "text": " OK there is no error."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 94.04,
+      "end": 95.92,
+      "text": " So we got our value in x now."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 95.92,
+      "end": 98.32000000000001,
+      "text": " Let's print x and that's right we got 5.0."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 98.32000000000001,
+      "end": 99.32000000000001,
+      "text": " Yay."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 99.32000000000001,
+      "end": 100.32000000000001,
+      "text": " It's working."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 100.32000000000001,
+      "end": 102.36,
+      "text": " In fact we can try it with different values here now."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 102.36,
+      "end": 106.60000000000001,
+      "text": " So I will say 15 x and that's the value of square root of 15."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 106.60000000000001,
+      "end": 107.60000000000001,
+      "text": " Right."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 107.60000000000001,
+      "end": 108.60000000000001,
+      "text": " So it's working."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 108.60000000000001,
+      "end": 111.0,
+      "text": " Now we have some other functions as well."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 111.0,
+      "end": 114.76,
+      "text": " Example one of the functions which we can use here is called as float function."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 115.32000000000001,
+      "end": 116.32000000000001,
+      "text": " So how float function works."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 116.32000000000001,
+      "end": 117.92,
+      "text": " Let's say we have a value which is y."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 117.92,
+      "end": 118.92,
+      "text": " In fact I will print it."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 118.92,
+      "end": 119.92,
+      "text": " I will say print."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 119.92,
+      "end": 122.36,
+      "text": " I want to print float function value."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 122.36,
+      "end": 124.28,
+      "text": " So I will say math dot."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 124.28,
+      "end": 127.36,
+      "text": " So we have this concept of seal and float."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 127.36,
+      "end": 128.36,
+      "text": " So what it means."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 128.36,
+      "end": 129.92000000000002,
+      "text": " Imagine you have a value which is 2.5."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 129.92000000000002,
+      "end": 132.88,
+      "text": " So normally what we do is we try to round off these numbers."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 132.88,
+      "end": 133.88,
+      "text": " Right."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 133.88,
+      "end": 134.92000000000002,
+      "text": " For example I don't want point values."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 134.92000000000002,
+      "end": 136.86,
+      "text": " I want the integers."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 136.86,
+      "end": 138.76,
+      "text": " So in normal world we round off these values."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 138.76,
+      "end": 142.0,
+      "text": " We say OK when you have 2.5 we'll make it 3."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 142.0,
+      "end": 144.16,
+      "text": " And let's say if you have 2.4 we'll make it 2."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 144.16,
+      "end": 147.07999999999998,
+      "text": " So anything which is less than 2.5 will be 2."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 147.07999999999998,
+      "end": 150.44,
+      "text": " Anything which is greater than or equal to 2.5 will make it 3."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 150.44,
+      "end": 151.44,
+      "text": " That is round off."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 151.44,
+      "end": 152.44,
+      "text": " Right."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 152.44,
+      "end": 154.0,
+      "text": " But we want to use float and seal."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 154.0,
+      "end": 156.35999999999999,
+      "text": " So imagine this is 3 and this is 2."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 156.35999999999999,
+      "end": 159.2,
+      "text": " So when you say 2.5 it will be somewhere here."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 159.2,
+      "end": 161.51999999999998,
+      "text": " So when you say 2.5 you will make it 3."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 161.51999999999998,
+      "end": 164.07999999999998,
+      "text": " When you say 2.4 you will make it 2."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 164.07999999999998,
+      "end": 166.74,
+      "text": " But instead of using round off we can use float."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 166.74,
+      "end": 169.16,
+      "text": " So we have float and we have seal."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 169.16,
+      "end": 172.48,
+      "text": " Now when we use float it simply means you need to go to the float."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 172.48,
+      "end": 173.56,
+      "text": " Imagine this is float."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 173.56,
+      "end": 175.48,
+      "text": " We have float and we have seal."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 175.48,
+      "end": 178.56,
+      "text": " So here we have a float and then we have seal."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 178.56,
+      "end": 182.04,
+      "text": " So when you apply a float function doesn't matter what your value is."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 182.04,
+      "end": 185.2,
+      "text": " Even if it is 2.9 you will get 2."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 185.2,
+      "end": 186.2,
+      "text": " Right."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 186.2,
+      "end": 187.2,
+      "text": " That's float."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 187.2,
+      "end": 188.92000000000002,
+      "text": " Now what about seal function."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 188.92000000000002,
+      "end": 192.12,
+      "text": " Example if I say seal of 2.1."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 192.12,
+      "end": 193.76,
+      "text": " So if you say round off it will be 2."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 193.76,
+      "end": 195.8,
+      "text": " But when you apply seal you will get 3."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 195.8,
+      "end": 196.8,
+      "text": " Right."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 196.8,
+      "end": 197.8,
+      "text": " Let's find out."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 197.8,
+      "end": 201.56,
+      "text": " So when you say I want to find float of 2.9 you will get 2."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 201.56,
+      "end": 203.6,
+      "text": " The same thing can be done for seal."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 203.6,
+      "end": 206.16,
+      "text": " So seal of 2.2 you got 3."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 206.16,
+      "end": 207.16,
+      "text": " Right."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 207.16,
+      "end": 210.96,
+      "text": " So float will always give the least value and seal will give you the highest value."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 210.96,
+      "end": 211.96,
+      "text": " Highest integer."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 211.96,
+      "end": 213.52,
+      "text": " So likewise we can do factorial."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 213.52,
+      "end": 215.16,
+      "text": " We can find sine x cos x."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 215.16,
+      "end": 216.48,
+      "text": " You know all your mathematical functions."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 216.48,
+      "end": 217.72,
+      "text": " In fact there is one more."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 217.72,
+      "end": 218.72,
+      "text": " We also have power."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 218.72,
+      "end": 224.44,
+      "text": " You know P O W. Remember we have done this calculation which is 3 into 2."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 224.44,
+      "end": 225.44,
+      "text": " 3 square."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 225.44,
+      "end": 226.44,
+      "text": " Right."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 226.44,
+      "end": 227.44,
+      "text": " So you got 9."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 227.44,
+      "end": 229.48000000000002,
+      "text": " The same thing can be done with the help of power function."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 229.48,
+      "end": 236.01999999999998,
+      "text": " So when you say I want to print let's say math dot P O W which is power function."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 236.01999999999998,
+      "end": 238.28,
+      "text": " And here you will say 3 comma 2."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 238.28,
+      "end": 239.51999999999998,
+      "text": " Now you can see we got 9."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 239.51999999999998,
+      "end": 241.54,
+      "text": " So this is it will give you power."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 241.54,
+      "end": 242.54,
+      "text": " You have two choice."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 242.54,
+      "end": 247.51999999999998,
+      "text": " You can use double star which is power again and then you can also use power function."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 247.51999999999998,
+      "end": 252.12,
+      "text": " But now when you work on big software it's always better to use functions because it's"
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 252.12,
+      "end": 253.76,
+      "text": " more readable for the developers."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 253.76,
+      "end": 254.76,
+      "text": " Right."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 254.76,
+      "end": 257.4,
+      "text": " And then in math we have some constants as well."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 257.4,
+      "end": 259.79999999999995,
+      "text": " It's not just about functions."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 259.79999999999995,
+      "end": 262.0,
+      "text": " Example it's I want to the value of pi."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 262.0,
+      "end": 263.0,
+      "text": " We all know it right."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 263.0,
+      "end": 264.0,
+      "text": " It's 3.14."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 264.0,
+      "end": 265.0,
+      "text": " Not exactly."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 265.0,
+      "end": 267.35999999999996,
+      "text": " After 3.14 we have some more values."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 267.35999999999996,
+      "end": 268.35999999999996,
+      "text": " And no one remember that."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 268.35999999999996,
+      "end": 269.35999999999996,
+      "text": " Right."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 269.35999999999996,
+      "end": 275.03999999999996,
+      "text": " So what you can do is you can say print and I will print math dot P I and that's your"
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 275.03999999999996,
+      "end": 276.03999999999996,
+      "text": " pi value."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 276.03999999999996,
+      "end": 277.03999999999996,
+      "text": " Right."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 277.03999999999996,
+      "end": 278.03999999999996,
+      "text": " So we have some more values there."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 278.03999999999996,
+      "end": 280.03999999999996,
+      "text": " We can also get the value of epsilon."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 280.03999999999996,
+      "end": 283.7,
+      "text": " So you will say math dot E and that's your epsilon value."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 283.7,
+      "end": 286.15999999999997,
+      "text": " So those are those are constants which is available."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 286.16,
+      "end": 290.32000000000005,
+      "text": " What if you don't want to use math every time because we do we have a lot of modules."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 290.32000000000005,
+      "end": 291.32000000000005,
+      "text": " Right."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 291.32000000000005,
+      "end": 296.0,
+      "text": " And some other names are very big and we are damn lazy to type those names here."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 296.0,
+      "end": 300.56,
+      "text": " So instead of using math can I simply use M dot SQRT."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 300.56,
+      "end": 301.56,
+      "text": " That will be good."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 301.56,
+      "end": 302.56,
+      "text": " Right."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 302.56,
+      "end": 303.56,
+      "text": " M dot SQRT."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 303.56,
+      "end": 304.56,
+      "text": " But unfortunately it will not work."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 304.56,
+      "end": 306.48,
+      "text": " So if I enter you can see it's not working."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 306.48,
+      "end": 311.56,
+      "text": " So in that case if you want to use M we want we need to use a concept of allies."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 311.56,
+      "end": 312.56,
+      "text": " What it means."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 312.56,
+      "end": 316.12,
+      "text": " So when you input math say as M. So what you're doing now is you're saying"
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 317.08,
+      "end": 320.92,
+      "text": " Hey I'm putting math but when you want to use math I will be using M or I can use M"
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 320.92,
+      "end": 322.28000000000003,
+      "text": " or math both."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 322.28000000000003,
+      "end": 325.12,
+      "text": " So let's try with math first is math is working."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 325.12,
+      "end": 326.12,
+      "text": " So I would say 25."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 326.12,
+      "end": 327.12,
+      "text": " OK math works."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 327.12,
+      "end": 329.96,
+      "text": " Same goes for let's say let's try M 25."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 329.96,
+      "end": 330.96,
+      "text": " Even M works."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 330.96,
+      "end": 331.96,
+      "text": " Right."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 331.96,
+      "end": 333.76,
+      "text": " So your choice you can use M you can use math."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 333.76,
+      "end": 337.64,
+      "text": " So anybody have big names or if you are lazy to type even math you can try allies."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 337.64,
+      "end": 338.64,
+      "text": " Right."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 338.64,
+      "end": 340.7,
+      "text": " OK now what we have one more thing you know."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 340.7,
+      "end": 344.0,
+      "text": " So let's say you in your math module you have so many functions available."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 344.0,
+      "end": 345.0,
+      "text": " Right."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 345.0,
+      "end": 346.0,
+      "text": " So many functions classes available."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 346.0,
+      "end": 350.16,
+      "text": " And the moment you say import math you get everything."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 350.16,
+      "end": 351.8,
+      "text": " What if you don't want everything."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 351.8,
+      "end": 354.32,
+      "text": " What if you want things which are specific."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 354.32,
+      "end": 356.44,
+      "text": " Example I only need a power function."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 356.44,
+      "end": 357.56,
+      "text": " I only need factorial."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 357.56,
+      "end": 359.04,
+      "text": " I don't want everything."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 359.04,
+      "end": 362.24,
+      "text": " So in that case what you can do is you can say math."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 362.24,
+      "end": 363.24,
+      "text": " So when you say import."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 363.24,
+      "end": 367.94,
+      "text": " In fact let me just reopen my IDE so that in fact we can restart."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 367.94,
+      "end": 369.84,
+      "text": " So I've restarted this shell here and let's try."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 369.84,
+      "end": 374.32,
+      "text": " So I will say math dot sqrt 25."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 374.32,
+      "end": 376.64,
+      "text": " You can see we got error that means it's not imported."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 376.64,
+      "end": 380.4,
+      "text": " So now I will import but then I don't want to import all the functions I want to import"
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 380.4,
+      "end": 382.92,
+      "text": " let's say sqrt and power."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 382.92,
+      "end": 383.92,
+      "text": " That's it."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 383.92,
+      "end": 384.92,
+      "text": " So we'll say from math."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 384.92,
+      "end": 387.78,
+      "text": " So to mention we want to import from math."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 387.78,
+      "end": 388.92,
+      "text": " So we'll import only two things."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 388.92,
+      "end": 392.2,
+      "text": " One is sqrt and power."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 392.2,
+      "end": 393.2,
+      "text": " That's it."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 393.2,
+      "end": 394.2,
+      "text": " Give a comma and gives a power."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 394.2,
+      "end": 395.96,
+      "text": " And you can see there's no error."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 395.96,
+      "end": 396.96,
+      "text": " Let's try."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 396.96,
+      "end": 400.68,
+      "text": " So I would say in fact now you don't even need to specify math because you have imported"
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 400.68,
+      "end": 401.68,
+      "text": " the function itself."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 402.12,
+      "end": 404.88,
+      "text": " So I will say power of 4 raised to 5."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 404.88,
+      "end": 405.88,
+      "text": " I don't know the value."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 405.88,
+      "end": 406.88,
+      "text": " Maybe."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 406.88,
+      "end": 407.88,
+      "text": " Maybe it's right."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 407.88,
+      "end": 408.88,
+      "text": " So it's 1024."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 408.88,
+      "end": 409.88,
+      "text": " That's right."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 409.88,
+      "end": 410.88,
+      "text": " It's actually right answer."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 410.88,
+      "end": 411.88,
+      "text": " So it works."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 411.88,
+      "end": 412.88,
+      "text": " You know it works."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 412.88,
+      "end": 413.88,
+      "text": " So that's that's how you work."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 413.88,
+      "end": 416.0,
+      "text": " That's how you work with mathematical functions."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 416.0,
+      "end": 417.0,
+      "text": " So you can try it out."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 417.0,
+      "end": 418.52,
+      "text": " There are so many functions available."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 418.52,
+      "end": 420.2,
+      "text": " So just go to documentation."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 420.2,
+      "end": 422.6,
+      "text": " In fact we'll search here."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 422.6,
+      "end": 425.72,
+      "text": " So you can see when you search for math you have so many functions available here."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 425.72,
+      "end": 427.66,
+      "text": " Read documentation and try it out."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 427.66,
+      "end": 431.12,
+      "text": " So the best way to learn something is to do some research."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 431.56,
+      "end": 436.24,
+      "text": " So after watching my videos make sure you read some book or you do this research and"
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 436.24,
+      "end": 439.24,
+      "text": " that's how that will make you a good programmer."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 439.24,
+      "end": 440.24,
+      "text": " So I hope you enjoyed the series."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 440.24,
+      "end": 441.6,
+      "text": " Let me know in the comment section."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 441.6,
+      "end": 445.68,
+      "text": " And if you have not subscribed the channel what are you waiting for to subscribe it."
+    },
+    {
+      "number": "15",
+      "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+      "start": 445.68,
+      "end": 446.32,
+      "text": " Bye bye."
+    }
+  ],
+  "text": " Welcome back aliens my name is Devin Reddy and let's continue with the series on Python. So till this point we have seen a lot of stuff in Python right and now it's time to look at mathematical functions. Now of course we can do that manually as well right you can find a square of a number you can find a square root of a number as well but then we can use mathematical functions then why to do it manually. Now let's try something so what I will do is I will do some simple stuff. So how do you find a square root of a number it's very simple actually you just need to say x equal to I want to find a square root of 25. So it's very simple in Python we have an inbuilt function called a square root which is sqrt and in this bracket you just have to pass the number which is 25 in this case. I will say enter oh we got an error that's bad maybe spelling mistake. No it is sqrt that's right. What went wrong here. The thing is in Python we have a lot of modules to work with. But this modules are by default not there for you. Now if you want to use them you need to ask for it right. So we are living in a world where you need to ask for things. Now how do you ask for it. The way you can ask you can import it with the help of import of course and then you have to say import and then you have to mention a module name here called math. So math is a module in which you have all these functions. I will say enter. OK that's done right. So we got we got all the functions now. And now you can say x equal to math.sqrt and then you can find 25. Oh it works. OK there is no error. So we got our value in x now. Let's print x and that's right we got 5.0. Yay. It's working. In fact we can try it with different values here now. So I will say 15 x and that's the value of square root of 15. Right. So it's working. Now we have some other functions as well. Example one of the functions which we can use here is called as float function. So how float function works. Let's say we have a value which is y. In fact I will print it. I will say print. I want to print float function value. So I will say math dot. So we have this concept of seal and float. So what it means. Imagine you have a value which is 2.5. So normally what we do is we try to round off these numbers. Right. For example I don't want point values. I want the integers. So in normal world we round off these values. We say OK when you have 2.5 we'll make it 3. And let's say if you have 2.4 we'll make it 2. So anything which is less than 2.5 will be 2. Anything which is greater than or equal to 2.5 will make it 3. That is round off. Right. But we want to use float and seal. So imagine this is 3 and this is 2. So when you say 2.5 it will be somewhere here. So when you say 2.5 you will make it 3. When you say 2.4 you will make it 2. But instead of using round off we can use float. So we have float and we have seal. Now when we use float it simply means you need to go to the float. Imagine this is float. We have float and we have seal. So here we have a float and then we have seal. So when you apply a float function doesn't matter what your value is. Even if it is 2.9 you will get 2. Right. That's float. Now what about seal function. Example if I say seal of 2.1. So if you say round off it will be 2. But when you apply seal you will get 3. Right. Let's find out. So when you say I want to find float of 2.9 you will get 2. The same thing can be done for seal. So seal of 2.2 you got 3. Right. So float will always give the least value and seal will give you the highest value. Highest integer. So likewise we can do factorial. We can find sine x cos x. You know all your mathematical functions. In fact there is one more. We also have power. You know P O W. Remember we have done this calculation which is 3 into 2. 3 square. Right. So you got 9. The same thing can be done with the help of power function. So when you say I want to print let's say math dot P O W which is power function. And here you will say 3 comma 2. Now you can see we got 9. So this is it will give you power. You have two choice. You can use double star which is power again and then you can also use power function. But now when you work on big software it's always better to use functions because it's more readable for the developers. Right. And then in math we have some constants as well. It's not just about functions. Example it's I want to the value of pi. We all know it right. It's 3.14. Not exactly. After 3.14 we have some more values. And no one remember that. Right. So what you can do is you can say print and I will print math dot P I and that's your pi value. Right. So we have some more values there. We can also get the value of epsilon. So you will say math dot E and that's your epsilon value. So those are those are constants which is available. What if you don't want to use math every time because we do we have a lot of modules. Right. And some other names are very big and we are damn lazy to type those names here. So instead of using math can I simply use M dot SQRT. That will be good. Right. M dot SQRT. But unfortunately it will not work. So if I enter you can see it's not working. So in that case if you want to use M we want we need to use a concept of allies. What it means. So when you input math say as M. So what you're doing now is you're saying Hey I'm putting math but when you want to use math I will be using M or I can use M or math both. So let's try with math first is math is working. So I would say 25. OK math works. Same goes for let's say let's try M 25. Even M works. Right. So your choice you can use M you can use math. So anybody have big names or if you are lazy to type even math you can try allies. Right. OK now what we have one more thing you know. So let's say you in your math module you have so many functions available. Right. So many functions classes available. And the moment you say import math you get everything. What if you don't want everything. What if you want things which are specific. Example I only need a power function. I only need factorial. I don't want everything. So in that case what you can do is you can say math. So when you say import. In fact let me just reopen my IDE so that in fact we can restart. So I've restarted this shell here and let's try. So I will say math dot sqrt 25. You can see we got error that means it's not imported. So now I will import but then I don't want to import all the functions I want to import let's say sqrt and power. That's it. So we'll say from math. So to mention we want to import from math. So we'll import only two things. One is sqrt and power. That's it. Give a comma and gives a power. And you can see there's no error. Let's try. So I would say in fact now you don't even need to specify math because you have imported the function itself. So I will say power of 4 raised to 5. I don't know the value. Maybe. Maybe it's right. So it's 1024. That's right. It's actually right answer. So it works. You know it works. So that's that's how you work. That's how you work with mathematical functions. So you can try it out. There are so many functions available. So just go to documentation. In fact we'll search here. So you can see when you search for math you have so many functions available here. Read documentation and try it out. So the best way to learn something is to do some research. So after watching my videos make sure you read some book or you do this research and that's how that will make you a good programmer. So I hope you enjoyed the series. Let me know in the comment section. And if you have not subscribed the channel what are you waiting for to subscribe it. Bye bye."
+}

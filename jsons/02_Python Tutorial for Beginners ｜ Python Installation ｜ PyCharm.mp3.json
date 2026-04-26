@@ -1,0 +1,733 @@
+{
+  "chunks": [
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 0.0,
+      "end": 4.08,
+      "text": " Welcome back aliens. My name is Arvind Reddy and in this video we'll talk about the Python"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 4.08,
+      "end": 9.28,
+      "text": " installation. The thing is we have talked about a language which is very powerful but then where"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 9.28,
+      "end": 15.040000000000001,
+      "text": " you will write your code. Of course we can simply open your notepad and we can write the code which"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 15.040000000000001,
+      "end": 20.32,
+      "text": " we want right. So example I can simply go back here and I can say okay what type of code I want"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 20.32,
+      "end": 24.72,
+      "text": " to write. So it can be anything. It can be let's say two plus three. Now when you say you want to"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 24.72,
+      "end": 31.36,
+      "text": " write a code it can be a calculation, a computation. So basically a normal calculation like adding two"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 31.36,
+      "end": 37.92,
+      "text": " numbers or deciding in which stock to invest or maybe deciding who should be the next CEO."
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 37.92,
+      "end": 43.44,
+      "text": " So basically the idea is if you want to write a code to design a software which can do some"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 43.44,
+      "end": 48.96,
+      "text": " activities we have to write a code but where. If you write the code in the notepad of course you're"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 48.96,
+      "end": 53.599999999999994,
+      "text": " not getting the output. Where you will get the output for this? This is tricky right and that's"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 53.6,
+      "end": 59.44,
+      "text": " why in your machine you need a Python interpreter. So basically we have to install some software"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 59.44,
+      "end": 64.32000000000001,
+      "text": " and in this machine I don't have it. How do I verify? It's very simple. You can open your command"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 64.32000000000001,
+      "end": 69.28,
+      "text": " prompt. So if you're using Windows you can use command prompt to check it or if you're using Mac"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 69.28,
+      "end": 75.36,
+      "text": " or Linux you can open the terminal. So I'm here on command prompt and here let me see if I have"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 75.36,
+      "end": 82.08,
+      "text": " Python. Now basically the way you can check that is by saying Python version and if you get this"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 82.08,
+      "end": 87.36,
+      "text": " type of error which says Python was not found that means in this machine I don't have Python."
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 87.36,
+      "end": 94.64,
+      "text": " Okay with Python 3 you might also check if do you have Python 3 installed and you can see nothing is"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 94.64,
+      "end": 99.28,
+      "text": " there. So even if you have Python installed sometime it will not work with the Python command."
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 99.28,
+      "end": 104.4,
+      "text": " It might work for the Python 3 command. So do check both the versions and in this machine I don't have"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 104.4,
+      "end": 109.84,
+      "text": " any. So how do you get it? So the first thing we need is Python interpreter and okay let's say we"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 109.84,
+      "end": 115.12,
+      "text": " got Python interpreter and then you can write a code there. The thing is in the interpreter it"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 115.12,
+      "end": 121.28,
+      "text": " provides you an option of writing a code one line at a time. So of course you can add two numbers"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 121.28,
+      "end": 128.96,
+      "text": " but what if you want to build a big project? Now it can be a scientific project or an AI project."
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 128.96,
+      "end": 134.48000000000002,
+      "text": " Now that's what is booming nowadays. So if you want to build an AI project or a web application"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 134.48000000000002,
+      "end": 139.12,
+      "text": " or a desktop application where you will do it. For that you need a software where you can write"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 139.12,
+      "end": 145.84,
+      "text": " the code, test your code, run your code, debug your code and also deploy your code to the cloud"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 145.84,
+      "end": 150.8,
+      "text": " where you will do it. Now that's where we have to use something called an IDE which stands for"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 150.8,
+      "end": 156.4,
+      "text": " integrated development environment. Now for Python we have a lot of options. Now one is very famous"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 156.4,
+      "end": 161.52,
+      "text": " which is your PyCharm. Now this is from JetBrains. Again in this video I will show you how to install"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 161.52,
+      "end": 168.8,
+      "text": " Python interpreter and the PyCharm. So let's start with the interpreter. So what you will do is"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 168.8,
+      "end": 174.64000000000001,
+      "text": " in fact in the updated version of Windows when you say Python enter it will open the Microsoft"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 174.64000000000001,
+      "end": 179.68,
+      "text": " store but let's say if you don't have this configured that's fine. What you can do is you"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 179.68,
+      "end": 184.8,
+      "text": " can just go to Google and search for Python download. So you can say this is the option you"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 184.8,
+      "end": 189.20000000000002,
+      "text": " will get. So of course the first website says Python you can download it from here. Now in the"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 189.20000000000002,
+      "end": 193.44,
+      "text": " upcoming videos you might see a different version of Python installed and that's completely fine"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 193.44,
+      "end": 197.52,
+      "text": " because in the version difference you will not find a lot of changes. So even those things those"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 197.52,
+      "end": 203.76000000000002,
+      "text": " code will work here. Okay so you can go for Python 3.12 which is the latest version I feel."
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 203.76000000000002,
+      "end": 209.44,
+      "text": " So if I click on download so you can see we got download Python 3.12. So you can download this"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 209.44,
+      "end": 218.72,
+      "text": " version. 13 is in two places so don't use 13 as at this point. We got 12 which is 13.3.12."
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 218.72,
+      "end": 224.24,
+      "text": " So we can click here and say download. Okay so you can see it is downloading and downloading"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 224.24,
+      "end": 230.4,
+      "text": " complete. I feel yeah that's done. Now depend upon which OS you have Windows, Linux or Mac."
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 230.4,
+      "end": 236.08,
+      "text": " Depend upon that you can choose from here. So you can see we have different options here and"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 236.08,
+      "end": 240.4,
+      "text": " yeah so that's the thing. So let me click on this and install. So basically I don't have this"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 240.4,
+      "end": 244.96,
+      "text": " installed so I will just click here and now this will install the software. Okay so you can see we"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 244.96,
+      "end": 249.52,
+      "text": " have an option here which is install now or customize. I will go for simple installation"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 249.52,
+      "end": 255.04000000000002,
+      "text": " but before doing that I also want to say add a python.exe to the path. Basically even if you"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 255.04000000000002,
+      "end": 260.0,
+      "text": " have installed maybe whenever you open a different folder Python may not be available there. So if"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 260.0,
+      "end": 266.40000000000003,
+      "text": " you do this add a python.exe to your path you don't have to manually search for the installation."
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 266.40000000000003,
+      "end": 272.24,
+      "text": " So you can click on this install now and it will take some time. Now if you skip that step of add"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 272.24,
+      "end": 277.52,
+      "text": " to the path then you have to manually set the path but anyway when you do the add to path you don't"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 277.52,
+      "end": 282.47999999999996,
+      "text": " have to do the next the other steps. So by the time it is getting installed what we can do is we"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 282.47999999999996,
+      "end": 289.44,
+      "text": " can also get the PyCharm downloads done. So I will search for PyCharm. Now PyCharm is from JetBrains"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 289.44,
+      "end": 294.15999999999997,
+      "text": " which is a very famous company for the ids and software tools. So it helps developers. Now"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 294.15999999999997,
+      "end": 299.68,
+      "text": " basically you can also use VS Code for Python. You can also use Anaconda or IDLA which is the"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 299.68,
+      "end": 305.35999999999996,
+      "text": " interpreter and yeah many more. So I will just click on this. I will say download PyCharm."
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 305.36,
+      "end": 311.2,
+      "text": " The thing is when you download or when you get to the PyCharm it's not actually free. Okay now"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 311.2,
+      "end": 315.52000000000004,
+      "text": " that's a twist right. So we have two versions there. One is a paid version one is a free version."
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 315.52000000000004,
+      "end": 319.76,
+      "text": " So I would encourage you to go for the free version but yes once you become a professional"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 319.76,
+      "end": 324.88,
+      "text": " once you're working for a company then it makes sense to use the paid version. So this is the"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 324.88,
+      "end": 329.28000000000003,
+      "text": " website and as I mentioned this is developed by JetBrains which is the website here. It's also"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 329.28000000000003,
+      "end": 335.04,
+      "text": " the company and we also have a community version. So if you want the community version you can scroll"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 335.04,
+      "end": 340.8,
+      "text": " down and you can see we have two different versions professional and community. I will click"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 340.8,
+      "end": 345.6,
+      "text": " on the community version. If you go for the professional version you will get trial for one"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 345.6,
+      "end": 350.16,
+      "text": " month. So you decide if you want to use it or not but I would encourage you to use the community"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 350.16,
+      "end": 355.6,
+      "text": " version. So it's getting downloaded. Let me go back to my Python setup and looks like Python setup is"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 355.6,
+      "end": 361.76,
+      "text": " completed. Let me click on close. So setup is complete. How do I verify? Again we have to go"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 361.76,
+      "end": 367.2,
+      "text": " to command prompt. Now one thing to remember even if you have installed Python and if you directly"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 367.2,
+      "end": 373.92,
+      "text": " do this it may not work. So you have to reopen your command prompt. So now if I say CMD and let"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 373.92,
+      "end": 379.92,
+      "text": " me try now Python version and you can see we got Python installed. This time we are getting a version"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 379.92,
+      "end": 384.24,
+      "text": " number. We're not getting that error which was getting earlier. So yeah Python is installed. Now"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 384.24,
+      "end": 389.68,
+      "text": " how do I test it? It's very simple. You simply say Python it will open the interpreter. Now this is"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 389.68,
+      "end": 394.0,
+      "text": " where you can write a code. Of course doesn't look good right. Maybe you need a software where you"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 394.0,
+      "end": 399.12,
+      "text": " will find. In fact if you have learned some other languages you can write the code. You can see the"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 399.12,
+      "end": 404.56,
+      "text": " project. You can run the code. We'll see that in PyCharm. But here you can see we got the interpreter"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 404.56,
+      "end": 410.56,
+      "text": " and here I can simply add those two numbers and it is working right. So you can yeah you can do"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 410.56,
+      "end": 416.0,
+      "text": " calculations computations whatever you can do in this prompt. Apart from this if you want to open"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 416.0,
+      "end": 420.48,
+      "text": " Python you can also search for Python. So you can see it will also give you an app. So you can also"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 420.48,
+      "end": 426.32,
+      "text": " use this one. This is the IDLE from Python. In fact IDLE looks like something like this. So this is"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 426.32,
+      "end": 432.16,
+      "text": " the Python interpreter. You can also use IDLE. I know white theme. A lot of people don't like it."
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 432.16,
+      "end": 437.28,
+      "text": " But for YouTube videos you know it makes sense to have a light theme. It looks good. It also"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 437.28,
+      "end": 442.48,
+      "text": " encourages you to learn more. But anyway that's your choice if you want to use a white or black"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 442.56,
+      "end": 447.44,
+      "text": " or dark. Especially for me I prefer to use dark theme when I'm coding and for videos I prefer"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 447.44,
+      "end": 452.56,
+      "text": " white themes. Anyway that's a different debate. So I can just use this. I can also say 2 plus 3 here."
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 452.56,
+      "end": 458.48,
+      "text": " I'm not sure if the font is visible but that's not important. If I say 2 plus 3 enter. Okay we got"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 458.48,
+      "end": 462.8,
+      "text": " syntax error. Again I will say 2.3. I think I've entered something weird. Okay so you can see we"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 462.8,
+      "end": 468.16,
+      "text": " got 5 there. So yeah you can do this here. You can do that here or in the command prompt which we have"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 468.16,
+      "end": 473.20000000000005,
+      "text": " opened earlier. But what about the PyCharm? So we got the PyCharm installation done. So you can"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 473.20000000000005,
+      "end": 478.48,
+      "text": " see we got PyCharm download complete. I will click on that. Taking some time and if you can see yes."
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 478.48,
+      "end": 483.6,
+      "text": " Okay now setup is very simple here. You just have to say next. Next. It will detect the Python as"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 483.6,
+      "end": 490.32000000000005,
+      "text": " well. The setup. I'll click on next. Install. Again will take some time. Okay looks like a"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 490.32000000000005,
+      "end": 494.64000000000004,
+      "text": " bulky software. It is doing a lot of extraction. But that's the thing with IDLEs you know they"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 494.64,
+      "end": 498.56,
+      "text": " are bulky. Otherwise you can also use VS Code if you want. That's your personal choice."
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 498.56,
+      "end": 504.71999999999997,
+      "text": " Everything which we are doing in PyCharm or on the IDLE it will also work on VS Code. Okay setup"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 504.71999999999997,
+      "end": 512.24,
+      "text": " complete and I can also say run here from here or I can simply click on finish. Let me open PyCharm."
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 512.24,
+      "end": 518.56,
+      "text": " Taking some time again. Okay I don't want to import these settings. Any import. Click on okay. So"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 518.56,
+      "end": 523.4399999999999,
+      "text": " basically I'm using PyCharm on this machine for the first time. So you will get some extra prompts."
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 523.44,
+      "end": 528.08,
+      "text": " Okay so what you can do here is you can create a project. You can name any project. You can name"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 528.08,
+      "end": 535.5200000000001,
+      "text": " anything you want. I can click on create and voila you got your project here. So this is how the"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 535.5200000000001,
+      "end": 540.08,
+      "text": " PyCharm looks like and that's your Python code. Again don't get confused with the code here. We'll"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 540.08,
+      "end": 546.4000000000001,
+      "text": " understand this one step by step. But this is your Python code here. You can even run this if you want"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 546.4000000000001,
+      "end": 551.2,
+      "text": " but it will take some time. Anyway we are going to see the PyCharm how to use it later in the course."
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 551.2800000000001,
+      "end": 555.9200000000001,
+      "text": " Yeah that's it from this video where we have the setup for the Python interpreter and PyCharm. So"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 555.9200000000001,
+      "end": 560.08,
+      "text": " if you are enjoying this series make sure that you hit that subscribe button and also hit the"
+    },
+    {
+      "number": "2",
+      "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+      "start": 560.08,
+      "end": 572.0,
+      "text": " bell icon because that's how you will know when I upload the other videos on the platform."
+    }
+  ],
+  "text": " Welcome back aliens. My name is Arvind Reddy and in this video we'll talk about the Python installation. The thing is we have talked about a language which is very powerful but then where you will write your code. Of course we can simply open your notepad and we can write the code which we want right. So example I can simply go back here and I can say okay what type of code I want to write. So it can be anything. It can be let's say two plus three. Now when you say you want to write a code it can be a calculation, a computation. So basically a normal calculation like adding two numbers or deciding in which stock to invest or maybe deciding who should be the next CEO. So basically the idea is if you want to write a code to design a software which can do some activities we have to write a code but where. If you write the code in the notepad of course you're not getting the output. Where you will get the output for this? This is tricky right and that's why in your machine you need a Python interpreter. So basically we have to install some software and in this machine I don't have it. How do I verify? It's very simple. You can open your command prompt. So if you're using Windows you can use command prompt to check it or if you're using Mac or Linux you can open the terminal. So I'm here on command prompt and here let me see if I have Python. Now basically the way you can check that is by saying Python version and if you get this type of error which says Python was not found that means in this machine I don't have Python. Okay with Python 3 you might also check if do you have Python 3 installed and you can see nothing is there. So even if you have Python installed sometime it will not work with the Python command. It might work for the Python 3 command. So do check both the versions and in this machine I don't have any. So how do you get it? So the first thing we need is Python interpreter and okay let's say we got Python interpreter and then you can write a code there. The thing is in the interpreter it provides you an option of writing a code one line at a time. So of course you can add two numbers but what if you want to build a big project? Now it can be a scientific project or an AI project. Now that's what is booming nowadays. So if you want to build an AI project or a web application or a desktop application where you will do it. For that you need a software where you can write the code, test your code, run your code, debug your code and also deploy your code to the cloud where you will do it. Now that's where we have to use something called an IDE which stands for integrated development environment. Now for Python we have a lot of options. Now one is very famous which is your PyCharm. Now this is from JetBrains. Again in this video I will show you how to install Python interpreter and the PyCharm. So let's start with the interpreter. So what you will do is in fact in the updated version of Windows when you say Python enter it will open the Microsoft store but let's say if you don't have this configured that's fine. What you can do is you can just go to Google and search for Python download. So you can say this is the option you will get. So of course the first website says Python you can download it from here. Now in the upcoming videos you might see a different version of Python installed and that's completely fine because in the version difference you will not find a lot of changes. So even those things those code will work here. Okay so you can go for Python 3.12 which is the latest version I feel. So if I click on download so you can see we got download Python 3.12. So you can download this version. 13 is in two places so don't use 13 as at this point. We got 12 which is 13.3.12. So we can click here and say download. Okay so you can see it is downloading and downloading complete. I feel yeah that's done. Now depend upon which OS you have Windows, Linux or Mac. Depend upon that you can choose from here. So you can see we have different options here and yeah so that's the thing. So let me click on this and install. So basically I don't have this installed so I will just click here and now this will install the software. Okay so you can see we have an option here which is install now or customize. I will go for simple installation but before doing that I also want to say add a python.exe to the path. Basically even if you have installed maybe whenever you open a different folder Python may not be available there. So if you do this add a python.exe to your path you don't have to manually search for the installation. So you can click on this install now and it will take some time. Now if you skip that step of add to the path then you have to manually set the path but anyway when you do the add to path you don't have to do the next the other steps. So by the time it is getting installed what we can do is we can also get the PyCharm downloads done. So I will search for PyCharm. Now PyCharm is from JetBrains which is a very famous company for the ids and software tools. So it helps developers. Now basically you can also use VS Code for Python. You can also use Anaconda or IDLA which is the interpreter and yeah many more. So I will just click on this. I will say download PyCharm. The thing is when you download or when you get to the PyCharm it's not actually free. Okay now that's a twist right. So we have two versions there. One is a paid version one is a free version. So I would encourage you to go for the free version but yes once you become a professional once you're working for a company then it makes sense to use the paid version. So this is the website and as I mentioned this is developed by JetBrains which is the website here. It's also the company and we also have a community version. So if you want the community version you can scroll down and you can see we have two different versions professional and community. I will click on the community version. If you go for the professional version you will get trial for one month. So you decide if you want to use it or not but I would encourage you to use the community version. So it's getting downloaded. Let me go back to my Python setup and looks like Python setup is completed. Let me click on close. So setup is complete. How do I verify? Again we have to go to command prompt. Now one thing to remember even if you have installed Python and if you directly do this it may not work. So you have to reopen your command prompt. So now if I say CMD and let me try now Python version and you can see we got Python installed. This time we are getting a version number. We're not getting that error which was getting earlier. So yeah Python is installed. Now how do I test it? It's very simple. You simply say Python it will open the interpreter. Now this is where you can write a code. Of course doesn't look good right. Maybe you need a software where you will find. In fact if you have learned some other languages you can write the code. You can see the project. You can run the code. We'll see that in PyCharm. But here you can see we got the interpreter and here I can simply add those two numbers and it is working right. So you can yeah you can do calculations computations whatever you can do in this prompt. Apart from this if you want to open Python you can also search for Python. So you can see it will also give you an app. So you can also use this one. This is the IDLE from Python. In fact IDLE looks like something like this. So this is the Python interpreter. You can also use IDLE. I know white theme. A lot of people don't like it. But for YouTube videos you know it makes sense to have a light theme. It looks good. It also encourages you to learn more. But anyway that's your choice if you want to use a white or black or dark. Especially for me I prefer to use dark theme when I'm coding and for videos I prefer white themes. Anyway that's a different debate. So I can just use this. I can also say 2 plus 3 here. I'm not sure if the font is visible but that's not important. If I say 2 plus 3 enter. Okay we got syntax error. Again I will say 2.3. I think I've entered something weird. Okay so you can see we got 5 there. So yeah you can do this here. You can do that here or in the command prompt which we have opened earlier. But what about the PyCharm? So we got the PyCharm installation done. So you can see we got PyCharm download complete. I will click on that. Taking some time and if you can see yes. Okay now setup is very simple here. You just have to say next. Next. It will detect the Python as well. The setup. I'll click on next. Install. Again will take some time. Okay looks like a bulky software. It is doing a lot of extraction. But that's the thing with IDLEs you know they are bulky. Otherwise you can also use VS Code if you want. That's your personal choice. Everything which we are doing in PyCharm or on the IDLE it will also work on VS Code. Okay setup complete and I can also say run here from here or I can simply click on finish. Let me open PyCharm. Taking some time again. Okay I don't want to import these settings. Any import. Click on okay. So basically I'm using PyCharm on this machine for the first time. So you will get some extra prompts. Okay so what you can do here is you can create a project. You can name any project. You can name anything you want. I can click on create and voila you got your project here. So this is how the PyCharm looks like and that's your Python code. Again don't get confused with the code here. We'll understand this one step by step. But this is your Python code here. You can even run this if you want but it will take some time. Anyway we are going to see the PyCharm how to use it later in the course. Yeah that's it from this video where we have the setup for the Python interpreter and PyCharm. So if you are enjoying this series make sure that you hit that subscribe button and also hit the bell icon because that's how you will know when I upload the other videos on the platform."
+}

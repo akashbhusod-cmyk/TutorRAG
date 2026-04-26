@@ -1,0 +1,908 @@
+{
+  "chunks": [
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 0.0,
+      "end": 8.88,
+      "text": " Welcome back aliens. My name is Devin Reddy. And let's continue the series on Python. Till"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 8.88,
+      "end": 13.040000000000001,
+      "text": " this point we have seen so many stuff right we have worked with operators we have worked"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 13.040000000000001,
+      "end": 18.48,
+      "text": " with functions which are inbuilt. Now it's time to do something big. No, when I say big"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 18.48,
+      "end": 23.240000000000002,
+      "text": " I'm not talking about making games or something because it takes time. Okay. I know you people"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 23.240000000000002,
+      "end": 27.6,
+      "text": " are learning Python so that you can work on big projects. But it takes time you have to"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 27.6,
+      "end": 32.68,
+      "text": " go step by step. If you jump directly on projects you will get stuck. So make sure that you"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 32.68,
+      "end": 37.04,
+      "text": " know the basics. So in this video let's try to make big code. Okay. So when I say big"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 37.04,
+      "end": 41.0,
+      "text": " code till this point we were writing one line of code. Now it will go for three to four"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 41.0,
+      "end": 45.2,
+      "text": " lines of code. Right. So that's a big step. But then where to type this code because see"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 45.2,
+      "end": 50.28,
+      "text": " whatever we have done till now we were doing it on a interactive console. So the thing"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 50.28,
+      "end": 54.760000000000005,
+      "text": " which we do so which the ideally which you are working with this is your interactive"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 54.76,
+      "end": 59.16,
+      "text": " console and whatever you do here it will give you the instant output. Right. Example"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 59.16,
+      "end": 64.03999999999999,
+      "text": " if I say print and then if I if I pass a message here which is which is hello and if I say"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 64.03999999999999,
+      "end": 68.12,
+      "text": " enter you got the output. This is interactive console. Right. But then when you work on"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 68.12,
+      "end": 72.2,
+      "text": " a project you will write multiple lines of code. Where do we do it. Of course you will"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 72.2,
+      "end": 77.08,
+      "text": " not be using this console to do it right. And that's why you will be creating certain"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 77.08,
+      "end": 81.88,
+      "text": " files when you write a code. But whatever files I'm talking about. Think about this."
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 81.88,
+      "end": 87.16,
+      "text": " When you type a document on MS Word you get .doc. When you when you want a material to"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 87.16,
+      "end": 93.28,
+      "text": " read. So we prefer PDF. So for music we use .mp3. In the same format for Python we have"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 93.28,
+      "end": 99.91999999999999,
+      "text": " a file extension called .py. So we have to create a py files. How do we do that. There"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 99.91999999999999,
+      "end": 105.91999999999999,
+      "text": " are certain steps. Example you can open notepad type the code save it as .demo.py. Doesn't"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 105.91999999999999,
+      "end": 110.32,
+      "text": " matter what the file name is. And then you can run it. Otherwise what you can do is since"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 110.32,
+      "end": 115.47999999999999,
+      "text": " we have our IDE available here. I will click on file and you can see we have an option"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 115.47999999999999,
+      "end": 121.24,
+      "text": " of new file so we can write a code here as well. Better right. OK. So let's write the"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 121.24,
+      "end": 125.08,
+      "text": " code. Now simple code of course will go step by step. What we'll do. Let's go with the"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 125.08,
+      "end": 129.51999999999998,
+      "text": " simplest one which is printing. Hello. That's it. Nothing big. Well print. Hello. That's"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 129.51999999999998,
+      "end": 133.95999999999998,
+      "text": " it. Now what do you think. How will you run this code. OK. Now steps. Before running a"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 133.95999999999998,
+      "end": 138.79999999999998,
+      "text": " code you need to save the code. And how do we do that. You simply say control S. Of course"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 138.8,
+      "end": 143.4,
+      "text": " everyone knows that. And then you can store this file anywhere you want. Maybe on cloud"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 143.4,
+      "end": 148.32000000000002,
+      "text": " storage as well. Maybe Google Drive or Dropbox. But here let's go with the cloud local one."
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 148.32000000000002,
+      "end": 153.48000000000002,
+      "text": " Now I will store this file on desktop. You can store it anywhere you want. But is it"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 153.48000000000002,
+      "end": 157.76000000000002,
+      "text": " easy to access with the desktop. So I will go to desktop and on desktop I already have"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 157.76000000000002,
+      "end": 162.08,
+      "text": " a folder called Python codes. You can create that folder or you can just directly say on"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 162.08,
+      "end": 168.06,
+      "text": " desktop that works in this folder. And then I will create a file. I already have a demo"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 168.18,
+      "end": 173.06,
+      "text": " file. Let's go for some different name. I would say this is my code. So file name is"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 173.06,
+      "end": 178.34,
+      "text": " my code. But then the extension is very important. So the extension here is P Y. So I will go"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 178.34,
+      "end": 183.3,
+      "text": " with that extension and I will say save. Now once you have saved your file it's time to"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 183.3,
+      "end": 188.98000000000002,
+      "text": " run this. So how do we run this file. Just go here on run and click on run module. This"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 188.98000000000002,
+      "end": 192.78,
+      "text": " is not the only way to do it. There are multiple ways but this is one way. Let's go with this"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 192.78,
+      "end": 198.1,
+      "text": " way first. Click on run module and look at your code. So on the console or on the shell"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 198.1,
+      "end": 204.38,
+      "text": " you got your output which is hello. It works right. Do we have another way. Yes we have."
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 204.38,
+      "end": 208.98,
+      "text": " We can also do that from a command prompt. You can go here. This is your command prompt"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 208.98,
+      "end": 212.78,
+      "text": " and you can run your code here. But how we do that. Now we can do that with the help"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 212.78,
+      "end": 217.42000000000002,
+      "text": " of a command called Python. Now if you remember when you install Python in your machine and"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 217.42000000000002,
+      "end": 222.1,
+      "text": " we have done that set path thing if you remember. We can do that here. We can run that code"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 222.1,
+      "end": 225.98,
+      "text": " here. Now first of all before running a code we have to make sure that you navigate to"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 225.98,
+      "end": 229.06,
+      "text": " the folder where you have this file which is Python. So I will navigate there. So I"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 229.06,
+      "end": 234.42,
+      "text": " will say CD desktop. Now once I'm in desktop I will navigate to Python codes and you can"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 234.42,
+      "end": 239.34,
+      "text": " see I'm doing the folder now and it's time to run this. How do we run this. We'll say"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 239.34,
+      "end": 245.94,
+      "text": " Python and the file name. The file name is my code dot P Y and that's it. Say enter."
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 245.94,
+      "end": 250.42,
+      "text": " That's your output. Right. So it works. So you can run that on a shell or you can run"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 250.42,
+      "end": 254.82,
+      "text": " that on on the command prompt as well. Your choice. Of course when you work on a project"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 254.82,
+      "end": 259.53999999999996,
+      "text": " you will be using IDE something like PyCharm or Eclipse because it makes much more sense"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 259.53999999999996,
+      "end": 264.09999999999997,
+      "text": " there. But command prompt also works. Let's get back here. Again we'll go to command prompt"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 264.09999999999997,
+      "end": 268.62,
+      "text": " after some time but time let's use this one which is this editor. Now once we got print"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 268.62,
+      "end": 272.58,
+      "text": " hello let's write a big code. Now when I say big code let's write a code for three to four"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 272.58,
+      "end": 276.98,
+      "text": " lines. I want to add two numbers. That's it. So what I will do is I will say X equal to"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 276.98,
+      "end": 282.42,
+      "text": " five and Y is equal to six. So we got two values and then I want to add these two values"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 282.42,
+      "end": 287.70000000000005,
+      "text": " and how do we do that. We have done that before. I would say that equal to X plus Y. And then"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 287.70000000000005,
+      "end": 292.46000000000004,
+      "text": " once you've got the addition it's time to print it. Let's print it. So it's a print"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 292.46000000000004,
+      "end": 297.3,
+      "text": " Z and that's it. Save this file and now it's time to run this. You can click on run and"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 297.3,
+      "end": 302.82,
+      "text": " you can click on run module or shortcuts. You know can you use that F5. So you're going"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 302.82,
+      "end": 308.06,
+      "text": " to run every time and run is because we want to save our time. Right. Simply say F5 and"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 308.06,
+      "end": 312.78,
+      "text": " you've got the output which is 11. Yeah it's working. This is one place where you can write"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 312.78,
+      "end": 319.65999999999997,
+      "text": " a code. Otherwise we can actually use an IDE which is there in our system which is PyCharm."
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 319.65999999999997,
+      "end": 325.65999999999997,
+      "text": " You can use any IDE which you like. OK. All the codes work on every IDE. It's just that"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 325.65999999999997,
+      "end": 331.18,
+      "text": " everyone have their own preference. I prefer JetBrains products. PyCharm is good. I also"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 331.18,
+      "end": 335.46,
+      "text": " love Eclipse. You can try that as well. If you want some other IDE which you like which"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 335.46,
+      "end": 341.02,
+      "text": " you feel is better try that. Every code works on all the IDE's. How do we work with PyCharm."
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 341.02,
+      "end": 345.56,
+      "text": " It's very easy. Just search for PyCharm. Of course I hope you have installed it before."
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 345.56,
+      "end": 349.98,
+      "text": " And then when you open PyCharm it is how this is how it looks like. So this is this is the"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 349.98,
+      "end": 354.46000000000004,
+      "text": " prompt you will get. Now how do we get started. So of course when you are when you are working"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 354.46000000000004,
+      "end": 358.78000000000003,
+      "text": " with PyCharm for the first time you will not get this option of having a project already."
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 358.78,
+      "end": 364.05999999999995,
+      "text": " You need to click on create new project. And then here I will enter a project name."
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 364.05999999999995,
+      "end": 368.78,
+      "text": " We can say this is test project. So of course when you make a project you will be having"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 368.78,
+      "end": 373.09999999999997,
+      "text": " a good name but time when test project works. I will click on create and you can see we"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 373.09999999999997,
+      "end": 376.9,
+      "text": " got PyCharm with our project. It takes some it does take some time to create the environment"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 376.9,
+      "end": 381.38,
+      "text": " for you. Now you can see we got our PyCharm and this is how it looks like. So when you"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 381.38,
+      "end": 385.41999999999996,
+      "text": " so on the left hand side you can see we have a project section. So this is where you will"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 385.42,
+      "end": 389.46000000000004,
+      "text": " see your project folders your project files. This is where you will write the code. Of"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 389.46000000000004,
+      "end": 393.62,
+      "text": " course you don't have any option of writing code now. And this is how you have a panel"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 393.62,
+      "end": 398.42,
+      "text": " where you can run the code where you can debug the code. And this is where you have you know"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 398.42,
+      "end": 402.38,
+      "text": " when multiple option example if you want to change the setting you can just go to file"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 402.38,
+      "end": 405.90000000000003,
+      "text": " and change the setting like you want to change the font size you want to change the color"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 405.90000000000003,
+      "end": 409.70000000000005,
+      "text": " theme because some people they like dark themes you know so you can change that here. Again"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 409.70000000000005,
+      "end": 413.98,
+      "text": " we'll go through that. But before that I want to create a file here. So what I will do is"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 413.98,
+      "end": 419.38,
+      "text": " I will say right click and say new create a file. You can create a file or you can create"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 419.38,
+      "end": 425.1,
+      "text": " a Python file because Python file will give you the extension dot dot py. I would say"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 425.1,
+      "end": 430.14000000000004,
+      "text": " this is my code again. Click on OK. And you can see I just entered my code. Look at the"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 430.14000000000004,
+      "end": 436.66,
+      "text": " extension dot py is by default. OK this works. Let's write the same code. In fact I will"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 436.66,
+      "end": 441.66,
+      "text": " copy paste the code because I'm lazy to type it copied paste. OK you've got your code here."
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 441.66,
+      "end": 447.32000000000005,
+      "text": " Now if you want to change the font size it's very easy. Just go to file and click on setting."
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 447.32000000000005,
+      "end": 453.18,
+      "text": " You can see there's an option of editor font. So I was at 25 and click on OK. You can see"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 453.18,
+      "end": 456.90000000000003,
+      "text": " we got the font size of 25. So it is much visible now. Now we need to run this file"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 456.90000000000003,
+      "end": 460.78000000000003,
+      "text": " right. How do we run this. It's very easy. Just click on run and there's an option of"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 460.78000000000003,
+      "end": 466.02000000000004,
+      "text": " run the file. So you can just click on run my code and you can see the output. It's 11."
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 466.02000000000004,
+      "end": 469.5,
+      "text": " If you don't want to do it from here you can just right click and say run my code instead"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 469.5,
+      "end": 473.58,
+      "text": " of going up and down. And the next time if you want to run this file you can click here"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 473.58,
+      "end": 477.86,
+      "text": " to run. If you make any changes example if I want to change the value from 6 to let's"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 477.86,
+      "end": 482.7,
+      "text": " say 8. And if I want to run this code you can simply click on run button there and it"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 482.7,
+      "end": 486.54,
+      "text": " should work. You can see we got 13. So it works here. In fact you know there is one"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 486.54,
+      "end": 492.58,
+      "text": " advantage of using an IDE which is debug. Now when you say debug you can actually trace"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 492.58,
+      "end": 496.78,
+      "text": " what is happening you know how how your code is changing how value is changing. You know"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 496.78,
+      "end": 500.97999999999996,
+      "text": " let me just do it for you. Let me show you a magic. You can actually see what is happening"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 500.97999999999996,
+      "end": 505.38,
+      "text": " in the code. So first for that first of all you have to add a breakpoint. Now it is breakpoint"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 505.38,
+      "end": 509.53999999999996,
+      "text": " breakpoint is something from where you are. You can you can trace your code. So to get"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 509.53999999999996,
+      "end": 512.74,
+      "text": " the breakpoint just click on the right number. So if you if you want a breakpoint here just"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 512.74,
+      "end": 518.5799999999999,
+      "text": " click there. Now once you've got your breakpoint you need to go to run and click on debug."
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 518.5799999999999,
+      "end": 521.78,
+      "text": " Now when you click on debug it will ask you for the file name which is my code. And you"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 521.78,
+      "end": 526.22,
+      "text": " can see it is it is starting it is it has started the execution. Now how do you go to"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 526.22,
+      "end": 531.4599999999999,
+      "text": " next line because it is only on the first line now right. So you just need to type F8."
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 531.4599999999999,
+      "end": 536.4599999999999,
+      "text": " Otherwise you can just go to run and say step over but we will press F8. Now the moment"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 536.4599999999999,
+      "end": 542.22,
+      "text": " I press F8 now look at the variable section. So in the variable section it says X is of"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 542.22,
+      "end": 546.8199999999999,
+      "text": " type int and the value is 5. You can actually track what is happening. In fact on the on"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 546.82,
+      "end": 551.98,
+      "text": " the here itself you can you can see we got X colon 5. Now it so for this code it doesn't"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 551.98,
+      "end": 554.7800000000001,
+      "text": " make any sense because we know the value. But when you let's say if you are working"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 554.7800000000001,
+      "end": 559.4200000000001,
+      "text": " on a big project and there is there is some bug in let's say let's say you have a file"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 559.4200000000001,
+      "end": 565.0600000000001,
+      "text": " of 1000 lines OK and there is a bug on line number 28. How would you know that is a bug"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 565.0600000000001,
+      "end": 569.38,
+      "text": " on line number 28. So you have to trace right. So maybe you know that there is something"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 569.38,
+      "end": 574.22,
+      "text": " wrong between line number 20 and 15. But where. So you can trace you know you can put a breakpoint"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 574.22,
+      "end": 578.26,
+      "text": " on line number 20 and then you can trace. Let's press F8 again and you can see we got"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 578.26,
+      "end": 583.58,
+      "text": " Y values 8. Let's press F8. Now you can see Z values 13 and then you're printing Z value"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 583.58,
+      "end": 587.26,
+      "text": " and that's where you got the output. Right. So that's how all these things are working."
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 587.26,
+      "end": 591.82,
+      "text": " We will be using PyCharm a lot. So maybe from next videos we'll be we'll be focusing more"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 591.82,
+      "end": 596.86,
+      "text": " on PyCharm. Maybe we'll go back to IDLA for some code or maybe command prompt but majorly"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 596.86,
+      "end": 602.7,
+      "text": " we'll be using PyCharm. So I hope you enjoyed this video working with files and PyCharm."
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 602.7,
+      "end": 606.22,
+      "text": " If you have any questions let me know in the comment section. If you are enjoying this"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 606.22,
+      "end": 610.86,
+      "text": " series let your friends know about this series. So do give a thumbs up and subscribe to the"
+    },
+    {
+      "number": "16",
+      "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+      "start": 610.86,
+      "end": 613.26,
+      "text": " channel if you have not done yet. So that's it. Bye bye."
+    }
+  ],
+  "text": " Welcome back aliens. My name is Devin Reddy. And let's continue the series on Python. Till this point we have seen so many stuff right we have worked with operators we have worked with functions which are inbuilt. Now it's time to do something big. No, when I say big I'm not talking about making games or something because it takes time. Okay. I know you people are learning Python so that you can work on big projects. But it takes time you have to go step by step. If you jump directly on projects you will get stuck. So make sure that you know the basics. So in this video let's try to make big code. Okay. So when I say big code till this point we were writing one line of code. Now it will go for three to four lines of code. Right. So that's a big step. But then where to type this code because see whatever we have done till now we were doing it on a interactive console. So the thing which we do so which the ideally which you are working with this is your interactive console and whatever you do here it will give you the instant output. Right. Example if I say print and then if I if I pass a message here which is which is hello and if I say enter you got the output. This is interactive console. Right. But then when you work on a project you will write multiple lines of code. Where do we do it. Of course you will not be using this console to do it right. And that's why you will be creating certain files when you write a code. But whatever files I'm talking about. Think about this. When you type a document on MS Word you get .doc. When you when you want a material to read. So we prefer PDF. So for music we use .mp3. In the same format for Python we have a file extension called .py. So we have to create a py files. How do we do that. There are certain steps. Example you can open notepad type the code save it as .demo.py. Doesn't matter what the file name is. And then you can run it. Otherwise what you can do is since we have our IDE available here. I will click on file and you can see we have an option of new file so we can write a code here as well. Better right. OK. So let's write the code. Now simple code of course will go step by step. What we'll do. Let's go with the simplest one which is printing. Hello. That's it. Nothing big. Well print. Hello. That's it. Now what do you think. How will you run this code. OK. Now steps. Before running a code you need to save the code. And how do we do that. You simply say control S. Of course everyone knows that. And then you can store this file anywhere you want. Maybe on cloud storage as well. Maybe Google Drive or Dropbox. But here let's go with the cloud local one. Now I will store this file on desktop. You can store it anywhere you want. But is it easy to access with the desktop. So I will go to desktop and on desktop I already have a folder called Python codes. You can create that folder or you can just directly say on desktop that works in this folder. And then I will create a file. I already have a demo file. Let's go for some different name. I would say this is my code. So file name is my code. But then the extension is very important. So the extension here is P Y. So I will go with that extension and I will say save. Now once you have saved your file it's time to run this. So how do we run this file. Just go here on run and click on run module. This is not the only way to do it. There are multiple ways but this is one way. Let's go with this way first. Click on run module and look at your code. So on the console or on the shell you got your output which is hello. It works right. Do we have another way. Yes we have. We can also do that from a command prompt. You can go here. This is your command prompt and you can run your code here. But how we do that. Now we can do that with the help of a command called Python. Now if you remember when you install Python in your machine and we have done that set path thing if you remember. We can do that here. We can run that code here. Now first of all before running a code we have to make sure that you navigate to the folder where you have this file which is Python. So I will navigate there. So I will say CD desktop. Now once I'm in desktop I will navigate to Python codes and you can see I'm doing the folder now and it's time to run this. How do we run this. We'll say Python and the file name. The file name is my code dot P Y and that's it. Say enter. That's your output. Right. So it works. So you can run that on a shell or you can run that on on the command prompt as well. Your choice. Of course when you work on a project you will be using IDE something like PyCharm or Eclipse because it makes much more sense there. But command prompt also works. Let's get back here. Again we'll go to command prompt after some time but time let's use this one which is this editor. Now once we got print hello let's write a big code. Now when I say big code let's write a code for three to four lines. I want to add two numbers. That's it. So what I will do is I will say X equal to five and Y is equal to six. So we got two values and then I want to add these two values and how do we do that. We have done that before. I would say that equal to X plus Y. And then once you've got the addition it's time to print it. Let's print it. So it's a print Z and that's it. Save this file and now it's time to run this. You can click on run and you can click on run module or shortcuts. You know can you use that F5. So you're going to run every time and run is because we want to save our time. Right. Simply say F5 and you've got the output which is 11. Yeah it's working. This is one place where you can write a code. Otherwise we can actually use an IDE which is there in our system which is PyCharm. You can use any IDE which you like. OK. All the codes work on every IDE. It's just that everyone have their own preference. I prefer JetBrains products. PyCharm is good. I also love Eclipse. You can try that as well. If you want some other IDE which you like which you feel is better try that. Every code works on all the IDE's. How do we work with PyCharm. It's very easy. Just search for PyCharm. Of course I hope you have installed it before. And then when you open PyCharm it is how this is how it looks like. So this is this is the prompt you will get. Now how do we get started. So of course when you are when you are working with PyCharm for the first time you will not get this option of having a project already. You need to click on create new project. And then here I will enter a project name. We can say this is test project. So of course when you make a project you will be having a good name but time when test project works. I will click on create and you can see we got PyCharm with our project. It takes some it does take some time to create the environment for you. Now you can see we got our PyCharm and this is how it looks like. So when you so on the left hand side you can see we have a project section. So this is where you will see your project folders your project files. This is where you will write the code. Of course you don't have any option of writing code now. And this is how you have a panel where you can run the code where you can debug the code. And this is where you have you know when multiple option example if you want to change the setting you can just go to file and change the setting like you want to change the font size you want to change the color theme because some people they like dark themes you know so you can change that here. Again we'll go through that. But before that I want to create a file here. So what I will do is I will say right click and say new create a file. You can create a file or you can create a Python file because Python file will give you the extension dot dot py. I would say this is my code again. Click on OK. And you can see I just entered my code. Look at the extension dot py is by default. OK this works. Let's write the same code. In fact I will copy paste the code because I'm lazy to type it copied paste. OK you've got your code here. Now if you want to change the font size it's very easy. Just go to file and click on setting. You can see there's an option of editor font. So I was at 25 and click on OK. You can see we got the font size of 25. So it is much visible now. Now we need to run this file right. How do we run this. It's very easy. Just click on run and there's an option of run the file. So you can just click on run my code and you can see the output. It's 11. If you don't want to do it from here you can just right click and say run my code instead of going up and down. And the next time if you want to run this file you can click here to run. If you make any changes example if I want to change the value from 6 to let's say 8. And if I want to run this code you can simply click on run button there and it should work. You can see we got 13. So it works here. In fact you know there is one advantage of using an IDE which is debug. Now when you say debug you can actually trace what is happening you know how how your code is changing how value is changing. You know let me just do it for you. Let me show you a magic. You can actually see what is happening in the code. So first for that first of all you have to add a breakpoint. Now it is breakpoint breakpoint is something from where you are. You can you can trace your code. So to get the breakpoint just click on the right number. So if you if you want a breakpoint here just click there. Now once you've got your breakpoint you need to go to run and click on debug. Now when you click on debug it will ask you for the file name which is my code. And you can see it is it is starting it is it has started the execution. Now how do you go to next line because it is only on the first line now right. So you just need to type F8. Otherwise you can just go to run and say step over but we will press F8. Now the moment I press F8 now look at the variable section. So in the variable section it says X is of type int and the value is 5. You can actually track what is happening. In fact on the on the here itself you can you can see we got X colon 5. Now it so for this code it doesn't make any sense because we know the value. But when you let's say if you are working on a big project and there is there is some bug in let's say let's say you have a file of 1000 lines OK and there is a bug on line number 28. How would you know that is a bug on line number 28. So you have to trace right. So maybe you know that there is something wrong between line number 20 and 15. But where. So you can trace you know you can put a breakpoint on line number 20 and then you can trace. Let's press F8 again and you can see we got Y values 8. Let's press F8. Now you can see Z values 13 and then you're printing Z value and that's where you got the output. Right. So that's how all these things are working. We will be using PyCharm a lot. So maybe from next videos we'll be we'll be focusing more on PyCharm. Maybe we'll go back to IDLA for some code or maybe command prompt but majorly we'll be using PyCharm. So I hope you enjoyed this video working with files and PyCharm. If you have any questions let me know in the comment section. If you are enjoying this series let your friends know about this series. So do give a thumbs up and subscribe to the channel if you have not done yet. So that's it. Bye bye."
+}

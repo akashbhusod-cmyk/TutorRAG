@@ -1,0 +1,75 @@
+{
+    "chunks": [
+        {
+            "number": "17",
+            "title": "Python Tutorial for Beginners | Swap 2 Variables in Python",
+            "start": 0.0,
+            "end": 35.1,
+            "text": " Welcome back aliens. My name is Dhavind Reddy and in this video we'll see how do you swap two numbers in Python.  So let's say we have two variables a and b. The value for a is 5 and the value for b is 6.  How do you swap these two values?  So normally in different languages we have different way of implementing it.  But one thing is common in most of the language which is you have to use a third variable to swap them.  Because you cannot simply say a equal to b and b equal to a.  It will not work right.  For example, if I try to print the value of a and b now, we are expecting that it should print 6 and 5 after swapping."
+        },
+        {
+            "number": "17",
+            "title": "Python Tutorial for Beginners | Swap 2 Variables in Python",
+            "start": 35.1,
+            "end": 66.3,
+            "text": " But the moment you run this code you can see we got 6 and 6.  That means we lost the value 5. So it is not exactly swapping it.  Now what's happening here?  The thing is the moment you say a equal to b that means the value for b which is 6 goes into a.  And you lost the value which is 5. We wanted 5 right? We wanted to store 5 somewhere.  And that's why before assigning the value b to a, what you will do is you will take the value of a and you will put that in a temp variable.  You can use any variable name, doesn't matter.  So what you will do is you will take a, you will save that a in a temp variable."
+        },
+        {
+            "number": "17",
+            "title": "Python Tutorial for Beginners | Swap 2 Variables in Python",
+            "start": 66.3,
+            "end": 91.9,
+            "text": " And at the end you will not assign the value of a to b because already a has 6 now.  So you will assign the value of temp to b.  So you are storing the value of a to temp.  Then you are copying the value from b to a and at the end you are simply saying temp is, I mean b is equal to temp.  It will swap the value. Let's verify.  And you can see we got the value which is 6 and 5.  So value for a was 5, now it is 6.  The value for b was 6, now it is 5.  Swapping is done.  But then there is a problem. You are wasting a variable right?"
+        },
+        {
+            "number": "17",
+            "title": "Python Tutorial for Beginners | Swap 2 Variables in Python",
+            "start": 91.9,
+            "end": 123.9,
+            "text": " And in most of the languages we have different techniques.  But in Python we have amazing way of doing this and we will see that at the end of the video.  But then let's try to simplify it. Can we use it in a better way instead of using a third variable?  Normally when you go for the interviews they might ask you this question.  How will you swap two values without using a third variable?  In this case what you will do is you will simply use a formula.  So instead of using a third variable you can use a formula here which is a is equal to a plus b.  And you will say b is equal to a minus b and a is equal to a minus b."
+        },
+        {
+            "number": "17",
+            "title": "Python Tutorial for Beginners | Swap 2 Variables in Python",
+            "start": 123.9,
+            "end": 154.9,
+            "text": " Now it doesn't matter from where we got this formula but it works right?  Example if you run this code you can still see we got 6 and 5.  So to understand how it works, so let's see what is a plus b.  So a is 5 and b is 6. So a plus b is 11.  And here at this point the value for a is 11 right? Because we have updated it.  So the new value for a is 11. The value for b is 6.  So the new value for b becomes 5. So the value for a is 11. The value for b is 5.  And now we have one more. So here the value for a is 11. The value for b is 5."
+        },
+        {
+            "number": "17",
+            "title": "Python Tutorial for Beginners | Swap 2 Variables in Python",
+            "start": 154.9,
+            "end": 187.9,
+            "text": " The new values right? And the value for a becomes 6.  And you can see we got a swapped value. The value for a is 6. The value for b is 5.  We have done it. We still have one issue with this.  The issue is, you know if you go in deep, the amount of bits required for 5 is 3 bits right?  So 101 is 5 and 6 is basically 110.  You require 3 bits for 5 and you require 3 bits for 6.  But what about 11? 11 needs 4 bits. That means you are still wasting one extra bit.  I know it's not a big number but then still you are wasting a bit.  And that's why we have one more way which is XOR."
+        },
+        {
+            "number": "17",
+            "title": "Python Tutorial for Beginners | Swap 2 Variables in Python",
+            "start": 187.9,
+            "end": 218.9,
+            "text": " So you can simply use a cap which is a XOR symbol.  XOR works in a different way. So what you can do is you can just go to Google and you can find how XOR works.  And you will find the answer. The advantage of XOR is it will not waste extra bits.  Okay so that means this thing. If the initial value is of 3 bits, the output will also be of 3 bits.  You are not wasting extra memory then and you can still see the output. You got 6 and 5.  So yes there are different ways of swapping. So we got third variable.  We can use operators like plus, minus or you can use this cap symbol which is XOR basically."
+        },
+        {
+            "number": "17",
+            "title": "Python Tutorial for Beginners | Swap 2 Variables in Python",
+            "start": 218.9,
+            "end": 249.9,
+            "text": " We have one more which is amazing about Python and which is if you want to swap two values you can simply say  and this is not there in other languages okay. This is very unique to Python.  So you can simply say a, b is equal to b, a.  See this thing doesn't work in two different lines but it works in one line.  How this works? Let me run this code and you can see it works. We got 6 and 5.  So swapping is done. But how it is working?  So let's try to understand how it works. So basically when you say b is equal to a right.  So normally your right side will solve first. So your system will solve the right part first."
+        },
+        {
+            "number": "17",
+            "title": "Python Tutorial for Beginners | Swap 2 Variables in Python",
+            "start": 249.9,
+            "end": 280.9,
+            "text": " So it will solve b, a. The value for b is 6. The value for a is 5.  This goes into stack. So we have a stack. It goes into a stack and then it reverse.  So we have a concept of rotation. So it will rotate these two values.  So the value of a comes to b and the value of b comes to a and those thing will be assigned here.  It is just rotating the value. Or in simple terms you can imagine a gets the value of b and b gets the value of a.  But behind the scene it works in a different way. It uses a concept of two rotation or rotation two.  So you can simply go to Google and search for rot2 in Python."
+        },
+        {
+            "number": "17",
+            "title": "Python Tutorial for Beginners | Swap 2 Variables in Python",
+            "start": 280.9,
+            "end": 290.9,
+            "text": " Right, you will get the idea. So even this works.  So let me know in the comment section if you have any more questions.  And so that's it from this video. I hope you enjoyed swapping off two numbers.  See you in the next video."
+        }
+    ],
+    "text": " Welcome back aliens. My name is Dhavind Reddy and in this video we'll see how do you swap two numbers in Python. So let's say we have two variables a and b. The value for a is 5 and the value for b is 6. How do you swap these two values? So normally in different languages we have different way of implementing it. But one thing is common in most of the language which is you have to use a third variable to swap them. Because you cannot simply say a equal to b and b equal to a. It will not work right. For example, if I try to print the value of a and b now, we are expecting that it should print 6 and 5 after swapping. But the moment you run this code you can see we got 6 and 6. That means we lost the value 5. So it is not exactly swapping it. Now what's happening here? The thing is the moment you say a equal to b that means the value for b which is 6 goes into a. And you lost the value which is 5. We wanted 5 right? We wanted to store 5 somewhere. And that's why before assigning the value b to a, what you will do is you will take the value of a and you will put that in a temp variable. You can use any variable name, doesn't matter. So what you will do is you will take a, you will save that a in a temp variable. And at the end you will not assign the value of a to b because already a has 6 now. So you will assign the value of temp to b. So you are storing the value of a to temp. Then you are copying the value from b to a and at the end you are simply saying temp is, I mean b is equal to temp. It will swap the value. Let's verify. And you can see we got the value which is 6 and 5. So value for a was 5, now it is 6. The value for b was 6, now it is 5. Swapping is done. But then there is a problem. You are wasting a variable right? And in most of the languages we have different techniques. But in Python we have amazing way of doing this and we will see that at the end of the video. But then let's try to simplify it. Can we use it in a better way instead of using a third variable? Normally when you go for the interviews they might ask you this question. How will you swap two values without using a third variable? In this case what you will do is you will simply use a formula. So instead of using a third variable you can use a formula here which is a is equal to a plus b. And you will say b is equal to a minus b and a is equal to a minus b. Now it doesn't matter from where we got this formula but it works right? Example if you run this code you can still see we got 6 and 5. So to understand how it works, so let's see what is a plus b. So a is 5 and b is 6. So a plus b is 11. And here at this point the value for a is 11 right? Because we have updated it. So the new value for a is 11. The value for b is 6. So the new value for b becomes 5. So the value for a is 11. The value for b is 5. And now we have one more. So here the value for a is 11. The value for b is 5. The new values right? And the value for a becomes 6. And you can see we got a swapped value. The value for a is 6. The value for b is 5. We have done it. We still have one issue with this. The issue is, you know if you go in deep, the amount of bits required for 5 is 3 bits right? So 101 is 5 and 6 is basically 110. You require 3 bits for 5 and you require 3 bits for 6. But what about 11? 11 needs 4 bits. That means you are still wasting one extra bit. I know it's not a big number but then still you are wasting a bit. And that's why we have one more way which is XOR. So you can simply use a cap which is a XOR symbol. XOR works in a different way. So what you can do is you can just go to Google and you can find how XOR works. And you will find the answer. The advantage of XOR is it will not waste extra bits. Okay so that means this thing. If the initial value is of 3 bits, the output will also be of 3 bits. You are not wasting extra memory then and you can still see the output. You got 6 and 5. So yes there are different ways of swapping. So we got third variable. We can use operators like plus, minus or you can use this cap symbol which is XOR basically. We have one more which is amazing about Python and which is if you want to swap two values you can simply say and this is not there in other languages okay. This is very unique to Python. So you can simply say a, b is equal to b, a. See this thing doesn't work in two different lines but it works in one line. How this works? Let me run this code and you can see it works. We got 6 and 5. So swapping is done. But how it is working? So let's try to understand how it works. So basically when you say b is equal to a right. So normally your right side will solve first. So your system will solve the right part first. So it will solve b, a. The value for b is 6. The value for a is 5. This goes into stack. So we have a stack. It goes into a stack and then it reverse. So we have a concept of rotation. So it will rotate these two values. So the value of a comes to b and the value of b comes to a and those thing will be assigned here. It is just rotating the value. Or in simple terms you can imagine a gets the value of b and b gets the value of a. But behind the scene it works in a different way. It uses a concept of two rotation or rotation two. So you can simply go to Google and search for rot2 in Python. Right, you will get the idea. So even this works. So let me know in the comment section if you have any more questions. And so that's it from this video. I hope you enjoyed swapping off two numbers. See you in the next video."
+}

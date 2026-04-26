@@ -1,0 +1,82 @@
+{
+    "chunks": [
+        {
+            "number": "7",
+            "title": "Python Tutorial for Beginners | Python Set Path in Windows and Help",
+            "start": 0.0,
+            "end": 38.16,
+            "text": " Welcome back aliens. My name is Abhinav Reddy. And let's continue with the series on Python.  In fact, till this point, we have seen basic stuff, right? But now we have a question,  you know, till this point, we are using ID L E as our ID. But what if you want to use  command prompt, you know, in normally when you work with shell or command prompt, you  want to access Python on the command prompt? How do I do that? Let me just try. So if I  open my command prompt, if I say CMD enter, and now if I type a command, let me just try  so command is Python. You know, in Python, we have certain libraries which we have, which"
+        },
+        {
+            "number": "7",
+            "title": "Python Tutorial for Beginners | Python Set Path in Windows and Help",
+            "start": 38.16,
+            "end": 74.56,
+            "text": " we'll be using later. So Python supports other libraries which we can use to make our project  efficient. So to access those libraries, we need the command, right? So here, if I say  Python, if I say enter, oh, it says Python is not recognized. That's weird. That's bad  about this, right? How do I make it work? Now, what's wrong here? The thing is, we have  installed Python, right? What what is wrong? The thing is, you have installed Python in  your C drive somewhere, okay? And CMD is not able to get the path of it. Okay, so if CMD  is not able to get the path of it, that means you need to specify that by yourself that"
+        },
+        {
+            "number": "7",
+            "title": "Python Tutorial for Beginners | Python Set Path in Windows and Help",
+            "start": 74.56,
+            "end": 107.08,
+            "text": " if there are multiple ways of doing this, one is by saying set path, this is a command  which you have to use equal to and you have to specify the path here. But this is a temporary  setting you know, because the moment you close your command prompt and open and reopen it,  you will lose the path. If you want to make it permanent, what you will do is you will  go to your C drive. And here you will right click on the screen and you have to say properties,  click on advanced system setting, go to environment variables, again, you can directly go from  your from the start menu itself, we just type environment variables, you will get it. And"
+        },
+        {
+            "number": "7",
+            "title": "Python Tutorial for Beginners | Python Set Path in Windows and Help",
+            "start": 107.08,
+            "end": 140.12,
+            "text": " here you have to set the path. But where I will, I will change the system variables.  And if I double click on this path, you can see we got the prompt here. And in this prompt,  you need to add the path. But which part I don't know, let's open up my computer and  go to C drive. So in C drive, go to users and then your folder. So first of all, you  need to go here. So in C drive users, whatever username you have, and then app data inside  this if you click on local, and then you have to go to programs, Python, and then this  one. So when you open your my computer, you have to go to this part. So which is which"
+        },
+        {
+            "number": "7",
+            "title": "Python Tutorial for Beginners | Python Set Path in Windows and Help",
+            "start": 140.12,
+            "end": 171.60000000000002,
+            "text": " is visible there. And depending upon your username, it might change depending upon the  version which you're using, it will change. But then this is one of the parts we have  to use. So I will copy this path, go back to the environment variables and click on  new paste. So we have done with the first part. But we have to specify two parts here.  The first one is that which I have mentioned and then script as well. So this one as well.  So copy it and go back say add, paste. And okay, so by doing this, you are setting the  path now. Okay, once you have done that, close everything, go back to your command prompt."
+        },
+        {
+            "number": "7",
+            "title": "Python Tutorial for Beginners | Python Set Path in Windows and Help",
+            "start": 171.60000000000002,
+            "end": 212.35999999999999,
+            "text": " If you try now typing Python, it will not work, you need to make sure that you restart  your command prompt. Or close this type CMD. Now let's try typing Python. And it works.  You can see we got a Python prompt here. Let's wait, let's verify two plus three, always  center you got five, it's working, you know, everything is working, everything is fine.  In fact, you know, the best way to check everything, check Python is by using print, hello world,  print and hello world center, it works, right? Python is working. So there's how you set  the path if you're if you want to access Python in your machine. Okay, that's great. Now once  we have talked about this, we have another thing to talk about is help. Now, you know,"
+        },
+        {
+            "number": "7",
+            "title": "Python Tutorial for Beginners | Python Set Path in Windows and Help",
+            "start": 212.35999999999999,
+            "end": 245.23999999999998,
+            "text": " when I was learning C for the first time, it's way back. And at that time, when I wanted  to explore C programming, because in books as well, you will get limited knowledge. And  in lectures as well, you will get limited knowledge. If you want to enhance your skills,  what I should do is in turbo c++, we used to have this, you know, help option where  you will see all the header files and you can see what is happening in that in the same  way in in your Python as well, we have help option. If you want to access that thing,  it's very simple, just type help and give a round back and say enter, it will open a"
+        },
+        {
+            "number": "7",
+            "title": "Python Tutorial for Beginners | Python Set Path in Windows and Help",
+            "start": 245.24,
+            "end": 276.32,
+            "text": " help prompt for you. Okay, now what help you need? Now, basically, Python has certain  modules you can explore, but how do we know which module it has? Okay, we when I don't  know, so I will what I will do is I will type topics. In fact, if you see the docs there,  it says search for topics. In fact, you can also search for something which we have used  till now and say enter, you can see we got least of modules available or topics available.  Okay, which one you want to know about? Let's say I want to know about, I want to know about  least because we have seen that, right? So I will type lists. Okay, this this thing tells"
+        },
+        {
+            "number": "7",
+            "title": "Python Tutorial for Beginners | Python Set Path in Windows and Help",
+            "start": 276.32,
+            "end": 310.8,
+            "text": " everything about least now. So if you scroll down, we have some methods here, which we  have used if you remember, so these are the methods which we can use, you know, so it  talks about everything. So which version has been included, which things and this amazing,  you know, instead of buying a book instead of, of course, you have to you should be watching  my videos. And then with my videos, you can read the documentations, right? It will be  really helpful. So this about list, okay, how do you go back to your command prompt?  How do you go to back to the prompt, you simply say, quit, enter, you're back now.  And let's say if you want to find help on a specific topic, you know about the topic."
+        },
+        {
+            "number": "7",
+            "title": "Python Tutorial for Beginners | Python Set Path in Windows and Help",
+            "start": 310.8,
+            "end": 338.15999999999997,
+            "text": " So you will simply say help. And in single quote, you will specify least you don't have  to go to help and then search. You can do it from here as well, if you know the command,  and you can see we got the information about list. So that's how you can explore about  you can explore different topics and you can read it. Reading is very important, you know.  So that's about this video where we have talked about how to set a path and how to  explore the help option. So that's it. I hope you're enjoying the series. Let me know in  the comment section and do click the like button if you're enjoying it. Thank you so"
+        },
+        {
+            "number": "7",
+            "title": "Python Tutorial for Beginners | Python Set Path in Windows and Help",
+            "start": 338.15999999999997,
+            "end": 340.12,
+            "text": " much for watching everyone. Bye bye."
+        }
+    ],
+    "text": " Welcome back aliens. My name is Abhinav Reddy. And let's continue with the series on Python. In fact, till this point, we have seen basic stuff, right? But now we have a question, you know, till this point, we are using ID L E as our ID. But what if you want to use command prompt, you know, in normally when you work with shell or command prompt, you want to access Python on the command prompt? How do I do that? Let me just try. So if I open my command prompt, if I say CMD enter, and now if I type a command, let me just try so command is Python. You know, in Python, we have certain libraries which we have, which we'll be using later. So Python supports other libraries which we can use to make our project efficient. So to access those libraries, we need the command, right? So here, if I say Python, if I say enter, oh, it says Python is not recognized. That's weird. That's bad about this, right? How do I make it work? Now, what's wrong here? The thing is, we have installed Python, right? What what is wrong? The thing is, you have installed Python in your C drive somewhere, okay? And CMD is not able to get the path of it. Okay, so if CMD is not able to get the path of it, that means you need to specify that by yourself that if there are multiple ways of doing this, one is by saying set path, this is a command which you have to use equal to and you have to specify the path here. But this is a temporary setting you know, because the moment you close your command prompt and open and reopen it, you will lose the path. If you want to make it permanent, what you will do is you will go to your C drive. And here you will right click on the screen and you have to say properties, click on advanced system setting, go to environment variables, again, you can directly go from your from the start menu itself, we just type environment variables, you will get it. And here you have to set the path. But where I will, I will change the system variables. And if I double click on this path, you can see we got the prompt here. And in this prompt, you need to add the path. But which part I don't know, let's open up my computer and go to C drive. So in C drive, go to users and then your folder. So first of all, you need to go here. So in C drive users, whatever username you have, and then app data inside this if you click on local, and then you have to go to programs, Python, and then this one. So when you open your my computer, you have to go to this part. So which is which is visible there. And depending upon your username, it might change depending upon the version which you're using, it will change. But then this is one of the parts we have to use. So I will copy this path, go back to the environment variables and click on new paste. So we have done with the first part. But we have to specify two parts here. The first one is that which I have mentioned and then script as well. So this one as well. So copy it and go back say add, paste. And okay, so by doing this, you are setting the path now. Okay, once you have done that, close everything, go back to your command prompt. If you try now typing Python, it will not work, you need to make sure that you restart your command prompt. Or close this type CMD. Now let's try typing Python. And it works. You can see we got a Python prompt here. Let's wait, let's verify two plus three, always center you got five, it's working, you know, everything is working, everything is fine. In fact, you know, the best way to check everything, check Python is by using print, hello world, print and hello world center, it works, right? Python is working. So there's how you set the path if you're if you want to access Python in your machine. Okay, that's great. Now once we have talked about this, we have another thing to talk about is help. Now, you know, when I was learning C for the first time, it's way back. And at that time, when I wanted to explore C programming, because in books as well, you will get limited knowledge. And in lectures as well, you will get limited knowledge. If you want to enhance your skills, what I should do is in turbo c++, we used to have this, you know, help option where you will see all the header files and you can see what is happening in that in the same way in in your Python as well, we have help option. If you want to access that thing, it's very simple, just type help and give a round back and say enter, it will open a help prompt for you. Okay, now what help you need? Now, basically, Python has certain modules you can explore, but how do we know which module it has? Okay, we when I don't know, so I will what I will do is I will type topics. In fact, if you see the docs there, it says search for topics. In fact, you can also search for something which we have used till now and say enter, you can see we got least of modules available or topics available. Okay, which one you want to know about? Let's say I want to know about, I want to know about least because we have seen that, right? So I will type lists. Okay, this this thing tells everything about least now. So if you scroll down, we have some methods here, which we have used if you remember, so these are the methods which we can use, you know, so it talks about everything. So which version has been included, which things and this amazing, you know, instead of buying a book instead of, of course, you have to you should be watching my videos. And then with my videos, you can read the documentations, right? It will be really helpful. So this about list, okay, how do you go back to your command prompt? How do you go to back to the prompt, you simply say, quit, enter, you're back now. And let's say if you want to find help on a specific topic, you know about the topic. So you will simply say help. And in single quote, you will specify least you don't have to go to help and then search. You can do it from here as well, if you know the command, and you can see we got the information about list. So that's how you can explore about you can explore different topics and you can read it. Reading is very important, you know. So that's about this video where we have talked about how to set a path and how to explore the help option. So that's it. I hope you're enjoying the series. Let me know in the comment section and do click the like button if you're enjoying it. Thank you so much for watching everyone. Bye bye."
+}

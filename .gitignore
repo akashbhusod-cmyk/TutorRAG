@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+tutorrag.db
+prompt.txt
+response.txt
+audios/
+videos/

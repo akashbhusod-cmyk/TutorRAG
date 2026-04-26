@@ -1,0 +1,397 @@
+{
+  "chunks": [
+    {
+      "number": "22.1",
+      "title": "Python Tutorial for Beginners | Break vs Continue vs Pass in Python part 2",
+      "start": 0.0,
+      "end": 5.5200000000000005,
+      "text": " Welcome back everyone. When we have talked about break, continue and pass, it created some level"
+    },
+    {
+      "number": "22.1",
+      "title": "Python Tutorial for Beginners | Break vs Continue vs Pass in Python part 2",
+      "start": 5.5200000000000005,
+      "end": 9.84,
+      "text": " of confusion for some people. So I thought, okay, let's make another video and let's sort it out."
+    },
+    {
+      "number": "22.1",
+      "title": "Python Tutorial for Beginners | Break vs Continue vs Pass in Python part 2",
+      "start": 9.84,
+      "end": 13.6,
+      "text": " To understand the difference between break, continue and pass, let's take another example."
+    },
+    {
+      "number": "22.1",
+      "title": "Python Tutorial for Beginners | Break vs Continue vs Pass in Python part 2",
+      "start": 13.6,
+      "end": 19.04,
+      "text": " Now, in fact, I guess we are sure with break and I mean, we know the difference between break and"
+    },
+    {
+      "number": "22.1",
+      "title": "Python Tutorial for Beginners | Break vs Continue vs Pass in Python part 2",
+      "start": 19.04,
+      "end": 23.76,
+      "text": " continue. So what continue will do is it will skip the remaining statement will go back to the next"
+    },
+    {
+      "number": "22.1",
+      "title": "Python Tutorial for Beginners | Break vs Continue vs Pass in Python part 2",
+      "start": 23.76,
+      "end": 30.0,
+      "text": " iteration. So if you're using a for loop here, so if I say for i in range, and if I take a loop,"
+    },
+    {
+      "number": "22.1",
+      "title": "Python Tutorial for Beginners | Break vs Continue vs Pass in Python part 2",
+      "start": 30.0,
+      "end": 36.0,
+      "text": " let's say a five, and if I want to print, let's say I want to print here, hello. And I also want"
+    },
+    {
+      "number": "22.1",
+      "title": "Python Tutorial for Beginners | Break vs Continue vs Pass in Python part 2",
+      "start": 36.0,
+      "end": 41.760000000000005,
+      "text": " to print the value of i. So I'm printing hello and I right now if I want to skip the element,"
+    },
+    {
+      "number": "22.1",
+      "title": "Python Tutorial for Beginners | Break vs Continue vs Pass in Python part 2",
+      "start": 41.760000000000005,
+      "end": 46.08,
+      "text": " which let's say three, so when the I value is three, I don't want to print it. So in that case,"
+    },
+    {
+      "number": "22.1",
+      "title": "Python Tutorial for Beginners | Break vs Continue vs Pass in Python part 2",
+      "start": 46.08,
+      "end": 52.96,
+      "text": " I will say if I is equal to equal to three, in this case, you can simply skip I don't want to"
+    },
+    {
+      "number": "22.1",
+      "title": "Python Tutorial for Beginners | Break vs Continue vs Pass in Python part 2",
+      "start": 52.96,
+      "end": 57.52,
+      "text": " print it. So you will say continue. So what continue will do is it will skip that iteration."
+    },
+    {
+      "number": "22.1",
+      "title": "Python Tutorial for Beginners | Break vs Continue vs Pass in Python part 2",
+      "start": 57.52,
+      "end": 62.480000000000004,
+      "text": " So the moment you say it's three, it will say continue to go back to write it will not print"
+    },
+    {
+      "number": "22.1",
+      "title": "Python Tutorial for Beginners | Break vs Continue vs Pass in Python part 2",
+      "start": 62.480000000000004,
+      "end": 66.88,
+      "text": " the statement. But so you can see for underscore, you can see we got hello zero, hello one, hello"
+    },
+    {
+      "number": "22.1",
+      "title": "Python Tutorial for Beginners | Break vs Continue vs Pass in Python part 2",
+      "start": 66.88,
+      "end": 71.6,
+      "text": " two, there's no iteration for three, right? Because we are skipping it. That's the continue part. The"
+    },
+    {
+      "number": "22.1",
+      "title": "Python Tutorial for Beginners | Break vs Continue vs Pass in Python part 2",
+      "start": 71.6,
+      "end": 77.28,
+      "text": " next one is break. So what break will do is the moment you see i is equal to three, it will break"
+    },
+    {
+      "number": "22.1",
+      "title": "Python Tutorial for Beginners | Break vs Continue vs Pass in Python part 2",
+      "start": 77.28,
+      "end": 82.64,
+      "text": " that loop. So it will not continue with the loop. So even so after a second, it will simply not"
+    },
+    {
+      "number": "22.1",
+      "title": "Python Tutorial for Beginners | Break vs Continue vs Pass in Python part 2",
+      "start": 82.64,
+      "end": 86.72,
+      "text": " print anything, you can see the output is zero, one and two. So just skipping everything. So the"
+    },
+    {
+      "number": "22.1",
+      "title": "Python Tutorial for Beginners | Break vs Continue vs Pass in Python part 2",
+      "start": 86.72,
+      "end": 92.08,
+      "text": " entire loop gets break. Okay, that's important. So continue will skip particular iteration,"
+    },
+    {
+      "number": "22.1",
+      "title": "Python Tutorial for Beginners | Break vs Continue vs Pass in Python part 2",
+      "start": 92.08,
+      "end": 97.92,
+      "text": " and break will skip it. The next one we have talked about is pass right now it is pass. Now"
+    },
+    {
+      "number": "22.1",
+      "title": "Python Tutorial for Beginners | Break vs Continue vs Pass in Python part 2",
+      "start": 97.92,
+      "end": 101.92,
+      "text": " again, it doesn't make any sense for this example, whatever you do is let's take something else."
+    },
+    {
+      "number": "22.1",
+      "title": "Python Tutorial for Beginners | Break vs Continue vs Pass in Python part 2",
+      "start": 101.92,
+      "end": 106.24000000000001,
+      "text": " Okay, so there's a concept of functions classes, again, we'll be seeing that later. But we talk"
+    },
+    {
+      "number": "22.1",
+      "title": "Python Tutorial for Beginners | Break vs Continue vs Pass in Python part 2",
+      "start": 106.24,
+      "end": 111.52,
+      "text": " about functions, the way we define that is by saying def. Again, what is function how it works?"
+    },
+    {
+      "number": "22.1",
+      "title": "Python Tutorial for Beginners | Break vs Continue vs Pass in Python part 2",
+      "start": 111.52,
+      "end": 115.03999999999999,
+      "text": " It's a separate concept, right? But let's say if you want to define a function, normally, what we"
+    },
+    {
+      "number": "22.1",
+      "title": "Python Tutorial for Beginners | Break vs Continue vs Pass in Python part 2",
+      "start": 115.03999999999999,
+      "end": 120.72,
+      "text": " do is we say def, and we define a function name. So let's say function name is fun. And I want to"
+    },
+    {
+      "number": "22.1",
+      "title": "Python Tutorial for Beginners | Break vs Continue vs Pass in Python part 2",
+      "start": 120.72,
+      "end": 125.52,
+      "text": " define something in this. So normally in function, you write certain statements, maybe one statement,"
+    },
+    {
+      "number": "22.1",
+      "title": "Python Tutorial for Beginners | Break vs Continue vs Pass in Python part 2",
+      "start": 125.52,
+      "end": 130.32,
+      "text": " three statement, 10 statement. But normally, we need to mention something in a function."
+    },
+    {
+      "number": "22.1",
+      "title": "Python Tutorial for Beginners | Break vs Continue vs Pass in Python part 2",
+      "start": 130.32,
+      "end": 134.07999999999998,
+      "text": " Example, if I will say print do something. So this function is doing something right,"
+    },
+    {
+      "number": "22.1",
+      "title": "Python Tutorial for Beginners | Break vs Continue vs Pass in Python part 2",
+      "start": 134.08,
+      "end": 138.24,
+      "text": " it's printing something, it may be having multiple statements. So we can do the same statement"
+    },
+    {
+      "number": "22.1",
+      "title": "Python Tutorial for Beginners | Break vs Continue vs Pass in Python part 2",
+      "start": 138.24,
+      "end": 142.16000000000003,
+      "text": " multiple times. So you can see we have three statements, right? So normally in function,"
+    },
+    {
+      "number": "22.1",
+      "title": "Python Tutorial for Beginners | Break vs Continue vs Pass in Python part 2",
+      "start": 142.16000000000003,
+      "end": 146.96,
+      "text": " we expect that you'll be doing some statements. And then after you are done with the function,"
+    },
+    {
+      "number": "22.1",
+      "title": "Python Tutorial for Beginners | Break vs Continue vs Pass in Python part 2",
+      "start": 146.96,
+      "end": 150.72000000000003,
+      "text": " you can do your normal task. Let's say if you want to do something else, you can print something or"
+    },
+    {
+      "number": "22.1",
+      "title": "Python Tutorial for Beginners | Break vs Continue vs Pass in Python part 2",
+      "start": 150.72000000000003,
+      "end": 154.08,
+      "text": " you can assign a variable, let's say assign variable a equal to five, you can do all those"
+    },
+    {
+      "number": "22.1",
+      "title": "Python Tutorial for Beginners | Break vs Continue vs Pass in Python part 2",
+      "start": 154.08,
+      "end": 158.24,
+      "text": " stuff. And you can see there's no problem, there's no compile time issue. The moment you remove this"
+    },
+    {
+      "number": "22.1",
+      "title": "Python Tutorial for Beginners | Break vs Continue vs Pass in Python part 2",
+      "start": 158.24,
+      "end": 161.68,
+      "text": " statement, let's say if I think, hey, we will define the function later. So I know the function"
+    },
+    {
+      "number": "22.1",
+      "title": "Python Tutorial for Beginners | Break vs Continue vs Pass in Python part 2",
+      "start": 161.68,
+      "end": 166.64000000000001,
+      "text": " name now function name is fun. But I don't know what to put inside this. Maybe I will change it"
+    },
+    {
+      "number": "22.1",
+      "title": "Python Tutorial for Beginners | Break vs Continue vs Pass in Python part 2",
+      "start": 166.64000000000001,
+      "end": 172.32,
+      "text": " later. Maybe I will implement that later. But as of now, I just want to define a function fun,"
+    },
+    {
+      "number": "22.1",
+      "title": "Python Tutorial for Beginners | Break vs Continue vs Pass in Python part 2",
+      "start": 172.32,
+      "end": 177.68,
+      "text": " but I don't know this statement. In this scenario, you can simply say pass. So you're mentioning to"
+    },
+    {
+      "number": "22.1",
+      "title": "Python Tutorial for Beginners | Break vs Continue vs Pass in Python part 2",
+      "start": 177.68,
+      "end": 182.96,
+      "text": " your Python that hey, I'm simply using this function, but I don't know how to implement"
+    },
+    {
+      "number": "22.1",
+      "title": "Python Tutorial for Beginners | Break vs Continue vs Pass in Python part 2",
+      "start": 182.96,
+      "end": 188.72,
+      "text": " that. So I will simply say pass, just skip this function. Okay, so if you want to keep a function"
+    },
+    {
+      "number": "22.1",
+      "title": "Python Tutorial for Beginners | Break vs Continue vs Pass in Python part 2",
+      "start": 188.72,
+      "end": 194.56,
+      "text": " empty, you will use pass. Okay, the same goes for if condition in this for loop, if you specify a"
+    },
+    {
+      "number": "22.1",
+      "title": "Python Tutorial for Beginners | Break vs Continue vs Pass in Python part 2",
+      "start": 194.56,
+      "end": 200.56,
+      "text": " condition if and you will say if i is equal to four, maybe I want to print by okay, at the end,"
+    },
+    {
+      "number": "22.1",
+      "title": "Python Tutorial for Beginners | Break vs Continue vs Pass in Python part 2",
+      "start": 200.56,
+      "end": 206.0,
+      "text": " I want to print by but when you're not sure what you want to print, you just want to keep that"
+    },
+    {
+      "number": "22.1",
+      "title": "Python Tutorial for Beginners | Break vs Continue vs Pass in Python part 2",
+      "start": 206.0,
+      "end": 210.07999999999998,
+      "text": " condition but you don't know what to print. You will simply say pass maybe you will type this"
+    },
+    {
+      "number": "22.1",
+      "title": "Python Tutorial for Beginners | Break vs Continue vs Pass in Python part 2",
+      "start": 210.07999999999998,
+      "end": 214.8,
+      "text": " statement later. Whenever you have a block like if it's a block, right? A function is a block. So"
+    },
+    {
+      "number": "22.1",
+      "title": "Python Tutorial for Beginners | Break vs Continue vs Pass in Python part 2",
+      "start": 214.8,
+      "end": 218.48000000000002,
+      "text": " whenever you have blocked when you don't know that block, what we will have in a block, you will"
+    },
+    {
+      "number": "22.1",
+      "title": "Python Tutorial for Beginners | Break vs Continue vs Pass in Python part 2",
+      "start": 218.48000000000002,
+      "end": 222.88000000000002,
+      "text": " simply say pass. Same applies to class maybe in future when we learn about classes. So we'll say"
+    },
+    {
+      "number": "22.1",
+      "title": "Python Tutorial for Beginners | Break vs Continue vs Pass in Python part 2",
+      "start": 222.88000000000002,
+      "end": 228.0,
+      "text": " class human and we give a colon. And normally we write something in a class right variables and"
+    },
+    {
+      "number": "22.1",
+      "title": "Python Tutorial for Beginners | Break vs Continue vs Pass in Python part 2",
+      "start": 228.0,
+      "end": 233.28,
+      "text": " then methods. But as of now, if you don't know what to mention, just simply say pass. Okay. So"
+    },
+    {
+      "number": "22.1",
+      "title": "Python Tutorial for Beginners | Break vs Continue vs Pass in Python part 2",
+      "start": 233.28,
+      "end": 237.36,
+      "text": " again, it's very different from continue and break because continue and break we use we normally use"
+    },
+    {
+      "number": "22.1",
+      "title": "Python Tutorial for Beginners | Break vs Continue vs Pass in Python part 2",
+      "start": 237.36,
+      "end": 243.84,
+      "text": " them in a function or in a loop. But when it comes to pass, we normally use it to skip the block."
+    },
+    {
+      "number": "22.1",
+      "title": "Python Tutorial for Beginners | Break vs Continue vs Pass in Python part 2",
+      "start": 244.0,
+      "end": 247.36,
+      "text": " So if you define a block and if you don't know what to write inside that just say pass."
+    },
+    {
+      "number": "22.1",
+      "title": "Python Tutorial for Beginners | Break vs Continue vs Pass in Python part 2",
+      "start": 248.08,
+      "end": 252.72,
+      "text": " I hope it removed some level of confusion from your mind. Still, if you have any issue,"
+    },
+    {
+      "number": "22.1",
+      "title": "Python Tutorial for Beginners | Break vs Continue vs Pass in Python part 2",
+      "start": 252.72,
+      "end": 257.44,
+      "text": " let me know in the comment section. I will try to make another video and I do read your comments."
+    },
+    {
+      "number": "22.1",
+      "title": "Python Tutorial for Beginners | Break vs Continue vs Pass in Python part 2",
+      "start": 257.44,
+      "end": 261.92,
+      "text": " Okay, so maybe I will not reply at that point. But I will surely make a video if you are getting"
+    },
+    {
+      "number": "22.1",
+      "title": "Python Tutorial for Beginners | Break vs Continue vs Pass in Python part 2",
+      "start": 261.92,
+      "end": 265.52,
+      "text": " stuck somewhere. So that's it everyone. I hope you're enjoying this video. Let me know in the"
+    },
+    {
+      "number": "22.1",
+      "title": "Python Tutorial for Beginners | Break vs Continue vs Pass in Python part 2",
+      "start": 265.52,
+      "end": 268.16,
+      "text": " comment section and do subscribe for further videos."
+    }
+  ],
+  "text": " Welcome back everyone. When we have talked about break, continue and pass, it created some level of confusion for some people. So I thought, okay, let's make another video and let's sort it out. To understand the difference between break, continue and pass, let's take another example. Now, in fact, I guess we are sure with break and I mean, we know the difference between break and continue. So what continue will do is it will skip the remaining statement will go back to the next iteration. So if you're using a for loop here, so if I say for i in range, and if I take a loop, let's say a five, and if I want to print, let's say I want to print here, hello. And I also want to print the value of i. So I'm printing hello and I right now if I want to skip the element, which let's say three, so when the I value is three, I don't want to print it. So in that case, I will say if I is equal to equal to three, in this case, you can simply skip I don't want to print it. So you will say continue. So what continue will do is it will skip that iteration. So the moment you say it's three, it will say continue to go back to write it will not print the statement. But so you can see for underscore, you can see we got hello zero, hello one, hello two, there's no iteration for three, right? Because we are skipping it. That's the continue part. The next one is break. So what break will do is the moment you see i is equal to three, it will break that loop. So it will not continue with the loop. So even so after a second, it will simply not print anything, you can see the output is zero, one and two. So just skipping everything. So the entire loop gets break. Okay, that's important. So continue will skip particular iteration, and break will skip it. The next one we have talked about is pass right now it is pass. Now again, it doesn't make any sense for this example, whatever you do is let's take something else. Okay, so there's a concept of functions classes, again, we'll be seeing that later. But we talk about functions, the way we define that is by saying def. Again, what is function how it works? It's a separate concept, right? But let's say if you want to define a function, normally, what we do is we say def, and we define a function name. So let's say function name is fun. And I want to define something in this. So normally in function, you write certain statements, maybe one statement, three statement, 10 statement. But normally, we need to mention something in a function. Example, if I will say print do something. So this function is doing something right, it's printing something, it may be having multiple statements. So we can do the same statement multiple times. So you can see we have three statements, right? So normally in function, we expect that you'll be doing some statements. And then after you are done with the function, you can do your normal task. Let's say if you want to do something else, you can print something or you can assign a variable, let's say assign variable a equal to five, you can do all those stuff. And you can see there's no problem, there's no compile time issue. The moment you remove this statement, let's say if I think, hey, we will define the function later. So I know the function name now function name is fun. But I don't know what to put inside this. Maybe I will change it later. Maybe I will implement that later. But as of now, I just want to define a function fun, but I don't know this statement. In this scenario, you can simply say pass. So you're mentioning to your Python that hey, I'm simply using this function, but I don't know how to implement that. So I will simply say pass, just skip this function. Okay, so if you want to keep a function empty, you will use pass. Okay, the same goes for if condition in this for loop, if you specify a condition if and you will say if i is equal to four, maybe I want to print by okay, at the end, I want to print by but when you're not sure what you want to print, you just want to keep that condition but you don't know what to print. You will simply say pass maybe you will type this statement later. Whenever you have a block like if it's a block, right? A function is a block. So whenever you have blocked when you don't know that block, what we will have in a block, you will simply say pass. Same applies to class maybe in future when we learn about classes. So we'll say class human and we give a colon. And normally we write something in a class right variables and then methods. But as of now, if you don't know what to mention, just simply say pass. Okay. So again, it's very different from continue and break because continue and break we use we normally use them in a function or in a loop. But when it comes to pass, we normally use it to skip the block. So if you define a block and if you don't know what to write inside that just say pass. I hope it removed some level of confusion from your mind. Still, if you have any issue, let me know in the comment section. I will try to make another video and I do read your comments. Okay, so maybe I will not reply at that point. But I will surely make a video if you are getting stuck somewhere. So that's it everyone. I hope you're enjoying this video. Let me know in the comment section and do subscribe for further videos."
+}

@@ -1,0 +1,159 @@
+{
+    "chunks": [
+        {
+            "number": "14",
+            "title": "Python Tutorial for Beginners | Python BitWise Operators",
+            "start": 0.0,
+            "end": 41.78,
+            "text": " Welcome back aliens my name is Devind Reddy and let's continue with this series on Python.  So till this point we have worked with operators right we have talked about assignment operator  arithmetic operators and logical operators.  Now it's time to focus on some more operators and this time we are going to work with bitwise.  Now if you remember in one of the video we have talked about binary formats right.  So this is where you will use them.  So for sure the name suggests it is something to do with binary formats right.  So whatever you are going to do now is with bits.  So let's get started.  So let's open Python and let's do this calculation.  Now the first one so if you talk about bitwise we have six different operators we have complement"
+        },
+        {
+            "number": "14",
+            "title": "Python Tutorial for Beginners | Python BitWise Operators",
+            "start": 41.78,
+            "end": 76.86,
+            "text": " operator then we have and or XOR left shift and right shift.  Okay let's start with the first one which is complement operator and if you look at  the symbol of it it's weird right.  We don't use this symbol much.  So this is called as tilde operator or tilde operator.  Now where you will find it.  So if you look at your keyboard just below the escape key you have this special key called  as tilde.  So let's use it and that's your tilde sign and we'll give any number here.  We will go for 12.  Now when you say enter what you are expecting.  Come on go for a random guess here.  Maybe minus 12 or maybe minus 1 something like that right."
+        },
+        {
+            "number": "14",
+            "title": "Python Tutorial for Beginners | Python BitWise Operators",
+            "start": 76.86,
+            "end": 109.46000000000001,
+            "text": " Now if I say enter.  Oh we got minus 13.  That's weird.  Why minus 13.  So let's do a research on this now.  So let me go back to my paint and let's do the calculation.  So how do you find this.  Now to understand this first of all we need to find what is complement means.  Now when you say complement it will simply do reverse of your binary format example.  If you say complement 1 it will give you 0 and if you say complement 0 it will give you  1.  That's what it's doing.  Now the same thing is applied on 12 right.  And what is 12.  12 is actually if you convert 12 into binary format you will get this."
+        },
+        {
+            "number": "14",
+            "title": "Python Tutorial for Beginners | Python BitWise Operators",
+            "start": 109.46000000000001,
+            "end": 146.0,
+            "text": " So you will get four zeros double 1 double 0.  That's your 12 binary format.  And I love this mobile phone model right.  Nokia double 1 double 0.  Everyone love it.  Now we need to find a complement of it right.  So you have to find the complement of it.  So what you will do is you will reverse the number.  So this 0 becomes 1 and then this is 1.  Then this is 0 0 1 1 1 1.  So this is your complement of 12.  But hold on.  What is this number and why we got minus 13.  That's weird right.  Now if you look at minus 13.  Why minus 13 is this number.  That we have to find out that now."
+        },
+        {
+            "number": "14",
+            "title": "Python Tutorial for Beginners | Python BitWise Operators",
+            "start": 146.26,
+            "end": 179.0,
+            "text": " Now to understand this concept again as a programmer you need to know all this concept  because you will.  So when you do any course in for IT or CS this is what they will teach you in the first  year.  But if you don't know this concept that's OK.  You can learn here now.  Now we have a concept of two's complement because what happens is in your system we  can store positive numbers right.  We can store 12.  We can store 13.  We can store 15 20 21 or maybe 1000.  But how to store negative numbers.  Now to store negative numbers.  First of all we don't store negative numbers in the system.  We always store positive numbers."
+        },
+        {
+            "number": "14",
+            "title": "Python Tutorial for Beginners | Python BitWise Operators",
+            "start": 179.0,
+            "end": 214.66000000000003,
+            "text": " So even if you want to store this minus 13 you need to convert this number into positive  number first.  And the way you can do that is with the help of two's complement.  Now how do you find two's complement.  So to find two's complement we need to find one's complement plus one.  This is a formula OK.  So when you say two's complement it is one's complement plus one.  Now how do you find one's complement.  It's easy actually.  First convert this number into binary format.  Now what is 13.  It's 0 0 0 0 1 1 0 1.  This is a binary format of plus 13.  So this is 13 OK.  We want to find minus 13 right."
+        },
+        {
+            "number": "14",
+            "title": "Python Tutorial for Beginners | Python BitWise Operators",
+            "start": 214.66000000000003,
+            "end": 250.28,
+            "text": " So you have to find two's complement of this number.  Now let's find the one's complement.  And how do you find one's complement.  It's easy now.  We know how to find complement right.  So we have to reverse this number.  So you will get 1 1 1 1 0 0 1 0.  So this is one's complement of 13.  But we want to find two's complement right.  So what you will do you will say plus one.  Now this is so when you say 0 plus 1 it will give you 1.  And then we got 1.  Then we got 0 0 1 1 1 1.  Now this number here this is minus 13 OK.  So this is two's complement of 13 which is minus 13."
+        },
+        {
+            "number": "14",
+            "title": "Python Tutorial for Beginners | Python BitWise Operators",
+            "start": 250.28,
+            "end": 282.7,
+            "text": " We got it.  And now if you compare this number with complement of 12 they are same.  And that's why you got.  So when you say complement of 12 you got minus 13 right.  So that was the answer.  So that's how you can work with complement.  So when you want to store negative number this is what you do.  Now I would recommend you to try different numbers here.  Maybe maybe complement of 45 maybe complement of 121.  So try it out and let's let's see what answers you get there.  So that's your complement operator.  The next one we have is bitwise and.  Now if you remember in the previous video we have talked about logical operators right."
+        },
+        {
+            "number": "14",
+            "title": "Python Tutorial for Beginners | Python BitWise Operators",
+            "start": 282.7,
+            "end": 317.34,
+            "text": " So in logical we have and and or right.  So here as well we can use bitwise and and bitwise or.  So in and remember this thing.  So whenever you have and and if you have two conditions and both are true then only you  will get true.  And in or if you have at least one true you will get true.  If you remember.  So if you remember this table right that's what you're going to do here now.  So let's do bitwise and.  Now which operator we use here.  So we don't use and because AND and is for logical operations.  So here we have to use ampersand symbol.  So let's take 12 ampersand 13.  OK.  So we got these two numbers 12 and 13."
+        },
+        {
+            "number": "14",
+            "title": "Python Tutorial for Beginners | Python BitWise Operators",
+            "start": 317.34,
+            "end": 358.06,
+            "text": " If I say enter you got 12.  So let's find out using bitwise.  So let's go back to our paint and here we'll convert 12 into binary format which is 0 0  0 0 1 1 double 0.  This is 12 binary format.  And then we have 13 binary format which is 0 0 0 0 1 1 0 1.  And now we need to find out the bitwise here.  So we have to work with bits.  So let's compare this bit with this bit.  Now if you remember AND operation if both are 1 then only 1.  So this in this case this is 0 1.  So it will be 0.  This is 0.  This is 1.  This is 1 because both are 1's and then we got 0 0 0 0."
+        },
+        {
+            "number": "14",
+            "title": "Python Tutorial for Beginners | Python BitWise Operators",
+            "start": 358.06,
+            "end": 400.14,
+            "text": " And if you compare this output this is 12.  Right.  So you got bitwise AND.  So this was and AND operation.  And that's why you got 12.  Let's do OR.  So it's a 12 OR.  So now for OR we have to use pipe.  OK.  So for AND we have ampersand for OR we have pipe.  And then OK.  Where you will find pipe.  It is above your enter button.  So it's a 12 OR 13.  Come on guess.  Now in fact before entering here let's do calculation.  Let's compare here.  So let's go back here and let's do compare.  Let's do some calculation.  So it will be 0 0 0 0 1 1 0 0.  That's 12.  0 0 0 0 1 1 0 1."
+        },
+        {
+            "number": "14",
+            "title": "Python Tutorial for Beginners | Python BitWise Operators",
+            "start": 400.14,
+            "end": 438.42,
+            "text": " That is your 13.  Right.  And let's do OR.  So when you say OR if any one is 1.  So your output is 1.  Right.  So we got 1.  0 0 0 1 1 0 0 0 0.  And that's your 13.  Right.  So this is 13.  Let's verify.  And if I say enter.  Oh we got 13.  Right.  So this works.  So this is how you work with bitwise AND and bitwise OR.  In fact you know you might be thinking only 12 and 13 you will get maybe some other number.  Let's try.  So it's a 25 and maybe 31 or maybe 30.  And you can see we got 24.  Again this is your homework.  Right.  So this is your notebook."
+        },
+        {
+            "number": "14",
+            "title": "Python Tutorial for Beginners | Python BitWise Operators",
+            "start": 438.42,
+            "end": 471.06,
+            "text": " So put your notebook and convert 25 into binary format convert 13 into binary format and just  do AND operation.  And of course you will get 24.  The next one we have is XOR.  Now in XOR what you do is it's actually very simple.  When you say you have two numbers which is 0 and 0.  Now since we don't have any 1 here we will get 0.  Then you have 0 1.  Now in this case you have odd number of 1.  Right.  So which is 1 1.  So you will get answer 1.  Now when you say 1 and 0.  So again we have odd numbers of 1 which is 1.  And when you have when you don't have odd numbers of 1 you can see we have two 1s which"
+        },
+        {
+            "number": "14",
+            "title": "Python Tutorial for Beginners | Python BitWise Operators",
+            "start": 471.06,
+            "end": 506.66,
+            "text": " is even number.  So you will get 0.  OK.  So when you have odd numbers of 1 you will get 1.  If you want to remember in a shortcut way it's very simple.  If both the numbers are different then you can go for 1.  Right.  So we have 0 1 is 1 1 0 is 1.  So that's very simple.  This is how you perform XOR operation.  This is XOR and you can represent that with the help of cap symbol.  So let's do that here.  Again we'll take two different numbers here.  We will go for let's go for 12 again the same number 12 cap 13 here.  Oh just made a mistake there.  12 cap 13.  And you can see the answer is 1."
+        },
+        {
+            "number": "14",
+            "title": "Python Tutorial for Beginners | Python BitWise Operators",
+            "start": 506.66,
+            "end": 539.7,
+            "text": " But why 1.  Let's verify.  So let's go back to the go back here and do calculations.  So what is 12.  We have done that 0 0 0 0 1 1 0 0.  And then we have 13 here which is 0 0 0 0 1 1 0 1.  And now let's do XOR.  So if you have two different numbers than 1.  Right.  So if you compute 1 they are same 0 0 0.  All are same number 0.  So we'll go for 0 0 0.  So the only answer you got here is 1.  Right.  So that's why we got 1.  That's how you perform XOR operation.  So you can try here with different numbers.  Right.  Again the same number 25 and 30."
+        },
+        {
+            "number": "14",
+            "title": "Python Tutorial for Beginners | Python BitWise Operators",
+            "start": 539.7,
+            "end": 570.3399999999999,
+            "text": " Try it out and let's see what what you get.  In fact I will do it here.  So I will say XOR 25 cap 30.  And you've got 7.  But how 7.  That's your homework.  Right.  Let me know in the comment section what you get here.  Now once you have done with AND OR and XOR.  Let's move towards left shift.  I love this concept of left shift.  So what is left shift here.  So what I will do is first of all let me try something else.  I would say 10.  Now when you say left shift you have to use this left shift operators which is on the  left hand side.  And then you will say 2."
+        },
+        {
+            "number": "14",
+            "title": "Python Tutorial for Beginners | Python BitWise Operators",
+            "start": 570.3399999999999,
+            "end": 603.0,
+            "text": " OK.  What's your guess.  What is the output.  I don't know.  Let's try.  So you got 40.  But why 40.  Let's find out.  Now when you say let's go to paint here and let's do calculation.  Now when you say 10.  Now I will go for I will ignore the earlier zeros.  OK.  So just because I am damn lazy to write every time that I will directly go with 1 0 1 0.  So again we have we do have 4 zeros before but ignore them.  So we got 1 0 1 0.  And then we have to apply a left shift operator here.  Now how do we use it.  Now in left shift what happens is imagine there's a box here."
+        },
+        {
+            "number": "14",
+            "title": "Python Tutorial for Beginners | Python BitWise Operators",
+            "start": 603.0,
+            "end": 635.64,
+            "text": " So imagine there's a this is a box.  And then we have a dot here dot symbol.  And then we have some zeros.  Now of course right.  Every number is represented this way.  So for example when you say 5 it's actually 5.0.  In fact we can have multiple zeros here.  Right.  So when you say 65 it's again we do have zeros there but we ignore zeros because there are  zeros.  Here as well when you say 1 0 1 0 we do have a dot.  So we do have a dot.  And then after that we have multiple zeros.  In left shift what we do is we shift the bits on left hand side.  OK.  I don't know for which side you are."
+        },
+        {
+            "number": "14",
+            "title": "Python Tutorial for Beginners | Python BitWise Operators",
+            "start": 635.64,
+            "end": 665.96,
+            "text": " So you are facing me so for you this side right.  So left hand side.  So let's do that.  OK.  So now so when you say left shift you have to shift bits.  But how many bits.  You need to shift two bits.  Right.  Example if you see the output here.  So you are shifting 10 by two bits.  So when you say two bits you got 1 0 1 0.  And then you need to shift on left hand side two bits.  So you will add two more zeros.  Then we have a dot.  So we were having a dot after zero but after shifting you have shifted two zeros on this  side.  Right.  Now this number here is 40."
+        },
+        {
+            "number": "14",
+            "title": "Python Tutorial for Beginners | Python BitWise Operators",
+            "start": 665.96,
+            "end": 695.52,
+            "text": " Now how do you verify.  Go with the normal calculation.  Right.  So this is 2 raised to 0 2 raised to 1 2 raised to 2 2 raised to 3.  So this 1 is 2 raised to 3.  And then we got 2 raised to 4 and then we got 2 raised to 5.  So consider this one and consider this one.  So this is 32 and this is 8.  So 32 plus 8 is 40.  Right.  So we got the answer.  So that's how you find left shift.  How about right shift.  It's very simple.  So we also have a concept of right shift.  Right.  What I will do is I will say I will go with the same number 10 and right shift with two"
+        },
+        {
+            "number": "14",
+            "title": "Python Tutorial for Beginners | Python BitWise Operators",
+            "start": 695.52,
+            "end": 728.88,
+            "text": " bits.  So in left shift if you are gaining bits in right shift you are losing bits.  Let's verify.  So if I say enter you can see we got two.  But why two.  Let's do it.  Let's do it here.  So we have 1010 as 10.  So we have a we have a dot here.  So in right shift you shift on this side.  Right.  Right inside.  So you will be losing how many bits.  Two bits.  Right.  So you'll be losing these two bits.  So what is remaining is 1 0 which is this is remaining.  Right.  And what is 1 0.  It's 2.  Right.  And that's why we got 2.  So that's how you can work with left shift and right shift."
+        },
+        {
+            "number": "14",
+            "title": "Python Tutorial for Beginners | Python BitWise Operators",
+            "start": 728.88,
+            "end": 755.98,
+            "text": " So that's your bitwise operator.  So we have talked about complement.  We have talked about and or XOR and left shift and right shift.  So again when you do scientific calculation this will be useful there.  So I hope you are enjoying this.  Let me know in the comment section if you if you need some more improvement.  Let me know on this topic.  So that's it everyone.  Bye bye.  Bye.  Bye.  Bye.  Bye.  Bye.  Bye.  Bye.  Bye."
+        }
+    ],
+    "text": " Welcome back aliens my name is Devind Reddy and let's continue with this series on Python. So till this point we have worked with operators right we have talked about assignment operator arithmetic operators and logical operators. Now it's time to focus on some more operators and this time we are going to work with bitwise. Now if you remember in one of the video we have talked about binary formats right. So this is where you will use them. So for sure the name suggests it is something to do with binary formats right. So whatever you are going to do now is with bits. So let's get started. So let's open Python and let's do this calculation. Now the first one so if you talk about bitwise we have six different operators we have complement operator then we have and or XOR left shift and right shift. Okay let's start with the first one which is complement operator and if you look at the symbol of it it's weird right. We don't use this symbol much. So this is called as tilde operator or tilde operator. Now where you will find it. So if you look at your keyboard just below the escape key you have this special key called as tilde. So let's use it and that's your tilde sign and we'll give any number here. We will go for 12. Now when you say enter what you are expecting. Come on go for a random guess here. Maybe minus 12 or maybe minus 1 something like that right. Now if I say enter. Oh we got minus 13. That's weird. Why minus 13. So let's do a research on this now. So let me go back to my paint and let's do the calculation. So how do you find this. Now to understand this first of all we need to find what is complement means. Now when you say complement it will simply do reverse of your binary format example. If you say complement 1 it will give you 0 and if you say complement 0 it will give you 1. That's what it's doing. Now the same thing is applied on 12 right. And what is 12. 12 is actually if you convert 12 into binary format you will get this. So you will get four zeros double 1 double 0. That's your 12 binary format. And I love this mobile phone model right. Nokia double 1 double 0. Everyone love it. Now we need to find a complement of it right. So you have to find the complement of it. So what you will do is you will reverse the number. So this 0 becomes 1 and then this is 1. Then this is 0 0 1 1 1 1. So this is your complement of 12. But hold on. What is this number and why we got minus 13. That's weird right. Now if you look at minus 13. Why minus 13 is this number. That we have to find out that now. Now to understand this concept again as a programmer you need to know all this concept because you will. So when you do any course in for IT or CS this is what they will teach you in the first year. But if you don't know this concept that's OK. You can learn here now. Now we have a concept of two's complement because what happens is in your system we can store positive numbers right. We can store 12. We can store 13. We can store 15 20 21 or maybe 1000. But how to store negative numbers. Now to store negative numbers. First of all we don't store negative numbers in the system. We always store positive numbers. So even if you want to store this minus 13 you need to convert this number into positive number first. And the way you can do that is with the help of two's complement. Now how do you find two's complement. So to find two's complement we need to find one's complement plus one. This is a formula OK. So when you say two's complement it is one's complement plus one. Now how do you find one's complement. It's easy actually. First convert this number into binary format. Now what is 13. It's 0 0 0 0 1 1 0 1. This is a binary format of plus 13. So this is 13 OK. We want to find minus 13 right. So you have to find two's complement of this number. Now let's find the one's complement. And how do you find one's complement. It's easy now. We know how to find complement right. So we have to reverse this number. So you will get 1 1 1 1 0 0 1 0. So this is one's complement of 13. But we want to find two's complement right. So what you will do you will say plus one. Now this is so when you say 0 plus 1 it will give you 1. And then we got 1. Then we got 0 0 1 1 1 1. Now this number here this is minus 13 OK. So this is two's complement of 13 which is minus 13. We got it. And now if you compare this number with complement of 12 they are same. And that's why you got. So when you say complement of 12 you got minus 13 right. So that was the answer. So that's how you can work with complement. So when you want to store negative number this is what you do. Now I would recommend you to try different numbers here. Maybe maybe complement of 45 maybe complement of 121. So try it out and let's let's see what answers you get there. So that's your complement operator. The next one we have is bitwise and. Now if you remember in the previous video we have talked about logical operators right. So in logical we have and and or right. So here as well we can use bitwise and and bitwise or. So in and remember this thing. So whenever you have and and if you have two conditions and both are true then only you will get true. And in or if you have at least one true you will get true. If you remember. So if you remember this table right that's what you're going to do here now. So let's do bitwise and. Now which operator we use here. So we don't use and because AND and is for logical operations. So here we have to use ampersand symbol. So let's take 12 ampersand 13. OK. So we got these two numbers 12 and 13. If I say enter you got 12. So let's find out using bitwise. So let's go back to our paint and here we'll convert 12 into binary format which is 0 0 0 0 1 1 double 0. This is 12 binary format. And then we have 13 binary format which is 0 0 0 0 1 1 0 1. And now we need to find out the bitwise here. So we have to work with bits. So let's compare this bit with this bit. Now if you remember AND operation if both are 1 then only 1. So this in this case this is 0 1. So it will be 0. This is 0. This is 1. This is 1 because both are 1's and then we got 0 0 0 0. And if you compare this output this is 12. Right. So you got bitwise AND. So this was and AND operation. And that's why you got 12. Let's do OR. So it's a 12 OR. So now for OR we have to use pipe. OK. So for AND we have ampersand for OR we have pipe. And then OK. Where you will find pipe. It is above your enter button. So it's a 12 OR 13. Come on guess. Now in fact before entering here let's do calculation. Let's compare here. So let's go back here and let's do compare. Let's do some calculation. So it will be 0 0 0 0 1 1 0 0. That's 12. 0 0 0 0 1 1 0 1. That is your 13. Right. And let's do OR. So when you say OR if any one is 1. So your output is 1. Right. So we got 1. 0 0 0 1 1 0 0 0 0. And that's your 13. Right. So this is 13. Let's verify. And if I say enter. Oh we got 13. Right. So this works. So this is how you work with bitwise AND and bitwise OR. In fact you know you might be thinking only 12 and 13 you will get maybe some other number. Let's try. So it's a 25 and maybe 31 or maybe 30. And you can see we got 24. Again this is your homework. Right. So this is your notebook. So put your notebook and convert 25 into binary format convert 13 into binary format and just do AND operation. And of course you will get 24. The next one we have is XOR. Now in XOR what you do is it's actually very simple. When you say you have two numbers which is 0 and 0. Now since we don't have any 1 here we will get 0. Then you have 0 1. Now in this case you have odd number of 1. Right. So which is 1 1. So you will get answer 1. Now when you say 1 and 0. So again we have odd numbers of 1 which is 1. And when you have when you don't have odd numbers of 1 you can see we have two 1s which is even number. So you will get 0. OK. So when you have odd numbers of 1 you will get 1. If you want to remember in a shortcut way it's very simple. If both the numbers are different then you can go for 1. Right. So we have 0 1 is 1 1 0 is 1. So that's very simple. This is how you perform XOR operation. This is XOR and you can represent that with the help of cap symbol. So let's do that here. Again we'll take two different numbers here. We will go for let's go for 12 again the same number 12 cap 13 here. Oh just made a mistake there. 12 cap 13. And you can see the answer is 1. But why 1. Let's verify. So let's go back to the go back here and do calculations. So what is 12. We have done that 0 0 0 0 1 1 0 0. And then we have 13 here which is 0 0 0 0 1 1 0 1. And now let's do XOR. So if you have two different numbers than 1. Right. So if you compute 1 they are same 0 0 0. All are same number 0. So we'll go for 0 0 0. So the only answer you got here is 1. Right. So that's why we got 1. That's how you perform XOR operation. So you can try here with different numbers. Right. Again the same number 25 and 30. Try it out and let's see what what you get. In fact I will do it here. So I will say XOR 25 cap 30. And you've got 7. But how 7. That's your homework. Right. Let me know in the comment section what you get here. Now once you have done with AND OR and XOR. Let's move towards left shift. I love this concept of left shift. So what is left shift here. So what I will do is first of all let me try something else. I would say 10. Now when you say left shift you have to use this left shift operators which is on the left hand side. And then you will say 2. OK. What's your guess. What is the output. I don't know. Let's try. So you got 40. But why 40. Let's find out. Now when you say let's go to paint here and let's do calculation. Now when you say 10. Now I will go for I will ignore the earlier zeros. OK. So just because I am damn lazy to write every time that I will directly go with 1 0 1 0. So again we have we do have 4 zeros before but ignore them. So we got 1 0 1 0. And then we have to apply a left shift operator here. Now how do we use it. Now in left shift what happens is imagine there's a box here. So imagine there's a this is a box. And then we have a dot here dot symbol. And then we have some zeros. Now of course right. Every number is represented this way. So for example when you say 5 it's actually 5.0. In fact we can have multiple zeros here. Right. So when you say 65 it's again we do have zeros there but we ignore zeros because there are zeros. Here as well when you say 1 0 1 0 we do have a dot. So we do have a dot. And then after that we have multiple zeros. In left shift what we do is we shift the bits on left hand side. OK. I don't know for which side you are. So you are facing me so for you this side right. So left hand side. So let's do that. OK. So now so when you say left shift you have to shift bits. But how many bits. You need to shift two bits. Right. Example if you see the output here. So you are shifting 10 by two bits. So when you say two bits you got 1 0 1 0. And then you need to shift on left hand side two bits. So you will add two more zeros. Then we have a dot. So we were having a dot after zero but after shifting you have shifted two zeros on this side. Right. Now this number here is 40. Now how do you verify. Go with the normal calculation. Right. So this is 2 raised to 0 2 raised to 1 2 raised to 2 2 raised to 3. So this 1 is 2 raised to 3. And then we got 2 raised to 4 and then we got 2 raised to 5. So consider this one and consider this one. So this is 32 and this is 8. So 32 plus 8 is 40. Right. So we got the answer. So that's how you find left shift. How about right shift. It's very simple. So we also have a concept of right shift. Right. What I will do is I will say I will go with the same number 10 and right shift with two bits. So in left shift if you are gaining bits in right shift you are losing bits. Let's verify. So if I say enter you can see we got two. But why two. Let's do it. Let's do it here. So we have 1010 as 10. So we have a we have a dot here. So in right shift you shift on this side. Right. Right inside. So you will be losing how many bits. Two bits. Right. So you'll be losing these two bits. So what is remaining is 1 0 which is this is remaining. Right. And what is 1 0. It's 2. Right. And that's why we got 2. So that's how you can work with left shift and right shift. So that's your bitwise operator. So we have talked about complement. We have talked about and or XOR and left shift and right shift. So again when you do scientific calculation this will be useful there. So I hope you are enjoying this. Let me know in the comment section if you if you need some more improvement. Let me know on this topic. So that's it everyone. Bye bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye."
+}

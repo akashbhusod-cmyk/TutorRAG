@@ -1,0 +1,124 @@
+{
+    "chunks": [
+        {
+            "number": "9",
+            "title": "Python Tutorial for Beginners | More on Variables in Python",
+            "start": 0.0,
+            "end": 37.120000000000005,
+            "text": " Welcome back aliens, my name is Devin Reddy and let's continue with this series on Python.  And in this video we're going to talk about variable. But hold on, we have talked about  variables right? We know how to get variables, how to assign values and we can change the  value as well. Then why again in the next video? Now in this video we'll talk in a different  way, you know, we'll talk more about memory consumption and what happens when you create  multiple variables. So let's get started. You know, let's in the flow itself, we'll  talk about what concept we'll discuss. So we have our editor ready and let's get started.  So let's start with some questions, you know, so I will ask you a question you have to answer"
+        },
+        {
+            "number": "9",
+            "title": "Python Tutorial for Beginners | More on Variables in Python",
+            "start": 37.120000000000005,
+            "end": 67.84,
+            "text": " maybe in your mind or in the comment section, your choice. So what I will do here is let  me create a small variable, I will say the variable name is num, and the value for num  is equal to five. Now what do you think what is happening behind the scene? Okay, just  imagine. So there will be so in your in your memory, or in your internal memory of your  system, you might be getting a box there with the name num, and it will be having its  own address, right? And the in that box, you will be having a value which is five. So we  got a box in that we have value five, and it will be having a name and the address."
+        },
+        {
+            "number": "9",
+            "title": "Python Tutorial for Beginners | More on Variables in Python",
+            "start": 67.84,
+            "end": 97.24000000000001,
+            "text": " Okay, that's good. So name is num and address is something. Let's see what is the address?  Hey, how do you know what is the address? Now, of course, every variable will have it  will be having some address, right? If you want to get the address, what you will do  is you will use a function name called as ID. And then in the bracket, you have to pass  the variable name, which is num. So in this case, if I pass num, you can see we got the  address. Oh, that's great. So we got this is our address. Now this is possible with  any type of variable. Okay, you can go with string as well. Let's try. So I will use a"
+        },
+        {
+            "number": "9",
+            "title": "Python Tutorial for Beginners | More on Variables in Python",
+            "start": 97.24000000000001,
+            "end": 133.72,
+            "text": " name equal to so let's say my name, I would say Naveen. And again, the same thing, I will  use an ID. And in this I will pass name. And you can see we got address now for now we  have a different address for ID we have a different for name, we have a different address.  That's great. Okay, now think about this. What if I create one more variable, let's go  with a different variable. Now I will say variable A and the value for A is let's say  10. Okay, so we have 10. And then we have value variable B and B is equal to A. Now  can I assign A to B? Yes, the answer is yes, you can assign the value of A to B. Now what"
+        },
+        {
+            "number": "9",
+            "title": "Python Tutorial for Beginners | More on Variables in Python",
+            "start": 133.72,
+            "end": 167.79999999999998,
+            "text": " do you think what is happening behind the scenes? So how many variables we have? How  many boxes we have? Think about this. Maybe we should be having two boxes, right? One  for A and one for B, right? So two boxes, each box will have a value which is 10. And  they will they might be having different address, right? Of course, if you have a different  box, you will be having a different address. Let's verify. So first I will verify the values  of it. So I will type A, we got 10, I will type B, we got 10. So both have the same value.  Okay, I will try to fetch the address of A. Okay, we got the address doesn't matter,"
+        },
+        {
+            "number": "9",
+            "title": "Python Tutorial for Beginners | More on Variables in Python",
+            "start": 167.79999999999998,
+            "end": 210.67999999999998,
+            "text": " doesn't matter what's the address here, some weird number. And I will try to add get the  address of B. Oh, that's weird, we got the same address. So in Python, what happens is  whenever you create multiple variables, and in case if they have the same data, they both  will point to the same box, they will not be getting multiple, multiple boxes for for  each variable. And that's where Python is more memory efficient, right? Because you're  not getting multiple data here. That's great. So what what happens when I change the let's  see, let's see the ID of 10. Okay, we can also do that because everything which you  are using here, it is also called as object. So in this case, we have 10, which is an object,"
+        },
+        {
+            "number": "9",
+            "title": "Python Tutorial for Beginners | More on Variables in Python",
+            "start": 210.67999999999998,
+            "end": 241.88,
+            "text": " name is an object, five is an object, I know you're thinking about objects now, don't worry,  we'll talk about objects later in detail, you can, till that point, you can imagine  object is a box, okay, so it is something where you can hold your data, some like some  somewhat like variable, but we'll discuss that in detail later. At this point, everything  is an object, right? 10 is an object here. So every object will have an ID here. So I  will say enter and you can see we got the same ID. So the address is not based on the  variable name, it is based on the box itself. So the moment you say I want to use a value,"
+        },
+        {
+            "number": "9",
+            "title": "Python Tutorial for Beginners | More on Variables in Python",
+            "start": 241.88,
+            "end": 277.96,
+            "text": " it belongs to a box and the address of that box is here. Now in future, if you get one  more variable, it called as 10 or K. And if you assign the value for K as 10. Now if  I fetch the ID for K, so we are not actually talking about K here, we're talking about  10 because indirectly your K is referring to 10, right? That's important. So these variables  are also called as tags because we are tagging them. So 10 is a value and you're tagging  A, B, K, so everything is tagging the same, same object. Okay, this is this is awesome.  So you can see we got the same ID. Not if I change the value for A, let's try. So I"
+        },
+        {
+            "number": "9",
+            "title": "Python Tutorial for Beginners | More on Variables in Python",
+            "start": 277.96,
+            "end": 317.67999999999995,
+            "text": " will say A is equal to let's say nine, I want to change the value for A. Now what do you  think will it affect the address of A? Of course, right? Because now you have a different  box, different value, different box, and different box in different address. Let's try and that's  right, we got a different value for A. That works. What so if I change the value of A,  and if you see this statement here, this is simply B is equal to A, right? So if A changes,  will it affect B? Let's try. Okay, so if I say ID of B, or no, so ID of ID of B is  still the same old value because B is still referring to 10, right? So we got two different"
+        },
+        {
+            "number": "9",
+            "title": "Python Tutorial for Beginners | More on Variables in Python",
+            "start": 317.67999999999995,
+            "end": 354.28000000000003,
+            "text": " objects, two different boxes, and each box have different address. So here K and B is  pointing to 10. And your A is pointing to nine now. Maybe in future, you will say K  is equal to A now. So of course, the tag of K will change to the value of nine, right?  Let's verify. So I will say int of K. And you can see now it is referring to nine. That's  awesome. Okay, so now we got two boxes, right? Now what if you so we so you can see we have  B which is referring to 10 as of now and K and A referring to nine. What if in future  even B is referring to a new value, let's say eight. So in total, we have three boxes"
+        },
+        {
+            "number": "9",
+            "title": "Python Tutorial for Beginners | More on Variables in Python",
+            "start": 354.28,
+            "end": 388.32,
+            "text": " now. So A is referring A and K, they are referring to nine, and we have B referring  to eight, and no one is referring to 10. Now what will happen to 10? Now 10 is there, right?  10 is there in the memory and no one is using it. And that's where in your in Python, we  have a concept of garbage collection. Again, we'll talk about that later how it works.  So we'll talk about a PVM later. So we have a different concept, you know, we have PVM  objects garbage collection. So we'll talk about those things in detail later. But as  of now, remember this thing, whenever you have a data in your memory, which will not"
+        },
+        {
+            "number": "9",
+            "title": "Python Tutorial for Beginners | More on Variables in Python",
+            "start": 388.32,
+            "end": 428.64,
+            "text": " be used or which is not tagged by any variable, it will be garbage collected later. Okay,  but till that point, if you have any reference, it is there in the memory, okay, it will be  there for your use. Now how about creating a constant example, let's say you know, we  have this concept of constants, what are constants now. So when you say variable, it means you  can change the value, right? Now, but when it comes to constant, that means you cannot  change the value or something like immutable stuff. But can you make a variable constant  and see programming is the only place where you can make a variable constant, right? But  in Python, you cannot do that. Yes, you can show your intention by saying, hey, this is"
+        },
+        {
+            "number": "9",
+            "title": "Python Tutorial for Beginners | More on Variables in Python",
+            "start": 428.64,
+            "end": 463.6,
+            "text": " a constant example. Normally, when we say constant, we use a different format of names,  example, capital letters. So I will say pi value. Normally, if you remember, in if you  in maths, we use a concept of pi of like 3.14. Yeah, now this is a constant value,  right? No one can change it, it will never be changed. So in this case, you will be using  this as a constant. Of course, you cannot stop anyone by changing this value example,  I can change this value data. So if I type pi, you can see we got a 3.14. But what if  I change the value? Yes, I can change the value, I can say 3.15, which will be a crime"
+        },
+        {
+            "number": "9",
+            "title": "Python Tutorial for Beginners | More on Variables in Python",
+            "start": 463.6,
+            "end": 496.48,
+            "text": " in this case. But you know, we can change the value. But you can show your intentions  by saying, hey, this is a pi, this is you can see capital letters there. So don't change  the value. So the intention here is to make it constant, don't change it. So yes, unfortunately,  in Python, you cannot make it constant. But but you can show your intentions. Now with  variables, we have one more concept, which is called as type of the variable example.  In this case, if I say the type, now how do we know the type? So we have this method of  the type and you can pass pi and you can see the type of pi is float. So when you want"
+        },
+        {
+            "number": "9",
+            "title": "Python Tutorial for Beginners | More on Variables in Python",
+            "start": 496.48,
+            "end": 530.76,
+            "text": " to know the type of variable, just type type. And in bracket, you can mention the variable  name, it will give you the type of it, you can do the same thing for a, b, k and everything.  So the variable which we are using here, those variables has a type which is inbuilt types,  right? But can I create my own types? And the answer is yes, you can create. But we'll  be doing that later, you know, in some maybe in some other tutorial. But we can use inbuilt  types example, int float, those are inbuilt types, but how many types we have, normally  these types are called as data types. So we have some inbuilt data types. And we are going"
+        },
+        {
+            "number": "9",
+            "title": "Python Tutorial for Beginners | More on Variables in Python",
+            "start": 530.76,
+            "end": 539.64,
+            "text": " to see that in the next video. So in the next video, we'll talk about different data types  and how to use it. So I hope you're enjoying the series. Let me know in the comment section.  And that's it. Bye bye."
+        },
+        {
+            "number": "9",
+            "title": "Python Tutorial for Beginners | More on Variables in Python",
+            "start": 550.6,
+            "end": 551.6,
+            "text": " Transcribed by https://otter.ai"
+        }
+    ],
+    "text": " Welcome back aliens, my name is Devin Reddy and let's continue with this series on Python. And in this video we're going to talk about variable. But hold on, we have talked about variables right? We know how to get variables, how to assign values and we can change the value as well. Then why again in the next video? Now in this video we'll talk in a different way, you know, we'll talk more about memory consumption and what happens when you create multiple variables. So let's get started. You know, let's in the flow itself, we'll talk about what concept we'll discuss. So we have our editor ready and let's get started. So let's start with some questions, you know, so I will ask you a question you have to answer maybe in your mind or in the comment section, your choice. So what I will do here is let me create a small variable, I will say the variable name is num, and the value for num is equal to five. Now what do you think what is happening behind the scene? Okay, just imagine. So there will be so in your in your memory, or in your internal memory of your system, you might be getting a box there with the name num, and it will be having its own address, right? And the in that box, you will be having a value which is five. So we got a box in that we have value five, and it will be having a name and the address. Okay, that's good. So name is num and address is something. Let's see what is the address? Hey, how do you know what is the address? Now, of course, every variable will have it will be having some address, right? If you want to get the address, what you will do is you will use a function name called as ID. And then in the bracket, you have to pass the variable name, which is num. So in this case, if I pass num, you can see we got the address. Oh, that's great. So we got this is our address. Now this is possible with any type of variable. Okay, you can go with string as well. Let's try. So I will use a name equal to so let's say my name, I would say Naveen. And again, the same thing, I will use an ID. And in this I will pass name. And you can see we got address now for now we have a different address for ID we have a different for name, we have a different address. That's great. Okay, now think about this. What if I create one more variable, let's go with a different variable. Now I will say variable A and the value for A is let's say 10. Okay, so we have 10. And then we have value variable B and B is equal to A. Now can I assign A to B? Yes, the answer is yes, you can assign the value of A to B. Now what do you think what is happening behind the scenes? So how many variables we have? How many boxes we have? Think about this. Maybe we should be having two boxes, right? One for A and one for B, right? So two boxes, each box will have a value which is 10. And they will they might be having different address, right? Of course, if you have a different box, you will be having a different address. Let's verify. So first I will verify the values of it. So I will type A, we got 10, I will type B, we got 10. So both have the same value. Okay, I will try to fetch the address of A. Okay, we got the address doesn't matter, doesn't matter what's the address here, some weird number. And I will try to add get the address of B. Oh, that's weird, we got the same address. So in Python, what happens is whenever you create multiple variables, and in case if they have the same data, they both will point to the same box, they will not be getting multiple, multiple boxes for for each variable. And that's where Python is more memory efficient, right? Because you're not getting multiple data here. That's great. So what what happens when I change the let's see, let's see the ID of 10. Okay, we can also do that because everything which you are using here, it is also called as object. So in this case, we have 10, which is an object, name is an object, five is an object, I know you're thinking about objects now, don't worry, we'll talk about objects later in detail, you can, till that point, you can imagine object is a box, okay, so it is something where you can hold your data, some like some somewhat like variable, but we'll discuss that in detail later. At this point, everything is an object, right? 10 is an object here. So every object will have an ID here. So I will say enter and you can see we got the same ID. So the address is not based on the variable name, it is based on the box itself. So the moment you say I want to use a value, it belongs to a box and the address of that box is here. Now in future, if you get one more variable, it called as 10 or K. And if you assign the value for K as 10. Now if I fetch the ID for K, so we are not actually talking about K here, we're talking about 10 because indirectly your K is referring to 10, right? That's important. So these variables are also called as tags because we are tagging them. So 10 is a value and you're tagging A, B, K, so everything is tagging the same, same object. Okay, this is this is awesome. So you can see we got the same ID. Not if I change the value for A, let's try. So I will say A is equal to let's say nine, I want to change the value for A. Now what do you think will it affect the address of A? Of course, right? Because now you have a different box, different value, different box, and different box in different address. Let's try and that's right, we got a different value for A. That works. What so if I change the value of A, and if you see this statement here, this is simply B is equal to A, right? So if A changes, will it affect B? Let's try. Okay, so if I say ID of B, or no, so ID of ID of B is still the same old value because B is still referring to 10, right? So we got two different objects, two different boxes, and each box have different address. So here K and B is pointing to 10. And your A is pointing to nine now. Maybe in future, you will say K is equal to A now. So of course, the tag of K will change to the value of nine, right? Let's verify. So I will say int of K. And you can see now it is referring to nine. That's awesome. Okay, so now we got two boxes, right? Now what if you so we so you can see we have B which is referring to 10 as of now and K and A referring to nine. What if in future even B is referring to a new value, let's say eight. So in total, we have three boxes now. So A is referring A and K, they are referring to nine, and we have B referring to eight, and no one is referring to 10. Now what will happen to 10? Now 10 is there, right? 10 is there in the memory and no one is using it. And that's where in your in Python, we have a concept of garbage collection. Again, we'll talk about that later how it works. So we'll talk about a PVM later. So we have a different concept, you know, we have PVM objects garbage collection. So we'll talk about those things in detail later. But as of now, remember this thing, whenever you have a data in your memory, which will not be used or which is not tagged by any variable, it will be garbage collected later. Okay, but till that point, if you have any reference, it is there in the memory, okay, it will be there for your use. Now how about creating a constant example, let's say you know, we have this concept of constants, what are constants now. So when you say variable, it means you can change the value, right? Now, but when it comes to constant, that means you cannot change the value or something like immutable stuff. But can you make a variable constant and see programming is the only place where you can make a variable constant, right? But in Python, you cannot do that. Yes, you can show your intention by saying, hey, this is a constant example. Normally, when we say constant, we use a different format of names, example, capital letters. So I will say pi value. Normally, if you remember, in if you in maths, we use a concept of pi of like 3.14. Yeah, now this is a constant value, right? No one can change it, it will never be changed. So in this case, you will be using this as a constant. Of course, you cannot stop anyone by changing this value example, I can change this value data. So if I type pi, you can see we got a 3.14. But what if I change the value? Yes, I can change the value, I can say 3.15, which will be a crime in this case. But you know, we can change the value. But you can show your intentions by saying, hey, this is a pi, this is you can see capital letters there. So don't change the value. So the intention here is to make it constant, don't change it. So yes, unfortunately, in Python, you cannot make it constant. But but you can show your intentions. Now with variables, we have one more concept, which is called as type of the variable example. In this case, if I say the type, now how do we know the type? So we have this method of the type and you can pass pi and you can see the type of pi is float. So when you want to know the type of variable, just type type. And in bracket, you can mention the variable name, it will give you the type of it, you can do the same thing for a, b, k and everything. So the variable which we are using here, those variables has a type which is inbuilt types, right? But can I create my own types? And the answer is yes, you can create. But we'll be doing that later, you know, in some maybe in some other tutorial. But we can use inbuilt types example, int float, those are inbuilt types, but how many types we have, normally these types are called as data types. So we have some inbuilt data types. And we are going to see that in the next video. So in the next video, we'll talk about different data types and how to use it. So I hope you're enjoying the series. Let me know in the comment section. And that's it. Bye bye. Transcribed by https://otter.ai"
+}

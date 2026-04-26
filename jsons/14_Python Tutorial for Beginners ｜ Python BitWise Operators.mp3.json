@@ -1,0 +1,2574 @@
+{
+  "chunks": [
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 0.0,
+      "end": 8.48,
+      "text": " Welcome back aliens my name is Devind Reddy and let's continue with this series on Python."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 8.48,
+      "end": 11.96,
+      "text": " So till this point we have worked with operators right we have talked about assignment operator"
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 11.96,
+      "end": 14.36,
+      "text": " arithmetic operators and logical operators."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 14.36,
+      "end": 19.92,
+      "text": " Now it's time to focus on some more operators and this time we are going to work with bitwise."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 19.92,
+      "end": 23.2,
+      "text": " Now if you remember in one of the video we have talked about binary formats right."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 23.2,
+      "end": 25.42,
+      "text": " So this is where you will use them."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 25.42,
+      "end": 29.52,
+      "text": " So for sure the name suggests it is something to do with binary formats right."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 29.52,
+      "end": 32.7,
+      "text": " So whatever you are going to do now is with bits."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 32.7,
+      "end": 33.88,
+      "text": " So let's get started."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 33.88,
+      "end": 37.26,
+      "text": " So let's open Python and let's do this calculation."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 37.26,
+      "end": 41.78,
+      "text": " Now the first one so if you talk about bitwise we have six different operators we have complement"
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 41.78,
+      "end": 46.54,
+      "text": " operator then we have and or XOR left shift and right shift."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 46.54,
+      "end": 49.620000000000005,
+      "text": " Okay let's start with the first one which is complement operator and if you look at"
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 49.620000000000005,
+      "end": 51.42,
+      "text": " the symbol of it it's weird right."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 51.42,
+      "end": 53.519999999999996,
+      "text": " We don't use this symbol much."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 53.519999999999996,
+      "end": 57.620000000000005,
+      "text": " So this is called as tilde operator or tilde operator."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 57.620000000000005,
+      "end": 58.68,
+      "text": " Now where you will find it."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 58.68,
+      "end": 62.54,
+      "text": " So if you look at your keyboard just below the escape key you have this special key called"
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 62.54,
+      "end": 63.54,
+      "text": " as tilde."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 63.54,
+      "end": 67.34,
+      "text": " So let's use it and that's your tilde sign and we'll give any number here."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 67.34,
+      "end": 68.62,
+      "text": " We will go for 12."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 68.62,
+      "end": 70.9,
+      "text": " Now when you say enter what you are expecting."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 70.9,
+      "end": 73.02,
+      "text": " Come on go for a random guess here."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 73.02,
+      "end": 76.86,
+      "text": " Maybe minus 12 or maybe minus 1 something like that right."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 76.86,
+      "end": 77.86,
+      "text": " Now if I say enter."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 77.86,
+      "end": 79.94,
+      "text": " Oh we got minus 13."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 79.94,
+      "end": 80.94,
+      "text": " That's weird."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 80.94,
+      "end": 82.46000000000001,
+      "text": " Why minus 13."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 82.46000000000001,
+      "end": 84.48,
+      "text": " So let's do a research on this now."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 84.48,
+      "end": 87.4,
+      "text": " So let me go back to my paint and let's do the calculation."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 87.4,
+      "end": 88.7,
+      "text": " So how do you find this."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 88.7,
+      "end": 92.42,
+      "text": " Now to understand this first of all we need to find what is complement means."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 92.42,
+      "end": 97.22,
+      "text": " Now when you say complement it will simply do reverse of your binary format example."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 97.22,
+      "end": 101.7,
+      "text": " If you say complement 1 it will give you 0 and if you say complement 0 it will give you"
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 101.7,
+      "end": 102.7,
+      "text": " 1."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 102.7,
+      "end": 103.7,
+      "text": " That's what it's doing."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 103.7,
+      "end": 105.42,
+      "text": " Now the same thing is applied on 12 right."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 105.42,
+      "end": 106.42,
+      "text": " And what is 12."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 106.42,
+      "end": 109.46000000000001,
+      "text": " 12 is actually if you convert 12 into binary format you will get this."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 109.46000000000001,
+      "end": 112.34,
+      "text": " So you will get four zeros double 1 double 0."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 112.34,
+      "end": 114.26,
+      "text": " That's your 12 binary format."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 114.26,
+      "end": 115.74000000000001,
+      "text": " And I love this mobile phone model right."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 115.74000000000001,
+      "end": 116.74000000000001,
+      "text": " Nokia double 1 double 0."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 117.08,
+      "end": 118.08,
+      "text": " Everyone love it."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 118.08,
+      "end": 121.47999999999999,
+      "text": " Now we need to find a complement of it right."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 121.47999999999999,
+      "end": 123.28,
+      "text": " So you have to find the complement of it."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 123.28,
+      "end": 125.17999999999999,
+      "text": " So what you will do is you will reverse the number."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 125.17999999999999,
+      "end": 128.54,
+      "text": " So this 0 becomes 1 and then this is 1."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 128.54,
+      "end": 132.64,
+      "text": " Then this is 0 0 1 1 1 1."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 132.64,
+      "end": 134.79999999999998,
+      "text": " So this is your complement of 12."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 134.79999999999998,
+      "end": 135.79999999999998,
+      "text": " But hold on."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 135.79999999999998,
+      "end": 138.92,
+      "text": " What is this number and why we got minus 13."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 138.92,
+      "end": 139.92,
+      "text": " That's weird right."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 139.92,
+      "end": 142.6,
+      "text": " Now if you look at minus 13."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 142.6,
+      "end": 144.76,
+      "text": " Why minus 13 is this number."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 144.76,
+      "end": 146.0,
+      "text": " That we have to find out that now."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 146.26,
+      "end": 150.46,
+      "text": " Now to understand this concept again as a programmer you need to know all this concept"
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 150.46,
+      "end": 151.46,
+      "text": " because you will."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 151.46,
+      "end": 155.42,
+      "text": " So when you do any course in for IT or CS this is what they will teach you in the first"
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 155.42,
+      "end": 156.42,
+      "text": " year."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 156.42,
+      "end": 157.94,
+      "text": " But if you don't know this concept that's OK."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 157.94,
+      "end": 159.26,
+      "text": " You can learn here now."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 159.26,
+      "end": 164.5,
+      "text": " Now we have a concept of two's complement because what happens is in your system we"
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 164.5,
+      "end": 165.82,
+      "text": " can store positive numbers right."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 165.82,
+      "end": 166.82,
+      "text": " We can store 12."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 166.82,
+      "end": 167.82,
+      "text": " We can store 13."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 167.82,
+      "end": 171.06,
+      "text": " We can store 15 20 21 or maybe 1000."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 171.06,
+      "end": 173.1,
+      "text": " But how to store negative numbers."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 173.12,
+      "end": 174.12,
+      "text": " Now to store negative numbers."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 174.12,
+      "end": 177.0,
+      "text": " First of all we don't store negative numbers in the system."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 177.0,
+      "end": 179.0,
+      "text": " We always store positive numbers."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 179.0,
+      "end": 183.0,
+      "text": " So even if you want to store this minus 13 you need to convert this number into positive"
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 183.0,
+      "end": 184.0,
+      "text": " number first."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 184.0,
+      "end": 187.35999999999999,
+      "text": " And the way you can do that is with the help of two's complement."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 187.35999999999999,
+      "end": 189.32,
+      "text": " Now how do you find two's complement."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 189.32,
+      "end": 194.95999999999998,
+      "text": " So to find two's complement we need to find one's complement plus one."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 194.95999999999998,
+      "end": 196.12,
+      "text": " This is a formula OK."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 196.12,
+      "end": 199.28,
+      "text": " So when you say two's complement it is one's complement plus one."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 199.28,
+      "end": 200.79999999999998,
+      "text": " Now how do you find one's complement."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 200.79999999999998,
+      "end": 202.35999999999999,
+      "text": " It's easy actually."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 202.38000000000002,
+      "end": 205.06,
+      "text": " First convert this number into binary format."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 205.06,
+      "end": 206.06,
+      "text": " Now what is 13."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 206.06,
+      "end": 209.86,
+      "text": " It's 0 0 0 0 1 1 0 1."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 209.86,
+      "end": 212.10000000000002,
+      "text": " This is a binary format of plus 13."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 212.10000000000002,
+      "end": 213.10000000000002,
+      "text": " So this is 13 OK."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 213.10000000000002,
+      "end": 214.66000000000003,
+      "text": " We want to find minus 13 right."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 214.66000000000003,
+      "end": 217.5,
+      "text": " So you have to find two's complement of this number."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 217.5,
+      "end": 219.10000000000002,
+      "text": " Now let's find the one's complement."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 219.10000000000002,
+      "end": 220.42000000000002,
+      "text": " And how do you find one's complement."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 220.42000000000002,
+      "end": 221.42000000000002,
+      "text": " It's easy now."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 221.42000000000002,
+      "end": 222.74,
+      "text": " We know how to find complement right."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 222.74,
+      "end": 224.12,
+      "text": " So we have to reverse this number."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 224.12,
+      "end": 228.92000000000002,
+      "text": " So you will get 1 1 1 1 0 0 1 0."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 228.92000000000002,
+      "end": 231.44000000000003,
+      "text": " So this is one's complement of 13."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 231.52,
+      "end": 233.12,
+      "text": " But we want to find two's complement right."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 233.12,
+      "end": 235.7,
+      "text": " So what you will do you will say plus one."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 235.7,
+      "end": 238.7,
+      "text": " Now this is so when you say 0 plus 1 it will give you 1."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 238.7,
+      "end": 239.7,
+      "text": " And then we got 1."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 239.7,
+      "end": 243.5,
+      "text": " Then we got 0 0 1 1 1 1."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 243.5,
+      "end": 246.6,
+      "text": " Now this number here this is minus 13 OK."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 246.6,
+      "end": 250.28,
+      "text": " So this is two's complement of 13 which is minus 13."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 250.28,
+      "end": 251.28,
+      "text": " We got it."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 251.28,
+      "end": 255.56,
+      "text": " And now if you compare this number with complement of 12 they are same."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 255.56,
+      "end": 256.64,
+      "text": " And that's why you got."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 256.64,
+      "end": 259.48,
+      "text": " So when you say complement of 12 you got minus 13 right."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 259.48,
+      "end": 260.74,
+      "text": " So that was the answer."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 260.74,
+      "end": 262.22,
+      "text": " So that's how you can work with complement."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 262.22,
+      "end": 264.38,
+      "text": " So when you want to store negative number this is what you do."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 264.38,
+      "end": 266.62,
+      "text": " Now I would recommend you to try different numbers here."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 266.62,
+      "end": 270.42,
+      "text": " Maybe maybe complement of 45 maybe complement of 121."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 270.42,
+      "end": 273.94,
+      "text": " So try it out and let's let's see what answers you get there."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 273.94,
+      "end": 276.42,
+      "text": " So that's your complement operator."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 276.42,
+      "end": 279.14,
+      "text": " The next one we have is bitwise and."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 279.14,
+      "end": 282.7,
+      "text": " Now if you remember in the previous video we have talked about logical operators right."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 282.7,
+      "end": 285.02,
+      "text": " So in logical we have and and or right."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 285.02,
+      "end": 288.66,
+      "text": " So here as well we can use bitwise and and bitwise or."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 288.66,
+      "end": 290.02,
+      "text": " So in and remember this thing."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 290.06,
+      "end": 294.53999999999996,
+      "text": " So whenever you have and and if you have two conditions and both are true then only you"
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 294.53999999999996,
+      "end": 295.53999999999996,
+      "text": " will get true."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 295.53999999999996,
+      "end": 299.18,
+      "text": " And in or if you have at least one true you will get true."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 299.18,
+      "end": 300.18,
+      "text": " If you remember."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 300.18,
+      "end": 303.18,
+      "text": " So if you remember this table right that's what you're going to do here now."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 303.18,
+      "end": 305.14,
+      "text": " So let's do bitwise and."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 305.14,
+      "end": 306.41999999999996,
+      "text": " Now which operator we use here."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 306.41999999999996,
+      "end": 310.29999999999995,
+      "text": " So we don't use and because AND and is for logical operations."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 310.29999999999995,
+      "end": 312.21999999999997,
+      "text": " So here we have to use ampersand symbol."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 312.21999999999997,
+      "end": 314.5,
+      "text": " So let's take 12 ampersand 13."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 314.5,
+      "end": 315.5,
+      "text": " OK."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 315.5,
+      "end": 317.34,
+      "text": " So we got these two numbers 12 and 13."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 317.34,
+      "end": 319.46,
+      "text": " If I say enter you got 12."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 319.9,
+      "end": 322.58,
+      "text": " So let's find out using bitwise."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 322.58,
+      "end": 328.41999999999996,
+      "text": " So let's go back to our paint and here we'll convert 12 into binary format which is 0 0"
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 328.41999999999996,
+      "end": 330.26,
+      "text": " 0 0 1 1 double 0."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 330.26,
+      "end": 332.62,
+      "text": " This is 12 binary format."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 332.62,
+      "end": 337.7,
+      "text": " And then we have 13 binary format which is 0 0 0 0 1 1 0 1."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 337.7,
+      "end": 341.17999999999995,
+      "text": " And now we need to find out the bitwise here."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 341.17999999999995,
+      "end": 342.62,
+      "text": " So we have to work with bits."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 342.62,
+      "end": 344.5,
+      "text": " So let's compare this bit with this bit."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 344.5,
+      "end": 349.21999999999997,
+      "text": " Now if you remember AND operation if both are 1 then only 1."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 349.98,
+      "end": 351.3,
+      "text": " So this in this case this is 0 1."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 351.3,
+      "end": 352.3,
+      "text": " So it will be 0."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 352.3,
+      "end": 353.3,
+      "text": " This is 0."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 353.3,
+      "end": 354.3,
+      "text": " This is 1."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 354.3,
+      "end": 358.06,
+      "text": " This is 1 because both are 1's and then we got 0 0 0 0."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 358.06,
+      "end": 360.74,
+      "text": " And if you compare this output this is 12."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 360.74,
+      "end": 361.74,
+      "text": " Right."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 361.74,
+      "end": 363.34000000000003,
+      "text": " So you got bitwise AND."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 363.34000000000003,
+      "end": 365.98,
+      "text": " So this was and AND operation."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 365.98,
+      "end": 367.46000000000004,
+      "text": " And that's why you got 12."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 367.46000000000004,
+      "end": 368.46000000000004,
+      "text": " Let's do OR."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 368.46000000000004,
+      "end": 370.1,
+      "text": " So it's a 12 OR."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 370.1,
+      "end": 372.14000000000004,
+      "text": " So now for OR we have to use pipe."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 372.14000000000004,
+      "end": 373.14000000000004,
+      "text": " OK."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 373.14000000000004,
+      "end": 376.70000000000005,
+      "text": " So for AND we have ampersand for OR we have pipe."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 376.70000000000005,
+      "end": 377.70000000000005,
+      "text": " And then OK."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 377.70000000000005,
+      "end": 378.70000000000005,
+      "text": " Where you will find pipe."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 379.18,
+      "end": 380.82,
+      "text": " It is above your enter button."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 380.82,
+      "end": 383.65999999999997,
+      "text": " So it's a 12 OR 13."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 383.65999999999997,
+      "end": 384.65999999999997,
+      "text": " Come on guess."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 384.65999999999997,
+      "end": 387.09999999999997,
+      "text": " Now in fact before entering here let's do calculation."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 387.09999999999997,
+      "end": 388.09999999999997,
+      "text": " Let's compare here."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 388.09999999999997,
+      "end": 390.14,
+      "text": " So let's go back here and let's do compare."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 390.14,
+      "end": 391.5,
+      "text": " Let's do some calculation."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 391.5,
+      "end": 395.98,
+      "text": " So it will be 0 0 0 0 1 1 0 0."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 395.98,
+      "end": 396.98,
+      "text": " That's 12."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 396.98,
+      "end": 400.14,
+      "text": " 0 0 0 0 1 1 0 1."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 400.14,
+      "end": 401.14,
+      "text": " That is your 13."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 401.14,
+      "end": 402.14,
+      "text": " Right."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 402.14,
+      "end": 403.14,
+      "text": " And let's do OR."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 403.14,
+      "end": 405.41999999999996,
+      "text": " So when you say OR if any one is 1."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 405.41999999999996,
+      "end": 406.41999999999996,
+      "text": " So your output is 1."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 406.41999999999996,
+      "end": 407.41999999999996,
+      "text": " Right."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 407.41999999999996,
+      "end": 408.41999999999996,
+      "text": " So we got 1."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 409.14000000000004,
+      "end": 412.5,
+      "text": " 0 0 0 1 1 0 0 0 0."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 412.5,
+      "end": 413.5,
+      "text": " And that's your 13."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 413.5,
+      "end": 414.5,
+      "text": " Right."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 414.5,
+      "end": 415.5,
+      "text": " So this is 13."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 415.5,
+      "end": 416.5,
+      "text": " Let's verify."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 416.5,
+      "end": 417.5,
+      "text": " And if I say enter."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 417.5,
+      "end": 418.5,
+      "text": " Oh we got 13."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 418.5,
+      "end": 419.5,
+      "text": " Right."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 419.5,
+      "end": 420.5,
+      "text": " So this works."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 420.5,
+      "end": 422.42,
+      "text": " So this is how you work with bitwise AND and bitwise OR."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 422.42,
+      "end": 427.02000000000004,
+      "text": " In fact you know you might be thinking only 12 and 13 you will get maybe some other number."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 427.02000000000004,
+      "end": 428.02000000000004,
+      "text": " Let's try."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 428.02000000000004,
+      "end": 433.66,
+      "text": " So it's a 25 and maybe 31 or maybe 30."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 433.66,
+      "end": 435.18,
+      "text": " And you can see we got 24."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 435.18,
+      "end": 436.42,
+      "text": " Again this is your homework."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 436.42,
+      "end": 437.42,
+      "text": " Right."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 437.42,
+      "end": 438.42,
+      "text": " So this is your notebook."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 438.42,
+      "end": 442.74,
+      "text": " So put your notebook and convert 25 into binary format convert 13 into binary format and just"
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 442.74,
+      "end": 443.74,
+      "text": " do AND operation."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 443.74,
+      "end": 445.78000000000003,
+      "text": " And of course you will get 24."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 445.78000000000003,
+      "end": 448.22,
+      "text": " The next one we have is XOR."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 448.22,
+      "end": 450.98,
+      "text": " Now in XOR what you do is it's actually very simple."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 450.98,
+      "end": 453.74,
+      "text": " When you say you have two numbers which is 0 and 0."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 453.74,
+      "end": 456.42,
+      "text": " Now since we don't have any 1 here we will get 0."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 456.42,
+      "end": 457.42,
+      "text": " Then you have 0 1."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 457.42,
+      "end": 459.58000000000004,
+      "text": " Now in this case you have odd number of 1."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 459.58000000000004,
+      "end": 460.58000000000004,
+      "text": " Right."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 460.58000000000004,
+      "end": 461.58000000000004,
+      "text": " So which is 1 1."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 461.58000000000004,
+      "end": 462.78000000000003,
+      "text": " So you will get answer 1."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 462.78000000000003,
+      "end": 464.38,
+      "text": " Now when you say 1 and 0."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 464.38,
+      "end": 467.7,
+      "text": " So again we have odd numbers of 1 which is 1."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 467.7,
+      "end": 471.06,
+      "text": " And when you have when you don't have odd numbers of 1 you can see we have two 1s which"
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 471.06,
+      "end": 472.2,
+      "text": " is even number."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 472.2,
+      "end": 473.2,
+      "text": " So you will get 0."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 473.2,
+      "end": 474.2,
+      "text": " OK."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 474.2,
+      "end": 475.98,
+      "text": " So when you have odd numbers of 1 you will get 1."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 475.98,
+      "end": 478.7,
+      "text": " If you want to remember in a shortcut way it's very simple."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 478.7,
+      "end": 481.65999999999997,
+      "text": " If both the numbers are different then you can go for 1."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 481.65999999999997,
+      "end": 482.65999999999997,
+      "text": " Right."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 482.65999999999997,
+      "end": 484.9,
+      "text": " So we have 0 1 is 1 1 0 is 1."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 484.9,
+      "end": 485.9,
+      "text": " So that's very simple."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 485.9,
+      "end": 487.71999999999997,
+      "text": " This is how you perform XOR operation."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 487.71999999999997,
+      "end": 491.46,
+      "text": " This is XOR and you can represent that with the help of cap symbol."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 491.46,
+      "end": 492.46,
+      "text": " So let's do that here."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 492.46,
+      "end": 493.94,
+      "text": " Again we'll take two different numbers here."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 494.5,
+      "end": 500.54,
+      "text": " We will go for let's go for 12 again the same number 12 cap 13 here."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 500.54,
+      "end": 502.86,
+      "text": " Oh just made a mistake there."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 502.86,
+      "end": 503.86,
+      "text": " 12 cap 13."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 503.86,
+      "end": 506.66,
+      "text": " And you can see the answer is 1."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 506.66,
+      "end": 507.66,
+      "text": " But why 1."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 507.66,
+      "end": 508.66,
+      "text": " Let's verify."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 508.66,
+      "end": 510.24,
+      "text": " So let's go back to the go back here and do calculations."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 510.24,
+      "end": 511.24,
+      "text": " So what is 12."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 511.24,
+      "end": 514.1,
+      "text": " We have done that 0 0 0 0 1 1 0 0."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 514.1,
+      "end": 518.82,
+      "text": " And then we have 13 here which is 0 0 0 0 1 1 0 1."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 518.82,
+      "end": 520.46,
+      "text": " And now let's do XOR."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 520.46,
+      "end": 522.74,
+      "text": " So if you have two different numbers than 1."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 522.74,
+      "end": 523.74,
+      "text": " Right."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 524.54,
+      "end": 527.38,
+      "text": " So if you compute 1 they are same 0 0 0."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 527.38,
+      "end": 528.38,
+      "text": " All are same number 0."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 528.38,
+      "end": 530.1800000000001,
+      "text": " So we'll go for 0 0 0."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 530.1800000000001,
+      "end": 531.78,
+      "text": " So the only answer you got here is 1."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 531.78,
+      "end": 532.78,
+      "text": " Right."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 532.78,
+      "end": 533.78,
+      "text": " So that's why we got 1."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 533.78,
+      "end": 536.22,
+      "text": " That's how you perform XOR operation."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 536.22,
+      "end": 537.7,
+      "text": " So you can try here with different numbers."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 537.7,
+      "end": 538.7,
+      "text": " Right."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 538.7,
+      "end": 539.7,
+      "text": " Again the same number 25 and 30."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 539.7,
+      "end": 542.3,
+      "text": " Try it out and let's see what what you get."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 542.3,
+      "end": 543.3,
+      "text": " In fact I will do it here."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 543.3,
+      "end": 546.62,
+      "text": " So I will say XOR 25 cap 30."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 546.62,
+      "end": 547.82,
+      "text": " And you've got 7."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 547.82,
+      "end": 548.98,
+      "text": " But how 7."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 548.98,
+      "end": 549.98,
+      "text": " That's your homework."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 549.98,
+      "end": 550.98,
+      "text": " Right."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 550.98,
+      "end": 552.3,
+      "text": " Let me know in the comment section what you get here."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 552.3399999999999,
+      "end": 555.9799999999999,
+      "text": " Now once you have done with AND OR and XOR."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 555.9799999999999,
+      "end": 557.3,
+      "text": " Let's move towards left shift."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 557.3,
+      "end": 559.42,
+      "text": " I love this concept of left shift."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 559.42,
+      "end": 560.42,
+      "text": " So what is left shift here."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 560.42,
+      "end": 562.62,
+      "text": " So what I will do is first of all let me try something else."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 562.62,
+      "end": 563.62,
+      "text": " I would say 10."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 563.62,
+      "end": 567.54,
+      "text": " Now when you say left shift you have to use this left shift operators which is on the"
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 567.54,
+      "end": 568.8599999999999,
+      "text": " left hand side."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 568.8599999999999,
+      "end": 570.3399999999999,
+      "text": " And then you will say 2."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 570.3399999999999,
+      "end": 571.3399999999999,
+      "text": " OK."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 571.3399999999999,
+      "end": 572.3399999999999,
+      "text": " What's your guess."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 572.3399999999999,
+      "end": 573.3399999999999,
+      "text": " What is the output."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 573.3399999999999,
+      "end": 574.3399999999999,
+      "text": " I don't know."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 574.3399999999999,
+      "end": 575.3399999999999,
+      "text": " Let's try."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 575.3399999999999,
+      "end": 576.3399999999999,
+      "text": " So you got 40."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 576.3399999999999,
+      "end": 577.3399999999999,
+      "text": " But why 40."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 577.3399999999999,
+      "end": 578.3399999999999,
+      "text": " Let's find out."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 578.3399999999999,
+      "end": 580.8399999999999,
+      "text": " Now when you say let's go to paint here and let's do calculation."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 580.8399999999999,
+      "end": 581.9399999999999,
+      "text": " Now when you say 10."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 582.58,
+      "end": 584.82,
+      "text": " Now I will go for I will ignore the earlier zeros."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 584.82,
+      "end": 585.82,
+      "text": " OK."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 585.82,
+      "end": 590.46,
+      "text": " So just because I am damn lazy to write every time that I will directly go with 1 0 1 0."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 590.46,
+      "end": 593.46,
+      "text": " So again we have we do have 4 zeros before but ignore them."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 593.46,
+      "end": 595.2600000000001,
+      "text": " So we got 1 0 1 0."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 595.2600000000001,
+      "end": 598.96,
+      "text": " And then we have to apply a left shift operator here."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 598.96,
+      "end": 600.22,
+      "text": " Now how do we use it."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 600.22,
+      "end": 603.0,
+      "text": " Now in left shift what happens is imagine there's a box here."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 603.0,
+      "end": 605.22,
+      "text": " So imagine there's a this is a box."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 605.22,
+      "end": 607.5400000000001,
+      "text": " And then we have a dot here dot symbol."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 607.5400000000001,
+      "end": 609.22,
+      "text": " And then we have some zeros."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 609.22,
+      "end": 610.22,
+      "text": " Now of course right."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 610.22,
+      "end": 611.22,
+      "text": " Every number is represented this way."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 611.5,
+      "end": 614.38,
+      "text": " So for example when you say 5 it's actually 5.0."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 614.38,
+      "end": 615.78,
+      "text": " In fact we can have multiple zeros here."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 615.78,
+      "end": 616.78,
+      "text": " Right."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 616.78,
+      "end": 620.34,
+      "text": " So when you say 65 it's again we do have zeros there but we ignore zeros because there are"
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 620.34,
+      "end": 621.34,
+      "text": " zeros."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 621.34,
+      "end": 624.8000000000001,
+      "text": " Here as well when you say 1 0 1 0 we do have a dot."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 624.8000000000001,
+      "end": 625.94,
+      "text": " So we do have a dot."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 625.94,
+      "end": 628.94,
+      "text": " And then after that we have multiple zeros."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 628.94,
+      "end": 632.7,
+      "text": " In left shift what we do is we shift the bits on left hand side."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 632.7,
+      "end": 633.7,
+      "text": " OK."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 633.7,
+      "end": 635.64,
+      "text": " I don't know for which side you are."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 635.64,
+      "end": 638.26,
+      "text": " So you are facing me so for you this side right."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 638.26,
+      "end": 639.32,
+      "text": " So left hand side."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 639.32,
+      "end": 640.32,
+      "text": " So let's do that."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 640.4200000000001,
+      "end": 641.4200000000001,
+      "text": " OK."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 641.4200000000001,
+      "end": 643.0,
+      "text": " So now so when you say left shift you have to shift bits."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 643.0,
+      "end": 644.0,
+      "text": " But how many bits."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 644.0,
+      "end": 645.0,
+      "text": " You need to shift two bits."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 645.0,
+      "end": 646.0,
+      "text": " Right."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 646.0,
+      "end": 647.24,
+      "text": " Example if you see the output here."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 647.24,
+      "end": 649.7,
+      "text": " So you are shifting 10 by two bits."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 649.7,
+      "end": 652.72,
+      "text": " So when you say two bits you got 1 0 1 0."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 652.72,
+      "end": 655.0,
+      "text": " And then you need to shift on left hand side two bits."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 655.0,
+      "end": 656.8000000000001,
+      "text": " So you will add two more zeros."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 656.8000000000001,
+      "end": 658.0,
+      "text": " Then we have a dot."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 658.0,
+      "end": 662.96,
+      "text": " So we were having a dot after zero but after shifting you have shifted two zeros on this"
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 662.96,
+      "end": 663.96,
+      "text": " side."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 663.96,
+      "end": 664.96,
+      "text": " Right."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 664.96,
+      "end": 665.96,
+      "text": " Now this number here is 40."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 665.96,
+      "end": 666.96,
+      "text": " Now how do you verify."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 666.96,
+      "end": 667.96,
+      "text": " Go with the normal calculation."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 667.96,
+      "end": 668.96,
+      "text": " Right."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 668.96,
+      "end": 671.64,
+      "text": " So this is 2 raised to 0 2 raised to 1 2 raised to 2 2 raised to 3."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 671.64,
+      "end": 673.5,
+      "text": " So this 1 is 2 raised to 3."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 673.5,
+      "end": 676.64,
+      "text": " And then we got 2 raised to 4 and then we got 2 raised to 5."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 676.64,
+      "end": 679.0600000000001,
+      "text": " So consider this one and consider this one."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 679.0600000000001,
+      "end": 682.0,
+      "text": " So this is 32 and this is 8."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 682.0,
+      "end": 683.4000000000001,
+      "text": " So 32 plus 8 is 40."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 683.4000000000001,
+      "end": 684.4000000000001,
+      "text": " Right."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 684.4000000000001,
+      "end": 685.4000000000001,
+      "text": " So we got the answer."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 685.4000000000001,
+      "end": 687.3000000000001,
+      "text": " So that's how you find left shift."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 687.3000000000001,
+      "end": 688.3000000000001,
+      "text": " How about right shift."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 688.3000000000001,
+      "end": 689.3000000000001,
+      "text": " It's very simple."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 689.3000000000001,
+      "end": 690.3000000000001,
+      "text": " So we also have a concept of right shift."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 690.3000000000001,
+      "end": 691.3000000000001,
+      "text": " Right."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 691.3000000000001,
+      "end": 695.52,
+      "text": " What I will do is I will say I will go with the same number 10 and right shift with two"
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 695.52,
+      "end": 696.52,
+      "text": " bits."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 696.52,
+      "end": 702.24,
+      "text": " So in left shift if you are gaining bits in right shift you are losing bits."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 702.24,
+      "end": 703.24,
+      "text": " Let's verify."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 703.24,
+      "end": 705.0799999999999,
+      "text": " So if I say enter you can see we got two."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 705.0799999999999,
+      "end": 706.0799999999999,
+      "text": " But why two."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 706.0799999999999,
+      "end": 707.0799999999999,
+      "text": " Let's do it."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 707.0799999999999,
+      "end": 708.0799999999999,
+      "text": " Let's do it here."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 708.0799999999999,
+      "end": 709.0799999999999,
+      "text": " So we have 1010 as 10."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 709.0799999999999,
+      "end": 710.68,
+      "text": " So we have a we have a dot here."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 710.68,
+      "end": 712.76,
+      "text": " So in right shift you shift on this side."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 712.76,
+      "end": 713.76,
+      "text": " Right."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 713.76,
+      "end": 714.76,
+      "text": " Right inside."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 714.76,
+      "end": 715.76,
+      "text": " So you will be losing how many bits."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 715.76,
+      "end": 716.76,
+      "text": " Two bits."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 716.76,
+      "end": 717.76,
+      "text": " Right."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 717.76,
+      "end": 718.76,
+      "text": " So you'll be losing these two bits."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 718.76,
+      "end": 721.16,
+      "text": " So what is remaining is 1 0 which is this is remaining."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 721.16,
+      "end": 722.16,
+      "text": " Right."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 722.16,
+      "end": 723.16,
+      "text": " And what is 1 0."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 723.16,
+      "end": 724.16,
+      "text": " It's 2."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 724.16,
+      "end": 725.16,
+      "text": " Right."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 725.16,
+      "end": 726.16,
+      "text": " And that's why we got 2."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 726.3199999999999,
+      "end": 728.88,
+      "text": " So that's how you can work with left shift and right shift."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 728.88,
+      "end": 730.04,
+      "text": " So that's your bitwise operator."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 730.04,
+      "end": 731.68,
+      "text": " So we have talked about complement."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 731.68,
+      "end": 736.9599999999999,
+      "text": " We have talked about and or XOR and left shift and right shift."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 736.9599999999999,
+      "end": 741.8399999999999,
+      "text": " So again when you do scientific calculation this will be useful there."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 741.8399999999999,
+      "end": 742.8399999999999,
+      "text": " So I hope you are enjoying this."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 742.8399999999999,
+      "end": 745.48,
+      "text": " Let me know in the comment section if you if you need some more improvement."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 745.48,
+      "end": 746.48,
+      "text": " Let me know on this topic."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 746.48,
+      "end": 747.48,
+      "text": " So that's it everyone."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 747.48,
+      "end": 748.48,
+      "text": " Bye bye."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 748.48,
+      "end": 749.48,
+      "text": " Bye."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 749.48,
+      "end": 750.48,
+      "text": " Bye."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 750.48,
+      "end": 751.48,
+      "text": " Bye."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 751.48,
+      "end": 752.48,
+      "text": " Bye."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 752.48,
+      "end": 753.48,
+      "text": " Bye."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 753.48,
+      "end": 754.48,
+      "text": " Bye."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 754.48,
+      "end": 755.48,
+      "text": " Bye."
+    },
+    {
+      "number": "14",
+      "title": "Python Tutorial for Beginners | Python BitWise Operators",
+      "start": 755.48,
+      "end": 755.98,
+      "text": " Bye."
+    }
+  ],
+  "text": " Welcome back aliens my name is Devind Reddy and let's continue with this series on Python. So till this point we have worked with operators right we have talked about assignment operator arithmetic operators and logical operators. Now it's time to focus on some more operators and this time we are going to work with bitwise. Now if you remember in one of the video we have talked about binary formats right. So this is where you will use them. So for sure the name suggests it is something to do with binary formats right. So whatever you are going to do now is with bits. So let's get started. So let's open Python and let's do this calculation. Now the first one so if you talk about bitwise we have six different operators we have complement operator then we have and or XOR left shift and right shift. Okay let's start with the first one which is complement operator and if you look at the symbol of it it's weird right. We don't use this symbol much. So this is called as tilde operator or tilde operator. Now where you will find it. So if you look at your keyboard just below the escape key you have this special key called as tilde. So let's use it and that's your tilde sign and we'll give any number here. We will go for 12. Now when you say enter what you are expecting. Come on go for a random guess here. Maybe minus 12 or maybe minus 1 something like that right. Now if I say enter. Oh we got minus 13. That's weird. Why minus 13. So let's do a research on this now. So let me go back to my paint and let's do the calculation. So how do you find this. Now to understand this first of all we need to find what is complement means. Now when you say complement it will simply do reverse of your binary format example. If you say complement 1 it will give you 0 and if you say complement 0 it will give you 1. That's what it's doing. Now the same thing is applied on 12 right. And what is 12. 12 is actually if you convert 12 into binary format you will get this. So you will get four zeros double 1 double 0. That's your 12 binary format. And I love this mobile phone model right. Nokia double 1 double 0. Everyone love it. Now we need to find a complement of it right. So you have to find the complement of it. So what you will do is you will reverse the number. So this 0 becomes 1 and then this is 1. Then this is 0 0 1 1 1 1. So this is your complement of 12. But hold on. What is this number and why we got minus 13. That's weird right. Now if you look at minus 13. Why minus 13 is this number. That we have to find out that now. Now to understand this concept again as a programmer you need to know all this concept because you will. So when you do any course in for IT or CS this is what they will teach you in the first year. But if you don't know this concept that's OK. You can learn here now. Now we have a concept of two's complement because what happens is in your system we can store positive numbers right. We can store 12. We can store 13. We can store 15 20 21 or maybe 1000. But how to store negative numbers. Now to store negative numbers. First of all we don't store negative numbers in the system. We always store positive numbers. So even if you want to store this minus 13 you need to convert this number into positive number first. And the way you can do that is with the help of two's complement. Now how do you find two's complement. So to find two's complement we need to find one's complement plus one. This is a formula OK. So when you say two's complement it is one's complement plus one. Now how do you find one's complement. It's easy actually. First convert this number into binary format. Now what is 13. It's 0 0 0 0 1 1 0 1. This is a binary format of plus 13. So this is 13 OK. We want to find minus 13 right. So you have to find two's complement of this number. Now let's find the one's complement. And how do you find one's complement. It's easy now. We know how to find complement right. So we have to reverse this number. So you will get 1 1 1 1 0 0 1 0. So this is one's complement of 13. But we want to find two's complement right. So what you will do you will say plus one. Now this is so when you say 0 plus 1 it will give you 1. And then we got 1. Then we got 0 0 1 1 1 1. Now this number here this is minus 13 OK. So this is two's complement of 13 which is minus 13. We got it. And now if you compare this number with complement of 12 they are same. And that's why you got. So when you say complement of 12 you got minus 13 right. So that was the answer. So that's how you can work with complement. So when you want to store negative number this is what you do. Now I would recommend you to try different numbers here. Maybe maybe complement of 45 maybe complement of 121. So try it out and let's let's see what answers you get there. So that's your complement operator. The next one we have is bitwise and. Now if you remember in the previous video we have talked about logical operators right. So in logical we have and and or right. So here as well we can use bitwise and and bitwise or. So in and remember this thing. So whenever you have and and if you have two conditions and both are true then only you will get true. And in or if you have at least one true you will get true. If you remember. So if you remember this table right that's what you're going to do here now. So let's do bitwise and. Now which operator we use here. So we don't use and because AND and is for logical operations. So here we have to use ampersand symbol. So let's take 12 ampersand 13. OK. So we got these two numbers 12 and 13. If I say enter you got 12. So let's find out using bitwise. So let's go back to our paint and here we'll convert 12 into binary format which is 0 0 0 0 1 1 double 0. This is 12 binary format. And then we have 13 binary format which is 0 0 0 0 1 1 0 1. And now we need to find out the bitwise here. So we have to work with bits. So let's compare this bit with this bit. Now if you remember AND operation if both are 1 then only 1. So this in this case this is 0 1. So it will be 0. This is 0. This is 1. This is 1 because both are 1's and then we got 0 0 0 0. And if you compare this output this is 12. Right. So you got bitwise AND. So this was and AND operation. And that's why you got 12. Let's do OR. So it's a 12 OR. So now for OR we have to use pipe. OK. So for AND we have ampersand for OR we have pipe. And then OK. Where you will find pipe. It is above your enter button. So it's a 12 OR 13. Come on guess. Now in fact before entering here let's do calculation. Let's compare here. So let's go back here and let's do compare. Let's do some calculation. So it will be 0 0 0 0 1 1 0 0. That's 12. 0 0 0 0 1 1 0 1. That is your 13. Right. And let's do OR. So when you say OR if any one is 1. So your output is 1. Right. So we got 1. 0 0 0 1 1 0 0 0 0. And that's your 13. Right. So this is 13. Let's verify. And if I say enter. Oh we got 13. Right. So this works. So this is how you work with bitwise AND and bitwise OR. In fact you know you might be thinking only 12 and 13 you will get maybe some other number. Let's try. So it's a 25 and maybe 31 or maybe 30. And you can see we got 24. Again this is your homework. Right. So this is your notebook. So put your notebook and convert 25 into binary format convert 13 into binary format and just do AND operation. And of course you will get 24. The next one we have is XOR. Now in XOR what you do is it's actually very simple. When you say you have two numbers which is 0 and 0. Now since we don't have any 1 here we will get 0. Then you have 0 1. Now in this case you have odd number of 1. Right. So which is 1 1. So you will get answer 1. Now when you say 1 and 0. So again we have odd numbers of 1 which is 1. And when you have when you don't have odd numbers of 1 you can see we have two 1s which is even number. So you will get 0. OK. So when you have odd numbers of 1 you will get 1. If you want to remember in a shortcut way it's very simple. If both the numbers are different then you can go for 1. Right. So we have 0 1 is 1 1 0 is 1. So that's very simple. This is how you perform XOR operation. This is XOR and you can represent that with the help of cap symbol. So let's do that here. Again we'll take two different numbers here. We will go for let's go for 12 again the same number 12 cap 13 here. Oh just made a mistake there. 12 cap 13. And you can see the answer is 1. But why 1. Let's verify. So let's go back to the go back here and do calculations. So what is 12. We have done that 0 0 0 0 1 1 0 0. And then we have 13 here which is 0 0 0 0 1 1 0 1. And now let's do XOR. So if you have two different numbers than 1. Right. So if you compute 1 they are same 0 0 0. All are same number 0. So we'll go for 0 0 0. So the only answer you got here is 1. Right. So that's why we got 1. That's how you perform XOR operation. So you can try here with different numbers. Right. Again the same number 25 and 30. Try it out and let's see what what you get. In fact I will do it here. So I will say XOR 25 cap 30. And you've got 7. But how 7. That's your homework. Right. Let me know in the comment section what you get here. Now once you have done with AND OR and XOR. Let's move towards left shift. I love this concept of left shift. So what is left shift here. So what I will do is first of all let me try something else. I would say 10. Now when you say left shift you have to use this left shift operators which is on the left hand side. And then you will say 2. OK. What's your guess. What is the output. I don't know. Let's try. So you got 40. But why 40. Let's find out. Now when you say let's go to paint here and let's do calculation. Now when you say 10. Now I will go for I will ignore the earlier zeros. OK. So just because I am damn lazy to write every time that I will directly go with 1 0 1 0. So again we have we do have 4 zeros before but ignore them. So we got 1 0 1 0. And then we have to apply a left shift operator here. Now how do we use it. Now in left shift what happens is imagine there's a box here. So imagine there's a this is a box. And then we have a dot here dot symbol. And then we have some zeros. Now of course right. Every number is represented this way. So for example when you say 5 it's actually 5.0. In fact we can have multiple zeros here. Right. So when you say 65 it's again we do have zeros there but we ignore zeros because there are zeros. Here as well when you say 1 0 1 0 we do have a dot. So we do have a dot. And then after that we have multiple zeros. In left shift what we do is we shift the bits on left hand side. OK. I don't know for which side you are. So you are facing me so for you this side right. So left hand side. So let's do that. OK. So now so when you say left shift you have to shift bits. But how many bits. You need to shift two bits. Right. Example if you see the output here. So you are shifting 10 by two bits. So when you say two bits you got 1 0 1 0. And then you need to shift on left hand side two bits. So you will add two more zeros. Then we have a dot. So we were having a dot after zero but after shifting you have shifted two zeros on this side. Right. Now this number here is 40. Now how do you verify. Go with the normal calculation. Right. So this is 2 raised to 0 2 raised to 1 2 raised to 2 2 raised to 3. So this 1 is 2 raised to 3. And then we got 2 raised to 4 and then we got 2 raised to 5. So consider this one and consider this one. So this is 32 and this is 8. So 32 plus 8 is 40. Right. So we got the answer. So that's how you find left shift. How about right shift. It's very simple. So we also have a concept of right shift. Right. What I will do is I will say I will go with the same number 10 and right shift with two bits. So in left shift if you are gaining bits in right shift you are losing bits. Let's verify. So if I say enter you can see we got two. But why two. Let's do it. Let's do it here. So we have 1010 as 10. So we have a we have a dot here. So in right shift you shift on this side. Right. Right inside. So you will be losing how many bits. Two bits. Right. So you'll be losing these two bits. So what is remaining is 1 0 which is this is remaining. Right. And what is 1 0. It's 2. Right. And that's why we got 2. So that's how you can work with left shift and right shift. So that's your bitwise operator. So we have talked about complement. We have talked about and or XOR and left shift and right shift. So again when you do scientific calculation this will be useful there. So I hope you are enjoying this. Let me know in the comment section if you if you need some more improvement. Let me know on this topic. So that's it everyone. Bye bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye."
+}

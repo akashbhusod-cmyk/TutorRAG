@@ -1,0 +1,341 @@
+{
+  "chunks": [
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners | Introduction to Python",
+      "start": 0.0,
+      "end": 5.12,
+      "text": " Welcome back aliens. My name is Naveen Reddy. And finally, we are starting with a series on Python"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners | Introduction to Python",
+      "start": 5.12,
+      "end": 10.08,
+      "text": " or Python. It doesn't matter how you pronounce it. What matters is it is one of the fastest"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners | Introduction to Python",
+      "start": 10.08,
+      "end": 15.76,
+      "text": " growing language in what terms in terms of number of developers who are using it in terms of the"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners | Introduction to Python",
+      "start": 15.76,
+      "end": 21.04,
+      "text": " number of libraries we have in terms of number of companies who are using it and in terms of"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners | Introduction to Python",
+      "start": 21.04,
+      "end": 25.44,
+      "text": " the areas you can implement it. You talk about machine learning, you talk about GUI software"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners | Introduction to Python",
+      "start": 25.44,
+      "end": 31.12,
+      "text": " development, web development, you can use it everywhere. And that's why it is also called as"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners | Introduction to Python",
+      "start": 31.12,
+      "end": 36.32,
+      "text": " a general purpose language. So in this video, we're going to talk about what is Python and why"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners | Introduction to Python",
+      "start": 36.32,
+      "end": 41.36,
+      "text": " it is so useful and why you should learn it. So what is Python, as I mentioned, Python is a"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners | Introduction to Python",
+      "start": 41.36,
+      "end": 47.2,
+      "text": " programming language, of course, but it's also interpreted object oriented and high level"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners | Introduction to Python",
+      "start": 47.2,
+      "end": 52.32,
+      "text": " language. Now does it mean you cannot do procedures here, you can it also supports procedure"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners | Introduction to Python",
+      "start": 52.48,
+      "end": 57.2,
+      "text": " programming as well as object oriented, it depends upon your purpose, right? You can use it the way"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners | Introduction to Python",
+      "start": 57.2,
+      "end": 63.6,
+      "text": " you want. But why Python is so famous, we have C, C++, Java, JavaScript, and still Python is famous."
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners | Introduction to Python",
+      "start": 64.32,
+      "end": 71.36,
+      "text": " Now some people say that Python is a new language. And not exactly. Java came into picture in 1995."
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners | Introduction to Python",
+      "start": 71.36,
+      "end": 78.0,
+      "text": " And Python came in 1989. So it's way before Java, right? Now, so when Java came into picture,"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners | Introduction to Python",
+      "start": 78.0,
+      "end": 82.64,
+      "text": " the enterprise market, you know, everyone started using Java, but then Python, Python was there,"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners | Introduction to Python",
+      "start": 82.64,
+      "end": 87.2,
+      "text": " you know, it was there for other people to use example, let's say, if you want to learn a language"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners | Introduction to Python",
+      "start": 87.2,
+      "end": 92.56,
+      "text": " for the first time, Python was there. But now since the advancement of machine learning AI,"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners | Introduction to Python",
+      "start": 93.12,
+      "end": 98.16,
+      "text": " this is a field where we have research scientists, they don't want to spend much time on learning"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners | Introduction to Python",
+      "start": 98.16,
+      "end": 103.44,
+      "text": " programming language. So what they do, they went for the easiest language available. And the easiest"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners | Introduction to Python",
+      "start": 103.44,
+      "end": 108.96,
+      "text": " language available in the market is Python. And yes, Python is damn easy. It is much simpler than"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners | Introduction to Python",
+      "start": 108.96,
+      "end": 115.2,
+      "text": " C, C++ and Java. That's why most of the colleges and schools, they are teaching Python, you might"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners | Introduction to Python",
+      "start": 115.2,
+      "end": 120.56,
+      "text": " be thinking which company uses Python. Now, let's list those small, small companies who uses Python,"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners | Introduction to Python",
+      "start": 120.56,
+      "end": 125.75999999999999,
+      "text": " we have Google, we have YouTube, we have Dropbox. So we can see we have all these companies who are"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners | Introduction to Python",
+      "start": 125.75999999999999,
+      "end": 132.4,
+      "text": " using Python as a main language or as a support language. Example, let's say, Google has so many"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners | Introduction to Python",
+      "start": 132.4,
+      "end": 137.6,
+      "text": " features, some of those features is coded in, in Python. Now, in the same way, we have this one of"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners | Introduction to Python",
+      "start": 137.6,
+      "end": 143.76,
+      "text": " the big website called as Reddit. Reddit is today written in Python. Now let's focus on this name,"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners | Introduction to Python",
+      "start": 143.76,
+      "end": 149.84,
+      "text": " Python. In fact, when we talk about C, C++, Java, these names, they have some story, right? What"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners | Introduction to Python",
+      "start": 149.84,
+      "end": 155.52,
+      "text": " about Python is just because this language looks like a snake, or not exactly the author of Python,"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners | Introduction to Python",
+      "start": 155.52,
+      "end": 162.08,
+      "text": " he's a big fan of a British comedy movie called as Monty Python's Flying Circus. And that's why he"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners | Introduction to Python",
+      "start": 162.08,
+      "end": 166.56,
+      "text": " went with a name called as Python initially. And then when everyone wanted everyone liked it,"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners | Introduction to Python",
+      "start": 166.56,
+      "end": 171.20000000000002,
+      "text": " he went for the same name. Now can they learn Python? And the answer is yes. It is one of the"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners | Introduction to Python",
+      "start": 171.20000000000002,
+      "end": 175.44,
+      "text": " easiest language to learn. And even if you are from a non technical background, you have not"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners | Introduction to Python",
+      "start": 175.44,
+      "end": 180.88000000000002,
+      "text": " written any code, you can start with Python. What if I say Python came into picture just to help"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners | Introduction to Python",
+      "start": 180.88000000000002,
+      "end": 186.56,
+      "text": " those people who don't know how to write a code. In fact, children can learn Python is that easy."
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners | Introduction to Python",
+      "start": 186.56,
+      "end": 190.88000000000002,
+      "text": " Now Python has multiple versions, we have one point x, we have two point x, and we have three"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners | Introduction to Python",
+      "start": 190.88,
+      "end": 195.28,
+      "text": " point x. And of course, we should be learning three point x, right? That means two point x is"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners | Introduction to Python",
+      "start": 195.28,
+      "end": 201.68,
+      "text": " not in the market. And the answer is no, the two point x is still in the market. Because when three"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners | Introduction to Python",
+      "start": 201.68,
+      "end": 206.48,
+      "text": " point x came into picture, it was very different from two point x. Normally what happens in"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners | Introduction to Python",
+      "start": 206.48,
+      "end": 210.96,
+      "text": " programming language, you know, when Java eight came into picture, so it was backward compatible"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners | Introduction to Python",
+      "start": 210.96,
+      "end": 217.28,
+      "text": " with Java 1.7. When Java 1.7 came into picture, it was backward compatible with 1.6. But that's not"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners | Introduction to Python",
+      "start": 217.28,
+      "end": 222.32,
+      "text": " the case with Python, you know, the two different versions has two different way of working. And"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners | Introduction to Python",
+      "start": 222.32,
+      "end": 228.24,
+      "text": " that's why we have two point x still running in the market. And it does have a support till 2020."
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners | Introduction to Python",
+      "start": 228.24,
+      "end": 232.16,
+      "text": " So which one you should learn, of course, three point x, right, because it is new, and there will"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners | Introduction to Python",
+      "start": 232.16,
+      "end": 236.8,
+      "text": " be a lot of features, which you can work on. So that's the introduction from this video. In the"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners | Introduction to Python",
+      "start": 236.8,
+      "end": 241.52,
+      "text": " next video, we'll talk about how to install Python, how to work with different stuff. And"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners | Introduction to Python",
+      "start": 241.52,
+      "end": 245.84,
+      "text": " then the entire series, you will enjoy this language. So I hope you will be watching this"
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners | Introduction to Python",
+      "start": 245.84,
+      "end": 249.52,
+      "text": " series. Let me know in the comment section and do click the like button if you're enjoying it."
+    },
+    {
+      "number": "1",
+      "title": "Python Tutorial for Beginners | Introduction to Python",
+      "start": 249.52,
+      "end": 251.92000000000002,
+      "text": " Thanks for watching, everyone. Bye bye"
+    }
+  ],
+  "text": " Welcome back aliens. My name is Naveen Reddy. And finally, we are starting with a series on Python or Python. It doesn't matter how you pronounce it. What matters is it is one of the fastest growing language in what terms in terms of number of developers who are using it in terms of the number of libraries we have in terms of number of companies who are using it and in terms of the areas you can implement it. You talk about machine learning, you talk about GUI software development, web development, you can use it everywhere. And that's why it is also called as a general purpose language. So in this video, we're going to talk about what is Python and why it is so useful and why you should learn it. So what is Python, as I mentioned, Python is a programming language, of course, but it's also interpreted object oriented and high level language. Now does it mean you cannot do procedures here, you can it also supports procedure programming as well as object oriented, it depends upon your purpose, right? You can use it the way you want. But why Python is so famous, we have C, C++, Java, JavaScript, and still Python is famous. Now some people say that Python is a new language. And not exactly. Java came into picture in 1995. And Python came in 1989. So it's way before Java, right? Now, so when Java came into picture, the enterprise market, you know, everyone started using Java, but then Python, Python was there, you know, it was there for other people to use example, let's say, if you want to learn a language for the first time, Python was there. But now since the advancement of machine learning AI, this is a field where we have research scientists, they don't want to spend much time on learning programming language. So what they do, they went for the easiest language available. And the easiest language available in the market is Python. And yes, Python is damn easy. It is much simpler than C, C++ and Java. That's why most of the colleges and schools, they are teaching Python, you might be thinking which company uses Python. Now, let's list those small, small companies who uses Python, we have Google, we have YouTube, we have Dropbox. So we can see we have all these companies who are using Python as a main language or as a support language. Example, let's say, Google has so many features, some of those features is coded in, in Python. Now, in the same way, we have this one of the big website called as Reddit. Reddit is today written in Python. Now let's focus on this name, Python. In fact, when we talk about C, C++, Java, these names, they have some story, right? What about Python is just because this language looks like a snake, or not exactly the author of Python, he's a big fan of a British comedy movie called as Monty Python's Flying Circus. And that's why he went with a name called as Python initially. And then when everyone wanted everyone liked it, he went for the same name. Now can they learn Python? And the answer is yes. It is one of the easiest language to learn. And even if you are from a non technical background, you have not written any code, you can start with Python. What if I say Python came into picture just to help those people who don't know how to write a code. In fact, children can learn Python is that easy. Now Python has multiple versions, we have one point x, we have two point x, and we have three point x. And of course, we should be learning three point x, right? That means two point x is not in the market. And the answer is no, the two point x is still in the market. Because when three point x came into picture, it was very different from two point x. Normally what happens in programming language, you know, when Java eight came into picture, so it was backward compatible with Java 1.7. When Java 1.7 came into picture, it was backward compatible with 1.6. But that's not the case with Python, you know, the two different versions has two different way of working. And that's why we have two point x still running in the market. And it does have a support till 2020. So which one you should learn, of course, three point x, right, because it is new, and there will be a lot of features, which you can work on. So that's the introduction from this video. In the next video, we'll talk about how to install Python, how to work with different stuff. And then the entire series, you will enjoy this language. So I hope you will be watching this series. Let me know in the comment section and do click the like button if you're enjoying it. Thanks for watching, everyone. Bye bye"
+}

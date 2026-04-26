@@ -1,0 +1,1223 @@
+{
+  "chunks": [
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 0.0,
+      "end": 8.64,
+      "text": " Welcome back to aliens. My name is Navin Reddy and let's continue with the series of Python."
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 8.64,
+      "end": 13.68,
+      "text": " And in this video, we'll talk about one of my favorite topic is called as data types."
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 13.68,
+      "end": 17.0,
+      "text": " Now why it's so important because we have worked with variables, right? Everything was"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 17.0,
+      "end": 21.84,
+      "text": " working. Now when you work on a project, it's very important to understand what data you're"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 21.84,
+      "end": 26.04,
+      "text": " working with so that you can process that data in that format. Because if you don't"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 26.04,
+      "end": 31.36,
+      "text": " process the data in that particular format, you might face errors, or maybe bugs and trust"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 31.36,
+      "end": 35.76,
+      "text": " me bugs are horrifying. So what are the data types we have here. So let me just list those"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 35.76,
+      "end": 42.08,
+      "text": " things here. The first one is none. Second one is numeric. The third one we have is least"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 42.08,
+      "end": 49.0,
+      "text": " double, set string, range, and map, or you can call it as dictionary. Now let's start"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 49.0,
+      "end": 54.04,
+      "text": " with the first one. The first one is none know what it means. Now when you have a variable"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 54.04,
+      "end": 59.839999999999996,
+      "text": " and if that variable is not assigned with any value, it is it is none. Normally in other"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 59.839999999999996,
+      "end": 66.88,
+      "text": " languages, we use a keyword as null. But in Python, we use none. The second one is numeric"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 66.88,
+      "end": 71.16,
+      "text": " type. Now if we talk about numeric, we have multiple types here. In fact, we can go with"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 71.16,
+      "end": 78.24,
+      "text": " four. The first one is int, then we have float, then we have complex and we have bool. So"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 78.24,
+      "end": 83.28,
+      "text": " when we talk about numeric, it works numbers, right? Example, when I say num is equal to"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 83.28,
+      "end": 89.56,
+      "text": " 2.5. Now this is float. Okay, so float value. Now how do we know that this is float? In"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 89.56,
+      "end": 93.72,
+      "text": " fact, in the last session, we have done that, right? So we can use a type as a function."
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 93.72,
+      "end": 97.52,
+      "text": " And in this you can pass num and you can say it says class float. Again, we'll talk about"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 97.52,
+      "end": 103.67999999999999,
+      "text": " class later. Okay, what class means, but time being, it's a float. Okay, so now I will say"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 103.67999999999999,
+      "end": 107.32,
+      "text": " another number, I will say num is equal to five. Of course, we can change the type of"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 107.39999999999999,
+      "end": 113.24,
+      "text": " variable, right? So now if I assign five, if I say num, and you can see the class now"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 113.24,
+      "end": 118.72,
+      "text": " changed to int, that means the type of this num is int. We also have complex, right? Now"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 118.72,
+      "end": 123.03999999999999,
+      "text": " what complex means, so I will say num is equal to now if you remember mathematics, we have"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 123.03999999999999,
+      "end": 128.12,
+      "text": " used to have this concept of complex numbers, right? Now, how do we represent complex numbers?"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 128.12,
+      "end": 133.76,
+      "text": " So we used to say a plus b j, or in fact, it was i in complex number, but here we have"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 133.76,
+      "end": 139.67999999999998,
+      "text": " to use j. Now we can replace the value of a with a number, I will say six plus maybe"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 139.67999999999998,
+      "end": 145.56,
+      "text": " nine j. Now why this j represented by a square root of minus one, okay, now so when I say"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 145.56,
+      "end": 151.04,
+      "text": " enter, you can see it is it is accepting the value. And if I see the type of this num,"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 151.04,
+      "end": 156.79999999999998,
+      "text": " it's your complex type. So complex basically means you have a number plus a plus or minus"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 156.79999999999998,
+      "end": 162.18,
+      "text": " a imaginary number. Okay, now this one, so we have int, we have float and we have complex."
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 162.18,
+      "end": 166.22,
+      "text": " So can I convert from a different type example, I have a value which is float and I want to"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 166.22,
+      "end": 170.26000000000002,
+      "text": " convert that into integer. Is it possible? Let's try. So what I will do here is I will"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 170.26000000000002,
+      "end": 175.66,
+      "text": " take a variable called as a and the value in a I will assign as 5.6. I have another"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 175.66,
+      "end": 180.74,
+      "text": " variable which is B and I want to assign the int value of a can I convert it because if"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 180.74,
+      "end": 185.70000000000002,
+      "text": " I see the type of eight float, right, I want to I want to get the type of B as int and"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 185.70000000000002,
+      "end": 190.54000000000002,
+      "text": " I want only I want to have the value which is five. So in that case, you will be using"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 190.54,
+      "end": 196.14,
+      "text": " our int function in which you will pass a. So this int function will convert your float"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 196.14,
+      "end": 203.62,
+      "text": " value or any value into integer format. And that works. Now if I say the type of B, it's"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 203.62,
+      "end": 208.7,
+      "text": " int and the value of B is five, right? So we can convert that. Can I convert int value"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 208.7,
+      "end": 212.78,
+      "text": " into float? Yes, we can. So let's say we have another variable which is K. And I want to"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 212.78,
+      "end": 218.06,
+      "text": " fetch the value of B, but not in the int format I want to I want in float format. Yes, we"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 218.06,
+      "end": 223.58,
+      "text": " can do that. So I can say float and in this bracket, you can pass it and you will get"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 223.58,
+      "end": 227.5,
+      "text": " so if I say K, you can see we got 5.0 and of course the type of it is float. You can"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 227.5,
+      "end": 232.26,
+      "text": " take and check it out later. Can I convert a normal number into complex number example,"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 232.26,
+      "end": 236.22,
+      "text": " I have a variable and I have B variable. So we will change the value for K and I will"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 236.22,
+      "end": 241.62,
+      "text": " send the K to six. Okay, so we got B as five and K as six. Now I want to get a complex"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 241.62,
+      "end": 245.94,
+      "text": " number. So I will say C is equal to how do we get a complex number? It's very simple."
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 245.94,
+      "end": 249.38,
+      "text": " We just use a complex function that the way we are doing and then you can pass two variables"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 249.38,
+      "end": 253.78,
+      "text": " here or one only one parameter that when that works, if I want to pass two parameters, I"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 253.78,
+      "end": 259.18,
+      "text": " can pass B comma K. And if I say C, you can see the value now. So it says five plus six"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 259.18,
+      "end": 265.38,
+      "text": " J because five is your B and six is your K. Okay, so it works. So we can convert the value"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 265.38,
+      "end": 269.34,
+      "text": " from you know, from here to there. In fact, we can we can work with string as well. But"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 269.34,
+      "end": 274.34,
+      "text": " we'll see that later. Now we also have a type called as bull, which is also called as Boolean."
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 274.34,
+      "end": 278.58,
+      "text": " Now how can we use a Boolean value here? Now when it comes to Boolean, it simply means"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 278.58,
+      "end": 282.97999999999996,
+      "text": " true and false. Now think about this computer world, right? Or in this world, we always"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 282.97999999999996,
+      "end": 288.09999999999997,
+      "text": " take decisions and decisions are based on true or false. And now we in your mind, we"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 288.09999999999997,
+      "end": 293.73999999999995,
+      "text": " always work with these conditions. Example, let's say if you have two choices, you will"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 293.73999999999995,
+      "end": 298.38,
+      "text": " select those choice which is more favorable or which will be more profitable, right? So"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 298.38,
+      "end": 302.58,
+      "text": " we apply conditions there. So if that is more profitable, we'll go there. If this is more"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 302.62,
+      "end": 309.3,
+      "text": " profitable, we'll go here. Then the same way we apply a condition and we get true or false."
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 309.3,
+      "end": 314.53999999999996,
+      "text": " So that true or false comes under Boolean type. Now we have B and K, right? So if I"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 314.53999999999996,
+      "end": 320.02,
+      "text": " want to check if B is less than K, we can do that. So less than symbol is less than"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 320.02,
+      "end": 325.5,
+      "text": " and if I say enter, you can see we got true. So true here is a Boolean type, right? And"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 325.5,
+      "end": 330.41999999999996,
+      "text": " you can assign that to a variable as well. So I will say variable type as bull is equal"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 330.42,
+      "end": 337.90000000000003,
+      "text": " to B less than K. Now you can see in this bull, if I type bull, you can see it is true."
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 337.90000000000003,
+      "end": 343.42,
+      "text": " And if I say the type of bull is bull itself, because it's a type name as well, right? So"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 343.42,
+      "end": 347.26,
+      "text": " I should be I should have used a different name here, right? So that's Boolean for you."
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 347.26,
+      "end": 352.06,
+      "text": " In fact, we have true and we have false as well. Example, if I say B is greater than"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 352.06,
+      "end": 356.58000000000004,
+      "text": " K, and that's not the case, right? B is 5, K is 6. So it should give you false. So we"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 356.58,
+      "end": 360.7,
+      "text": " have true and we have false. Again, there are different operators which we can use less"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 360.7,
+      "end": 364.94,
+      "text": " than greater than. So we have different operators which we'll discuss in the upcoming videos."
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 364.94,
+      "end": 371.5,
+      "text": " But here we can use true or false. But then why I'm keeping true and false in numeric?"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 371.5,
+      "end": 377.86,
+      "text": " It should be different, right? The thing is, in Python, what we do is we use true as 1"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 377.86,
+      "end": 383.7,
+      "text": " and false as 0. Example, let's say if I want to convert true into a number, you can say"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 383.7,
+      "end": 387.38,
+      "text": " I'm converting them to into informat. And you can see we got one. The same thing if"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 387.38,
+      "end": 393.14,
+      "text": " I do for false, you can see we got zero. So true is one and false is zero. So that's your"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 393.14,
+      "end": 396.26,
+      "text": " integer format. You know, that's your numeric type. So we have talked about none, we have"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 396.26,
+      "end": 400.34,
+      "text": " talked about numeric. The next type we have is in fact, we have discussed those names,"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 400.34,
+      "end": 405.78,
+      "text": " right? Those things comes under sequence. So when you say laced, range, set, tuple,"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 405.78,
+      "end": 410.02,
+      "text": " those things comes under sequence. Now we have worked with list before, right? So how"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 410.02,
+      "end": 414.82,
+      "text": " do we define list is very simple. You will say lst equal to, you can define a list here."
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 414.82,
+      "end": 420.09999999999997,
+      "text": " So I can say 25, 26, 45, 12, any number, any number, any format doesn't matter. You can"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 420.09999999999997,
+      "end": 424.18,
+      "text": " take string as well. So you can, this is how you work with list. And how do we know the"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 424.18,
+      "end": 429.58,
+      "text": " type of it? So we'll say type of lst. And you can see it says it is of type list. The"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 429.58,
+      "end": 434.21999999999997,
+      "text": " same thing can be done with set. So if I get a set here, I will say s equal to and you"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 434.21999999999997,
+      "end": 438.5,
+      "text": " will use a curly bracket there. And inside that you can specify values. So I've specified"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 438.5,
+      "end": 442.18,
+      "text": " these values and you can see if I say enter and if I say s, you got the values there and"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 442.18,
+      "end": 447.98,
+      "text": " you can see it is not repeating. And if I define the type of this s, it is set, right?"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 447.98,
+      "end": 452.34,
+      "text": " So even this works. Now the another type we have is tuple, which we have worked with again."
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 452.34,
+      "end": 456.74,
+      "text": " So I will say t is equal to, so we have to use a down bracket here. I will say 25, 26,"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 456.74,
+      "end": 461.1,
+      "text": " you can use any format doesn't matter, right? You can see we got t and if I say type of"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 461.1,
+      "end": 466.26,
+      "text": " t, here is tuple. Okay, now we also have a string type, right? So how do we define a"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 466.26,
+      "end": 470.3,
+      "text": " string type? It's very simple. You say str is equal to and you can specify a name here"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 470.3,
+      "end": 475.7,
+      "text": " using double quotes or single quotes, both works. I can say my name. That's Navin and"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 475.7,
+      "end": 480.26,
+      "text": " using using str you can perform certain operations. Again, we have done that in detail in the"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 480.26,
+      "end": 484.98,
+      "text": " in earlier videos, right? So if you want to know more about list and tuple, you can go"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 484.98,
+      "end": 488.02,
+      "text": " back to the previous videos and you can watch it. In this video, just we're just talking"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 488.02,
+      "end": 492.06,
+      "text": " about the data data types available. How about character because we have not talked about"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 492.06,
+      "end": 496.34,
+      "text": " character, right? And if you're coming from some other languages like Java, C, C++, we"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 496.34,
+      "end": 501.18,
+      "text": " do have a character type there. Now in Python, we don't have a character type. What we have"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 501.18,
+      "end": 506.82,
+      "text": " is if you are creating a string, let's say I will say this is str is equal to and if"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 506.82,
+      "end": 511.74,
+      "text": " you have a single digit or single character, that's a character type for you. But actually"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 511.74,
+      "end": 517.34,
+      "text": " it is string because even if you say type and if you specify str, you can see this,"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 517.34,
+      "end": 522.58,
+      "text": " it says class str which is string in this case. So we have string we don't have char"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 522.58,
+      "end": 527.5400000000001,
+      "text": " as to be specific, but we can use char as a part of string. Now we have another fancy"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 527.5400000000001,
+      "end": 532.62,
+      "text": " stuff which is which is there in Python, but not in other languages called as range. Example,"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 532.62,
+      "end": 537.14,
+      "text": " you know, when you iterate or what is iteration means going from one way to the end, where"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 537.14,
+      "end": 542.1800000000001,
+      "text": " the example from one to 10 or 10 to 100, or maybe from one to 1000. So when we iterate"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 542.18,
+      "end": 546.54,
+      "text": " between values, we can use range. How do we define range? It's very simple, you say"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 546.54,
+      "end": 551.26,
+      "text": " range, and you give a curly bracket and specify the range example, I want to I want to go"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 551.26,
+      "end": 555.9399999999999,
+      "text": " till 10. So we got a range from zero, and we have 10 values, which is zero to nine."
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 555.9399999999999,
+      "end": 561.38,
+      "text": " How do we know which what values we have. So what we can do is we can actually convert"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 561.38,
+      "end": 565.3399999999999,
+      "text": " the range into a list so that we can print it right. So what I will do is I will say"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 565.3399999999999,
+      "end": 571.38,
+      "text": " least of range, and we'll say 10. In fact, there's another way of doing this, we can"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 571.38,
+      "end": 576.34,
+      "text": " also use a for loop. But unfortunately, we have not done that yet. So we'll not be focusing"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 576.34,
+      "end": 580.38,
+      "text": " on for loop here, because we have a better way of printing it. But as of now, just to"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 580.38,
+      "end": 585.18,
+      "text": " get the output of the range, I'm converting a range into a list so that they can see the"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 585.18,
+      "end": 590.1,
+      "text": " output. And you can see this is the list of this is the range. So if I want to get a list"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 590.1,
+      "end": 594.06,
+      "text": " of let's say 10 values from zero to nine, we will use a range there. Okay, but you might"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 594.06,
+      "end": 599.1,
+      "text": " be saying, well, what if I want to have a range with different iterations, maybe a different"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 599.1,
+      "end": 605.94,
+      "text": " sequence. Example, I want to print all even numbers from one to 10. In that case, you"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 605.94,
+      "end": 610.74,
+      "text": " can do that you can say, I want to have I want to start with, or maybe you can start"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 610.74,
+      "end": 616.44,
+      "text": " with two. And then you the ending part is 10. And the difference would be two because"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 616.44,
+      "end": 621.14,
+      "text": " you want even numbers, right? So you can do that. But you have to put that in a range."
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 621.14,
+      "end": 626.86,
+      "text": " So range does take three parameters as well. And you can see we got two, four, six, and"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 626.86,
+      "end": 630.74,
+      "text": " eight. So I should have went till 11. Right? Because that's the ending part. Okay, so this"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 630.74,
+      "end": 636.14,
+      "text": " is how you can use a range. In fact, you can just type here and you can say range, of course,"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 636.14,
+      "end": 640.02,
+      "text": " right, it will give you range as you can, it will give you range type. So that's one"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 640.02,
+      "end": 644.9,
+      "text": " type you can use. And all these things comes under sequence, right? Because we are getting"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 644.9,
+      "end": 649.14,
+      "text": " a sequence of values. And now we have one of the most exciting type, which is called"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 649.14,
+      "end": 653.74,
+      "text": " as mapping, or you can say dictionary. Now, what is dictionary normally what happens,"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 653.74,
+      "end": 657.7,
+      "text": " you know, when you have huge amount of data, and even when you want to fetch data in an"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 657.7,
+      "end": 663.1,
+      "text": " efficient way, or in a fast way, you can what you can do is with every value, you can assign"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 663.1,
+      "end": 668.86,
+      "text": " a key normally in least what we do is for the value, we assign an index number, right?"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 668.86,
+      "end": 674.5,
+      "text": " But in dictionary for every value, we'll assign a key example. Let's say I want to have all"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 674.5,
+      "end": 679.42,
+      "text": " the mobile phones names example. So let's say in my friend group, if I have let's say"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 679.42,
+      "end": 683.3,
+      "text": " 50 phones, everyone will imagine everyone has a different phone here. So we can of course,"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 683.3,
+      "end": 688.5,
+      "text": " we can do an index number, right? So index number zero, iPhone six as index number one,"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 688.5,
+      "end": 694.74,
+      "text": " Samsung, maybe Samsung j eight, index number 3, 1 plus 3, index number four, let's say"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 694.74,
+      "end": 699.8599999999999,
+      "text": " my five. So we want to have all these numbers. Now instead of having index numbers, we can"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 699.8599999999999,
+      "end": 705.14,
+      "text": " use a key which is your name example, who has one plus three, let's say Kiran who has"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 705.14,
+      "end": 710.14,
+      "text": " iPhone sixes, let's say Rahul who has Samsung, let's say Navin. So in this case, every mobile"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 710.14,
+      "end": 715.38,
+      "text": " phone has a name or a key attached to it. So it will be easier for you to fetch right?"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 715.38,
+      "end": 719.62,
+      "text": " Okay, now it's not just about string. Okay, you can also use numbers you can also use"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 719.62,
+      "end": 725.06,
+      "text": " example, roll numbers. Example, when you go for giving your CT exams or entrance exams,"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 725.06,
+      "end": 729.5,
+      "text": " you get a number right? That's your key. So you can identify each object with a key. How"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 729.5,
+      "end": 733.58,
+      "text": " do I do that here? Oh, there's one thing to remember, key should be unique. So if you"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 733.58,
+      "end": 738.54,
+      "text": " have a dictionary, all the keys has to be unique. And values you can repeat values."
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 738.54,
+      "end": 742.74,
+      "text": " So let's try it out. How do we define a dictionary? It's very simple. Let's say D is equal to"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 742.74,
+      "end": 747.18,
+      "text": " you have to use a curly brackets. Now why curly brackets because keys should not repeat"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 747.18,
+      "end": 751.48,
+      "text": " and what doesn't repeat set and set uses curly brackets, right? So it makes more sense here."
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 751.48,
+      "end": 758.54,
+      "text": " So I will use a key as let's say Navin. And then I will use a value. Let's say Navin has"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 758.54,
+      "end": 763.38,
+      "text": " a phone which is Samsung, we can give another value by giving a comma. And here I will say"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 763.38,
+      "end": 769.14,
+      "text": " who has this value, let's say Rahul. Rahul is using let's say iPhone. And then we have"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 769.14,
+      "end": 777.14,
+      "text": " one more let's say Kiran and Kiran is using one plus. Okay, now this is Oh, I made a mistake"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 777.14,
+      "end": 783.1,
+      "text": " there. Okay, so so I just missed a colon here, right? So that that was my bad. If I try to"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 783.1,
+      "end": 787.9,
+      "text": " print D you can see we got the key and a value pair. So in this case, Navin, Rahul and Kiran,"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 787.9,
+      "end": 792.78,
+      "text": " those are keys. How do I know those are keys, you can say D dot, you can print the keys"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 792.78,
+      "end": 797.5,
+      "text": " and you can see we got this keys, you got Navin, Rahul and Kiran, those are keys. And"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 797.5,
+      "end": 801.02,
+      "text": " if you want to get the values, I guess we have a method which is values. Yes, we have"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 801.02,
+      "end": 804.9399999999999,
+      "text": " to we do have a method which is values. And if I say enter, you can see Samsung, iPhone"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 804.9399999999999,
+      "end": 809.02,
+      "text": " and one plus those are values. Now how do I get a particular value? Let's say I want"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 809.02,
+      "end": 814.36,
+      "text": " to get iPhone here. In this case, I have to use a key right which is Rahul in this case."
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 814.36,
+      "end": 819.3399999999999,
+      "text": " So I will say D square bracket. If in list we use index numbers, right? We don't have"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 819.34,
+      "end": 824.3000000000001,
+      "text": " index numbers here. We have a key. So we'll use Rahul as a key and it's an enter. You"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 824.3000000000001,
+      "end": 828.1,
+      "text": " can see we got iPhone. So that's dictionary. In fact, we have one more way of fetching"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 828.1,
+      "end": 832.5,
+      "text": " value instead of using a square bracket. We can also use functions like get in this get"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 832.5,
+      "end": 836.96,
+      "text": " you can mention, hey, I want to fetch, let's say Kiran's phone, which is one plus, right?"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 836.96,
+      "end": 841.26,
+      "text": " So you can use a square bracket, you can use a get method, everything works. That's how"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 841.26,
+      "end": 844.5400000000001,
+      "text": " you work with data types. So we have different types. Let me just list those things once"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 844.54,
+      "end": 850.3,
+      "text": " again. So we have none, we have numeric types, we have sequence in sequence, we have list,"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 850.3,
+      "end": 855.54,
+      "text": " range, set, tuple. And then we have mapping in which we have dictionary. So I hope it"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 855.54,
+      "end": 860.3399999999999,
+      "text": " makes sense. So if you have any questions, let me know in the comment section and do"
+    },
+    {
+      "number": "10",
+      "title": "Python Tutorial for Beginners | Data Types in Python",
+      "start": 860.3399999999999,
+      "end": 862.06,
+      "text": " click the like button if you're enjoying the session."
+    }
+  ],
+  "text": " Welcome back to aliens. My name is Navin Reddy and let's continue with the series of Python. And in this video, we'll talk about one of my favorite topic is called as data types. Now why it's so important because we have worked with variables, right? Everything was working. Now when you work on a project, it's very important to understand what data you're working with so that you can process that data in that format. Because if you don't process the data in that particular format, you might face errors, or maybe bugs and trust me bugs are horrifying. So what are the data types we have here. So let me just list those things here. The first one is none. Second one is numeric. The third one we have is least double, set string, range, and map, or you can call it as dictionary. Now let's start with the first one. The first one is none know what it means. Now when you have a variable and if that variable is not assigned with any value, it is it is none. Normally in other languages, we use a keyword as null. But in Python, we use none. The second one is numeric type. Now if we talk about numeric, we have multiple types here. In fact, we can go with four. The first one is int, then we have float, then we have complex and we have bool. So when we talk about numeric, it works numbers, right? Example, when I say num is equal to 2.5. Now this is float. Okay, so float value. Now how do we know that this is float? In fact, in the last session, we have done that, right? So we can use a type as a function. And in this you can pass num and you can say it says class float. Again, we'll talk about class later. Okay, what class means, but time being, it's a float. Okay, so now I will say another number, I will say num is equal to five. Of course, we can change the type of variable, right? So now if I assign five, if I say num, and you can see the class now changed to int, that means the type of this num is int. We also have complex, right? Now what complex means, so I will say num is equal to now if you remember mathematics, we have used to have this concept of complex numbers, right? Now, how do we represent complex numbers? So we used to say a plus b j, or in fact, it was i in complex number, but here we have to use j. Now we can replace the value of a with a number, I will say six plus maybe nine j. Now why this j represented by a square root of minus one, okay, now so when I say enter, you can see it is it is accepting the value. And if I see the type of this num, it's your complex type. So complex basically means you have a number plus a plus or minus a imaginary number. Okay, now this one, so we have int, we have float and we have complex. So can I convert from a different type example, I have a value which is float and I want to convert that into integer. Is it possible? Let's try. So what I will do here is I will take a variable called as a and the value in a I will assign as 5.6. I have another variable which is B and I want to assign the int value of a can I convert it because if I see the type of eight float, right, I want to I want to get the type of B as int and I want only I want to have the value which is five. So in that case, you will be using our int function in which you will pass a. So this int function will convert your float value or any value into integer format. And that works. Now if I say the type of B, it's int and the value of B is five, right? So we can convert that. Can I convert int value into float? Yes, we can. So let's say we have another variable which is K. And I want to fetch the value of B, but not in the int format I want to I want in float format. Yes, we can do that. So I can say float and in this bracket, you can pass it and you will get so if I say K, you can see we got 5.0 and of course the type of it is float. You can take and check it out later. Can I convert a normal number into complex number example, I have a variable and I have B variable. So we will change the value for K and I will send the K to six. Okay, so we got B as five and K as six. Now I want to get a complex number. So I will say C is equal to how do we get a complex number? It's very simple. We just use a complex function that the way we are doing and then you can pass two variables here or one only one parameter that when that works, if I want to pass two parameters, I can pass B comma K. And if I say C, you can see the value now. So it says five plus six J because five is your B and six is your K. Okay, so it works. So we can convert the value from you know, from here to there. In fact, we can we can work with string as well. But we'll see that later. Now we also have a type called as bull, which is also called as Boolean. Now how can we use a Boolean value here? Now when it comes to Boolean, it simply means true and false. Now think about this computer world, right? Or in this world, we always take decisions and decisions are based on true or false. And now we in your mind, we always work with these conditions. Example, let's say if you have two choices, you will select those choice which is more favorable or which will be more profitable, right? So we apply conditions there. So if that is more profitable, we'll go there. If this is more profitable, we'll go here. Then the same way we apply a condition and we get true or false. So that true or false comes under Boolean type. Now we have B and K, right? So if I want to check if B is less than K, we can do that. So less than symbol is less than and if I say enter, you can see we got true. So true here is a Boolean type, right? And you can assign that to a variable as well. So I will say variable type as bull is equal to B less than K. Now you can see in this bull, if I type bull, you can see it is true. And if I say the type of bull is bull itself, because it's a type name as well, right? So I should be I should have used a different name here, right? So that's Boolean for you. In fact, we have true and we have false as well. Example, if I say B is greater than K, and that's not the case, right? B is 5, K is 6. So it should give you false. So we have true and we have false. Again, there are different operators which we can use less than greater than. So we have different operators which we'll discuss in the upcoming videos. But here we can use true or false. But then why I'm keeping true and false in numeric? It should be different, right? The thing is, in Python, what we do is we use true as 1 and false as 0. Example, let's say if I want to convert true into a number, you can say I'm converting them to into informat. And you can see we got one. The same thing if I do for false, you can see we got zero. So true is one and false is zero. So that's your integer format. You know, that's your numeric type. So we have talked about none, we have talked about numeric. The next type we have is in fact, we have discussed those names, right? Those things comes under sequence. So when you say laced, range, set, tuple, those things comes under sequence. Now we have worked with list before, right? So how do we define list is very simple. You will say lst equal to, you can define a list here. So I can say 25, 26, 45, 12, any number, any number, any format doesn't matter. You can take string as well. So you can, this is how you work with list. And how do we know the type of it? So we'll say type of lst. And you can see it says it is of type list. The same thing can be done with set. So if I get a set here, I will say s equal to and you will use a curly bracket there. And inside that you can specify values. So I've specified these values and you can see if I say enter and if I say s, you got the values there and you can see it is not repeating. And if I define the type of this s, it is set, right? So even this works. Now the another type we have is tuple, which we have worked with again. So I will say t is equal to, so we have to use a down bracket here. I will say 25, 26, you can use any format doesn't matter, right? You can see we got t and if I say type of t, here is tuple. Okay, now we also have a string type, right? So how do we define a string type? It's very simple. You say str is equal to and you can specify a name here using double quotes or single quotes, both works. I can say my name. That's Navin and using using str you can perform certain operations. Again, we have done that in detail in the in earlier videos, right? So if you want to know more about list and tuple, you can go back to the previous videos and you can watch it. In this video, just we're just talking about the data data types available. How about character because we have not talked about character, right? And if you're coming from some other languages like Java, C, C++, we do have a character type there. Now in Python, we don't have a character type. What we have is if you are creating a string, let's say I will say this is str is equal to and if you have a single digit or single character, that's a character type for you. But actually it is string because even if you say type and if you specify str, you can see this, it says class str which is string in this case. So we have string we don't have char as to be specific, but we can use char as a part of string. Now we have another fancy stuff which is which is there in Python, but not in other languages called as range. Example, you know, when you iterate or what is iteration means going from one way to the end, where the example from one to 10 or 10 to 100, or maybe from one to 1000. So when we iterate between values, we can use range. How do we define range? It's very simple, you say range, and you give a curly bracket and specify the range example, I want to I want to go till 10. So we got a range from zero, and we have 10 values, which is zero to nine. How do we know which what values we have. So what we can do is we can actually convert the range into a list so that we can print it right. So what I will do is I will say least of range, and we'll say 10. In fact, there's another way of doing this, we can also use a for loop. But unfortunately, we have not done that yet. So we'll not be focusing on for loop here, because we have a better way of printing it. But as of now, just to get the output of the range, I'm converting a range into a list so that they can see the output. And you can see this is the list of this is the range. So if I want to get a list of let's say 10 values from zero to nine, we will use a range there. Okay, but you might be saying, well, what if I want to have a range with different iterations, maybe a different sequence. Example, I want to print all even numbers from one to 10. In that case, you can do that you can say, I want to have I want to start with, or maybe you can start with two. And then you the ending part is 10. And the difference would be two because you want even numbers, right? So you can do that. But you have to put that in a range. So range does take three parameters as well. And you can see we got two, four, six, and eight. So I should have went till 11. Right? Because that's the ending part. Okay, so this is how you can use a range. In fact, you can just type here and you can say range, of course, right, it will give you range as you can, it will give you range type. So that's one type you can use. And all these things comes under sequence, right? Because we are getting a sequence of values. And now we have one of the most exciting type, which is called as mapping, or you can say dictionary. Now, what is dictionary normally what happens, you know, when you have huge amount of data, and even when you want to fetch data in an efficient way, or in a fast way, you can what you can do is with every value, you can assign a key normally in least what we do is for the value, we assign an index number, right? But in dictionary for every value, we'll assign a key example. Let's say I want to have all the mobile phones names example. So let's say in my friend group, if I have let's say 50 phones, everyone will imagine everyone has a different phone here. So we can of course, we can do an index number, right? So index number zero, iPhone six as index number one, Samsung, maybe Samsung j eight, index number 3, 1 plus 3, index number four, let's say my five. So we want to have all these numbers. Now instead of having index numbers, we can use a key which is your name example, who has one plus three, let's say Kiran who has iPhone sixes, let's say Rahul who has Samsung, let's say Navin. So in this case, every mobile phone has a name or a key attached to it. So it will be easier for you to fetch right? Okay, now it's not just about string. Okay, you can also use numbers you can also use example, roll numbers. Example, when you go for giving your CT exams or entrance exams, you get a number right? That's your key. So you can identify each object with a key. How do I do that here? Oh, there's one thing to remember, key should be unique. So if you have a dictionary, all the keys has to be unique. And values you can repeat values. So let's try it out. How do we define a dictionary? It's very simple. Let's say D is equal to you have to use a curly brackets. Now why curly brackets because keys should not repeat and what doesn't repeat set and set uses curly brackets, right? So it makes more sense here. So I will use a key as let's say Navin. And then I will use a value. Let's say Navin has a phone which is Samsung, we can give another value by giving a comma. And here I will say who has this value, let's say Rahul. Rahul is using let's say iPhone. And then we have one more let's say Kiran and Kiran is using one plus. Okay, now this is Oh, I made a mistake there. Okay, so so I just missed a colon here, right? So that that was my bad. If I try to print D you can see we got the key and a value pair. So in this case, Navin, Rahul and Kiran, those are keys. How do I know those are keys, you can say D dot, you can print the keys and you can see we got this keys, you got Navin, Rahul and Kiran, those are keys. And if you want to get the values, I guess we have a method which is values. Yes, we have to we do have a method which is values. And if I say enter, you can see Samsung, iPhone and one plus those are values. Now how do I get a particular value? Let's say I want to get iPhone here. In this case, I have to use a key right which is Rahul in this case. So I will say D square bracket. If in list we use index numbers, right? We don't have index numbers here. We have a key. So we'll use Rahul as a key and it's an enter. You can see we got iPhone. So that's dictionary. In fact, we have one more way of fetching value instead of using a square bracket. We can also use functions like get in this get you can mention, hey, I want to fetch, let's say Kiran's phone, which is one plus, right? So you can use a square bracket, you can use a get method, everything works. That's how you work with data types. So we have different types. Let me just list those things once again. So we have none, we have numeric types, we have sequence in sequence, we have list, range, set, tuple. And then we have mapping in which we have dictionary. So I hope it makes sense. So if you have any questions, let me know in the comment section and do click the like button if you're enjoying the session."
+}

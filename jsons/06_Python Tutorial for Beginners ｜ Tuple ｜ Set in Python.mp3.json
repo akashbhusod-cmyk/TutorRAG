@@ -1,0 +1,558 @@
+{
+  "chunks": [
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 0.0,
+      "end": 9.16,
+      "text": " Welcome back aliens my name is Devin Reddy and let's continue with the series on Python."
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 9.16,
+      "end": 12.92,
+      "text": " So in the last video we have talked about list and we were supposed to complete tuples"
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 12.92,
+      "end": 17.0,
+      "text": " and set but unfortunately it was a lengthy video. So let's complete those things in this"
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 17.0,
+      "end": 21.76,
+      "text": " video. So when we learned about list it's very simple right we have a list of values."
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 21.76,
+      "end": 28.04,
+      "text": " Now this list can be of different type it can be of type integer or a string or float."
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 28.04,
+      "end": 32.8,
+      "text": " Now we have another type which is called as tuple. Now what is tuple? So tuple is almost"
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 32.8,
+      "end": 38.64,
+      "text": " same as list we can have a collection of value there. The difference is in list we can change"
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 38.64,
+      "end": 43.56,
+      "text": " value because list is mutable and tuple you guessed it right is immutable that means you"
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 43.56,
+      "end": 47.44,
+      "text": " cannot change the value. Okay but where it can be used that's a different thing you know."
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 47.44,
+      "end": 52.68,
+      "text": " So let's try it out first let's create a tuple. So we'll say tuple equal to and the way you"
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 52.68,
+      "end": 58.44,
+      "text": " create a tuple is we can use some brackets right. In list we used to use a square bracket"
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 58.44,
+      "end": 63.480000000000004,
+      "text": " and we should specify values. There's a thing here when we use a square bracket see nowhere"
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 63.480000000000004,
+      "end": 67.72,
+      "text": " we are mentioning that we are going to use list right so by default this square bracket"
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 67.72,
+      "end": 71.52,
+      "text": " means list. How do we use tuple because we cannot use square bracket now so we have to"
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 71.52,
+      "end": 79.6,
+      "text": " use a round bracket. So round bracket defines it's a tuple 21, 26, 14, 25. Now once you"
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 79.6,
+      "end": 83.47999999999999,
+      "text": " specify these values here you cannot change it. So we got our tuple if I say enter you"
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 83.47999999999999,
+      "end": 89.24,
+      "text": " can see we got 21, 26, 14, 25. Now let's try to change the value. Let's try it. So I will"
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 89.24,
+      "end": 96.6,
+      "text": " say tup can I use a square bracket. First let me fetch the values. I will say 1. Enter."
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 96.6,
+      "end": 100.11999999999999,
+      "text": " It works okay so when you want to fetch values we can use square bracket. Okay let's try"
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 100.11999999999999,
+      "end": 106.63999999999999,
+      "text": " to change the values. I will say tup of 1 is equal to I want to change from 36 to 33."
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 106.64,
+      "end": 112.0,
+      "text": " I will say enter you can see we got an error. It says tuple object does not support item"
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 112.0,
+      "end": 115.88,
+      "text": " assignment that means you cannot basically change the value. Can we use certain methods"
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 115.88,
+      "end": 121.4,
+      "text": " which we had in list. Let's try. So if I say tup.control space you can see we have two"
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 121.4,
+      "end": 125.56,
+      "text": " methods. One is count and second is index. Okay if you are getting confused what is count."
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 125.56,
+      "end": 131.28,
+      "text": " Count was there in list as well. So count will count the number of occurrence of a number."
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 131.28,
+      "end": 136.68,
+      "text": " Let's say in your tuple you have 10 values and out of which you have some values like"
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 136.68,
+      "end": 142.52,
+      "text": " 5 which is repeated two times. So if you say 5 it will give you answer 2 and you can fetch"
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 142.52,
+      "end": 146.94,
+      "text": " the index value for a particular element. But you don't have any method which will replace"
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 146.94,
+      "end": 150.84,
+      "text": " the value which will append a value. You can see you don't have those things here. Tuple"
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 150.84,
+      "end": 155.2,
+      "text": " is like list but then you cannot change the value of it. Now when you should be using"
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 155.2,
+      "end": 159.44,
+      "text": " tuple. So when you know that you have a list and you don't want to change the values of"
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 159.44,
+      "end": 164.16,
+      "text": " it. And yes in certain projects we have this requirement. You want to set a value and you"
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 164.16,
+      "end": 168.28,
+      "text": " don't want to change it. So of course you will go for tuple there. Since we don't change"
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 168.28,
+      "end": 174.04,
+      "text": " values in tuple. So iteration in tuples is faster than in list. So that's where you can"
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 174.04,
+      "end": 178.56,
+      "text": " use tuple if you want to enhance the speed of your execution. So that's about tuple."
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 178.56,
+      "end": 183.44,
+      "text": " Now it's time to look at set. So what is set. Now if you remember the mathematical definition"
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 183.44,
+      "end": 190.12,
+      "text": " of set it is simply a collection of elements. It is a collection of unique elements. OK."
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 190.12,
+      "end": 195.4,
+      "text": " So let's try. So I will say set I will say yes. S equal to. How do I define set because"
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 195.4,
+      "end": 200.44,
+      "text": " the square bracket is for list. Round bracket is for tuple. We are remaining with only one"
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 200.44,
+      "end": 204.6,
+      "text": " bracket now which is curly bracket. So curly bracket is for set. In fact in math as well"
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 204.6,
+      "end": 213.88,
+      "text": " I guess we use curly brackets. So now I will say 22 comma 25 comma 14 comma 21 comma let's"
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 213.88,
+      "end": 219.68,
+      "text": " say 5. So I got these values here. Now these are random values no specific sequence. So"
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 219.68,
+      "end": 223.64,
+      "text": " these are not sorted. Now there is one more thing with set. You know if first of all I"
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 223.64,
+      "end": 227.32,
+      "text": " will say enter. You can see we got a set. I will not be printing it now. So let's talk"
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 227.32,
+      "end": 231.95999999999998,
+      "text": " about the concept here. Now set never follows a sequence. OK. So it will not follow the"
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 231.96,
+      "end": 236.4,
+      "text": " sequence in which you have added those elements. Now if you think if I type S and if I say"
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 236.4,
+      "end": 241.96,
+      "text": " enter you will get the same values. Yes you will get the same values but not in the same"
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 241.96,
+      "end": 247.20000000000002,
+      "text": " sequence. OK. That's important here. Let's enter. You can see the values. We got 5 14"
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 247.20000000000002,
+      "end": 252.4,
+      "text": " 21 22 and 25. I know what you're thinking. You might be thinking this is sorted. No not"
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 252.4,
+      "end": 257.32,
+      "text": " exactly. Let me just try once again. I will say S equal to again a curly bracket and then"
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 257.32,
+      "end": 263.15999999999997,
+      "text": " 25 comma 14 comma 98 comma 63. OK I'm going for random values. OK I'm not. I don't have"
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 263.15999999999997,
+      "end": 266.44,
+      "text": " this values in my mind. I'm just looking at my keyboard and just hitting those numbers"
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 266.44,
+      "end": 269.96,
+      "text": " and I will also try to repeat some values here because last time I forgot to repeat"
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 269.96,
+      "end": 275.44,
+      "text": " the value. This time I will do it. I will let me repeat 98. Yeah. Now if I say enter"
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 275.44,
+      "end": 280.76,
+      "text": " and if I print the value of S look at the sequence. First of all we got 98 only once"
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 280.76,
+      "end": 284.64,
+      "text": " and second look at the sequence. There is no ascending or descending order. It is random"
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 284.64,
+      "end": 290.2,
+      "text": " values. So you cannot be sure with the sequence in set. The reason is set uses a concept of"
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 290.2,
+      "end": 297.12,
+      "text": " hash and using hash we we improve the performance. We want to fetch the element as fast as possible."
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 297.12,
+      "end": 301.8,
+      "text": " So it simply says OK just go with this go with the flow. So we want speed then sequence"
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 301.8,
+      "end": 305.47999999999996,
+      "text": " here. But yes if you want to make a sequence you can just do certain things like sorting"
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 305.47999999999996,
+      "end": 310.64,
+      "text": " elements and all the stuff. But here set will not for the sequence. Now can we change the"
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 310.64,
+      "end": 315.56,
+      "text": " value of set. Let's try. OK first of all can we can we use can we use index number"
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 315.56,
+      "end": 320.44,
+      "text": " here if I say to you can see in set indexing is not supported. You know why. Because we"
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 320.44,
+      "end": 324.71999999999997,
+      "text": " don't have proper sequence right. What you will do with the indexing. So yes in set we"
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 324.71999999999997,
+      "end": 329.12,
+      "text": " cannot do that. Can we change the value. That's the issue right. So if you say S dot you can"
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 329.12,
+      "end": 333.36,
+      "text": " see a method called as add using which you can add the value and then what else we can"
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 333.36,
+      "end": 337.96,
+      "text": " use. We can use pop. We can use remove. So this thing works in set you know so you can"
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 338.12,
+      "end": 342.35999999999996,
+      "text": " you can try it out. You can do some experiment and it should work. So that's how we use set."
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 342.35999999999996,
+      "end": 346.76,
+      "text": " So we have tuple and we have set. So let me just go for a quick recap. So we have we have"
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 346.76,
+      "end": 350.84,
+      "text": " a list list is like a collection of values. Now this can be of different type or of same"
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 350.84,
+      "end": 356.0,
+      "text": " type doesn't matter. And we have a concept where we can add values we can remove values"
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 356.0,
+      "end": 361.28,
+      "text": " we can update values. Can we. Yes we can. So then we have tuples where tuples is same"
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 361.28,
+      "end": 365.71999999999997,
+      "text": " like same as list. The difference would be in tuples you cannot change the values because"
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 365.92,
+      "end": 371.44000000000005,
+      "text": " they are immutable. And then we have set. Now set is almost same as list. The difference"
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 371.44000000000005,
+      "end": 375.68,
+      "text": " would be it will not maintain the sequence and it will not support duplicate values."
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 375.68,
+      "end": 381.40000000000003,
+      "text": " So that's important. Right. So that's list tuple and set for you. So I hope you enjoyed"
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 381.40000000000003,
+      "end": 385.04,
+      "text": " this session. Let me know in the comment section and do click on the like button if you're"
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 385.04,
+      "end": 387.72,
+      "text": " enjoying it. Thanks for watching everyone. Bye bye."
+    },
+    {
+      "number": "6",
+      "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+      "start": 395.72,
+      "end": 397.72,
+      "text": " Transcribed by https://otter.ai"
+    }
+  ],
+  "text": " Welcome back aliens my name is Devin Reddy and let's continue with the series on Python. So in the last video we have talked about list and we were supposed to complete tuples and set but unfortunately it was a lengthy video. So let's complete those things in this video. So when we learned about list it's very simple right we have a list of values. Now this list can be of different type it can be of type integer or a string or float. Now we have another type which is called as tuple. Now what is tuple? So tuple is almost same as list we can have a collection of value there. The difference is in list we can change value because list is mutable and tuple you guessed it right is immutable that means you cannot change the value. Okay but where it can be used that's a different thing you know. So let's try it out first let's create a tuple. So we'll say tuple equal to and the way you create a tuple is we can use some brackets right. In list we used to use a square bracket and we should specify values. There's a thing here when we use a square bracket see nowhere we are mentioning that we are going to use list right so by default this square bracket means list. How do we use tuple because we cannot use square bracket now so we have to use a round bracket. So round bracket defines it's a tuple 21, 26, 14, 25. Now once you specify these values here you cannot change it. So we got our tuple if I say enter you can see we got 21, 26, 14, 25. Now let's try to change the value. Let's try it. So I will say tup can I use a square bracket. First let me fetch the values. I will say 1. Enter. It works okay so when you want to fetch values we can use square bracket. Okay let's try to change the values. I will say tup of 1 is equal to I want to change from 36 to 33. I will say enter you can see we got an error. It says tuple object does not support item assignment that means you cannot basically change the value. Can we use certain methods which we had in list. Let's try. So if I say tup.control space you can see we have two methods. One is count and second is index. Okay if you are getting confused what is count. Count was there in list as well. So count will count the number of occurrence of a number. Let's say in your tuple you have 10 values and out of which you have some values like 5 which is repeated two times. So if you say 5 it will give you answer 2 and you can fetch the index value for a particular element. But you don't have any method which will replace the value which will append a value. You can see you don't have those things here. Tuple is like list but then you cannot change the value of it. Now when you should be using tuple. So when you know that you have a list and you don't want to change the values of it. And yes in certain projects we have this requirement. You want to set a value and you don't want to change it. So of course you will go for tuple there. Since we don't change values in tuple. So iteration in tuples is faster than in list. So that's where you can use tuple if you want to enhance the speed of your execution. So that's about tuple. Now it's time to look at set. So what is set. Now if you remember the mathematical definition of set it is simply a collection of elements. It is a collection of unique elements. OK. So let's try. So I will say set I will say yes. S equal to. How do I define set because the square bracket is for list. Round bracket is for tuple. We are remaining with only one bracket now which is curly bracket. So curly bracket is for set. In fact in math as well I guess we use curly brackets. So now I will say 22 comma 25 comma 14 comma 21 comma let's say 5. So I got these values here. Now these are random values no specific sequence. So these are not sorted. Now there is one more thing with set. You know if first of all I will say enter. You can see we got a set. I will not be printing it now. So let's talk about the concept here. Now set never follows a sequence. OK. So it will not follow the sequence in which you have added those elements. Now if you think if I type S and if I say enter you will get the same values. Yes you will get the same values but not in the same sequence. OK. That's important here. Let's enter. You can see the values. We got 5 14 21 22 and 25. I know what you're thinking. You might be thinking this is sorted. No not exactly. Let me just try once again. I will say S equal to again a curly bracket and then 25 comma 14 comma 98 comma 63. OK I'm going for random values. OK I'm not. I don't have this values in my mind. I'm just looking at my keyboard and just hitting those numbers and I will also try to repeat some values here because last time I forgot to repeat the value. This time I will do it. I will let me repeat 98. Yeah. Now if I say enter and if I print the value of S look at the sequence. First of all we got 98 only once and second look at the sequence. There is no ascending or descending order. It is random values. So you cannot be sure with the sequence in set. The reason is set uses a concept of hash and using hash we we improve the performance. We want to fetch the element as fast as possible. So it simply says OK just go with this go with the flow. So we want speed then sequence here. But yes if you want to make a sequence you can just do certain things like sorting elements and all the stuff. But here set will not for the sequence. Now can we change the value of set. Let's try. OK first of all can we can we use can we use index number here if I say to you can see in set indexing is not supported. You know why. Because we don't have proper sequence right. What you will do with the indexing. So yes in set we cannot do that. Can we change the value. That's the issue right. So if you say S dot you can see a method called as add using which you can add the value and then what else we can use. We can use pop. We can use remove. So this thing works in set you know so you can you can try it out. You can do some experiment and it should work. So that's how we use set. So we have tuple and we have set. So let me just go for a quick recap. So we have we have a list list is like a collection of values. Now this can be of different type or of same type doesn't matter. And we have a concept where we can add values we can remove values we can update values. Can we. Yes we can. So then we have tuples where tuples is same like same as list. The difference would be in tuples you cannot change the values because they are immutable. And then we have set. Now set is almost same as list. The difference would be it will not maintain the sequence and it will not support duplicate values. So that's important. Right. So that's list tuple and set for you. So I hope you enjoyed this session. Let me know in the comment section and do click on the like button if you're enjoying it. Thanks for watching everyone. Bye bye. Transcribed by https://otter.ai"
+}

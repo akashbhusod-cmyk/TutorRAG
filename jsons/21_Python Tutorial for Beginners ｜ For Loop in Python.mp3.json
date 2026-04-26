@@ -1,0 +1,649 @@
+{
+  "chunks": [
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 0.0,
+      "end": 8.68,
+      "text": " Welcome back aliens my name is Levin Reddy and let's continue with the series on Python."
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 8.68,
+      "end": 12.32,
+      "text": " So in the last video we have talked about loops right and specifically it was while"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 12.32,
+      "end": 17.84,
+      "text": " loop. In this video we'll talk about for loop. So while loop and for loop they both are loops"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 17.84,
+      "end": 22.16,
+      "text": " right but then the working is different. In fact normally when we talk about while loop"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 22.16,
+      "end": 25.64,
+      "text": " it is for certain recreations and it is for certain conditions. So if you remember the"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 25.64,
+      "end": 30.16,
+      "text": " while loop we specify a condition but that's not the case with for loop because in for"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 30.16,
+      "end": 34.68,
+      "text": " loop it normally works with sequence. What type of sequence I'm talking about? Think"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 34.68,
+      "end": 39.56,
+      "text": " about list, think about tuple, think about string. So what I'm basically talking about"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 39.56,
+      "end": 45.040000000000006,
+      "text": " is let's say if you have a list here and in this list I have certain values. It can be"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 45.040000000000006,
+      "end": 50.92,
+      "text": " any random value let's say my name Naveen 65 and if I say let's say 2.5. So I have these"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 50.92,
+      "end": 54.88,
+      "text": " values one is string, one is integer and one is float. Doesn't matter what type of value"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 54.88,
+      "end": 59.040000000000006,
+      "text": " you have there. I want to print these values. It's very easy actually you can simply say"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 59.040000000000006,
+      "end": 64.08,
+      "text": " print and you can print the value of x. This will work. Okay let me run this code and you"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 64.08,
+      "end": 68.56,
+      "text": " can see we got the output. But what if you want to get the output individually? I want"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 68.56,
+      "end": 74.04,
+      "text": " to print the values one by one. So in this case you will be using a for loop. Now how"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 74.04,
+      "end": 79.64,
+      "text": " for loop works? So we have to say for then we have to use a variable we will say this"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 79.64,
+      "end": 86.36,
+      "text": " time i. Now i represents one element of this list at a time. So example initially I will"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 86.36,
+      "end": 91.96000000000001,
+      "text": " refer to Naveen then I will refer to 65 then I will refer to 2.5 one by one. So you have"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 91.96000000000001,
+      "end": 98.68,
+      "text": " to say for i in x. So one by one it will fetch the value and again this is a suit so you"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 98.68,
+      "end": 102.8,
+      "text": " have to use a colon there and you can write lines of statements. Again the point is you"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 102.8,
+      "end": 107.4,
+      "text": " need to make sure that you use a proper indentation. So I will be printing the value that's it."
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 107.4,
+      "end": 112.64,
+      "text": " I will be printing the value of i. That's it. There is no iteration unlike while here."
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 112.64,
+      "end": 116.60000000000001,
+      "text": " So we don't initialize the variable. We don't take the condition and we don't increment"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 116.60000000000001,
+      "end": 121.60000000000001,
+      "text": " or decrement by ourselves. It will be done by for loop itself. This is pretty smart right?"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 121.60000000000001,
+      "end": 127.08000000000001,
+      "text": " So now if I run this code you can see we got the values one by one. So yes if you want"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 127.08000000000001,
+      "end": 132.20000000000002,
+      "text": " to print all the values from a list use for loop. So for loop normally can be used with"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 132.20000000000002,
+      "end": 136.96,
+      "text": " sequence example list which we have worked with now or a string. Let's say you have a"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 136.96,
+      "end": 142.84,
+      "text": " string here. Let's say the x is not a list now it is a simple string which is Naveen"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 142.84,
+      "end": 148.12,
+      "text": " and then I want to print the value of this one by one. So one way is you can use an array"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 148.12,
+      "end": 151.88,
+      "text": " right so we can use a while loop here as well and then you can use that square back and"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 151.88,
+      "end": 156.0,
+      "text": " you can specify index values. Otherwise if you run this code you can see this is how"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 156.0,
+      "end": 160.96,
+      "text": " your for loop works. So what it will do the value of i first will have n and then it will"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 160.96,
+      "end": 165.28,
+      "text": " have a. Let me just do that again. The thing which we are doing for a long time which is"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 165.28,
+      "end": 171.12,
+      "text": " debug. So I click and say debug. Let's trace it. So if I trace you can see the value of"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 171.12,
+      "end": 177.72,
+      "text": " x is Naveen and the value of i is n now. Again if I repeat if I said next iteration you can"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 177.72,
+      "end": 182.08,
+      "text": " see the value of i will become a and then next iteration the value of i becomes v the"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 182.08,
+      "end": 186.92000000000002,
+      "text": " value of i becomes i and then value of i becomes n. So that's Naveen for you and we are printing"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 186.92000000000002,
+      "end": 191.64,
+      "text": " all the values right. So if I see the console you got all the values one by one. Of course"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 191.64,
+      "end": 196.11999999999998,
+      "text": " I forgot to do one more. So you got Naveen there. So that's the advantage of using for"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 196.11999999999998,
+      "end": 201.07999999999998,
+      "text": " loop. Can I use for loop with something else? Yes we can. Example we can also use this with"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 201.07999999999998,
+      "end": 206.6,
+      "text": " tuple or we can use with set. But then we have one more. Example you can do you can"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 206.6,
+      "end": 210.72,
+      "text": " specify the list here itself. Instead of having a different variable you can have your list"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 210.72,
+      "end": 216.11999999999998,
+      "text": " here. Even that works. So you have two six Paul and if I run this code you can see we"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 216.12,
+      "end": 221.64000000000001,
+      "text": " got one by one. So you can have your list there itself. So syntax is you mentioned for"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 221.64000000000001,
+      "end": 226.48000000000002,
+      "text": " then you say i in and then you mentioned the collection or the sequence. It can be a list"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 226.48000000000002,
+      "end": 231.4,
+      "text": " it can be a string. Everything works. In fact what if I want to print the values from one"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 231.4,
+      "end": 236.6,
+      "text": " to ten because of course we can do that. We can do that in while loop. Can we do it here?"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 236.6,
+      "end": 240.92000000000002,
+      "text": " And the answer is yes. For that we have to use range. If you remember in sequence we"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 240.92000000000002,
+      "end": 245.92000000000002,
+      "text": " have talked about range. In range if you specify ten what it means? It means start from zero"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 246.07999999999998,
+      "end": 250.48,
+      "text": " and end at nine. So in total we have ten values. And if I run this code you can see we got"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 250.48,
+      "end": 256.08,
+      "text": " zero to nine. So we got zero and then it ends at nine. So in total we have ten values. So"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 256.08,
+      "end": 260.64,
+      "text": " we can use range as well. And using this range you can perform certain operations. In fact"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 260.64,
+      "end": 263.91999999999996,
+      "text": " in range you can actually start from different value. Let's say I don't want to print from"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 263.91999999999996,
+      "end": 269.24,
+      "text": " zero to ten. I want to print from let's say eleven to twenty. In that case you will say"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 269.24,
+      "end": 274.03999999999996,
+      "text": " hey I want to start from eleven. I want to end at twenty. So we want twenty included"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 274.20000000000005,
+      "end": 277.96000000000004,
+      "text": " right? So we will say twenty one. And every iteration will have one. So it will be one"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 277.96000000000004,
+      "end": 283.8,
+      "text": " by one iteration. So if I say run. So you can see we got values from eleven to twenty."
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 283.8,
+      "end": 288.12,
+      "text": " So I have to mention three things. Starting point, ending point and the iteration. It"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 288.12,
+      "end": 293.6,
+      "text": " will be difference between one or two. For example if I say this is two in this case."
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 293.6,
+      "end": 297.6,
+      "text": " So look at the values now. It will be different values. Eleven, thirteen, fifteen, seventeen"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 297.6,
+      "end": 301.88,
+      "text": " and nineteen. So there is a difference of two. If I say five you can see we got eleven"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 301.88,
+      "end": 305.96,
+      "text": " and sixteen. That's it. So this is how you specify the gap there. What if you want to"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 305.96,
+      "end": 311.88,
+      "text": " print in reverse? Let's try. Can I start with twenty and if I end at eleven. If I run this"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 311.88,
+      "end": 315.8,
+      "text": " code it will give you. It is giving you nothing because it always goes in ascending order."
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 315.8,
+      "end": 319.88,
+      "text": " We have to mention go in reverse order. So you have to say minus one. So it will start"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 319.88,
+      "end": 324.36,
+      "text": " from twenty and then nineteen, eighteen and it works in that way. So you can see we got"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 324.36,
+      "end": 328.48,
+      "text": " from twenty to twelve. But there is a problem. You have to make sure that it goes till eleven"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 328.48,
+      "end": 332.72,
+      "text": " right. So you have to because the value eleven is excluded. So we have to use ten so that"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 332.72,
+      "end": 337.52000000000004,
+      "text": " it will include eleven. Let's run this again and it works. So this is how you can reuse"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 337.52000000000004,
+      "end": 340.92,
+      "text": " range and this is how you can use for loop. Now in fact we can do one more thing. So you"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 340.92,
+      "end": 344.96000000000004,
+      "text": " can see we have a range of twenty and then I'm printing the value of i. In fact I will"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 344.96000000000004,
+      "end": 349.36,
+      "text": " just go. I will start with one. So I went from one to twenty. So I will inclusive. I"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 349.36,
+      "end": 353.12,
+      "text": " will make sure it is twenty one so that it will include twenty and the iteration would"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 353.12,
+      "end": 356.0,
+      "text": " be one or even if you don't mention that that's fine. If I print the value you can see it"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 356.0,
+      "end": 360.52,
+      "text": " is one to twenty. What I want is so every time the value which is divisible by five"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 360.52,
+      "end": 365.68,
+      "text": " it should not get printed. I guess I want that. So I want to print only when the value"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 365.68,
+      "end": 370.44,
+      "text": " is not divisible by five. So we can use if inside for right. So we can do that. So we"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 370.44,
+      "end": 375.44,
+      "text": " can have if condition inside for if you want to if you have if you want to have that condition."
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 375.44,
+      "end": 383.48,
+      "text": " So you can say if i mod five is equal to zero don't print. Otherwise you can print. OK but"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 383.48,
+      "end": 388.16,
+      "text": " how can I do that. So what what we can do is we can say not equal to so print only when"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 388.16,
+      "end": 391.8,
+      "text": " it's not equal. Right. So we can do that. So print only when it is not equal to say"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 391.8,
+      "end": 396.48,
+      "text": " if I run this code if I said one. Oh we got an error because I missed something. And I'm"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 396.48,
+      "end": 400.24,
+      "text": " also using brackets because I have this habit of working on Java. So it's it anyway it's"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 400.24,
+      "end": 406.64000000000004,
+      "text": " optional in Python. So let's run this and you can see we got we got one and we got four."
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 406.64000000000004,
+      "end": 410.32,
+      "text": " You can see we don't have five there because we are taking what the condition. So yes we"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 410.32,
+      "end": 415.8,
+      "text": " can write if inside of for. So since we had if inside for we can also have for inside"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 415.8,
+      "end": 419.56,
+      "text": " of for which is an instead of for loop. But then we'll not be doing that here. In the"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 419.56,
+      "end": 423.12,
+      "text": " next video we'll play with some patterns and we'll try to draw some patterns and we'll"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 423.12,
+      "end": 427.56,
+      "text": " try to understand how do we do that. So in the next video it will be fun. So I hope you"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 427.56,
+      "end": 430.92,
+      "text": " are enjoying the series. Let me know in the comment section and do click on the like button"
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 430.92,
+      "end": 433.76,
+      "text": " if you're enjoying it. Thanks for watching everyone. Bye bye."
+    },
+    {
+      "number": "21",
+      "title": "Python Tutorial for Beginners | For Loop in Python",
+      "start": 440.32,
+      "end": 442.32,
+      "text": " Transcribed by https://otter.ai"
+    }
+  ],
+  "text": " Welcome back aliens my name is Levin Reddy and let's continue with the series on Python. So in the last video we have talked about loops right and specifically it was while loop. In this video we'll talk about for loop. So while loop and for loop they both are loops right but then the working is different. In fact normally when we talk about while loop it is for certain recreations and it is for certain conditions. So if you remember the while loop we specify a condition but that's not the case with for loop because in for loop it normally works with sequence. What type of sequence I'm talking about? Think about list, think about tuple, think about string. So what I'm basically talking about is let's say if you have a list here and in this list I have certain values. It can be any random value let's say my name Naveen 65 and if I say let's say 2.5. So I have these values one is string, one is integer and one is float. Doesn't matter what type of value you have there. I want to print these values. It's very easy actually you can simply say print and you can print the value of x. This will work. Okay let me run this code and you can see we got the output. But what if you want to get the output individually? I want to print the values one by one. So in this case you will be using a for loop. Now how for loop works? So we have to say for then we have to use a variable we will say this time i. Now i represents one element of this list at a time. So example initially I will refer to Naveen then I will refer to 65 then I will refer to 2.5 one by one. So you have to say for i in x. So one by one it will fetch the value and again this is a suit so you have to use a colon there and you can write lines of statements. Again the point is you need to make sure that you use a proper indentation. So I will be printing the value that's it. I will be printing the value of i. That's it. There is no iteration unlike while here. So we don't initialize the variable. We don't take the condition and we don't increment or decrement by ourselves. It will be done by for loop itself. This is pretty smart right? So now if I run this code you can see we got the values one by one. So yes if you want to print all the values from a list use for loop. So for loop normally can be used with sequence example list which we have worked with now or a string. Let's say you have a string here. Let's say the x is not a list now it is a simple string which is Naveen and then I want to print the value of this one by one. So one way is you can use an array right so we can use a while loop here as well and then you can use that square back and you can specify index values. Otherwise if you run this code you can see this is how your for loop works. So what it will do the value of i first will have n and then it will have a. Let me just do that again. The thing which we are doing for a long time which is debug. So I click and say debug. Let's trace it. So if I trace you can see the value of x is Naveen and the value of i is n now. Again if I repeat if I said next iteration you can see the value of i will become a and then next iteration the value of i becomes v the value of i becomes i and then value of i becomes n. So that's Naveen for you and we are printing all the values right. So if I see the console you got all the values one by one. Of course I forgot to do one more. So you got Naveen there. So that's the advantage of using for loop. Can I use for loop with something else? Yes we can. Example we can also use this with tuple or we can use with set. But then we have one more. Example you can do you can specify the list here itself. Instead of having a different variable you can have your list here. Even that works. So you have two six Paul and if I run this code you can see we got one by one. So you can have your list there itself. So syntax is you mentioned for then you say i in and then you mentioned the collection or the sequence. It can be a list it can be a string. Everything works. In fact what if I want to print the values from one to ten because of course we can do that. We can do that in while loop. Can we do it here? And the answer is yes. For that we have to use range. If you remember in sequence we have talked about range. In range if you specify ten what it means? It means start from zero and end at nine. So in total we have ten values. And if I run this code you can see we got zero to nine. So we got zero and then it ends at nine. So in total we have ten values. So we can use range as well. And using this range you can perform certain operations. In fact in range you can actually start from different value. Let's say I don't want to print from zero to ten. I want to print from let's say eleven to twenty. In that case you will say hey I want to start from eleven. I want to end at twenty. So we want twenty included right? So we will say twenty one. And every iteration will have one. So it will be one by one iteration. So if I say run. So you can see we got values from eleven to twenty. So I have to mention three things. Starting point, ending point and the iteration. It will be difference between one or two. For example if I say this is two in this case. So look at the values now. It will be different values. Eleven, thirteen, fifteen, seventeen and nineteen. So there is a difference of two. If I say five you can see we got eleven and sixteen. That's it. So this is how you specify the gap there. What if you want to print in reverse? Let's try. Can I start with twenty and if I end at eleven. If I run this code it will give you. It is giving you nothing because it always goes in ascending order. We have to mention go in reverse order. So you have to say minus one. So it will start from twenty and then nineteen, eighteen and it works in that way. So you can see we got from twenty to twelve. But there is a problem. You have to make sure that it goes till eleven right. So you have to because the value eleven is excluded. So we have to use ten so that it will include eleven. Let's run this again and it works. So this is how you can reuse range and this is how you can use for loop. Now in fact we can do one more thing. So you can see we have a range of twenty and then I'm printing the value of i. In fact I will just go. I will start with one. So I went from one to twenty. So I will inclusive. I will make sure it is twenty one so that it will include twenty and the iteration would be one or even if you don't mention that that's fine. If I print the value you can see it is one to twenty. What I want is so every time the value which is divisible by five it should not get printed. I guess I want that. So I want to print only when the value is not divisible by five. So we can use if inside for right. So we can do that. So we can have if condition inside for if you want to if you have if you want to have that condition. So you can say if i mod five is equal to zero don't print. Otherwise you can print. OK but how can I do that. So what what we can do is we can say not equal to so print only when it's not equal. Right. So we can do that. So print only when it is not equal to say if I run this code if I said one. Oh we got an error because I missed something. And I'm also using brackets because I have this habit of working on Java. So it's it anyway it's optional in Python. So let's run this and you can see we got we got one and we got four. You can see we don't have five there because we are taking what the condition. So yes we can write if inside of for. So since we had if inside for we can also have for inside of for which is an instead of for loop. But then we'll not be doing that here. In the next video we'll play with some patterns and we'll try to draw some patterns and we'll try to understand how do we do that. So in the next video it will be fun. So I hope you are enjoying the series. Let me know in the comment section and do click on the like button if you're enjoying it. Thanks for watching everyone. Bye bye. Transcribed by https://otter.ai"
+}

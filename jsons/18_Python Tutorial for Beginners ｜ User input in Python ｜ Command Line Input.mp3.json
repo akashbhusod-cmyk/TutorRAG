@@ -1,0 +1,936 @@
+{
+  "chunks": [
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 0.0,
+      "end": 9.0,
+      "text": " Welcome back aliens. My name is Abhinav Reddy. And let's continue with the series on Python."
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 9.0,
+      "end": 13.48,
+      "text": " Now the last video we have talked about how can we use PyCharm right? As I mentioned before,"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 13.48,
+      "end": 18.76,
+      "text": " you can use any IDE which you like, okay, every idea almost work in the same way. Now"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 18.76,
+      "end": 23.76,
+      "text": " in this video, we'll do something which you are waiting from a long time and which is"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 23.76,
+      "end": 28.64,
+      "text": " how to get the input from a user. See, trust me when you are building a project, you are"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 28.64,
+      "end": 32.92,
+      "text": " doing it for the client, right? And of course, you are expecting a client input. And till"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 32.92,
+      "end": 38.14,
+      "text": " this point, we are working with our own numbers, we should be looking for the user input, right?"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 38.14,
+      "end": 42.6,
+      "text": " How do we do that? So the thing is, in Python, whatever we have done till now is done with"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 42.6,
+      "end": 46.72,
+      "text": " the help of functions. Example, if you want to print something print function, if you"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 46.72,
+      "end": 51.72,
+      "text": " want to do some calculation, like finding the sum of the list or finding the minimum"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 51.72,
+      "end": 56.24,
+      "text": " value of it, or maybe whatever function whatever operations we have done till now we have used"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 56.24,
+      "end": 63.28,
+      "text": " functions right? For input as well, we have input function, name itself says it right?"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 63.28,
+      "end": 67.16,
+      "text": " Now so instead of using five here, we of course will be adding two numbers, but instead of"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 67.16,
+      "end": 72.84,
+      "text": " using five, we will be using a function called as input. Okay, it's very simple. And then"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 72.84,
+      "end": 78.36,
+      "text": " for y as well, we will be saying input. So for x also we have input for y also we have"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 78.36,
+      "end": 82.48,
+      "text": " input. Now will it work? That's a question. I will try it. Okay, so I will right click"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 82.48,
+      "end": 88.28,
+      "text": " here, I will say run my code. Okay, it works. You can see there's no error. Okay, first"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 88.28,
+      "end": 93.32000000000001,
+      "text": " step is done. There's no error. But think about this. You got a console and you are"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 93.32000000000001,
+      "end": 96.84,
+      "text": " waiting for something because till this point we were just doing something and we were getting"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 96.84,
+      "end": 101.68,
+      "text": " the output. This is the first time your console is not saying anything. The thing is your"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 101.68,
+      "end": 107.08000000000001,
+      "text": " console is waiting for you. I mean, now when I say you I'm talking about the user. A console"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 107.08000000000001,
+      "end": 111.0,
+      "text": " is waiting for the user to give the input. Now console don't know that user don't know"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 111.0,
+      "end": 116.36,
+      "text": " what to do now. So user doesn't know what to do. A console don't know that user is waiting."
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 116.36,
+      "end": 121.12,
+      "text": " So a console should notify user, hey, user, I'm expecting a value from you. And of course,"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 121.12,
+      "end": 125.68,
+      "text": " console is not that smart to ask for it. So as a programmer, you need to do it. So I will"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 125.68,
+      "end": 130.84,
+      "text": " stop the execution, I will say, hey, user, enter the value. So of course, it's not compulsory."
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 130.84,
+      "end": 136.0,
+      "text": " But then it's a good gesture, right? I will say enter, enter first number. Okay, and the"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 136.0,
+      "end": 140.32,
+      "text": " same thing goes for y. As I mentioned, it's not compulsory to type the message, but then"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 140.32,
+      "end": 144.44,
+      "text": " it's always better. Enter second number. Okay, so we got enter first number, enter"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 144.44,
+      "end": 148.68,
+      "text": " second number. And now I will read on the code, right click, run. And you can see it"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 148.68,
+      "end": 152.6,
+      "text": " is asking for the value. Now a user knows something is happening. So user will come"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 152.6,
+      "end": 158.76,
+      "text": " here and say user will say I want to add nine. And I want to enter five, nine plus five will"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 158.76,
+      "end": 164.84,
+      "text": " give you 14. Right? I will say enter. Oh, that's weird. We got nine space five. That's"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 164.84,
+      "end": 168.79999999999998,
+      "text": " bad. The thing is, what is happening here is if you have observed, I was also giving"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 168.8,
+      "end": 173.20000000000002,
+      "text": " a space in between, maybe that's the issue. I will run this again. And this time I will"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 173.20000000000002,
+      "end": 177.56,
+      "text": " give a value which is nine without space and five without space. This time at least we'll"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 177.56,
+      "end": 183.24,
+      "text": " be getting 14. Right? Hopefully, I will say enter. Oh, again, we got 95. That's bad. What's"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 183.24,
+      "end": 187.24,
+      "text": " wrong here. So when you want to work with a function called as input, it will always"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 187.24,
+      "end": 192.24,
+      "text": " give you this string type. If you remember, we also have a type which is str. So it will"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 192.24,
+      "end": 196.88000000000002,
+      "text": " always give you the value in str format. What you want is integer, right? Because you are"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 196.88,
+      "end": 201.51999999999998,
+      "text": " adding two values. And if you want to add two values, it should be integer. Example,"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 201.51999999999998,
+      "end": 206.28,
+      "text": " if I if I print the type of x in this case, of course, after after fetching the after"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 206.28,
+      "end": 209.79999999999998,
+      "text": " fetching the input, I will say run this code once again, you can say it is waiting for"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 209.79999999999998,
+      "end": 213.68,
+      "text": " the input, I would say nine. The moment I say enter nine, you can see the type of nine"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 213.68,
+      "end": 218.92,
+      "text": " is str. It's integer, right? But the thing is, by default, input function will convert"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 218.92,
+      "end": 224.56,
+      "text": " everything as a string. Now that means you need to convert this value before assigning"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 224.56,
+      "end": 229.04,
+      "text": " the value. So what you can also do is you can take another another variable like a and"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 229.04,
+      "end": 234.16,
+      "text": " you can convert the value of x into integer because x is string. So you can say int and"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 234.16,
+      "end": 238.8,
+      "text": " you can pass x right we have we have seen that how do you convert from string to integer"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 238.8,
+      "end": 243.12,
+      "text": " or from different function different function. So this is how you convert a string into integer."
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 243.12,
+      "end": 248.84,
+      "text": " And then you can add you can simply say instead of x you can say a and for y as well the same"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 248.84,
+      "end": 255.64000000000001,
+      "text": " thing because y is also string so I would say b is equal to int of y. Yeah, and now"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 255.64000000000001,
+      "end": 261.8,
+      "text": " we'll say b now it should work. We are expecting a value which is 14. If this will not work,"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 261.8,
+      "end": 268.52,
+      "text": " I will I will stop the video and run. Okay, so let's enter nine and let's enter five."
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 268.52,
+      "end": 272.52,
+      "text": " Hopefully it will work. I will say enter it work finally. So you can still continue you"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 272.52,
+      "end": 276.88,
+      "text": " can still watch the video. So yeah, so it was 14 right so it is working. So the issue"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 276.96,
+      "end": 282.0,
+      "text": " was by default input gives you a string format. We need to convert that into format which we"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 282.0,
+      "end": 286.15999999999997,
+      "text": " want example if you want float simply use float function if you want integer you can use integer"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 286.15999999999997,
+      "end": 291.52,
+      "text": " function. Okay, this works. But then don't you think we are wasting some lines of code here?"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 291.52,
+      "end": 297.52,
+      "text": " Example, I could have used input here itself I mean int here itself because the input gives"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 297.52,
+      "end": 303.2,
+      "text": " you a string. So we are converting that string into integer. So the type of x is now integer."
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 303.2,
+      "end": 308.24,
+      "text": " So we don't need a there right so it's always better to save the number of lines. So here as"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 308.24,
+      "end": 314.71999999999997,
+      "text": " well I will say int and they should work instead of a and b I will say x plus y finally it should"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 314.71999999999997,
+      "end": 319.76,
+      "text": " work now without a and b of course that was our main agenda right now it is asking for the value"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 319.76,
+      "end": 323.36,
+      "text": " this time I will go for some other values you know seven plus three it should give you 10 and it"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 323.36,
+      "end": 329.28,
+      "text": " works. So this thing is working now. In fact, the same code which we are doing here on PyCharm will"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 329.28,
+      "end": 335.2,
+      "text": " work on IDLE editor as well. Okay, that works. So let's do something extra now. What I will do is"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 335.2,
+      "end": 340.71999999999997,
+      "text": " I want to take the input from a user in a char format because see we don't have a char format"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 340.71999999999997,
+      "end": 345.84,
+      "text": " in Python right we have int we have float we have string. How do you take a char example we can do"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 345.84,
+      "end": 351.03999999999996,
+      "text": " that actually you can say x is equal to or maybe this time we'll use ch because that makes sense"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 351.03999999999996,
+      "end": 356.08,
+      "text": " I want a character right so ch is equal to input of course we don't need to convert that into"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 356.08,
+      "end": 362.64,
+      "text": " integer because it's character and you will say enter a number enter the character enter char. Now"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 362.64,
+      "end": 369.12,
+      "text": " see you can use double quotes or single quote both works as you know and then I will print ch yeah"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 369.12,
+      "end": 374.4,
+      "text": " this should work let's try I will just run this code we're waiting for the character we'll use p"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 374.4,
+      "end": 381.36,
+      "text": " enter it works you can see we can take character as well but here's a trick the trick is what if"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 382.16,
+      "end": 388.72,
+      "text": " if I enter pqr of course right I'm asking for a character but maybe your user don't know that"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 388.72,
+      "end": 393.84000000000003,
+      "text": " you are expecting a character maybe by mistake user typing multiple characters in this case"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 393.84000000000003,
+      "end": 400.08000000000004,
+      "text": " look at the output we are expecting a character user enters entire string but still we still want"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 400.08000000000004,
+      "end": 407.28000000000003,
+      "text": " character right if you want to have that control to print only one character you can use index"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 407.28,
+      "end": 411.44,
+      "text": " values we have done that right if remember when we were talking about strings we have done this"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 411.44,
+      "end": 415.84,
+      "text": " we can use index number and we can fetch first character this should work let's try I will say"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 415.84,
+      "end": 422.55999999999995,
+      "text": " pqr and you can see we got p right this is fun in fact the next code is amazing okay it's more fun"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 422.55999999999995,
+      "end": 429.44,
+      "text": " what if I don't even because seeing ch we still have pqr what if you if you don't want pqr you"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 429.44,
+      "end": 436.32,
+      "text": " only want p so we have a trick here what if while fetching the input only you will specify that hey"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 436.32,
+      "end": 442.32,
+      "text": " only pick up I only want the first character see input will fetch the entire string input will"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 442.32,
+      "end": 449.6,
+      "text": " fetch pqr but it will assign only p to ch let's try I'll say pqr enter you can see that you got p"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 449.6,
+      "end": 453.92,
+      "text": " so again you can play with the codes right and that's why programming is awesome there's a"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 453.92,
+      "end": 458.88,
+      "text": " concept of syntax plus there is also a concept of fun so you just have to play with it it's like"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 458.88,
+      "end": 463.52,
+      "text": " playing a game with with programming language in fact since we are working with input we can do"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 463.52,
+      "end": 468.79999999999995,
+      "text": " something extra we can also use a function called as eval which will evaluate the expression which"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 468.79999999999995,
+      "end": 473.52,
+      "text": " you are passing example let's say if I give the input let me just run this code if I give the"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 473.52,
+      "end": 481.91999999999996,
+      "text": " input as 2 plus 6 minus 2 or maybe 6 minus 1 can we do it can we do it here because see when you"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 481.91999999999996,
+      "end": 487.59999999999997,
+      "text": " pass 2 plus 6 minus 1 it is not normal integer it is not normal a string it is it's something"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 487.59999999999997,
+      "end": 492.79999999999995,
+      "text": " different right it's an expression and to use that of course you've got 2 here because we are fetching"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 492.8,
+      "end": 497.76,
+      "text": " only first character if you want to evaluate that what I will do is I will say result so there's a"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 497.76,
+      "end": 503.52000000000004,
+      "text": " function called as eval of course we will not be using index here so there's a function called as"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 503.52000000000004,
+      "end": 508.96000000000004,
+      "text": " eval so in eval function you are passing the data which which is which you're getting from the user"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 508.96000000000004,
+      "end": 514.5600000000001,
+      "text": " so it's the enter and expression right so when a user enters the expression it will evaluate and"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 514.5600000000001,
+      "end": 519.92,
+      "text": " it will give you the output let's do that here I will print result let's try I hope it will work"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 519.92,
+      "end": 526.88,
+      "text": " okay so now let's give the expression here I will say 2 plus 6 plus 6 minus 1 enter yes it's"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 526.88,
+      "end": 532.24,
+      "text": " working you can you can see we got 7 so that's the exciting thing about functions you know so in"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 532.24,
+      "end": 536.4,
+      "text": " python we have so many functions to work with now since we are talking about input we can do"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 536.4,
+      "end": 543.12,
+      "text": " something extra as well what if you want to take the input from the command line now when I say"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 543.12,
+      "end": 547.52,
+      "text": " command line let's say let's go back to this code if you remember this code here we were running"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 547.52,
+      "end": 551.4399999999999,
+      "text": " my code dot py right we were we were print where we have printed only hello world let's try once"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 551.4399999999999,
+      "end": 557.28,
+      "text": " again you can see there was some code we are printing 11 but what if I want to pass a value"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 557.28,
+      "end": 565.36,
+      "text": " from here example I will say python and here I will enter my code dot py now the values in my"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 565.36,
+      "end": 570.0799999999999,
+      "text": " code let me just verify my code here so this is my code okay so this is this is so I went to"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 570.0799999999999,
+      "end": 574.8,
+      "text": " desktop I opened this file which is my code and you can see the values which is 5 and 6 if you"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 574.8,
+      "end": 580.24,
+      "text": " want if you want to take input from user you can use input functions but I want to pass the values"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 580.24,
+      "end": 585.52,
+      "text": " when I'm running this so if you see cmd here when I'm running the code I want to pass a value which"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 585.52,
+      "end": 591.92,
+      "text": " is 6 and 2 I want to add these two numbers is it possible can you pass a value from here yes you"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 591.92,
+      "end": 597.92,
+      "text": " can but are you accepting the value no so even if I run this code you can see we got 11 so we should"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 597.92,
+      "end": 606.0799999999999,
+      "text": " be changing this value instead of using 5 we can use a special keyword which is called as agrv"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 606.0799999999999,
+      "end": 612.0,
+      "text": " now agrv will be having multiple values not one it will be at least so example if you are passing"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 612.0,
+      "end": 615.68,
+      "text": " one value it will be one value if you are passing two values to the two values if you are passing 10"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 615.68,
+      "end": 620.9599999999999,
+      "text": " values it will be having 10 values and if you want to access a particular value you need to use"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 620.9599999999999,
+      "end": 627.1999999999999,
+      "text": " index number okay now what index number so index number zero is a file name so if I go back to my"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 627.2,
+      "end": 632.4000000000001,
+      "text": " command prompt you can see when I say Python and then after that I'm entering a file name now this"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 632.4000000000001,
+      "end": 639.0400000000001,
+      "text": " is your index number zero six is index number one and two is index number two so if you want to"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 639.0400000000001,
+      "end": 646.72,
+      "text": " fetch it you will be using argv and in a square bracket you will say this is one why not zero"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 646.72,
+      "end": 652.24,
+      "text": " because zero is for file name right so we'll use one and two and now you can add these two values"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 652.24,
+      "end": 658.32,
+      "text": " let's verify let's go back to our Python prompt and I will say enter oh there is an error it says"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 658.32,
+      "end": 665.2,
+      "text": " argv is not defined okay the thing is it belongs to a model called a sys so we have to say import"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 665.2,
+      "end": 674.96,
+      "text": " sys and then we'll say sys.argv sys.argv now it should work hopefully go back to Python enter"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 675.52,
+      "end": 680.72,
+      "text": " oh we got six and two okay the same problem it will give you a string right so we have to convert"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 680.72,
+      "end": 686.4,
+      "text": " that into int my bad but you learn from your mistakes let's go back and say enter oh we got"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 686.4,
+      "end": 691.0400000000001,
+      "text": " eight yeah it's working so that's how you work with input so you can do whatever you want take"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 691.0400000000001,
+      "end": 695.28,
+      "text": " the input and find the answer you will find the question in the assignment section which is at the"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 695.28,
+      "end": 700.0,
+      "text": " end of this video so make sure that you subscribe to the channel so that you can enjoy the entire"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 700.0,
+      "end": 704.4,
+      "text": " Python series and also like the video if you have liked it thank you so much for watching everyone"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 704.4,
+      "end": 707.76,
+      "text": " bye"
+    },
+    {
+      "number": "18",
+      "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+      "start": 710.72,
+      "end": 711.22,
+      "text": " you"
+    }
+  ],
+  "text": " Welcome back aliens. My name is Abhinav Reddy. And let's continue with the series on Python. Now the last video we have talked about how can we use PyCharm right? As I mentioned before, you can use any IDE which you like, okay, every idea almost work in the same way. Now in this video, we'll do something which you are waiting from a long time and which is how to get the input from a user. See, trust me when you are building a project, you are doing it for the client, right? And of course, you are expecting a client input. And till this point, we are working with our own numbers, we should be looking for the user input, right? How do we do that? So the thing is, in Python, whatever we have done till now is done with the help of functions. Example, if you want to print something print function, if you want to do some calculation, like finding the sum of the list or finding the minimum value of it, or maybe whatever function whatever operations we have done till now we have used functions right? For input as well, we have input function, name itself says it right? Now so instead of using five here, we of course will be adding two numbers, but instead of using five, we will be using a function called as input. Okay, it's very simple. And then for y as well, we will be saying input. So for x also we have input for y also we have input. Now will it work? That's a question. I will try it. Okay, so I will right click here, I will say run my code. Okay, it works. You can see there's no error. Okay, first step is done. There's no error. But think about this. You got a console and you are waiting for something because till this point we were just doing something and we were getting the output. This is the first time your console is not saying anything. The thing is your console is waiting for you. I mean, now when I say you I'm talking about the user. A console is waiting for the user to give the input. Now console don't know that user don't know what to do now. So user doesn't know what to do. A console don't know that user is waiting. So a console should notify user, hey, user, I'm expecting a value from you. And of course, console is not that smart to ask for it. So as a programmer, you need to do it. So I will stop the execution, I will say, hey, user, enter the value. So of course, it's not compulsory. But then it's a good gesture, right? I will say enter, enter first number. Okay, and the same thing goes for y. As I mentioned, it's not compulsory to type the message, but then it's always better. Enter second number. Okay, so we got enter first number, enter second number. And now I will read on the code, right click, run. And you can see it is asking for the value. Now a user knows something is happening. So user will come here and say user will say I want to add nine. And I want to enter five, nine plus five will give you 14. Right? I will say enter. Oh, that's weird. We got nine space five. That's bad. The thing is, what is happening here is if you have observed, I was also giving a space in between, maybe that's the issue. I will run this again. And this time I will give a value which is nine without space and five without space. This time at least we'll be getting 14. Right? Hopefully, I will say enter. Oh, again, we got 95. That's bad. What's wrong here. So when you want to work with a function called as input, it will always give you this string type. If you remember, we also have a type which is str. So it will always give you the value in str format. What you want is integer, right? Because you are adding two values. And if you want to add two values, it should be integer. Example, if I if I print the type of x in this case, of course, after after fetching the after fetching the input, I will say run this code once again, you can say it is waiting for the input, I would say nine. The moment I say enter nine, you can see the type of nine is str. It's integer, right? But the thing is, by default, input function will convert everything as a string. Now that means you need to convert this value before assigning the value. So what you can also do is you can take another another variable like a and you can convert the value of x into integer because x is string. So you can say int and you can pass x right we have we have seen that how do you convert from string to integer or from different function different function. So this is how you convert a string into integer. And then you can add you can simply say instead of x you can say a and for y as well the same thing because y is also string so I would say b is equal to int of y. Yeah, and now we'll say b now it should work. We are expecting a value which is 14. If this will not work, I will I will stop the video and run. Okay, so let's enter nine and let's enter five. Hopefully it will work. I will say enter it work finally. So you can still continue you can still watch the video. So yeah, so it was 14 right so it is working. So the issue was by default input gives you a string format. We need to convert that into format which we want example if you want float simply use float function if you want integer you can use integer function. Okay, this works. But then don't you think we are wasting some lines of code here? Example, I could have used input here itself I mean int here itself because the input gives you a string. So we are converting that string into integer. So the type of x is now integer. So we don't need a there right so it's always better to save the number of lines. So here as well I will say int and they should work instead of a and b I will say x plus y finally it should work now without a and b of course that was our main agenda right now it is asking for the value this time I will go for some other values you know seven plus three it should give you 10 and it works. So this thing is working now. In fact, the same code which we are doing here on PyCharm will work on IDLE editor as well. Okay, that works. So let's do something extra now. What I will do is I want to take the input from a user in a char format because see we don't have a char format in Python right we have int we have float we have string. How do you take a char example we can do that actually you can say x is equal to or maybe this time we'll use ch because that makes sense I want a character right so ch is equal to input of course we don't need to convert that into integer because it's character and you will say enter a number enter the character enter char. Now see you can use double quotes or single quote both works as you know and then I will print ch yeah this should work let's try I will just run this code we're waiting for the character we'll use p enter it works you can see we can take character as well but here's a trick the trick is what if if I enter pqr of course right I'm asking for a character but maybe your user don't know that you are expecting a character maybe by mistake user typing multiple characters in this case look at the output we are expecting a character user enters entire string but still we still want character right if you want to have that control to print only one character you can use index values we have done that right if remember when we were talking about strings we have done this we can use index number and we can fetch first character this should work let's try I will say pqr and you can see we got p right this is fun in fact the next code is amazing okay it's more fun what if I don't even because seeing ch we still have pqr what if you if you don't want pqr you only want p so we have a trick here what if while fetching the input only you will specify that hey only pick up I only want the first character see input will fetch the entire string input will fetch pqr but it will assign only p to ch let's try I'll say pqr enter you can see that you got p so again you can play with the codes right and that's why programming is awesome there's a concept of syntax plus there is also a concept of fun so you just have to play with it it's like playing a game with with programming language in fact since we are working with input we can do something extra we can also use a function called as eval which will evaluate the expression which you are passing example let's say if I give the input let me just run this code if I give the input as 2 plus 6 minus 2 or maybe 6 minus 1 can we do it can we do it here because see when you pass 2 plus 6 minus 1 it is not normal integer it is not normal a string it is it's something different right it's an expression and to use that of course you've got 2 here because we are fetching only first character if you want to evaluate that what I will do is I will say result so there's a function called as eval of course we will not be using index here so there's a function called as eval so in eval function you are passing the data which which is which you're getting from the user so it's the enter and expression right so when a user enters the expression it will evaluate and it will give you the output let's do that here I will print result let's try I hope it will work okay so now let's give the expression here I will say 2 plus 6 plus 6 minus 1 enter yes it's working you can you can see we got 7 so that's the exciting thing about functions you know so in python we have so many functions to work with now since we are talking about input we can do something extra as well what if you want to take the input from the command line now when I say command line let's say let's go back to this code if you remember this code here we were running my code dot py right we were we were print where we have printed only hello world let's try once again you can see there was some code we are printing 11 but what if I want to pass a value from here example I will say python and here I will enter my code dot py now the values in my code let me just verify my code here so this is my code okay so this is this is so I went to desktop I opened this file which is my code and you can see the values which is 5 and 6 if you want if you want to take input from user you can use input functions but I want to pass the values when I'm running this so if you see cmd here when I'm running the code I want to pass a value which is 6 and 2 I want to add these two numbers is it possible can you pass a value from here yes you can but are you accepting the value no so even if I run this code you can see we got 11 so we should be changing this value instead of using 5 we can use a special keyword which is called as agrv now agrv will be having multiple values not one it will be at least so example if you are passing one value it will be one value if you are passing two values to the two values if you are passing 10 values it will be having 10 values and if you want to access a particular value you need to use index number okay now what index number so index number zero is a file name so if I go back to my command prompt you can see when I say Python and then after that I'm entering a file name now this is your index number zero six is index number one and two is index number two so if you want to fetch it you will be using argv and in a square bracket you will say this is one why not zero because zero is for file name right so we'll use one and two and now you can add these two values let's verify let's go back to our Python prompt and I will say enter oh there is an error it says argv is not defined okay the thing is it belongs to a model called a sys so we have to say import sys and then we'll say sys.argv sys.argv now it should work hopefully go back to Python enter oh we got six and two okay the same problem it will give you a string right so we have to convert that into int my bad but you learn from your mistakes let's go back and say enter oh we got eight yeah it's working so that's how you work with input so you can do whatever you want take the input and find the answer you will find the question in the assignment section which is at the end of this video so make sure that you subscribe to the channel so that you can enjoy the entire Python series and also like the video if you have liked it thank you so much for watching everyone bye you"
+}

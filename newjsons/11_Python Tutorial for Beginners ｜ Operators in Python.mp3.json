@@ -1,0 +1,138 @@
+{
+    "chunks": [
+        {
+            "number": "11",
+            "title": "Python Tutorial for Beginners | Operators in Python",
+            "start": 0.0,
+            "end": 43.400000000000006,
+            "text": " Welcome back aliens my name is Abhinav Reddy and let's continue with the series on Python.  So till this point we have covered a lot of stuff right we know how to work with IDLE  now we know how to perform some operations and in this video we'll try to work with operators.  Now one of some of the operators we have used right we have worked with arithmetic operators  which is your addition subtraction division right now we also have some more operators  which we are going to say in this video.  So we'll talk about arithmetic operators, assignment operators, relational operators  and logical operators and we have one more which is unary operator.  So let's start with arithmetic in fact we have seen arithmetic right we have worked"
+        },
+        {
+            "number": "11",
+            "title": "Python Tutorial for Beginners | Operators in Python",
+            "start": 43.400000000000006,
+            "end": 79.6,
+            "text": " with addition subtraction they are very simple right so in fact we have done that before  so I'll be using some variables here let's say x equal to 2 and y is equal to 3 so we  got two variables and I want to perform certain operations and we can do that right we have  done that before so you can say x plus y you can say x minus y x multiply by y I guess  I just pressed 4 by mistake and then when you say x divided by y even that works you  can see we got the output.  So this is how you work with arithmetic operators we have also seen how to use modulus.  Now next one is assignment and now you know right how assignment works we can simply say"
+        },
+        {
+            "number": "11",
+            "title": "Python Tutorial for Beginners | Operators in Python",
+            "start": 79.6,
+            "end": 116.1,
+            "text": " x equal to 8 and that's your assignment operator so whenever you use equal to symbol that's  assignment.  But then let's try to do something else what if I say I can add two numbers like x equal  to x plus 2 so what I'm doing here is I'm adding the value x itself with 2 so which  means if my x value is let's say 2 plus 2 which is 4 right that's what I get that's  what I'm expecting here so if I say x we got 4.  Now the same operation you can do in a shortcut way you know we love shortcuts so here also  we have some shortcuts which is if you want to do the same thing you can say x I want"
+        },
+        {
+            "number": "11",
+            "title": "Python Tutorial for Beginners | Operators in Python",
+            "start": 116.1,
+            "end": 154.5,
+            "text": " to increment okay what is increment enhancing the values so you will say x plus I want to  increment myself with 2 so you can say x plus equal to 2 so you are incrementing yourself  by 2 and now if I say x you can see we got the value which is 6 so which is so x was  4 initially and then I'm incrementing by 2 again so which we got 6.  So instead of saying x equal to x plus 2 we can say x plus equal to 2 the same thing  I've done with subtraction division multiplication let's try so we'll say x multiply equal to  3 so what we're doing is we are multiplying x by itself so x is 6 now and when you say"
+        },
+        {
+            "number": "11",
+            "title": "Python Tutorial for Beginners | Operators in Python",
+            "start": 154.5,
+            "end": 189.14,
+            "text": " 6 into 3 we got 18 is that yes that's right okay so this thing is working you can do shorthand  as well you can try division and subtraction by yourself.  When we do assignment like this let's say we have two variables here a and b I want  to assign value let's say 5 and 6 to a and b so we can write in two lines so we can say  a equal to 5 and b equal to 6 or you can do that in one line you can say a comma b is  equal to 5 comma 6 so you can do assignment in one line itself so if I say enter there  is no error if I try to fetch the value of a which is 5 if you want to try to fetch the"
+        },
+        {
+            "number": "11",
+            "title": "Python Tutorial for Beginners | Operators in Python",
+            "start": 189.14,
+            "end": 225.94,
+            "text": " value of b which is 6 so yes you can assign the values in one line for two variables so  that's about assignment operator now with this let's move towards the next operator  which is a unary operator now when you say unary operator it means one right so we have  binary concept which is two unary is one now how do you work with unary operator and which  one we can use so let's say we have this concept of negation right example if I have a value  which is 7 if I want to negate it so what I will do is I will use a variable which is  n is equal to 7 so we got n as 7 now we can also use so now we can negate it with the"
+        },
+        {
+            "number": "11",
+            "title": "Python Tutorial for Beginners | Operators in Python",
+            "start": 225.94,
+            "end": 260.5,
+            "text": " help of minus n so when you say minus n so if I if I say the value of n is still 7 right  so what you can do is if you want to assign the negative value you can say n is equal  to minus n and if I say enter and if I print the value of n now which is minus 7 so you  can you know put a negative sign just by giving a unit operator which is minus so that's your  arithmetic operators assignment and unary the next two operators which we have is or  two kind of operators which we have is logical operators and relational operators let's start  with relational first now what is relational now in fact we have done one of the thing"
+        },
+        {
+            "number": "11",
+            "title": "Python Tutorial for Beginners | Operators in Python",
+            "start": 260.5,
+            "end": 291.38,
+            "text": " before right in one of this one of the video where we can compare two numbers or we can  compare two stuff so smaller greater right or compare equal to so let's try here so again  we'll go for two variables here which is a and b which we have done before and of course  the value of a is 5 and the value of b is 6 so can I do this I want to check if a is  less than b so you can say a is less than b and answer is yes right because a is 5 and  b is 6 so when I say enter now it says true and if you remember we have done that in Boolean"
+        },
+        {
+            "number": "11",
+            "title": "Python Tutorial for Beginners | Operators in Python",
+            "start": 291.38,
+            "end": 324.62,
+            "text": " so it returns a true and false so we when you use this angular symbol it's less than  we can also use greater than symbol right now what if the value of a and b of course  they're not same so how do you check for this comparison if they are same in because  if we cannot use single or single equal to because single equal to means you are assigning  it we are not assigning here we are comparing it so in that case you will be using double  equal to and then you will say b and you can see we got false and of course like a is 5  and b is 6 so of course it will give you false now in that case what you will do is you will"
+        },
+        {
+            "number": "11",
+            "title": "Python Tutorial for Beginners | Operators in Python",
+            "start": 324.62,
+            "end": 357.09999999999997,
+            "text": " say let's change the value of a I will say a is also 6 so now b is 6 a is 6 let's pop  from the same same operation I will say a is equal to equal to b and you can see we  got true now they are same right so it will give you true I want to check if a is less  than or equal to b can we do both the same time less than and equal to yes we can so  we can say a less than equal to b so we can use this symbol in fact in maths we also have  a symbol right so the same way we have in programming we can just put less than and"
+        },
+        {
+            "number": "11",
+            "title": "Python Tutorial for Beginners | Operators in Python",
+            "start": 357.1,
+            "end": 392.86,
+            "text": " equal to the same thing will be done for greater than equal to of course it's not  greater or less it's equal to so it will compare either less or equal to and you can see it  works now we can also also check if they are not equal now how do you check not equal let's  say a is something else and b is something else and I want to check if they are not equal  in that case you will use not equal to b so not is exclamation so in programming remember  this thing whenever you see exclamation that's you that's a not symbol so we got a not equal  to b if I say enter you can see we got false why false is because your a is equal to b"
+        },
+        {
+            "number": "11",
+            "title": "Python Tutorial for Beginners | Operators in Python",
+            "start": 392.86,
+            "end": 428.21999999999997,
+            "text": " right so when you say not equal to it doesn't make sense it is false but yes the value of  a b is let's say 7 now so we have a and b with different values if I perform the same  operation a not equal to b you can see we got true right so this are called as relational  because you are trying to relate to different values the next set we have is logical operators  so before understanding what logical operators are you need to understand the concept of  true and false and relation between so if you have two conditions and if you want to  come and if you want to combine those two conditions now it can be based on and or it"
+        },
+        {
+            "number": "11",
+            "title": "Python Tutorial for Beginners | Operators in Python",
+            "start": 428.21999999999997,
+            "end": 469.86,
+            "text": " can be based on or or it can be not so basically we have three operators here and or and not  now let's say we have two conditions one related to a we can say if a let's claim this shell  once so let's again start with variables we can say here we got two variables will  say a is equal to 5 and b is equal to let's say 4 we got two variables okay and individually  I want to check their preference example if a is less than 8 and I also want to check  b should not be greater than 5 how do I check both and I want to make sure that a should  be less than 8 and b should be less than 5 in that case you need to you will write two"
+        },
+        {
+            "number": "11",
+            "title": "Python Tutorial for Beginners | Operators in Python",
+            "start": 469.86,
+            "end": 506.3,
+            "text": " conditions one is a less than 8 and b is less than 5 so we have two conditions here  what should I put in between so in that case you can use a logical operators which is and  so I want to compare I want to check both right so I will say and and you can see we  got true because both are true now what if I say I want to check if a is less than 8  and b is less than 2 what do you think what is the output is it true or false see now  the first condition is true right and second condition is false because b is not less than  2 in that case you will think okay one is true it should give you true but unfortunately"
+        },
+        {
+            "number": "11",
+            "title": "Python Tutorial for Beginners | Operators in Python",
+            "start": 506.3,
+            "end": 541.54,
+            "text": " get false now why it's the case because for to understand that we have a table here now  this table is also called as truth table you can represent true with 1 and false with 0 this is  how it looks like so when you have let's say we have X and Y so X represents one condition  output and Y represents second condition output we will compare this so if X is 0 and Y  is 0 because both are false now in that case the output would be false right which is 0 in this  case if X is 0 and Y is 1 in that case you will get again false so you have to make sure both"
+        },
+        {
+            "number": "11",
+            "title": "Python Tutorial for Beginners | Operators in Python",
+            "start": 541.54,
+            "end": 573.3,
+            "text": " are true then only you will get true and you can see the last one now so when you have the last  row where you have 1 and 1 then you will get 1 so if both the conditionals are true then only you  will get true that's the property of and so the same thing can be done for or we also have or  now this is how your or truth table looks like now in all what we have is so we have the same  table if you get at least one condition true the resultant condition will also be true right so in  this case if I if I do the same thing but not with and with or you can see the first condition is"
+        },
+        {
+            "number": "11",
+            "title": "Python Tutorial for Beginners | Operators in Python",
+            "start": 573.3,
+            "end": 609.58,
+            "text": " true second is false in that case you will get true so because at least one is true so both the  output will be true so that's how your and and or works we can also use a not here now it is not  not basically reverses your output example let's say if I say X is equal to 2 because that's a  resultant thing right okay my bad so if I say X is equal to true so we got a true value right and  if I print X you got true but if I want to negate it what I will do is I will use not X in that case  you will say you got false right so you can reverse the operation you can reverse a thing"
+        },
+        {
+            "number": "11",
+            "title": "Python Tutorial for Beginners | Operators in Python",
+            "start": 609.58,
+            "end": 644.42,
+            "text": " with the help of not in fact you can say X equal to not X now so the value of X is false initially  value of X was true now you are making it false so that's how you can use not now this is a logical  operation okay so when you have conditions and if you want to compare two conditions that's where  we use logical operators and or or not I can you will be using this a lot in the further videos  when we talk about you know different loop patterns we want to print something and then  we'll do some amazing stuff in that amazing stuff we'll be using all these things just a reminder  whatever we are doing now is just a foundation for you so that you can work on complex codes right"
+        },
+        {
+            "number": "11",
+            "title": "Python Tutorial for Beginners | Operators in Python",
+            "start": 644.42,
+            "end": 653.2199999999999,
+            "text": " so be with me we'll have amazing fun in future videos so I hope you are enjoying this series  let me know in the comment section and that's it thanks for watching everyone bye bye"
+        }
+    ],
+    "text": " Welcome back aliens my name is Abhinav Reddy and let's continue with the series on Python. So till this point we have covered a lot of stuff right we know how to work with IDLE now we know how to perform some operations and in this video we'll try to work with operators. Now one of some of the operators we have used right we have worked with arithmetic operators which is your addition subtraction division right now we also have some more operators which we are going to say in this video. So we'll talk about arithmetic operators, assignment operators, relational operators and logical operators and we have one more which is unary operator. So let's start with arithmetic in fact we have seen arithmetic right we have worked with addition subtraction they are very simple right so in fact we have done that before so I'll be using some variables here let's say x equal to 2 and y is equal to 3 so we got two variables and I want to perform certain operations and we can do that right we have done that before so you can say x plus y you can say x minus y x multiply by y I guess I just pressed 4 by mistake and then when you say x divided by y even that works you can see we got the output. So this is how you work with arithmetic operators we have also seen how to use modulus. Now next one is assignment and now you know right how assignment works we can simply say x equal to 8 and that's your assignment operator so whenever you use equal to symbol that's assignment. But then let's try to do something else what if I say I can add two numbers like x equal to x plus 2 so what I'm doing here is I'm adding the value x itself with 2 so which means if my x value is let's say 2 plus 2 which is 4 right that's what I get that's what I'm expecting here so if I say x we got 4. Now the same operation you can do in a shortcut way you know we love shortcuts so here also we have some shortcuts which is if you want to do the same thing you can say x I want to increment okay what is increment enhancing the values so you will say x plus I want to increment myself with 2 so you can say x plus equal to 2 so you are incrementing yourself by 2 and now if I say x you can see we got the value which is 6 so which is so x was 4 initially and then I'm incrementing by 2 again so which we got 6. So instead of saying x equal to x plus 2 we can say x plus equal to 2 the same thing I've done with subtraction division multiplication let's try so we'll say x multiply equal to 3 so what we're doing is we are multiplying x by itself so x is 6 now and when you say 6 into 3 we got 18 is that yes that's right okay so this thing is working you can do shorthand as well you can try division and subtraction by yourself. When we do assignment like this let's say we have two variables here a and b I want to assign value let's say 5 and 6 to a and b so we can write in two lines so we can say a equal to 5 and b equal to 6 or you can do that in one line you can say a comma b is equal to 5 comma 6 so you can do assignment in one line itself so if I say enter there is no error if I try to fetch the value of a which is 5 if you want to try to fetch the value of b which is 6 so yes you can assign the values in one line for two variables so that's about assignment operator now with this let's move towards the next operator which is a unary operator now when you say unary operator it means one right so we have binary concept which is two unary is one now how do you work with unary operator and which one we can use so let's say we have this concept of negation right example if I have a value which is 7 if I want to negate it so what I will do is I will use a variable which is n is equal to 7 so we got n as 7 now we can also use so now we can negate it with the help of minus n so when you say minus n so if I if I say the value of n is still 7 right so what you can do is if you want to assign the negative value you can say n is equal to minus n and if I say enter and if I print the value of n now which is minus 7 so you can you know put a negative sign just by giving a unit operator which is minus so that's your arithmetic operators assignment and unary the next two operators which we have is or two kind of operators which we have is logical operators and relational operators let's start with relational first now what is relational now in fact we have done one of the thing before right in one of this one of the video where we can compare two numbers or we can compare two stuff so smaller greater right or compare equal to so let's try here so again we'll go for two variables here which is a and b which we have done before and of course the value of a is 5 and the value of b is 6 so can I do this I want to check if a is less than b so you can say a is less than b and answer is yes right because a is 5 and b is 6 so when I say enter now it says true and if you remember we have done that in Boolean so it returns a true and false so we when you use this angular symbol it's less than we can also use greater than symbol right now what if the value of a and b of course they're not same so how do you check for this comparison if they are same in because if we cannot use single or single equal to because single equal to means you are assigning it we are not assigning here we are comparing it so in that case you will be using double equal to and then you will say b and you can see we got false and of course like a is 5 and b is 6 so of course it will give you false now in that case what you will do is you will say let's change the value of a I will say a is also 6 so now b is 6 a is 6 let's pop from the same same operation I will say a is equal to equal to b and you can see we got true now they are same right so it will give you true I want to check if a is less than or equal to b can we do both the same time less than and equal to yes we can so we can say a less than equal to b so we can use this symbol in fact in maths we also have a symbol right so the same way we have in programming we can just put less than and equal to the same thing will be done for greater than equal to of course it's not greater or less it's equal to so it will compare either less or equal to and you can see it works now we can also also check if they are not equal now how do you check not equal let's say a is something else and b is something else and I want to check if they are not equal in that case you will use not equal to b so not is exclamation so in programming remember this thing whenever you see exclamation that's you that's a not symbol so we got a not equal to b if I say enter you can see we got false why false is because your a is equal to b right so when you say not equal to it doesn't make sense it is false but yes the value of a b is let's say 7 now so we have a and b with different values if I perform the same operation a not equal to b you can see we got true right so this are called as relational because you are trying to relate to different values the next set we have is logical operators so before understanding what logical operators are you need to understand the concept of true and false and relation between so if you have two conditions and if you want to come and if you want to combine those two conditions now it can be based on and or it can be based on or or it can be not so basically we have three operators here and or and not now let's say we have two conditions one related to a we can say if a let's claim this shell once so let's again start with variables we can say here we got two variables will say a is equal to 5 and b is equal to let's say 4 we got two variables okay and individually I want to check their preference example if a is less than 8 and I also want to check b should not be greater than 5 how do I check both and I want to make sure that a should be less than 8 and b should be less than 5 in that case you need to you will write two conditions one is a less than 8 and b is less than 5 so we have two conditions here what should I put in between so in that case you can use a logical operators which is and so I want to compare I want to check both right so I will say and and you can see we got true because both are true now what if I say I want to check if a is less than 8 and b is less than 2 what do you think what is the output is it true or false see now the first condition is true right and second condition is false because b is not less than 2 in that case you will think okay one is true it should give you true but unfortunately get false now why it's the case because for to understand that we have a table here now this table is also called as truth table you can represent true with 1 and false with 0 this is how it looks like so when you have let's say we have X and Y so X represents one condition output and Y represents second condition output we will compare this so if X is 0 and Y is 0 because both are false now in that case the output would be false right which is 0 in this case if X is 0 and Y is 1 in that case you will get again false so you have to make sure both are true then only you will get true and you can see the last one now so when you have the last row where you have 1 and 1 then you will get 1 so if both the conditionals are true then only you will get true that's the property of and so the same thing can be done for or we also have or now this is how your or truth table looks like now in all what we have is so we have the same table if you get at least one condition true the resultant condition will also be true right so in this case if I if I do the same thing but not with and with or you can see the first condition is true second is false in that case you will get true so because at least one is true so both the output will be true so that's how your and and or works we can also use a not here now it is not not basically reverses your output example let's say if I say X is equal to 2 because that's a resultant thing right okay my bad so if I say X is equal to true so we got a true value right and if I print X you got true but if I want to negate it what I will do is I will use not X in that case you will say you got false right so you can reverse the operation you can reverse a thing with the help of not in fact you can say X equal to not X now so the value of X is false initially value of X was true now you are making it false so that's how you can use not now this is a logical operation okay so when you have conditions and if you want to compare two conditions that's where we use logical operators and or or not I can you will be using this a lot in the further videos when we talk about you know different loop patterns we want to print something and then we'll do some amazing stuff in that amazing stuff we'll be using all these things just a reminder whatever we are doing now is just a foundation for you so that you can work on complex codes right so be with me we'll have amazing fun in future videos so I hope you are enjoying this series let me know in the comment section and that's it thanks for watching everyone bye bye"
+}

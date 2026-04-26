@@ -1,0 +1,138 @@
+{
+    "chunks": [
+        {
+            "number": "16",
+            "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+            "start": 0.0,
+            "end": 37.04,
+            "text": " Welcome back aliens. My name is Devin Reddy. And let's continue the series on Python. Till  this point we have seen so many stuff right we have worked with operators we have worked  with functions which are inbuilt. Now it's time to do something big. No, when I say big  I'm not talking about making games or something because it takes time. Okay. I know you people  are learning Python so that you can work on big projects. But it takes time you have to  go step by step. If you jump directly on projects you will get stuck. So make sure that you  know the basics. So in this video let's try to make big code. Okay. So when I say big"
+        },
+        {
+            "number": "16",
+            "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+            "start": 37.04,
+            "end": 68.12,
+            "text": " code till this point we were writing one line of code. Now it will go for three to four  lines of code. Right. So that's a big step. But then where to type this code because see  whatever we have done till now we were doing it on a interactive console. So the thing  which we do so which the ideally which you are working with this is your interactive  console and whatever you do here it will give you the instant output. Right. Example  if I say print and then if I if I pass a message here which is which is hello and if I say  enter you got the output. This is interactive console. Right. But then when you work on"
+        },
+        {
+            "number": "16",
+            "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+            "start": 68.12,
+            "end": 105.91999999999999,
+            "text": " a project you will write multiple lines of code. Where do we do it. Of course you will  not be using this console to do it right. And that's why you will be creating certain  files when you write a code. But whatever files I'm talking about. Think about this.  When you type a document on MS Word you get .doc. When you when you want a material to  read. So we prefer PDF. So for music we use .mp3. In the same format for Python we have  a file extension called .py. So we have to create a py files. How do we do that. There  are certain steps. Example you can open notepad type the code save it as .demo.py. Doesn't"
+        },
+        {
+            "number": "16",
+            "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+            "start": 105.91999999999999,
+            "end": 138.79999999999998,
+            "text": " matter what the file name is. And then you can run it. Otherwise what you can do is since  we have our IDE available here. I will click on file and you can see we have an option  of new file so we can write a code here as well. Better right. OK. So let's write the  code. Now simple code of course will go step by step. What we'll do. Let's go with the  simplest one which is printing. Hello. That's it. Nothing big. Well print. Hello. That's  it. Now what do you think. How will you run this code. OK. Now steps. Before running a  code you need to save the code. And how do we do that. You simply say control S. Of course"
+        },
+        {
+            "number": "16",
+            "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+            "start": 138.8,
+            "end": 173.06,
+            "text": " everyone knows that. And then you can store this file anywhere you want. Maybe on cloud  storage as well. Maybe Google Drive or Dropbox. But here let's go with the cloud local one.  Now I will store this file on desktop. You can store it anywhere you want. But is it  easy to access with the desktop. So I will go to desktop and on desktop I already have  a folder called Python codes. You can create that folder or you can just directly say on  desktop that works in this folder. And then I will create a file. I already have a demo  file. Let's go for some different name. I would say this is my code. So file name is"
+        },
+        {
+            "number": "16",
+            "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+            "start": 173.06,
+            "end": 208.98,
+            "text": " my code. But then the extension is very important. So the extension here is P Y. So I will go  with that extension and I will say save. Now once you have saved your file it's time to  run this. So how do we run this file. Just go here on run and click on run module. This  is not the only way to do it. There are multiple ways but this is one way. Let's go with this  way first. Click on run module and look at your code. So on the console or on the shell  you got your output which is hello. It works right. Do we have another way. Yes we have.  We can also do that from a command prompt. You can go here. This is your command prompt"
+        },
+        {
+            "number": "16",
+            "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+            "start": 208.98,
+            "end": 239.34,
+            "text": " and you can run your code here. But how we do that. Now we can do that with the help  of a command called Python. Now if you remember when you install Python in your machine and  we have done that set path thing if you remember. We can do that here. We can run that code  here. Now first of all before running a code we have to make sure that you navigate to  the folder where you have this file which is Python. So I will navigate there. So I  will say CD desktop. Now once I'm in desktop I will navigate to Python codes and you can  see I'm doing the folder now and it's time to run this. How do we run this. We'll say"
+        },
+        {
+            "number": "16",
+            "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+            "start": 239.34,
+            "end": 272.58,
+            "text": " Python and the file name. The file name is my code dot P Y and that's it. Say enter.  That's your output. Right. So it works. So you can run that on a shell or you can run  that on on the command prompt as well. Your choice. Of course when you work on a project  you will be using IDE something like PyCharm or Eclipse because it makes much more sense  there. But command prompt also works. Let's get back here. Again we'll go to command prompt  after some time but time let's use this one which is this editor. Now once we got print  hello let's write a big code. Now when I say big code let's write a code for three to four"
+        },
+        {
+            "number": "16",
+            "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+            "start": 272.58,
+            "end": 308.06,
+            "text": " lines. I want to add two numbers. That's it. So what I will do is I will say X equal to  five and Y is equal to six. So we got two values and then I want to add these two values  and how do we do that. We have done that before. I would say that equal to X plus Y. And then  once you've got the addition it's time to print it. Let's print it. So it's a print  Z and that's it. Save this file and now it's time to run this. You can click on run and  you can click on run module or shortcuts. You know can you use that F5. So you're going  to run every time and run is because we want to save our time. Right. Simply say F5 and"
+        },
+        {
+            "number": "16",
+            "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+            "start": 308.06,
+            "end": 345.56,
+            "text": " you've got the output which is 11. Yeah it's working. This is one place where you can write  a code. Otherwise we can actually use an IDE which is there in our system which is PyCharm.  You can use any IDE which you like. OK. All the codes work on every IDE. It's just that  everyone have their own preference. I prefer JetBrains products. PyCharm is good. I also  love Eclipse. You can try that as well. If you want some other IDE which you like which  you feel is better try that. Every code works on all the IDE's. How do we work with PyCharm.  It's very easy. Just search for PyCharm. Of course I hope you have installed it before."
+        },
+        {
+            "number": "16",
+            "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+            "start": 345.56,
+            "end": 376.9,
+            "text": " And then when you open PyCharm it is how this is how it looks like. So this is this is the  prompt you will get. Now how do we get started. So of course when you are when you are working  with PyCharm for the first time you will not get this option of having a project already.  You need to click on create new project. And then here I will enter a project name.  We can say this is test project. So of course when you make a project you will be having  a good name but time when test project works. I will click on create and you can see we  got PyCharm with our project. It takes some it does take some time to create the environment"
+        },
+        {
+            "number": "16",
+            "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+            "start": 376.9,
+            "end": 405.90000000000003,
+            "text": " for you. Now you can see we got our PyCharm and this is how it looks like. So when you  so on the left hand side you can see we have a project section. So this is where you will  see your project folders your project files. This is where you will write the code. Of  course you don't have any option of writing code now. And this is how you have a panel  where you can run the code where you can debug the code. And this is where you have you know  when multiple option example if you want to change the setting you can just go to file  and change the setting like you want to change the font size you want to change the color"
+        },
+        {
+            "number": "16",
+            "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+            "start": 405.90000000000003,
+            "end": 441.66,
+            "text": " theme because some people they like dark themes you know so you can change that here. Again  we'll go through that. But before that I want to create a file here. So what I will do is  I will say right click and say new create a file. You can create a file or you can create  a Python file because Python file will give you the extension dot dot py. I would say  this is my code again. Click on OK. And you can see I just entered my code. Look at the  extension dot py is by default. OK this works. Let's write the same code. In fact I will  copy paste the code because I'm lazy to type it copied paste. OK you've got your code here."
+        },
+        {
+            "number": "16",
+            "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+            "start": 441.66,
+            "end": 473.58,
+            "text": " Now if you want to change the font size it's very easy. Just go to file and click on setting.  You can see there's an option of editor font. So I was at 25 and click on OK. You can see  we got the font size of 25. So it is much visible now. Now we need to run this file  right. How do we run this. It's very easy. Just click on run and there's an option of  run the file. So you can just click on run my code and you can see the output. It's 11.  If you don't want to do it from here you can just right click and say run my code instead  of going up and down. And the next time if you want to run this file you can click here"
+        },
+        {
+            "number": "16",
+            "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+            "start": 473.58,
+            "end": 505.38,
+            "text": " to run. If you make any changes example if I want to change the value from 6 to let's  say 8. And if I want to run this code you can simply click on run button there and it  should work. You can see we got 13. So it works here. In fact you know there is one  advantage of using an IDE which is debug. Now when you say debug you can actually trace  what is happening you know how how your code is changing how value is changing. You know  let me just do it for you. Let me show you a magic. You can actually see what is happening  in the code. So first for that first of all you have to add a breakpoint. Now it is breakpoint"
+        },
+        {
+            "number": "16",
+            "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+            "start": 505.38,
+            "end": 536.4599999999999,
+            "text": " breakpoint is something from where you are. You can you can trace your code. So to get  the breakpoint just click on the right number. So if you if you want a breakpoint here just  click there. Now once you've got your breakpoint you need to go to run and click on debug.  Now when you click on debug it will ask you for the file name which is my code. And you  can see it is it is starting it is it has started the execution. Now how do you go to  next line because it is only on the first line now right. So you just need to type F8.  Otherwise you can just go to run and say step over but we will press F8. Now the moment"
+        },
+        {
+            "number": "16",
+            "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+            "start": 536.4599999999999,
+            "end": 569.38,
+            "text": " I press F8 now look at the variable section. So in the variable section it says X is of  type int and the value is 5. You can actually track what is happening. In fact on the on  the here itself you can you can see we got X colon 5. Now it so for this code it doesn't  make any sense because we know the value. But when you let's say if you are working  on a big project and there is there is some bug in let's say let's say you have a file  of 1000 lines OK and there is a bug on line number 28. How would you know that is a bug  on line number 28. So you have to trace right. So maybe you know that there is something"
+        },
+        {
+            "number": "16",
+            "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+            "start": 569.38,
+            "end": 602.7,
+            "text": " wrong between line number 20 and 15. But where. So you can trace you know you can put a breakpoint  on line number 20 and then you can trace. Let's press F8 again and you can see we got  Y values 8. Let's press F8. Now you can see Z values 13 and then you're printing Z value  and that's where you got the output. Right. So that's how all these things are working.  We will be using PyCharm a lot. So maybe from next videos we'll be we'll be focusing more  on PyCharm. Maybe we'll go back to IDLA for some code or maybe command prompt but majorly  we'll be using PyCharm. So I hope you enjoyed this video working with files and PyCharm."
+        },
+        {
+            "number": "16",
+            "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+            "start": 602.7,
+            "end": 613.26,
+            "text": " If you have any questions let me know in the comment section. If you are enjoying this  series let your friends know about this series. So do give a thumbs up and subscribe to the  channel if you have not done yet. So that's it. Bye bye."
+        }
+    ],
+    "text": " Welcome back aliens. My name is Devin Reddy. And let's continue the series on Python. Till this point we have seen so many stuff right we have worked with operators we have worked with functions which are inbuilt. Now it's time to do something big. No, when I say big I'm not talking about making games or something because it takes time. Okay. I know you people are learning Python so that you can work on big projects. But it takes time you have to go step by step. If you jump directly on projects you will get stuck. So make sure that you know the basics. So in this video let's try to make big code. Okay. So when I say big code till this point we were writing one line of code. Now it will go for three to four lines of code. Right. So that's a big step. But then where to type this code because see whatever we have done till now we were doing it on a interactive console. So the thing which we do so which the ideally which you are working with this is your interactive console and whatever you do here it will give you the instant output. Right. Example if I say print and then if I if I pass a message here which is which is hello and if I say enter you got the output. This is interactive console. Right. But then when you work on a project you will write multiple lines of code. Where do we do it. Of course you will not be using this console to do it right. And that's why you will be creating certain files when you write a code. But whatever files I'm talking about. Think about this. When you type a document on MS Word you get .doc. When you when you want a material to read. So we prefer PDF. So for music we use .mp3. In the same format for Python we have a file extension called .py. So we have to create a py files. How do we do that. There are certain steps. Example you can open notepad type the code save it as .demo.py. Doesn't matter what the file name is. And then you can run it. Otherwise what you can do is since we have our IDE available here. I will click on file and you can see we have an option of new file so we can write a code here as well. Better right. OK. So let's write the code. Now simple code of course will go step by step. What we'll do. Let's go with the simplest one which is printing. Hello. That's it. Nothing big. Well print. Hello. That's it. Now what do you think. How will you run this code. OK. Now steps. Before running a code you need to save the code. And how do we do that. You simply say control S. Of course everyone knows that. And then you can store this file anywhere you want. Maybe on cloud storage as well. Maybe Google Drive or Dropbox. But here let's go with the cloud local one. Now I will store this file on desktop. You can store it anywhere you want. But is it easy to access with the desktop. So I will go to desktop and on desktop I already have a folder called Python codes. You can create that folder or you can just directly say on desktop that works in this folder. And then I will create a file. I already have a demo file. Let's go for some different name. I would say this is my code. So file name is my code. But then the extension is very important. So the extension here is P Y. So I will go with that extension and I will say save. Now once you have saved your file it's time to run this. So how do we run this file. Just go here on run and click on run module. This is not the only way to do it. There are multiple ways but this is one way. Let's go with this way first. Click on run module and look at your code. So on the console or on the shell you got your output which is hello. It works right. Do we have another way. Yes we have. We can also do that from a command prompt. You can go here. This is your command prompt and you can run your code here. But how we do that. Now we can do that with the help of a command called Python. Now if you remember when you install Python in your machine and we have done that set path thing if you remember. We can do that here. We can run that code here. Now first of all before running a code we have to make sure that you navigate to the folder where you have this file which is Python. So I will navigate there. So I will say CD desktop. Now once I'm in desktop I will navigate to Python codes and you can see I'm doing the folder now and it's time to run this. How do we run this. We'll say Python and the file name. The file name is my code dot P Y and that's it. Say enter. That's your output. Right. So it works. So you can run that on a shell or you can run that on on the command prompt as well. Your choice. Of course when you work on a project you will be using IDE something like PyCharm or Eclipse because it makes much more sense there. But command prompt also works. Let's get back here. Again we'll go to command prompt after some time but time let's use this one which is this editor. Now once we got print hello let's write a big code. Now when I say big code let's write a code for three to four lines. I want to add two numbers. That's it. So what I will do is I will say X equal to five and Y is equal to six. So we got two values and then I want to add these two values and how do we do that. We have done that before. I would say that equal to X plus Y. And then once you've got the addition it's time to print it. Let's print it. So it's a print Z and that's it. Save this file and now it's time to run this. You can click on run and you can click on run module or shortcuts. You know can you use that F5. So you're going to run every time and run is because we want to save our time. Right. Simply say F5 and you've got the output which is 11. Yeah it's working. This is one place where you can write a code. Otherwise we can actually use an IDE which is there in our system which is PyCharm. You can use any IDE which you like. OK. All the codes work on every IDE. It's just that everyone have their own preference. I prefer JetBrains products. PyCharm is good. I also love Eclipse. You can try that as well. If you want some other IDE which you like which you feel is better try that. Every code works on all the IDE's. How do we work with PyCharm. It's very easy. Just search for PyCharm. Of course I hope you have installed it before. And then when you open PyCharm it is how this is how it looks like. So this is this is the prompt you will get. Now how do we get started. So of course when you are when you are working with PyCharm for the first time you will not get this option of having a project already. You need to click on create new project. And then here I will enter a project name. We can say this is test project. So of course when you make a project you will be having a good name but time when test project works. I will click on create and you can see we got PyCharm with our project. It takes some it does take some time to create the environment for you. Now you can see we got our PyCharm and this is how it looks like. So when you so on the left hand side you can see we have a project section. So this is where you will see your project folders your project files. This is where you will write the code. Of course you don't have any option of writing code now. And this is how you have a panel where you can run the code where you can debug the code. And this is where you have you know when multiple option example if you want to change the setting you can just go to file and change the setting like you want to change the font size you want to change the color theme because some people they like dark themes you know so you can change that here. Again we'll go through that. But before that I want to create a file here. So what I will do is I will say right click and say new create a file. You can create a file or you can create a Python file because Python file will give you the extension dot dot py. I would say this is my code again. Click on OK. And you can see I just entered my code. Look at the extension dot py is by default. OK this works. Let's write the same code. In fact I will copy paste the code because I'm lazy to type it copied paste. OK you've got your code here. Now if you want to change the font size it's very easy. Just go to file and click on setting. You can see there's an option of editor font. So I was at 25 and click on OK. You can see we got the font size of 25. So it is much visible now. Now we need to run this file right. How do we run this. It's very easy. Just click on run and there's an option of run the file. So you can just click on run my code and you can see the output. It's 11. If you don't want to do it from here you can just right click and say run my code instead of going up and down. And the next time if you want to run this file you can click here to run. If you make any changes example if I want to change the value from 6 to let's say 8. And if I want to run this code you can simply click on run button there and it should work. You can see we got 13. So it works here. In fact you know there is one advantage of using an IDE which is debug. Now when you say debug you can actually trace what is happening you know how how your code is changing how value is changing. You know let me just do it for you. Let me show you a magic. You can actually see what is happening in the code. So first for that first of all you have to add a breakpoint. Now it is breakpoint breakpoint is something from where you are. You can you can trace your code. So to get the breakpoint just click on the right number. So if you if you want a breakpoint here just click there. Now once you've got your breakpoint you need to go to run and click on debug. Now when you click on debug it will ask you for the file name which is my code. And you can see it is it is starting it is it has started the execution. Now how do you go to next line because it is only on the first line now right. So you just need to type F8. Otherwise you can just go to run and say step over but we will press F8. Now the moment I press F8 now look at the variable section. So in the variable section it says X is of type int and the value is 5. You can actually track what is happening. In fact on the on the here itself you can you can see we got X colon 5. Now it so for this code it doesn't make any sense because we know the value. But when you let's say if you are working on a big project and there is there is some bug in let's say let's say you have a file of 1000 lines OK and there is a bug on line number 28. How would you know that is a bug on line number 28. So you have to trace right. So maybe you know that there is something wrong between line number 20 and 15. But where. So you can trace you know you can put a breakpoint on line number 20 and then you can trace. Let's press F8 again and you can see we got Y values 8. Let's press F8. Now you can see Z values 13 and then you're printing Z value and that's where you got the output. Right. So that's how all these things are working. We will be using PyCharm a lot. So maybe from next videos we'll be we'll be focusing more on PyCharm. Maybe we'll go back to IDLA for some code or maybe command prompt but majorly we'll be using PyCharm. So I hope you enjoyed this video working with files and PyCharm. If you have any questions let me know in the comment section. If you are enjoying this series let your friends know about this series. So do give a thumbs up and subscribe to the channel if you have not done yet. So that's it. Bye bye."
+}

@@ -1,0 +1,96 @@
+{
+    "chunks": [
+        {
+            "number": "15",
+            "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+            "start": 0.0,
+            "end": 35.4,
+            "text": " Welcome back aliens my name is Devin Reddy and let's continue with the series on Python.  So till this point we have seen a lot of stuff in Python right and now it's time to look  at mathematical functions.  Now of course we can do that manually as well right you can find a square of a number you  can find a square root of a number as well but then we can use mathematical functions  then why to do it manually.  Now let's try something so what I will do is I will do some simple stuff.  So how do you find a square root of a number it's very simple actually you just need to  say x equal to I want to find a square root of 25."
+        },
+        {
+            "number": "15",
+            "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+            "start": 35.4,
+            "end": 73.08,
+            "text": " So it's very simple in Python we have an inbuilt function called a square root which is sqrt  and in this bracket you just have to pass the number which is 25 in this case.  I will say enter oh we got an error that's bad maybe spelling mistake.  No it is sqrt that's right.  What went wrong here.  The thing is in Python we have a lot of modules to work with.  But this modules are by default not there for you.  Now if you want to use them you need to ask for it right.  So we are living in a world where you need to ask for things.  Now how do you ask for it.  The way you can ask you can import it with the help of import of course and then you"
+        },
+        {
+            "number": "15",
+            "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+            "start": 73.08,
+            "end": 111.0,
+            "text": " have to say import and then you have to mention a module name here called math.  So math is a module in which you have all these functions.  I will say enter.  OK that's done right.  So we got we got all the functions now.  And now you can say x equal to math.sqrt and then you can find 25.  Oh it works.  OK there is no error.  So we got our value in x now.  Let's print x and that's right we got 5.0.  Yay.  It's working.  In fact we can try it with different values here now.  So I will say 15 x and that's the value of square root of 15.  Right.  So it's working.  Now we have some other functions as well."
+        },
+        {
+            "number": "15",
+            "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+            "start": 111.0,
+            "end": 144.16,
+            "text": " Example one of the functions which we can use here is called as float function.  So how float function works.  Let's say we have a value which is y.  In fact I will print it.  I will say print.  I want to print float function value.  So I will say math dot.  So we have this concept of seal and float.  So what it means.  Imagine you have a value which is 2.5.  So normally what we do is we try to round off these numbers.  Right.  For example I don't want point values.  I want the integers.  So in normal world we round off these values.  We say OK when you have 2.5 we'll make it 3.  And let's say if you have 2.4 we'll make it 2."
+        },
+        {
+            "number": "15",
+            "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+            "start": 144.16,
+            "end": 178.56,
+            "text": " So anything which is less than 2.5 will be 2.  Anything which is greater than or equal to 2.5 will make it 3.  That is round off.  Right.  But we want to use float and seal.  So imagine this is 3 and this is 2.  So when you say 2.5 it will be somewhere here.  So when you say 2.5 you will make it 3.  When you say 2.4 you will make it 2.  But instead of using round off we can use float.  So we have float and we have seal.  Now when we use float it simply means you need to go to the float.  Imagine this is float.  We have float and we have seal.  So here we have a float and then we have seal."
+        },
+        {
+            "number": "15",
+            "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+            "start": 178.56,
+            "end": 215.16,
+            "text": " So when you apply a float function doesn't matter what your value is.  Even if it is 2.9 you will get 2.  Right.  That's float.  Now what about seal function.  Example if I say seal of 2.1.  So if you say round off it will be 2.  But when you apply seal you will get 3.  Right.  Let's find out.  So when you say I want to find float of 2.9 you will get 2.  The same thing can be done for seal.  So seal of 2.2 you got 3.  Right.  So float will always give the least value and seal will give you the highest value.  Highest integer.  So likewise we can do factorial.  We can find sine x cos x."
+        },
+        {
+            "number": "15",
+            "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+            "start": 215.16,
+            "end": 252.12,
+            "text": " You know all your mathematical functions.  In fact there is one more.  We also have power.  You know P O W. Remember we have done this calculation which is 3 into 2.  3 square.  Right.  So you got 9.  The same thing can be done with the help of power function.  So when you say I want to print let's say math dot P O W which is power function.  And here you will say 3 comma 2.  Now you can see we got 9.  So this is it will give you power.  You have two choice.  You can use double star which is power again and then you can also use power function.  But now when you work on big software it's always better to use functions because it's"
+        },
+        {
+            "number": "15",
+            "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+            "start": 252.12,
+            "end": 290.32000000000005,
+            "text": " more readable for the developers.  Right.  And then in math we have some constants as well.  It's not just about functions.  Example it's I want to the value of pi.  We all know it right.  It's 3.14.  Not exactly.  After 3.14 we have some more values.  And no one remember that.  Right.  So what you can do is you can say print and I will print math dot P I and that's your  pi value.  Right.  So we have some more values there.  We can also get the value of epsilon.  So you will say math dot E and that's your epsilon value.  So those are those are constants which is available.  What if you don't want to use math every time because we do we have a lot of modules."
+        },
+        {
+            "number": "15",
+            "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+            "start": 290.32000000000005,
+            "end": 325.12,
+            "text": " Right.  And some other names are very big and we are damn lazy to type those names here.  So instead of using math can I simply use M dot SQRT.  That will be good.  Right.  M dot SQRT.  But unfortunately it will not work.  So if I enter you can see it's not working.  So in that case if you want to use M we want we need to use a concept of allies.  What it means.  So when you input math say as M. So what you're doing now is you're saying  Hey I'm putting math but when you want to use math I will be using M or I can use M  or math both.  So let's try with math first is math is working."
+        },
+        {
+            "number": "15",
+            "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+            "start": 325.12,
+            "end": 359.04,
+            "text": " So I would say 25.  OK math works.  Same goes for let's say let's try M 25.  Even M works.  Right.  So your choice you can use M you can use math.  So anybody have big names or if you are lazy to type even math you can try allies.  Right.  OK now what we have one more thing you know.  So let's say you in your math module you have so many functions available.  Right.  So many functions classes available.  And the moment you say import math you get everything.  What if you don't want everything.  What if you want things which are specific.  Example I only need a power function.  I only need factorial.  I don't want everything."
+        },
+        {
+            "number": "15",
+            "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+            "start": 359.04,
+            "end": 394.2,
+            "text": " So in that case what you can do is you can say math.  So when you say import.  In fact let me just reopen my IDE so that in fact we can restart.  So I've restarted this shell here and let's try.  So I will say math dot sqrt 25.  You can see we got error that means it's not imported.  So now I will import but then I don't want to import all the functions I want to import  let's say sqrt and power.  That's it.  So we'll say from math.  So to mention we want to import from math.  So we'll import only two things.  One is sqrt and power.  That's it.  Give a comma and gives a power."
+        },
+        {
+            "number": "15",
+            "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+            "start": 394.2,
+            "end": 427.66,
+            "text": " And you can see there's no error.  Let's try.  So I would say in fact now you don't even need to specify math because you have imported  the function itself.  So I will say power of 4 raised to 5.  I don't know the value.  Maybe.  Maybe it's right.  So it's 1024.  That's right.  It's actually right answer.  So it works.  You know it works.  So that's that's how you work.  That's how you work with mathematical functions.  So you can try it out.  There are so many functions available.  So just go to documentation.  In fact we'll search here.  So you can see when you search for math you have so many functions available here.  Read documentation and try it out."
+        },
+        {
+            "number": "15",
+            "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+            "start": 427.66,
+            "end": 446.32,
+            "text": " So the best way to learn something is to do some research.  So after watching my videos make sure you read some book or you do this research and  that's how that will make you a good programmer.  So I hope you enjoyed the series.  Let me know in the comment section.  And if you have not subscribed the channel what are you waiting for to subscribe it.  Bye bye."
+        }
+    ],
+    "text": " Welcome back aliens my name is Devin Reddy and let's continue with the series on Python. So till this point we have seen a lot of stuff in Python right and now it's time to look at mathematical functions. Now of course we can do that manually as well right you can find a square of a number you can find a square root of a number as well but then we can use mathematical functions then why to do it manually. Now let's try something so what I will do is I will do some simple stuff. So how do you find a square root of a number it's very simple actually you just need to say x equal to I want to find a square root of 25. So it's very simple in Python we have an inbuilt function called a square root which is sqrt and in this bracket you just have to pass the number which is 25 in this case. I will say enter oh we got an error that's bad maybe spelling mistake. No it is sqrt that's right. What went wrong here. The thing is in Python we have a lot of modules to work with. But this modules are by default not there for you. Now if you want to use them you need to ask for it right. So we are living in a world where you need to ask for things. Now how do you ask for it. The way you can ask you can import it with the help of import of course and then you have to say import and then you have to mention a module name here called math. So math is a module in which you have all these functions. I will say enter. OK that's done right. So we got we got all the functions now. And now you can say x equal to math.sqrt and then you can find 25. Oh it works. OK there is no error. So we got our value in x now. Let's print x and that's right we got 5.0. Yay. It's working. In fact we can try it with different values here now. So I will say 15 x and that's the value of square root of 15. Right. So it's working. Now we have some other functions as well. Example one of the functions which we can use here is called as float function. So how float function works. Let's say we have a value which is y. In fact I will print it. I will say print. I want to print float function value. So I will say math dot. So we have this concept of seal and float. So what it means. Imagine you have a value which is 2.5. So normally what we do is we try to round off these numbers. Right. For example I don't want point values. I want the integers. So in normal world we round off these values. We say OK when you have 2.5 we'll make it 3. And let's say if you have 2.4 we'll make it 2. So anything which is less than 2.5 will be 2. Anything which is greater than or equal to 2.5 will make it 3. That is round off. Right. But we want to use float and seal. So imagine this is 3 and this is 2. So when you say 2.5 it will be somewhere here. So when you say 2.5 you will make it 3. When you say 2.4 you will make it 2. But instead of using round off we can use float. So we have float and we have seal. Now when we use float it simply means you need to go to the float. Imagine this is float. We have float and we have seal. So here we have a float and then we have seal. So when you apply a float function doesn't matter what your value is. Even if it is 2.9 you will get 2. Right. That's float. Now what about seal function. Example if I say seal of 2.1. So if you say round off it will be 2. But when you apply seal you will get 3. Right. Let's find out. So when you say I want to find float of 2.9 you will get 2. The same thing can be done for seal. So seal of 2.2 you got 3. Right. So float will always give the least value and seal will give you the highest value. Highest integer. So likewise we can do factorial. We can find sine x cos x. You know all your mathematical functions. In fact there is one more. We also have power. You know P O W. Remember we have done this calculation which is 3 into 2. 3 square. Right. So you got 9. The same thing can be done with the help of power function. So when you say I want to print let's say math dot P O W which is power function. And here you will say 3 comma 2. Now you can see we got 9. So this is it will give you power. You have two choice. You can use double star which is power again and then you can also use power function. But now when you work on big software it's always better to use functions because it's more readable for the developers. Right. And then in math we have some constants as well. It's not just about functions. Example it's I want to the value of pi. We all know it right. It's 3.14. Not exactly. After 3.14 we have some more values. And no one remember that. Right. So what you can do is you can say print and I will print math dot P I and that's your pi value. Right. So we have some more values there. We can also get the value of epsilon. So you will say math dot E and that's your epsilon value. So those are those are constants which is available. What if you don't want to use math every time because we do we have a lot of modules. Right. And some other names are very big and we are damn lazy to type those names here. So instead of using math can I simply use M dot SQRT. That will be good. Right. M dot SQRT. But unfortunately it will not work. So if I enter you can see it's not working. So in that case if you want to use M we want we need to use a concept of allies. What it means. So when you input math say as M. So what you're doing now is you're saying Hey I'm putting math but when you want to use math I will be using M or I can use M or math both. So let's try with math first is math is working. So I would say 25. OK math works. Same goes for let's say let's try M 25. Even M works. Right. So your choice you can use M you can use math. So anybody have big names or if you are lazy to type even math you can try allies. Right. OK now what we have one more thing you know. So let's say you in your math module you have so many functions available. Right. So many functions classes available. And the moment you say import math you get everything. What if you don't want everything. What if you want things which are specific. Example I only need a power function. I only need factorial. I don't want everything. So in that case what you can do is you can say math. So when you say import. In fact let me just reopen my IDE so that in fact we can restart. So I've restarted this shell here and let's try. So I will say math dot sqrt 25. You can see we got error that means it's not imported. So now I will import but then I don't want to import all the functions I want to import let's say sqrt and power. That's it. So we'll say from math. So to mention we want to import from math. So we'll import only two things. One is sqrt and power. That's it. Give a comma and gives a power. And you can see there's no error. Let's try. So I would say in fact now you don't even need to specify math because you have imported the function itself. So I will say power of 4 raised to 5. I don't know the value. Maybe. Maybe it's right. So it's 1024. That's right. It's actually right answer. So it works. You know it works. So that's that's how you work. That's how you work with mathematical functions. So you can try it out. There are so many functions available. So just go to documentation. In fact we'll search here. So you can see when you search for math you have so many functions available here. Read documentation and try it out. So the best way to learn something is to do some research. So after watching my videos make sure you read some book or you do this research and that's how that will make you a good programmer. So I hope you enjoyed the series. Let me know in the comment section. And if you have not subscribed the channel what are you waiting for to subscribe it. Bye bye."
+}

@@ -1,0 +1,2028 @@
+{
+  "chunks": [
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 0.0,
+      "end": 9.040000000000001,
+      "text": " Welcome back aliens my name is Davin Reddy and let's continue with the series on Python."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 9.040000000000001,
+      "end": 13.26,
+      "text": " So we have done with the basic thing right we have installed the softwares and we have"
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 13.26,
+      "end": 16.16,
+      "text": " done some operations and worked with variables."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 16.16,
+      "end": 19.76,
+      "text": " In this video we'll work with a concept called as List."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 19.76,
+      "end": 24.26,
+      "text": " Now to understand this what I will do is I will open my IDL as usual."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 24.26,
+      "end": 27.92,
+      "text": " What I want to do here is we want to work with list right now what is list."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 27.92,
+      "end": 31.860000000000003,
+      "text": " So let's imagine you have different values and let's say you have numbers and you have"
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 31.860000000000003,
+      "end": 32.86,
+      "text": " strings."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 32.86,
+      "end": 35.02,
+      "text": " Now if you want to group them together."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 35.02,
+      "end": 39.540000000000006,
+      "text": " Now if you have worked on arrays in any other language you know C, C++ or Java."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 39.540000000000006,
+      "end": 44.02,
+      "text": " We have the same or similar stuff in here which is a list."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 44.02,
+      "end": 45.18000000000001,
+      "text": " Now how do we use list."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 45.18000000000001,
+      "end": 46.74,
+      "text": " It's very simple actually."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 46.74,
+      "end": 48.06,
+      "text": " Let's say I have some nums."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 48.06,
+      "end": 51.980000000000004,
+      "text": " OK so we have this variable nums equal to and now we can assign the values."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 51.980000000000004,
+      "end": 55.040000000000006,
+      "text": " Instead of assigning one value we can assign multiple values."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 55.040000000000006,
+      "end": 57.760000000000005,
+      "text": " Now the question how will I assign multiple values."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 58.6,
+      "end": 59.86,
+      "text": " So let's say 25, 12."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 59.86,
+      "end": 64.42,
+      "text": " Now in this case we need to use a special symbol or special character which is called"
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 64.42,
+      "end": 65.42,
+      "text": " square bracket."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 65.42,
+      "end": 67.74,
+      "text": " So we have to use square brackets here and in this square bracket you have to mention"
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 67.74,
+      "end": 68.74,
+      "text": " the values."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 68.74,
+      "end": 69.74,
+      "text": " OK now which one."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 69.74,
+      "end": 70.74,
+      "text": " Any value doesn't matter."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 70.74,
+      "end": 76.1,
+      "text": " So I will say 25, 12, maybe 36, maybe 95, 14."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 76.1,
+      "end": 77.58,
+      "text": " So I got these values."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 77.58,
+      "end": 80.0,
+      "text": " Now these are the list of values which I have here."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 80.0,
+      "end": 83.66,
+      "text": " Now you might be thinking can we only have similar type of data."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 83.66,
+      "end": 85.86,
+      "text": " Example all these things are numbers right."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 85.86,
+      "end": 86.94,
+      "text": " Let's try that as well."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 87.12,
+      "end": 88.6,
+      "text": " So I will say enter here."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 88.6,
+      "end": 89.6,
+      "text": " Can I print it."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 89.6,
+      "end": 90.6,
+      "text": " We can."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 90.6,
+      "end": 92.12,
+      "text": " So simply type nums and you got the value."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 92.12,
+      "end": 95.32,
+      "text": " You can see we got 25, 12, 36, 95 and 14."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 95.32,
+      "end": 96.32,
+      "text": " That's so simple."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 96.32,
+      "end": 100.08,
+      "text": " Now if you remember in the last session we have also talked about string and we said"
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 100.08,
+      "end": 104.4,
+      "text": " OK string is a collection of characters and we can pick up individual character with the"
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 104.4,
+      "end": 107.12,
+      "text": " help of index value right."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 107.12,
+      "end": 108.72,
+      "text": " Can we do it here."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 108.72,
+      "end": 109.72,
+      "text": " And the answer is yes."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 109.72,
+      "end": 112.96,
+      "text": " Example let's say I want to pick up the first value which is 25 in this case."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 112.96,
+      "end": 113.96,
+      "text": " You know the answer right."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 113.96,
+      "end": 115.8,
+      "text": " So we simply have to say nums and 0."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 115.8,
+      "end": 116.8,
+      "text": " Enter."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 117.66,
+      "end": 118.66,
+      "text": " And it worked."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 118.66,
+      "end": 119.66,
+      "text": " You can see we got 25."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 119.66,
+      "end": 121.66,
+      "text": " Let's say I want to fetch the last value which is nums of."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 121.66,
+      "end": 123.1,
+      "text": " It should be 5 right."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 123.1,
+      "end": 126.53999999999999,
+      "text": " So oh 4 because the value the size of the list is 5."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 126.53999999999999,
+      "end": 127.53999999999999,
+      "text": " Typos."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 127.53999999999999,
+      "end": 128.54,
+      "text": " It doesn't matter."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 128.54,
+      "end": 129.84,
+      "text": " So if I say enter you can see we got 14."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 129.84,
+      "end": 130.84,
+      "text": " So it's working."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 130.84,
+      "end": 131.84,
+      "text": " We got 14 as well."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 131.84,
+      "end": 132.84,
+      "text": " OK."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 132.84,
+      "end": 133.84,
+      "text": " So we got 25."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 133.84,
+      "end": 134.84,
+      "text": " We got 14."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 134.84,
+      "end": 136.42,
+      "text": " So first and last is working."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 136.42,
+      "end": 139.66,
+      "text": " In fact not just the first and last you can pick up any value right."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 139.66,
+      "end": 142.66,
+      "text": " What if you want to print something in between and then till the end."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 142.92,
+      "end": 145.24,
+      "text": " Now if you remember in string as also we have done that."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 145.24,
+      "end": 148.2,
+      "text": " So example I want to print third element fourth and fifth."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 148.2,
+      "end": 150.2,
+      "text": " So third and then to the end."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 150.2,
+      "end": 151.2,
+      "text": " So of course we can do that."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 151.2,
+      "end": 155.16,
+      "text": " We can start with 2 which is third element and we can give a colon and there is no end"
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 155.16,
+      "end": 156.16,
+      "text": " limit right."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 156.16,
+      "end": 158.64,
+      "text": " So if I say enter you got the third element fourth and fifth."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 158.64,
+      "end": 159.64,
+      "text": " Now what do you think."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 159.64,
+      "end": 162.48,
+      "text": " Can we use negative numbers the way we have done before."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 162.48,
+      "end": 165.92,
+      "text": " You know the index number as negative minus 1 minus 2 minus 3."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 165.92,
+      "end": 167.84,
+      "text": " Yes it works here as well."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 167.84,
+      "end": 169.62,
+      "text": " So we can say nums of."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 169.62,
+      "end": 172.48000000000002,
+      "text": " So if you want to pick up that 14 which is at the end."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 172.48000000000002,
+      "end": 173.48000000000002,
+      "text": " You are right."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 173.48000000000002,
+      "end": 175.92000000000002,
+      "text": " We have to use minus 1 and it works."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 175.92000000000002,
+      "end": 179.6,
+      "text": " If you want to fetch the first element we have to say minus 5."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 179.6,
+      "end": 180.6,
+      "text": " Right."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 180.6,
+      "end": 181.6,
+      "text": " That's what we have done before."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 181.6,
+      "end": 183.48000000000002,
+      "text": " So yes we can use negative range as well."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 183.48000000000002,
+      "end": 184.48000000000002,
+      "text": " OK."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 184.48000000000002,
+      "end": 188.48000000000002,
+      "text": " How about having a string or another array here or another list here."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 188.48000000000002,
+      "end": 189.48000000000002,
+      "text": " We'll say nums."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 189.48000000000002,
+      "end": 192.3,
+      "text": " We'll say names and names of."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 192.3,
+      "end": 193.68,
+      "text": " So what names."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 193.68,
+      "end": 194.96,
+      "text": " So I can have any names here right."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 194.96,
+      "end": 195.96,
+      "text": " I can have Naveen."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 195.96,
+      "end": 199.24,
+      "text": " I can have Kiran and I can have let's say John."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 199.86,
+      "end": 200.86,
+      "text": " So we got these three names here right."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 200.86,
+      "end": 205.78,
+      "text": " And the moment I say enter you can see we also have a list of string."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 205.78,
+      "end": 208.46,
+      "text": " And if I print names you got the names there."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 208.46,
+      "end": 209.46,
+      "text": " OK."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 209.46,
+      "end": 212.70000000000002,
+      "text": " So now if you can see one array which is numbers we have second array which is names which"
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 212.70000000000002,
+      "end": 213.70000000000002,
+      "text": " is of string."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 213.70000000000002,
+      "end": 215.62,
+      "text": " We can get a different list of different types."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 215.62,
+      "end": 217.98000000000002,
+      "text": " Now can I get a list of different types."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 217.98000000000002,
+      "end": 219.58,
+      "text": " I mean one list of different types."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 219.58,
+      "end": 224.26000000000002,
+      "text": " I will simply call it as values equal to and I want to have any type of value here."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 224.26000000000002,
+      "end": 227.82000000000002,
+      "text": " Example the first one I would say is 9.5 which is a float value."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 227.84,
+      "end": 230.07999999999998,
+      "text": " And then I want to go for a string."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 230.07999999999998,
+      "end": 235.64,
+      "text": " I will go with my name and then let's say another one which is 25 which is a number."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 235.64,
+      "end": 237.23999999999998,
+      "text": " So we have a float number."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 237.23999999999998,
+      "end": 240.04,
+      "text": " We have a string and integer number."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 240.04,
+      "end": 241.51999999999998,
+      "text": " If I say enter it works."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 241.51999999999998,
+      "end": 244.04,
+      "text": " So we can have a list with different type of data."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 244.04,
+      "end": 245.24,
+      "text": " And that's the beauty about list."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 245.24,
+      "end": 246.68,
+      "text": " You can have different data."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 246.68,
+      "end": 248.24,
+      "text": " And that's not the case with other languages."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 248.24,
+      "end": 253.35999999999999,
+      "text": " In C, C++, Java what we do is when we create an array it has to be of same type."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 253.35999999999999,
+      "end": 257.0,
+      "text": " Yes in Java we have the object array but let's not discuss that here."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 257.02,
+      "end": 259.38,
+      "text": " If you are only thinking about Python this is we have."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 259.38,
+      "end": 261.58,
+      "text": " So we have a list where you can have different types."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 261.58,
+      "end": 263.58,
+      "text": " Can we have two lists working together."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 263.58,
+      "end": 264.66,
+      "text": " I mean something like this."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 264.66,
+      "end": 266.06,
+      "text": " I want to get another list here."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 266.06,
+      "end": 269.02,
+      "text": " Mill is equal to miscellaneous things."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 269.02,
+      "end": 274.3,
+      "text": " So I will say mill is equal to I want to have a list of list."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 274.3,
+      "end": 275.3,
+      "text": " Can we do that."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 275.3,
+      "end": 276.3,
+      "text": " Let's try."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 276.3,
+      "end": 279.74,
+      "text": " So I want to have this list which will have nums and which will also have names."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 279.74,
+      "end": 282.78,
+      "text": " So a mill will have names and nums and names."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 282.78,
+      "end": 283.78,
+      "text": " Enter."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 283.78,
+      "end": 284.78,
+      "text": " There is no error."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 284.78,
+      "end": 285.78,
+      "text": " OK."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 285.78,
+      "end": 286.78,
+      "text": " I will say mill."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 287.55999999999995,
+      "end": 289.23999999999995,
+      "text": " So we got a list and inside that list we have two different lists."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 289.23999999999995,
+      "end": 291.15999999999997,
+      "text": " One is of numbers and one is of string."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 291.15999999999997,
+      "end": 292.15999999999997,
+      "text": " OK."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 292.15999999999997,
+      "end": 293.15999999999997,
+      "text": " That works."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 293.15999999999997,
+      "end": 296.76,
+      "text": " So the amazing thing about list is we can perform certain operations because it has"
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 296.76,
+      "end": 297.76,
+      "text": " certain methods to use."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 297.76,
+      "end": 298.76,
+      "text": " Right."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 298.76,
+      "end": 299.84,
+      "text": " Or you can call them functions."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 299.84,
+      "end": 300.84,
+      "text": " Now how do we know that."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 300.84,
+      "end": 303.71999999999997,
+      "text": " So what I will do is I will say nums dot."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 303.71999999999997,
+      "end": 305.96,
+      "text": " The moment you say nums dot of course we have not got."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 305.96,
+      "end": 306.96,
+      "text": " Oh we got the pop up there."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 306.96,
+      "end": 307.96,
+      "text": " Can you see that."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 307.96,
+      "end": 308.96,
+      "text": " Now you can see we got append."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 308.96,
+      "end": 309.96,
+      "text": " We got clear."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 309.96,
+      "end": 312.2,
+      "text": " We got copy count extend index."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 312.2,
+      "end": 313.79999999999995,
+      "text": " We can use all these functions."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 313.79999999999995,
+      "end": 314.79999999999995,
+      "text": " Let's try."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 314.82,
+      "end": 318.1,
+      "text": " Now the another thing about list is it is mutable."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 318.1,
+      "end": 319.1,
+      "text": " What is that."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 319.1,
+      "end": 322.82,
+      "text": " Mutable simply means you can change the values and we can do that here."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 322.82,
+      "end": 323.82,
+      "text": " Nums dot append."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 323.82,
+      "end": 324.82,
+      "text": " I want to append."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 324.82,
+      "end": 325.82,
+      "text": " What I want to append."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 325.82,
+      "end": 327.34000000000003,
+      "text": " Let's say I want to append 45."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 327.34000000000003,
+      "end": 328.90000000000003,
+      "text": " And now if I say nums."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 328.90000000000003,
+      "end": 332.28000000000003,
+      "text": " You can see we got 25 12 and then at the end we got 45."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 332.28000000000003,
+      "end": 333.82,
+      "text": " So we can append it."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 333.82,
+      "end": 334.82,
+      "text": " What else we have."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 334.82,
+      "end": 338.62,
+      "text": " So if I so if the pop up is not coming instantly you can simply say control space."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 338.62,
+      "end": 339.62,
+      "text": " OK."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 339.62,
+      "end": 340.62,
+      "text": " So we got clear as well."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 340.62,
+      "end": 343.58000000000004,
+      "text": " So clear will clear the entire list for you."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 343.58000000000004,
+      "end": 344.58000000000004,
+      "text": " Try it out."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 345.35999999999996,
+      "end": 346.47999999999996,
+      "text": " If you are watching this video try it on your machine."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 346.47999999999996,
+      "end": 347.76,
+      "text": " Different different operations."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 347.76,
+      "end": 348.76,
+      "text": " So we have inserted."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 348.76,
+      "end": 350.24,
+      "text": " We can also use insert."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 350.24,
+      "end": 352.52,
+      "text": " Now difference between append and insert."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 352.52,
+      "end": 354.65999999999997,
+      "text": " In append it will append at the end."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 354.65999999999997,
+      "end": 357.24,
+      "text": " In insert it will add in between."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 357.24,
+      "end": 358.24,
+      "text": " Let's try."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 358.24,
+      "end": 361.32,
+      "text": " So in insert what we do is we specify the index value as well."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 361.32,
+      "end": 363.76,
+      "text": " So I can say index value 2 comma."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 363.76,
+      "end": 367.68,
+      "text": " I want to specify there let's say any value let's say it's only 77."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 367.68,
+      "end": 368.96,
+      "text": " I will say enter."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 368.96,
+      "end": 373.56,
+      "text": " And now if I print nums you can see we got 77 at index number 2."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 373.56,
+      "end": 375.26,
+      "text": " Now what if you want to remove the element."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 375.26,
+      "end": 376.3,
+      "text": " Even that is possible."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 376.3,
+      "end": 377.3,
+      "text": " You can say nums dot."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 377.3,
+      "end": 381.5,
+      "text": " There is a method called as remove and in remove you can pass the element which you"
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 381.5,
+      "end": 382.5,
+      "text": " want to delete."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 382.5,
+      "end": 383.5,
+      "text": " I will say I want to delete 14."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 383.5,
+      "end": 384.5,
+      "text": " Enter."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 384.5,
+      "end": 387.92,
+      "text": " And if I say nums you can see in the list we don't have 14 now."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 387.92,
+      "end": 389.66,
+      "text": " What if you want to use index number."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 389.66,
+      "end": 391.32,
+      "text": " Oh we have not done that right."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 391.32,
+      "end": 393.44,
+      "text": " Because when you pass 14 that's a value."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 393.44,
+      "end": 396.02,
+      "text": " So if you want to delete based on the index number."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 396.02,
+      "end": 397.02,
+      "text": " Even that is simple."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 397.02,
+      "end": 399.34000000000003,
+      "text": " You just need to use a method as pop."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 399.34000000000003,
+      "end": 401.62,
+      "text": " So you have to say nums dot pop."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 401.62,
+      "end": 404.36,
+      "text": " Let this pop you just pass the index number which one which I want to delete."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 404.36,
+      "end": 406.04,
+      "text": " Let's say I want to delete 12."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 406.04,
+      "end": 408.22,
+      "text": " So in this case I will pass 1."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 408.22,
+      "end": 410.02,
+      "text": " And you can see we got 12 out."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 410.02,
+      "end": 412.68,
+      "text": " How do I verify if I say nums you can see we don't have 12 now."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 412.68,
+      "end": 413.68,
+      "text": " OK."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 413.68,
+      "end": 416.78000000000003,
+      "text": " In fact we can also use pop without an index value."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 416.78000000000003,
+      "end": 419.44,
+      "text": " What happens when you use pop without index value."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 419.44,
+      "end": 421.96,
+      "text": " Now if you have learned data structures before."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 421.96,
+      "end": 425.38,
+      "text": " We have a concept of stack which is last in first out."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 425.38,
+      "end": 429.08,
+      "text": " Which simply means we have these two methods there which is push and pop."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 429.08,
+      "end": 431.8,
+      "text": " So push is pushing the elements in the stack."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 431.8,
+      "end": 433.15999999999997,
+      "text": " Pop is removing the element."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 433.15999999999997,
+      "end": 436.35999999999996,
+      "text": " And when you say pop it will remove the last element which is added."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 436.35999999999996,
+      "end": 440.03999999999996,
+      "text": " So in this case the last element which is added is 45 which is at the last."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 440.03999999999996,
+      "end": 441.03999999999996,
+      "text": " I will say enter."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 441.03999999999996,
+      "end": 442.03999999999996,
+      "text": " You can see we got 45."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 442.03999999999996,
+      "end": 445.2,
+      "text": " So if you don't specify the index value you got the last element."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 445.2,
+      "end": 448.32,
+      "text": " So you can use this when you implement stack in data structures."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 448.32,
+      "end": 449.32,
+      "text": " Yeah."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 449.32,
+      "end": 450.32,
+      "text": " OK."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 450.32,
+      "end": 451.32,
+      "text": " So we can use remove we can use pop."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 451.32,
+      "end": 454.91999999999996,
+      "text": " In fact we have another method you know if you want to delete multiple values not one"
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 454.91999999999996,
+      "end": 455.91999999999996,
+      "text": " multiple values."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 455.91999999999996,
+      "end": 456.91999999999996,
+      "text": " How will you do that."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 456.91999999999996,
+      "end": 458.4,
+      "text": " So in this case you will use del."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 458.71999999999997,
+      "end": 459.96,
+      "text": " So that is again a command."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 459.96,
+      "end": 463.84,
+      "text": " And then you have to pass the name of the list which is nums."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 463.84,
+      "end": 467.44,
+      "text": " And in the array you have to specify the index value from where you have to start."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 467.44,
+      "end": 469.76,
+      "text": " I want to start from let's say 2."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 469.76,
+      "end": 470.84,
+      "text": " And then I want to end it."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 470.84,
+      "end": 472.52,
+      "text": " I want to delete all the remaining elements."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 472.52,
+      "end": 474.15999999999997,
+      "text": " You know so I will say enter."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 474.15999999999997,
+      "end": 476.35999999999996,
+      "text": " And if I verify now you can see we got only two values."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 476.35999999999996,
+      "end": 477.67999999999995,
+      "text": " The 0th and 1st."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 477.67999999999995,
+      "end": 479.73999999999995,
+      "text": " Because from 2 everything is deleted."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 479.73999999999995,
+      "end": 481.32,
+      "text": " So that's how you can work with nums."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 481.32,
+      "end": 483.52,
+      "text": " Now tell me let me just add some values there."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 483.52,
+      "end": 487.94,
+      "text": " Oh how to how to add multiple values now because I want to add multiple values right not one."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 487.94,
+      "end": 491.34,
+      "text": " In that case you can use another method which is called as extend."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 491.34,
+      "end": 493.1,
+      "text": " Again you need to read documentation for this."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 493.1,
+      "end": 496.74,
+      "text": " So there's one question from everyone you know from where to learn from where to read."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 496.74,
+      "end": 499.62,
+      "text": " Of course you're watching this video but reading is also important right."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 499.62,
+      "end": 503.46,
+      "text": " What if I say Python has this amazing documentation online."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 503.46,
+      "end": 506.1,
+      "text": " So just need to go to online and search for Python docs."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 506.1,
+      "end": 508.02,
+      "text": " You will get the documents."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 508.02,
+      "end": 511.38,
+      "text": " In fact in the next video we are going to talk about how to use the help command which"
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 511.38,
+      "end": 512.84,
+      "text": " is very useful actually."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 512.84,
+      "end": 513.84,
+      "text": " So we'll see that."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 513.84,
+      "end": 519.52,
+      "text": " So if you want to add multiple values just type nums.extend and in the bracket specify"
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 519.52,
+      "end": 521.24,
+      "text": " multiple values if you want."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 521.24,
+      "end": 525.64,
+      "text": " Example I want to add 29, 12 again 14, 36."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 525.64,
+      "end": 526.96,
+      "text": " I want to add these four values."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 526.96,
+      "end": 527.96,
+      "text": " Simply say enter."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 527.96,
+      "end": 528.96,
+      "text": " We have done a mistake."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 528.96,
+      "end": 532.08,
+      "text": " OK I guess we have we have to give a square bracket as well."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 532.08,
+      "end": 533.2,
+      "text": " Oh so that was a mistake."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 533.2,
+      "end": 534.88,
+      "text": " We have to put that value in square bracket."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 534.88,
+      "end": 535.88,
+      "text": " My bad."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 535.88,
+      "end": 537.58,
+      "text": " And if I say nums you can see we got the value."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 537.58,
+      "end": 539.12,
+      "text": " So we got a list now."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 539.12,
+      "end": 542.12,
+      "text": " Now with this list we can perform some inbuilt functions."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 542.72,
+      "end": 545.08,
+      "text": " In Python we have this inbuilt functions."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 545.08,
+      "end": 550.44,
+      "text": " Now how do I know that which inbuilt function we have min, we have max, we can find sum."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 550.44,
+      "end": 551.48,
+      "text": " So we have those methods here."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 551.48,
+      "end": 552.48,
+      "text": " So let's try."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 552.48,
+      "end": 554.8,
+      "text": " So can we use inbuilt functions."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 554.8,
+      "end": 555.8,
+      "text": " Let's try."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 555.8,
+      "end": 556.8,
+      "text": " So I will say min."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 556.8,
+      "end": 557.8,
+      "text": " I want to find the minimum element."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 557.8,
+      "end": 561.96,
+      "text": " So I would say min of the collection of the list which is nums."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 561.96,
+      "end": 563.44,
+      "text": " And if I say enter you can see we got 12."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 563.44,
+      "end": 565.08,
+      "text": " 12 is the minimum value."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 565.08,
+      "end": 566.6,
+      "text": " The same thing you can do with max."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 566.6,
+      "end": 568.16,
+      "text": " In max you can pass nums."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 568.16,
+      "end": 569.16,
+      "text": " You got 77."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 569.16,
+      "end": 571.96,
+      "text": " And we can also say sum."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 572.8000000000001,
+      "end": 575.2,
+      "text": " So we can find the sum of all the values and it's 193."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 575.2,
+      "end": 578.0400000000001,
+      "text": " So normally you do all those things by yourself."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 578.0400000000001,
+      "end": 579.72,
+      "text": " If you are doing programming."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 579.72,
+      "end": 583.52,
+      "text": " This is one thing you have to do by yourself using some loop and those concepts."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 583.52,
+      "end": 586.4000000000001,
+      "text": " But Python says hey don't worry I have some methods for you."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 586.4000000000001,
+      "end": 588.32,
+      "text": " In fact I forgot to mention one more thing."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 588.32,
+      "end": 591.1600000000001,
+      "text": " In nums we have one more method which is called a sort."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 591.1600000000001,
+      "end": 596.1600000000001,
+      "text": " So when you say sort and if I say nums you can see we got all the values in sorted format."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 596.1600000000001,
+      "end": 597.5600000000001,
+      "text": " So yes list is amazing."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 597.5600000000001,
+      "end": 599.2800000000001,
+      "text": " It provides so many features."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 599.2800000000001,
+      "end": 600.88,
+      "text": " So that's about list we have."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 600.88,
+      "end": 605.28,
+      "text": " So now we know we can have multiple values in list and those things can be of different"
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 605.28,
+      "end": 606.28,
+      "text": " format."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 606.28,
+      "end": 609.96,
+      "text": " And if you want to access any of this element you have to use index values."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 609.96,
+      "end": 611.56,
+      "text": " It's mutable so you can change the values."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 611.56,
+      "end": 612.56,
+      "text": " You can add values."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 612.56,
+      "end": 613.96,
+      "text": " You can remove values."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 613.96,
+      "end": 619.88,
+      "text": " And you can use certain methods like extend, sort to do exciting things."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 619.88,
+      "end": 620.88,
+      "text": " And that's it."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 620.88,
+      "end": 621.88,
+      "text": " That's about list."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 621.88,
+      "end": 622.88,
+      "text": " I hope you are enjoying this series."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 622.88,
+      "end": 624.36,
+      "text": " Let me know in the comment section."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 624.36,
+      "end": 627.08,
+      "text": " And if you are liking this video click on the thumbs up button there."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 627.08,
+      "end": 628.08,
+      "text": " And thank you so much for watching everyone."
+    },
+    {
+      "number": "5",
+      "title": "Python Tutorial for Beginners | List in Python",
+      "start": 628.08,
+      "end": 628.6,
+      "text": " Bye bye."
+    }
+  ],
+  "text": " Welcome back aliens my name is Davin Reddy and let's continue with the series on Python. So we have done with the basic thing right we have installed the softwares and we have done some operations and worked with variables. In this video we'll work with a concept called as List. Now to understand this what I will do is I will open my IDL as usual. What I want to do here is we want to work with list right now what is list. So let's imagine you have different values and let's say you have numbers and you have strings. Now if you want to group them together. Now if you have worked on arrays in any other language you know C, C++ or Java. We have the same or similar stuff in here which is a list. Now how do we use list. It's very simple actually. Let's say I have some nums. OK so we have this variable nums equal to and now we can assign the values. Instead of assigning one value we can assign multiple values. Now the question how will I assign multiple values. So let's say 25, 12. Now in this case we need to use a special symbol or special character which is called square bracket. So we have to use square brackets here and in this square bracket you have to mention the values. OK now which one. Any value doesn't matter. So I will say 25, 12, maybe 36, maybe 95, 14. So I got these values. Now these are the list of values which I have here. Now you might be thinking can we only have similar type of data. Example all these things are numbers right. Let's try that as well. So I will say enter here. Can I print it. We can. So simply type nums and you got the value. You can see we got 25, 12, 36, 95 and 14. That's so simple. Now if you remember in the last session we have also talked about string and we said OK string is a collection of characters and we can pick up individual character with the help of index value right. Can we do it here. And the answer is yes. Example let's say I want to pick up the first value which is 25 in this case. You know the answer right. So we simply have to say nums and 0. Enter. And it worked. You can see we got 25. Let's say I want to fetch the last value which is nums of. It should be 5 right. So oh 4 because the value the size of the list is 5. Typos. It doesn't matter. So if I say enter you can see we got 14. So it's working. We got 14 as well. OK. So we got 25. We got 14. So first and last is working. In fact not just the first and last you can pick up any value right. What if you want to print something in between and then till the end. Now if you remember in string as also we have done that. So example I want to print third element fourth and fifth. So third and then to the end. So of course we can do that. We can start with 2 which is third element and we can give a colon and there is no end limit right. So if I say enter you got the third element fourth and fifth. Now what do you think. Can we use negative numbers the way we have done before. You know the index number as negative minus 1 minus 2 minus 3. Yes it works here as well. So we can say nums of. So if you want to pick up that 14 which is at the end. You are right. We have to use minus 1 and it works. If you want to fetch the first element we have to say minus 5. Right. That's what we have done before. So yes we can use negative range as well. OK. How about having a string or another array here or another list here. We'll say nums. We'll say names and names of. So what names. So I can have any names here right. I can have Naveen. I can have Kiran and I can have let's say John. So we got these three names here right. And the moment I say enter you can see we also have a list of string. And if I print names you got the names there. OK. So now if you can see one array which is numbers we have second array which is names which is of string. We can get a different list of different types. Now can I get a list of different types. I mean one list of different types. I will simply call it as values equal to and I want to have any type of value here. Example the first one I would say is 9.5 which is a float value. And then I want to go for a string. I will go with my name and then let's say another one which is 25 which is a number. So we have a float number. We have a string and integer number. If I say enter it works. So we can have a list with different type of data. And that's the beauty about list. You can have different data. And that's not the case with other languages. In C, C++, Java what we do is when we create an array it has to be of same type. Yes in Java we have the object array but let's not discuss that here. If you are only thinking about Python this is we have. So we have a list where you can have different types. Can we have two lists working together. I mean something like this. I want to get another list here. Mill is equal to miscellaneous things. So I will say mill is equal to I want to have a list of list. Can we do that. Let's try. So I want to have this list which will have nums and which will also have names. So a mill will have names and nums and names. Enter. There is no error. OK. I will say mill. So we got a list and inside that list we have two different lists. One is of numbers and one is of string. OK. That works. So the amazing thing about list is we can perform certain operations because it has certain methods to use. Right. Or you can call them functions. Now how do we know that. So what I will do is I will say nums dot. The moment you say nums dot of course we have not got. Oh we got the pop up there. Can you see that. Now you can see we got append. We got clear. We got copy count extend index. We can use all these functions. Let's try. Now the another thing about list is it is mutable. What is that. Mutable simply means you can change the values and we can do that here. Nums dot append. I want to append. What I want to append. Let's say I want to append 45. And now if I say nums. You can see we got 25 12 and then at the end we got 45. So we can append it. What else we have. So if I so if the pop up is not coming instantly you can simply say control space. OK. So we got clear as well. So clear will clear the entire list for you. Try it out. If you are watching this video try it on your machine. Different different operations. So we have inserted. We can also use insert. Now difference between append and insert. In append it will append at the end. In insert it will add in between. Let's try. So in insert what we do is we specify the index value as well. So I can say index value 2 comma. I want to specify there let's say any value let's say it's only 77. I will say enter. And now if I print nums you can see we got 77 at index number 2. Now what if you want to remove the element. Even that is possible. You can say nums dot. There is a method called as remove and in remove you can pass the element which you want to delete. I will say I want to delete 14. Enter. And if I say nums you can see in the list we don't have 14 now. What if you want to use index number. Oh we have not done that right. Because when you pass 14 that's a value. So if you want to delete based on the index number. Even that is simple. You just need to use a method as pop. So you have to say nums dot pop. Let this pop you just pass the index number which one which I want to delete. Let's say I want to delete 12. So in this case I will pass 1. And you can see we got 12 out. How do I verify if I say nums you can see we don't have 12 now. OK. In fact we can also use pop without an index value. What happens when you use pop without index value. Now if you have learned data structures before. We have a concept of stack which is last in first out. Which simply means we have these two methods there which is push and pop. So push is pushing the elements in the stack. Pop is removing the element. And when you say pop it will remove the last element which is added. So in this case the last element which is added is 45 which is at the last. I will say enter. You can see we got 45. So if you don't specify the index value you got the last element. So you can use this when you implement stack in data structures. Yeah. OK. So we can use remove we can use pop. In fact we have another method you know if you want to delete multiple values not one multiple values. How will you do that. So in this case you will use del. So that is again a command. And then you have to pass the name of the list which is nums. And in the array you have to specify the index value from where you have to start. I want to start from let's say 2. And then I want to end it. I want to delete all the remaining elements. You know so I will say enter. And if I verify now you can see we got only two values. The 0th and 1st. Because from 2 everything is deleted. So that's how you can work with nums. Now tell me let me just add some values there. Oh how to how to add multiple values now because I want to add multiple values right not one. In that case you can use another method which is called as extend. Again you need to read documentation for this. So there's one question from everyone you know from where to learn from where to read. Of course you're watching this video but reading is also important right. What if I say Python has this amazing documentation online. So just need to go to online and search for Python docs. You will get the documents. In fact in the next video we are going to talk about how to use the help command which is very useful actually. So we'll see that. So if you want to add multiple values just type nums.extend and in the bracket specify multiple values if you want. Example I want to add 29, 12 again 14, 36. I want to add these four values. Simply say enter. We have done a mistake. OK I guess we have we have to give a square bracket as well. Oh so that was a mistake. We have to put that value in square bracket. My bad. And if I say nums you can see we got the value. So we got a list now. Now with this list we can perform some inbuilt functions. In Python we have this inbuilt functions. Now how do I know that which inbuilt function we have min, we have max, we can find sum. So we have those methods here. So let's try. So can we use inbuilt functions. Let's try. So I will say min. I want to find the minimum element. So I would say min of the collection of the list which is nums. And if I say enter you can see we got 12. 12 is the minimum value. The same thing you can do with max. In max you can pass nums. You got 77. And we can also say sum. So we can find the sum of all the values and it's 193. So normally you do all those things by yourself. If you are doing programming. This is one thing you have to do by yourself using some loop and those concepts. But Python says hey don't worry I have some methods for you. In fact I forgot to mention one more thing. In nums we have one more method which is called a sort. So when you say sort and if I say nums you can see we got all the values in sorted format. So yes list is amazing. It provides so many features. So that's about list we have. So now we know we can have multiple values in list and those things can be of different format. And if you want to access any of this element you have to use index values. It's mutable so you can change the values. You can add values. You can remove values. And you can use certain methods like extend, sort to do exciting things. And that's it. That's about list. I hope you are enjoying this series. Let me know in the comment section. And if you are liking this video click on the thumbs up button there. And thank you so much for watching everyone. Bye bye."
+}

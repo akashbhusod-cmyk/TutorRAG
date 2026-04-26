@@ -1,0 +1,54 @@
+{
+    "chunks": [
+        {
+            "number": "8",
+            "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+            "start": 0.0,
+            "end": 40.28,
+            "text": " Welcome back aliens, my name is Avin Reddy and let's continue the series on Python.  Now till this point we were working with PyCharm right and it works perfectly fine.  But then for some people they don't like heavy software, they want lightweight software to  work on.  One of them is Sublime, so instead of using PyCharm you can actually use Sublime to execute  your Python codes.  In fact we have some other editors as well but most of the people they prefer to work  on Sublime.  But the question arises if you want to practice the entire code section which we have done  and if you want to do that in Sublime, how will you do that?  Step 1, you have to download Sublime."
+        },
+        {
+            "number": "8",
+            "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+            "start": 40.28,
+            "end": 68.36,
+            "text": " First of all is it free?  If you want to use Sublime properly you have to pay for it but then you can actually use  it for free, it will not ask you for the licenses every time.  It's just that while you're using it it will give you some prompts to buy the software  but that's fine we can ignore them.  But then if you want to use your Sublime for a longer time and if you want to contribute  to the company of course you can do that, you can buy them and you can use it for because  if you're working and if you're earning from your software of course you should buy it.  So what I will do is let's download it."
+        },
+        {
+            "number": "8",
+            "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+            "start": 68.36,
+            "end": 98.8,
+            "text": " So go to Google and search for or you can simply type Sublime.  It will take you to the official website, click on download.  So we have different versions available.  The latest one is 3, you can download that one.  Depending upon what OS you're working with, if you're working with Mac you can download  this one, if you're working with Linux, Rebose, use this one or for Windows we can use Windows  64.  Click on this one and it will download the software for you.  Now once you have got it downloaded, in fact I already have a setup with me.  Once you have a setup you can simply double click it and the normal steps right, you have"
+        },
+        {
+            "number": "8",
+            "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+            "start": 98.8,
+            "end": 126.41999999999999,
+            "text": " to say next, next, next, it will do everything for you.  Now once you have got setup with you, once you have installed it, simply open Sublime.  So let me just do that quickly.  So you can see this is how Sublime looks like.  We got a black screen where you can type your code.  So this is where you can type your code and then the only thing is on the top you can  see it says unregistered because you have not bought it.  So you can buy the software which will charge you some amount.  I'm not sure about the amount here.  So you can say purchase license.  But still if you're not buying it, it will still work."
+        },
+        {
+            "number": "8",
+            "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+            "start": 126.41999999999999,
+            "end": 154.32,
+            "text": " But I would recommend you to buy it if you are using the software for a longer time for  your commercial use as well.  Now if you want to execute Python, how will you do that?  It's very simple.  Simply type Python code.  Let's start with Hello World.  Now if you want, you also need to save this so you can save it anywhere you want.  I will say test.py.  Now once you have typed the code, once you have saved it, how will you run this code?  Now before running, what you will do is go to tools and here there's an option of build  system.  So what software you are working with, what type of language you are working with."
+        },
+        {
+            "number": "8",
+            "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+            "start": 154.32,
+            "end": 180.1,
+            "text": " I'm working with Python, so I will set up Python here.  Now once you have done that, so using control B you can run the code.  Simply say control B and you can see in the bottom section you got Hello World.  But sometime if you are doing this for the first time, it will give you a prompt which  language is it.  So you have to select Python and it will work.  Since I'm using Sublime in this machine for the second time, so you can see it says Hello.  It is not giving me that prompt.  But if you are doing it for the first time, you will get the prompt.  Simply say Python, it will work.  Not just this code, you can run any code you want."
+        },
+        {
+            "number": "8",
+            "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+            "start": 180.1,
+            "end": 183.60000000000002,
+            "text": " Just try it out.  Let me know in the comment section if you have any issues.  So that's it for everyone.  Bye bye."
+        }
+    ],
+    "text": " Welcome back aliens, my name is Avin Reddy and let's continue the series on Python. Now till this point we were working with PyCharm right and it works perfectly fine. But then for some people they don't like heavy software, they want lightweight software to work on. One of them is Sublime, so instead of using PyCharm you can actually use Sublime to execute your Python codes. In fact we have some other editors as well but most of the people they prefer to work on Sublime. But the question arises if you want to practice the entire code section which we have done and if you want to do that in Sublime, how will you do that? Step 1, you have to download Sublime. First of all is it free? If you want to use Sublime properly you have to pay for it but then you can actually use it for free, it will not ask you for the licenses every time. It's just that while you're using it it will give you some prompts to buy the software but that's fine we can ignore them. But then if you want to use your Sublime for a longer time and if you want to contribute to the company of course you can do that, you can buy them and you can use it for because if you're working and if you're earning from your software of course you should buy it. So what I will do is let's download it. So go to Google and search for or you can simply type Sublime. It will take you to the official website, click on download. So we have different versions available. The latest one is 3, you can download that one. Depending upon what OS you're working with, if you're working with Mac you can download this one, if you're working with Linux, Rebose, use this one or for Windows we can use Windows 64. Click on this one and it will download the software for you. Now once you have got it downloaded, in fact I already have a setup with me. Once you have a setup you can simply double click it and the normal steps right, you have to say next, next, next, it will do everything for you. Now once you have got setup with you, once you have installed it, simply open Sublime. So let me just do that quickly. So you can see this is how Sublime looks like. We got a black screen where you can type your code. So this is where you can type your code and then the only thing is on the top you can see it says unregistered because you have not bought it. So you can buy the software which will charge you some amount. I'm not sure about the amount here. So you can say purchase license. But still if you're not buying it, it will still work. But I would recommend you to buy it if you are using the software for a longer time for your commercial use as well. Now if you want to execute Python, how will you do that? It's very simple. Simply type Python code. Let's start with Hello World. Now if you want, you also need to save this so you can save it anywhere you want. I will say test.py. Now once you have typed the code, once you have saved it, how will you run this code? Now before running, what you will do is go to tools and here there's an option of build system. So what software you are working with, what type of language you are working with. I'm working with Python, so I will set up Python here. Now once you have done that, so using control B you can run the code. Simply say control B and you can see in the bottom section you got Hello World. But sometime if you are doing this for the first time, it will give you a prompt which language is it. So you have to select Python and it will work. Since I'm using Sublime in this machine for the second time, so you can see it says Hello. It is not giving me that prompt. But if you are doing it for the first time, you will get the prompt. Simply say Python, it will work. Not just this code, you can run any code you want. Just try it out. Let me know in the comment section if you have any issues. So that's it for everyone. Bye bye."
+}

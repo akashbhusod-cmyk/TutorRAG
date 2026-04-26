@@ -1,0 +1,481 @@
+{
+  "chunks": [
+    {
+      "number": "8",
+      "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+      "start": 0.0,
+      "end": 10.0,
+      "text": " Welcome back aliens, my name is Avin Reddy and let's continue the series on Python."
+    },
+    {
+      "number": "8",
+      "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+      "start": 10.0,
+      "end": 14.56,
+      "text": " Now till this point we were working with PyCharm right and it works perfectly fine."
+    },
+    {
+      "number": "8",
+      "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+      "start": 14.56,
+      "end": 18.96,
+      "text": " But then for some people they don't like heavy software, they want lightweight software to"
+    },
+    {
+      "number": "8",
+      "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+      "start": 18.96,
+      "end": 19.96,
+      "text": " work on."
+    },
+    {
+      "number": "8",
+      "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+      "start": 19.96,
+      "end": 24.92,
+      "text": " One of them is Sublime, so instead of using PyCharm you can actually use Sublime to execute"
+    },
+    {
+      "number": "8",
+      "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+      "start": 24.92,
+      "end": 25.92,
+      "text": " your Python codes."
+    },
+    {
+      "number": "8",
+      "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+      "start": 25.92,
+      "end": 30.240000000000002,
+      "text": " In fact we have some other editors as well but most of the people they prefer to work"
+    },
+    {
+      "number": "8",
+      "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+      "start": 30.240000000000002,
+      "end": 31.720000000000002,
+      "text": " on Sublime."
+    },
+    {
+      "number": "8",
+      "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+      "start": 31.720000000000002,
+      "end": 35.120000000000005,
+      "text": " But the question arises if you want to practice the entire code section which we have done"
+    },
+    {
+      "number": "8",
+      "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+      "start": 35.120000000000005,
+      "end": 38.120000000000005,
+      "text": " and if you want to do that in Sublime, how will you do that?"
+    },
+    {
+      "number": "8",
+      "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+      "start": 38.120000000000005,
+      "end": 40.28,
+      "text": " Step 1, you have to download Sublime."
+    },
+    {
+      "number": "8",
+      "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+      "start": 40.28,
+      "end": 41.760000000000005,
+      "text": " First of all is it free?"
+    },
+    {
+      "number": "8",
+      "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+      "start": 41.760000000000005,
+      "end": 46.1,
+      "text": " If you want to use Sublime properly you have to pay for it but then you can actually use"
+    },
+    {
+      "number": "8",
+      "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+      "start": 46.1,
+      "end": 49.760000000000005,
+      "text": " it for free, it will not ask you for the licenses every time."
+    },
+    {
+      "number": "8",
+      "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+      "start": 49.760000000000005,
+      "end": 53.760000000000005,
+      "text": " It's just that while you're using it it will give you some prompts to buy the software"
+    },
+    {
+      "number": "8",
+      "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+      "start": 53.760000000000005,
+      "end": 55.32000000000001,
+      "text": " but that's fine we can ignore them."
+    },
+    {
+      "number": "8",
+      "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+      "start": 55.32,
+      "end": 59.56,
+      "text": " But then if you want to use your Sublime for a longer time and if you want to contribute"
+    },
+    {
+      "number": "8",
+      "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+      "start": 59.56,
+      "end": 63.64,
+      "text": " to the company of course you can do that, you can buy them and you can use it for because"
+    },
+    {
+      "number": "8",
+      "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+      "start": 63.64,
+      "end": 67.0,
+      "text": " if you're working and if you're earning from your software of course you should buy it."
+    },
+    {
+      "number": "8",
+      "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+      "start": 67.0,
+      "end": 68.36,
+      "text": " So what I will do is let's download it."
+    },
+    {
+      "number": "8",
+      "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+      "start": 68.36,
+      "end": 72.0,
+      "text": " So go to Google and search for or you can simply type Sublime."
+    },
+    {
+      "number": "8",
+      "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+      "start": 72.0,
+      "end": 74.56,
+      "text": " It will take you to the official website, click on download."
+    },
+    {
+      "number": "8",
+      "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+      "start": 74.56,
+      "end": 76.28,
+      "text": " So we have different versions available."
+    },
+    {
+      "number": "8",
+      "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+      "start": 76.28,
+      "end": 78.96000000000001,
+      "text": " The latest one is 3, you can download that one."
+    },
+    {
+      "number": "8",
+      "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+      "start": 78.96000000000001,
+      "end": 81.96000000000001,
+      "text": " Depending upon what OS you're working with, if you're working with Mac you can download"
+    },
+    {
+      "number": "8",
+      "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+      "start": 82.11999999999999,
+      "end": 86.67999999999999,
+      "text": " this one, if you're working with Linux, Rebose, use this one or for Windows we can use Windows"
+    },
+    {
+      "number": "8",
+      "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+      "start": 86.67999999999999,
+      "end": 87.67999999999999,
+      "text": " 64."
+    },
+    {
+      "number": "8",
+      "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+      "start": 87.67999999999999,
+      "end": 91.28,
+      "text": " Click on this one and it will download the software for you."
+    },
+    {
+      "number": "8",
+      "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+      "start": 91.28,
+      "end": 94.8,
+      "text": " Now once you have got it downloaded, in fact I already have a setup with me."
+    },
+    {
+      "number": "8",
+      "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+      "start": 94.8,
+      "end": 98.8,
+      "text": " Once you have a setup you can simply double click it and the normal steps right, you have"
+    },
+    {
+      "number": "8",
+      "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+      "start": 98.8,
+      "end": 101.83999999999999,
+      "text": " to say next, next, next, it will do everything for you."
+    },
+    {
+      "number": "8",
+      "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+      "start": 101.83999999999999,
+      "end": 105.88,
+      "text": " Now once you have got setup with you, once you have installed it, simply open Sublime."
+    },
+    {
+      "number": "8",
+      "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+      "start": 105.88,
+      "end": 108.0,
+      "text": " So let me just do that quickly."
+    },
+    {
+      "number": "8",
+      "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+      "start": 108.0,
+      "end": 109.88,
+      "text": " So you can see this is how Sublime looks like."
+    },
+    {
+      "number": "8",
+      "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+      "start": 110.0,
+      "end": 112.24,
+      "text": " We got a black screen where you can type your code."
+    },
+    {
+      "number": "8",
+      "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+      "start": 112.24,
+      "end": 115.75999999999999,
+      "text": " So this is where you can type your code and then the only thing is on the top you can"
+    },
+    {
+      "number": "8",
+      "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+      "start": 115.75999999999999,
+      "end": 118.8,
+      "text": " see it says unregistered because you have not bought it."
+    },
+    {
+      "number": "8",
+      "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+      "start": 118.8,
+      "end": 121.28,
+      "text": " So you can buy the software which will charge you some amount."
+    },
+    {
+      "number": "8",
+      "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+      "start": 121.28,
+      "end": 122.6,
+      "text": " I'm not sure about the amount here."
+    },
+    {
+      "number": "8",
+      "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+      "start": 122.6,
+      "end": 124.24,
+      "text": " So you can say purchase license."
+    },
+    {
+      "number": "8",
+      "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+      "start": 124.24,
+      "end": 126.41999999999999,
+      "text": " But still if you're not buying it, it will still work."
+    },
+    {
+      "number": "8",
+      "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+      "start": 126.41999999999999,
+      "end": 129.76,
+      "text": " But I would recommend you to buy it if you are using the software for a longer time for"
+    },
+    {
+      "number": "8",
+      "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+      "start": 129.76,
+      "end": 131.51999999999998,
+      "text": " your commercial use as well."
+    },
+    {
+      "number": "8",
+      "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+      "start": 131.51999999999998,
+      "end": 133.35999999999999,
+      "text": " Now if you want to execute Python, how will you do that?"
+    },
+    {
+      "number": "8",
+      "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+      "start": 133.35999999999999,
+      "end": 134.35999999999999,
+      "text": " It's very simple."
+    },
+    {
+      "number": "8",
+      "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+      "start": 134.35999999999999,
+      "end": 135.35999999999999,
+      "text": " Simply type Python code."
+    },
+    {
+      "number": "8",
+      "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+      "start": 135.35999999999999,
+      "end": 137.0,
+      "text": " Let's start with Hello World."
+    },
+    {
+      "number": "8",
+      "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+      "start": 137.0,
+      "end": 140.2,
+      "text": " Now if you want, you also need to save this so you can save it anywhere you want."
+    },
+    {
+      "number": "8",
+      "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+      "start": 140.2,
+      "end": 142.8,
+      "text": " I will say test.py."
+    },
+    {
+      "number": "8",
+      "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+      "start": 142.8,
+      "end": 146.14,
+      "text": " Now once you have typed the code, once you have saved it, how will you run this code?"
+    },
+    {
+      "number": "8",
+      "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+      "start": 146.14,
+      "end": 150.32,
+      "text": " Now before running, what you will do is go to tools and here there's an option of build"
+    },
+    {
+      "number": "8",
+      "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+      "start": 150.32,
+      "end": 151.32,
+      "text": " system."
+    },
+    {
+      "number": "8",
+      "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+      "start": 151.32,
+      "end": 154.32,
+      "text": " So what software you are working with, what type of language you are working with."
+    },
+    {
+      "number": "8",
+      "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+      "start": 154.32,
+      "end": 156.48,
+      "text": " I'm working with Python, so I will set up Python here."
+    },
+    {
+      "number": "8",
+      "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+      "start": 156.48,
+      "end": 159.6,
+      "text": " Now once you have done that, so using control B you can run the code."
+    },
+    {
+      "number": "8",
+      "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+      "start": 159.6,
+      "end": 162.78,
+      "text": " Simply say control B and you can see in the bottom section you got Hello World."
+    },
+    {
+      "number": "8",
+      "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+      "start": 162.78,
+      "end": 166.18,
+      "text": " But sometime if you are doing this for the first time, it will give you a prompt which"
+    },
+    {
+      "number": "8",
+      "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+      "start": 166.18,
+      "end": 167.46,
+      "text": " language is it."
+    },
+    {
+      "number": "8",
+      "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+      "start": 167.46,
+      "end": 169.5,
+      "text": " So you have to select Python and it will work."
+    },
+    {
+      "number": "8",
+      "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+      "start": 169.5,
+      "end": 173.42000000000002,
+      "text": " Since I'm using Sublime in this machine for the second time, so you can see it says Hello."
+    },
+    {
+      "number": "8",
+      "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+      "start": 173.42000000000002,
+      "end": 174.42000000000002,
+      "text": " It is not giving me that prompt."
+    },
+    {
+      "number": "8",
+      "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+      "start": 174.42000000000002,
+      "end": 176.86,
+      "text": " But if you are doing it for the first time, you will get the prompt."
+    },
+    {
+      "number": "8",
+      "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+      "start": 176.86,
+      "end": 178.16,
+      "text": " Simply say Python, it will work."
+    },
+    {
+      "number": "8",
+      "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+      "start": 178.16,
+      "end": 180.1,
+      "text": " Not just this code, you can run any code you want."
+    },
+    {
+      "number": "8",
+      "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+      "start": 180.1,
+      "end": 181.1,
+      "text": " Just try it out."
+    },
+    {
+      "number": "8",
+      "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+      "start": 181.1,
+      "end": 182.1,
+      "text": " Let me know in the comment section if you have any issues."
+    },
+    {
+      "number": "8",
+      "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+      "start": 182.1,
+      "end": 183.10000000000002,
+      "text": " So that's it for everyone."
+    },
+    {
+      "number": "8",
+      "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+      "start": 183.10000000000002,
+      "end": 183.60000000000002,
+      "text": " Bye bye."
+    }
+  ],
+  "text": " Welcome back aliens, my name is Avin Reddy and let's continue the series on Python. Now till this point we were working with PyCharm right and it works perfectly fine. But then for some people they don't like heavy software, they want lightweight software to work on. One of them is Sublime, so instead of using PyCharm you can actually use Sublime to execute your Python codes. In fact we have some other editors as well but most of the people they prefer to work on Sublime. But the question arises if you want to practice the entire code section which we have done and if you want to do that in Sublime, how will you do that? Step 1, you have to download Sublime. First of all is it free? If you want to use Sublime properly you have to pay for it but then you can actually use it for free, it will not ask you for the licenses every time. It's just that while you're using it it will give you some prompts to buy the software but that's fine we can ignore them. But then if you want to use your Sublime for a longer time and if you want to contribute to the company of course you can do that, you can buy them and you can use it for because if you're working and if you're earning from your software of course you should buy it. So what I will do is let's download it. So go to Google and search for or you can simply type Sublime. It will take you to the official website, click on download. So we have different versions available. The latest one is 3, you can download that one. Depending upon what OS you're working with, if you're working with Mac you can download this one, if you're working with Linux, Rebose, use this one or for Windows we can use Windows 64. Click on this one and it will download the software for you. Now once you have got it downloaded, in fact I already have a setup with me. Once you have a setup you can simply double click it and the normal steps right, you have to say next, next, next, it will do everything for you. Now once you have got setup with you, once you have installed it, simply open Sublime. So let me just do that quickly. So you can see this is how Sublime looks like. We got a black screen where you can type your code. So this is where you can type your code and then the only thing is on the top you can see it says unregistered because you have not bought it. So you can buy the software which will charge you some amount. I'm not sure about the amount here. So you can say purchase license. But still if you're not buying it, it will still work. But I would recommend you to buy it if you are using the software for a longer time for your commercial use as well. Now if you want to execute Python, how will you do that? It's very simple. Simply type Python code. Let's start with Hello World. Now if you want, you also need to save this so you can save it anywhere you want. I will say test.py. Now once you have typed the code, once you have saved it, how will you run this code? Now before running, what you will do is go to tools and here there's an option of build system. So what software you are working with, what type of language you are working with. I'm working with Python, so I will set up Python here. Now once you have done that, so using control B you can run the code. Simply say control B and you can see in the bottom section you got Hello World. But sometime if you are doing this for the first time, it will give you a prompt which language is it. So you have to select Python and it will work. Since I'm using Sublime in this machine for the second time, so you can see it says Hello. It is not giving me that prompt. But if you are doing it for the first time, you will get the prompt. Simply say Python, it will work. Not just this code, you can run any code you want. Just try it out. Let me know in the comment section if you have any issues. So that's it for everyone. Bye bye."
+}

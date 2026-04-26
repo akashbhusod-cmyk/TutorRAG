@@ -1,0 +1,145 @@
+{
+    "chunks": [
+        {
+            "number": "22",
+            "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+            "start": 0.0,
+            "end": 37.76,
+            "text": " Welcome back aliens my name is Avin Reddy and let's continue the series on Python.  Till this point we have talked about loops right we have talked about for loop and while loop.  In this video we'll talk about three keywords break, continue and pass.  Again why do we need that let's say in the code itself.  So let's design a vending machine of course not a physical machine here.  Let's write a simple code just to mimic vending machine here.  So what we'll do is if a user says hey I want five candies you have to give five candies not a physically candies.  But then we'll write only candies or print candies.  Okay, so if I say one candy it's one time."
+        },
+        {
+            "number": "22",
+            "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+            "start": 37.76,
+            "end": 71.72,
+            "text": " So if a user say I want five candies you will print candies five times.  So that's what we want to do. So let's write here.  So first of all we have a variable and we'll say X and the value for this variable will be coming from user.  Input so we'll say int input and in this bracket you will mention how many  candies you want.  Okay once you got this statement I what I want to do is I want to print candies right.  So if a user says hey I want five candies you will print candy five times.  If you want to do something multiple times you will simply use a loop.  So we'll use a while loop here again you can use for loop that's your choice okay."
+        },
+        {
+            "number": "22",
+            "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+            "start": 71.72,
+            "end": 104.44,
+            "text": " But I love for a while loop here.  So I will take a variable which is increment variable I will say i is equal to one.  And then we'll use a while loop here and we'll say if i less than equal to x.  Because depending upon the number of value a user is entering will print will go for so many candies.  And every time this loop runs you will print candy.  That's what we want to do here right.  And then after every statement we need to also increment it.  In fact we can so if you can write i equal to i plus one or you can use a shortcut here.  Which is i plus equal to one because we have seen that right."
+        },
+        {
+            "number": "22",
+            "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+            "start": 104.44,
+            "end": 133.32,
+            "text": " So instead of saying i equal to i plus one we can also use i plus equal to one.  Shortcut for the same thing.  Now this should work right.  So this should work let's try.  So if run this code you can see it is asking for the number of candies.  I would say four candies enter you got candy four times.  That means you're getting candies from the machine.  And I will just run this code once again.  I will this time I will go for let's say eight.  And you can see we got candy eight times.  So it is working.  Now here is a twist.  The twist is what if a user says hey I want hundred candies okay."
+        },
+        {
+            "number": "22",
+            "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+            "start": 133.32,
+            "end": 164.52,
+            "text": " And then in your machine in the vending machine we don't have hundred candies.  You have let's say 50 candies or maybe 80 candies.  So what you will do now.  You have two choice you can stop the transaction.  You can say hey user we don't have so many candies.  Or what you can do is you can give 80 candies.  And you can say we are out of stock right.  Can you do it here.  So I want to do that here.  So the available candies I would say I would use a variable called as av which is available candies.  And let's say in my machine I have only 10 candies okay.  If a user says five candies no issue you can take five candies."
+        },
+        {
+            "number": "22",
+            "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+            "start": 164.52,
+            "end": 197.08,
+            "text": " Example if I run this code now.  And if a user says hey I want 10 candies that's completely fine.  We have 10 candies.  But if a user says hey I want 20 candies we don't have that much right.  So what you will do here.  So in that case before printing candies what we can do is.  So here we can check if the number of if the value of i.  Because see if you have 10 candies and if a user says we want 20 candies.  What you can do is you can give 10 candies right.  So the value of i is important here.  So if the value of i is greater than your number of available candies which is av."
+        },
+        {
+            "number": "22",
+            "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+            "start": 197.08,
+            "end": 229.8,
+            "text": " In that case you will stop the execution or we forgot one colon there.  So we need to stop the execution.  But which execution not the entire code execution.  Because maybe at the end of your code outside your while loop I want to print by.  So I don't want to stop the execution because you can do that by saying exit or something.  I don't want to end the execution of the code.  I just want to come out of while loop.  And the way you can do that is by using a statement called as break.  The moment you say break it means hey just could just jump out of the loop right.  So let me just run this code and you can see it is saying how many candies you want."
+        },
+        {
+            "number": "22",
+            "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+            "start": 229.8,
+            "end": 260.28000000000003,
+            "text": " I would say I want five candies.  No issue you got five candies and you got by as well.  It should be get lost right.  Okay so if I say 11 candies now and you can see we got how many candies here.  So we got one.  In fact let me reduce the number because it is difficult to count.  We don't have much time.  So I would say I want six candies and see how many candies you got.  You got one two three four five.  So total number of candies available is five.  But then a user says I want six candies.  What you will get is only six candies right.  So this thing is important.  So this is how you can stop."
+        },
+        {
+            "number": "22",
+            "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+            "start": 260.28000000000003,
+            "end": 287.4,
+            "text": " You can just jump out of the loop.  So there are so many application of this break statement.  You can use it in your in your applications.  But then this is how it works.  So if you want to just jump out of the block you can simply use break.  In fact if you wanted to print a message by saying hey we are out of stock.  We can do that here.  So you can say print out of stock.  And now if you run this code let's say I want I want eight candies.  You can see after printing five candies it's saying out of stock.  You know this is what happens when you buy something.  Buy a new phone online."
+        },
+        {
+            "number": "22",
+            "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+            "start": 287.4,
+            "end": 319.32,
+            "text": " You know we have this open sale.  So some people can buy it and then it says out of stock.  Anyway so this is how your break statement works.  The next statement we have is continue.  So the question is so in the last video I have given you the assignment.  Which is you need to print numbers from 1 to 100 or 1 to 20.  But then don't print the values which are divisible by 3 or 5.  Okay so you have to skip those values.  So basically what I want is I want to print 1 2 3.  I want to print 1 2.  I don't want to print 3.  Then I because it's divisible by 3.  I want to print 4."
+        },
+        {
+            "number": "22",
+            "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+            "start": 319.32,
+            "end": 347.64,
+            "text": " I don't want to print 5 because it's divisible by 5.  I don't want to print 6 because it is divisible by 3.  I want to print 7 8.  Then I will not print 9 because it is divisible by 3.  Okay so I want to skip those numbers.  How can we do that here?  Of course we'll shorten the code.  We'll not be focusing on 5.  Only focus on 3.  Okay so I want to print all the values from 1 to 100.  But then I don't want to.  I want to skip those values which are divisible by 3.  And to do that what I will do is I'll write a code.  And this time we'll go for for loop."
+        },
+        {
+            "number": "22",
+            "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+            "start": 347.64,
+            "end": 377.24,
+            "text": " Okay we can go for while loop or for loop your choice.  I will say for i in and then we'll use a range here.  And I will go till 1 0 1 because that's what I want to go for.  I don't want to print 0.  So let me start with 1.  Okay so that's my for loop.  And then I just want to print the value of i.  Now what will happen it will print all the values.  It will print the values from 1 to 100.  Let's check it out.  So let's say run and you can see we got all the values.  But I don't want to print all the values right.  I want to I don't want to print the value which is divisible by 3."
+        },
+        {
+            "number": "22",
+            "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+            "start": 377.24,
+            "end": 412.52,
+            "text": " In that case what we'll do is I will say if if my i value which is i mod 3 is equal to equal to 0.  Okay let's not use on brackets there.  If this is equal to 0 in that case I don't I just want to skip the remaining statements.  Okay when I say remaining statement I don't want to skip the statement outside the loop.  Example if I say at the end and it's a good idea to print by at the end  because at least you will know what is happening.  So what will happen now is when you say for i in range 1 to 100 every time you say if it is 3.  In that case I don't want to print i."
+        },
+        {
+            "number": "22",
+            "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+            "start": 412.52,
+            "end": 444.12,
+            "text": " I just want it to continue with the loop.  Let me just run this code for you.  Oh we got an error.  What's wrong?  Oh we are missing one thing right.  Now how will you how will you continue?  So you have to say a statement which is continue.  So continue will skip the remaining stuff.  If I run this code and you can see we got all the values and look at the output now.  We got 1, 2.  We are there's no 3 because it is divisible by 3.  We don't have 6 again.  We don't have 9.  We don't have 12.  So this is how you work with continue.  So what continue will do it will skip the further execution."
+        },
+        {
+            "number": "22",
+            "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+            "start": 444.12,
+            "end": 475.4,
+            "text": " If you say continue it will not jump out of the loop.  It will only skip the remaining statements.  In fact in the assignment what we have done is so in the assignment question it was 3 or 5 right.  So we can do we can say or I mean we have to use a or symbol here.  So we have to say or i mod 5 is equal to 0 right.  So now it will skip all the values which are divisible by 3 or 5.  So you can see we don't have 3.  We don't have 5.  We don't have 9.  We don't have 10 right.  So this is how it works.  In fact we can also do it for and so only skip those values which are divisible by 3 and 5."
+        },
+        {
+            "number": "22",
+            "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+            "start": 475.4,
+            "end": 507.4,
+            "text": " Example 15 right.  So we have 30.  So all these values.  So if I run this code once again and you can see it will skip only those values which are  divisible by both.  In this case it is 15.  You can see we don't have 15.  So that's how you can practice and also we have continue here.  It works right.  So the next one we have is pass.  Now when you will use pass.  So just imagine we want to print 1 to 100.  Okay.  So I want to print all the values but then I don't want to print those values which are  let's say odd numbers.  Okay.  Again we are going for a simple example.  I don't want to print values which are odd numbers."
+        },
+        {
+            "number": "22",
+            "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+            "start": 507.4,
+            "end": 541.8,
+            "text": " So my condition here is don't print odd numbers.  See I'm not thinking about even.  I'm thinking only on odd numbers.  So my logic here is on odd.  How do I check odd?  So we'll say I want to print the value of i but it should not be an odd number.  So in that case my condition is only on odd.  So I want to do.  So I want to print in else condition.  So I will say in else you have to print this.  So if i mod 2 is not equal to 0 then don't do it.  But only if it is in the else condition I want to print it.  That's what I'm trying to do here."
+        },
+        {
+            "number": "22",
+            "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+            "start": 541.8,
+            "end": 573.16,
+            "text": " Now I know you will be saying why don't why what if you simply use even if you check for  even and print it.  But imagine if you have a scenario where you are checking for the odd values.  You're not focusing on even you're focusing on odd.  In that case I want to print it in else part.  But then you can see it will not work.  You can see it is giving you an error.  You cannot simply put an if as an empty block right.  So in that case you will say hey I don't have anything here.  I'm typing pass.  So pass simply means there is no code.  Ignore it.  Right.  So just pass the if block."
+        },
+        {
+            "number": "22",
+            "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+            "start": 573.16,
+            "end": 604.4399999999999,
+            "text": " In fact in other languages like C, C++ we have curly brackets so we can fill it up.  But unfortunately we don't use curly brackets here so we have to use pass.  So if in this code you can see we got all the values all even numbers.  Oh we got all the values which are not odd.  Okay so just rephrasing the point.  So that's how we use break, continue and pass.  So in the next video we'll talk about some more patterns.  Since we have talked about this thing now.  So the next video will be very exciting where we'll talk about different patterns.  So I hope you are enjoying the series.  Let me know in the comment section and if you have any questions let me know that as well."
+        },
+        {
+            "number": "22",
+            "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+            "start": 604.4399999999999,
+            "end": 606.36,
+            "text": " So thank you so much everyone.  Bye."
+        }
+    ],
+    "text": " Welcome back aliens my name is Avin Reddy and let's continue the series on Python. Till this point we have talked about loops right we have talked about for loop and while loop. In this video we'll talk about three keywords break, continue and pass. Again why do we need that let's say in the code itself. So let's design a vending machine of course not a physical machine here. Let's write a simple code just to mimic vending machine here. So what we'll do is if a user says hey I want five candies you have to give five candies not a physically candies. But then we'll write only candies or print candies. Okay, so if I say one candy it's one time. So if a user say I want five candies you will print candies five times. So that's what we want to do. So let's write here. So first of all we have a variable and we'll say X and the value for this variable will be coming from user. Input so we'll say int input and in this bracket you will mention how many candies you want. Okay once you got this statement I what I want to do is I want to print candies right. So if a user says hey I want five candies you will print candy five times. If you want to do something multiple times you will simply use a loop. So we'll use a while loop here again you can use for loop that's your choice okay. But I love for a while loop here. So I will take a variable which is increment variable I will say i is equal to one. And then we'll use a while loop here and we'll say if i less than equal to x. Because depending upon the number of value a user is entering will print will go for so many candies. And every time this loop runs you will print candy. That's what we want to do here right. And then after every statement we need to also increment it. In fact we can so if you can write i equal to i plus one or you can use a shortcut here. Which is i plus equal to one because we have seen that right. So instead of saying i equal to i plus one we can also use i plus equal to one. Shortcut for the same thing. Now this should work right. So this should work let's try. So if run this code you can see it is asking for the number of candies. I would say four candies enter you got candy four times. That means you're getting candies from the machine. And I will just run this code once again. I will this time I will go for let's say eight. And you can see we got candy eight times. So it is working. Now here is a twist. The twist is what if a user says hey I want hundred candies okay. And then in your machine in the vending machine we don't have hundred candies. You have let's say 50 candies or maybe 80 candies. So what you will do now. You have two choice you can stop the transaction. You can say hey user we don't have so many candies. Or what you can do is you can give 80 candies. And you can say we are out of stock right. Can you do it here. So I want to do that here. So the available candies I would say I would use a variable called as av which is available candies. And let's say in my machine I have only 10 candies okay. If a user says five candies no issue you can take five candies. Example if I run this code now. And if a user says hey I want 10 candies that's completely fine. We have 10 candies. But if a user says hey I want 20 candies we don't have that much right. So what you will do here. So in that case before printing candies what we can do is. So here we can check if the number of if the value of i. Because see if you have 10 candies and if a user says we want 20 candies. What you can do is you can give 10 candies right. So the value of i is important here. So if the value of i is greater than your number of available candies which is av. In that case you will stop the execution or we forgot one colon there. So we need to stop the execution. But which execution not the entire code execution. Because maybe at the end of your code outside your while loop I want to print by. So I don't want to stop the execution because you can do that by saying exit or something. I don't want to end the execution of the code. I just want to come out of while loop. And the way you can do that is by using a statement called as break. The moment you say break it means hey just could just jump out of the loop right. So let me just run this code and you can see it is saying how many candies you want. I would say I want five candies. No issue you got five candies and you got by as well. It should be get lost right. Okay so if I say 11 candies now and you can see we got how many candies here. So we got one. In fact let me reduce the number because it is difficult to count. We don't have much time. So I would say I want six candies and see how many candies you got. You got one two three four five. So total number of candies available is five. But then a user says I want six candies. What you will get is only six candies right. So this thing is important. So this is how you can stop. You can just jump out of the loop. So there are so many application of this break statement. You can use it in your in your applications. But then this is how it works. So if you want to just jump out of the block you can simply use break. In fact if you wanted to print a message by saying hey we are out of stock. We can do that here. So you can say print out of stock. And now if you run this code let's say I want I want eight candies. You can see after printing five candies it's saying out of stock. You know this is what happens when you buy something. Buy a new phone online. You know we have this open sale. So some people can buy it and then it says out of stock. Anyway so this is how your break statement works. The next statement we have is continue. So the question is so in the last video I have given you the assignment. Which is you need to print numbers from 1 to 100 or 1 to 20. But then don't print the values which are divisible by 3 or 5. Okay so you have to skip those values. So basically what I want is I want to print 1 2 3. I want to print 1 2. I don't want to print 3. Then I because it's divisible by 3. I want to print 4. I don't want to print 5 because it's divisible by 5. I don't want to print 6 because it is divisible by 3. I want to print 7 8. Then I will not print 9 because it is divisible by 3. Okay so I want to skip those numbers. How can we do that here? Of course we'll shorten the code. We'll not be focusing on 5. Only focus on 3. Okay so I want to print all the values from 1 to 100. But then I don't want to. I want to skip those values which are divisible by 3. And to do that what I will do is I'll write a code. And this time we'll go for for loop. Okay we can go for while loop or for loop your choice. I will say for i in and then we'll use a range here. And I will go till 1 0 1 because that's what I want to go for. I don't want to print 0. So let me start with 1. Okay so that's my for loop. And then I just want to print the value of i. Now what will happen it will print all the values. It will print the values from 1 to 100. Let's check it out. So let's say run and you can see we got all the values. But I don't want to print all the values right. I want to I don't want to print the value which is divisible by 3. In that case what we'll do is I will say if if my i value which is i mod 3 is equal to equal to 0. Okay let's not use on brackets there. If this is equal to 0 in that case I don't I just want to skip the remaining statements. Okay when I say remaining statement I don't want to skip the statement outside the loop. Example if I say at the end and it's a good idea to print by at the end because at least you will know what is happening. So what will happen now is when you say for i in range 1 to 100 every time you say if it is 3. In that case I don't want to print i. I just want it to continue with the loop. Let me just run this code for you. Oh we got an error. What's wrong? Oh we are missing one thing right. Now how will you how will you continue? So you have to say a statement which is continue. So continue will skip the remaining stuff. If I run this code and you can see we got all the values and look at the output now. We got 1, 2. We are there's no 3 because it is divisible by 3. We don't have 6 again. We don't have 9. We don't have 12. So this is how you work with continue. So what continue will do it will skip the further execution. If you say continue it will not jump out of the loop. It will only skip the remaining statements. In fact in the assignment what we have done is so in the assignment question it was 3 or 5 right. So we can do we can say or I mean we have to use a or symbol here. So we have to say or i mod 5 is equal to 0 right. So now it will skip all the values which are divisible by 3 or 5. So you can see we don't have 3. We don't have 5. We don't have 9. We don't have 10 right. So this is how it works. In fact we can also do it for and so only skip those values which are divisible by 3 and 5. Example 15 right. So we have 30. So all these values. So if I run this code once again and you can see it will skip only those values which are divisible by both. In this case it is 15. You can see we don't have 15. So that's how you can practice and also we have continue here. It works right. So the next one we have is pass. Now when you will use pass. So just imagine we want to print 1 to 100. Okay. So I want to print all the values but then I don't want to print those values which are let's say odd numbers. Okay. Again we are going for a simple example. I don't want to print values which are odd numbers. So my condition here is don't print odd numbers. See I'm not thinking about even. I'm thinking only on odd numbers. So my logic here is on odd. How do I check odd? So we'll say I want to print the value of i but it should not be an odd number. So in that case my condition is only on odd. So I want to do. So I want to print in else condition. So I will say in else you have to print this. So if i mod 2 is not equal to 0 then don't do it. But only if it is in the else condition I want to print it. That's what I'm trying to do here. Now I know you will be saying why don't why what if you simply use even if you check for even and print it. But imagine if you have a scenario where you are checking for the odd values. You're not focusing on even you're focusing on odd. In that case I want to print it in else part. But then you can see it will not work. You can see it is giving you an error. You cannot simply put an if as an empty block right. So in that case you will say hey I don't have anything here. I'm typing pass. So pass simply means there is no code. Ignore it. Right. So just pass the if block. In fact in other languages like C, C++ we have curly brackets so we can fill it up. But unfortunately we don't use curly brackets here so we have to use pass. So if in this code you can see we got all the values all even numbers. Oh we got all the values which are not odd. Okay so just rephrasing the point. So that's how we use break, continue and pass. So in the next video we'll talk about some more patterns. Since we have talked about this thing now. So the next video will be very exciting where we'll talk about different patterns. So I hope you are enjoying the series. Let me know in the comment section and if you have any questions let me know that as well. So thank you so much everyone. Bye."
+}

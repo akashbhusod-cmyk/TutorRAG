@@ -1,0 +1,831 @@
+{
+  "chunks": [
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 0.0,
+      "end": 8.4,
+      "text": " Welcome back aliens, my name is Davin Reddy and let's continue with this series on Python."
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 8.4,
+      "end": 13.52,
+      "text": " In fact, in the earlier videos we have talked about what is Python, we have installed two"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 13.52,
+      "end": 18.12,
+      "text": " softwares and we have also worked with certain operations, right? We had fun in the last"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 18.12,
+      "end": 22.52,
+      "text": " session. Now in this video we are going to talk about what is variable. But first of"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 22.52,
+      "end": 27.080000000000002,
+      "text": " all, why do we need one? Let's try something here. So what I will do is I will go back"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 27.08,
+      "end": 30.799999999999997,
+      "text": " to my previous example, you know, we were adding two and three. So we have done with"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 30.799999999999997,
+      "end": 34.76,
+      "text": " that, right? We are saying two plus three. Now if you remember in maths, what we do is"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 34.76,
+      "end": 38.96,
+      "text": " we of course we work with numbers, but then when the moment you start with algebra, you"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 38.96,
+      "end": 45.44,
+      "text": " have this concept of using x and y. So what we do is we say let x is equal to five, can"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 45.44,
+      "end": 51.84,
+      "text": " we do that here? So we have x equal to two. So I'm storing this value two in a variable"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 51.84,
+      "end": 57.96,
+      "text": " called x and that's a new word now what is variable. So basically variable is a container"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 57.96,
+      "end": 62.480000000000004,
+      "text": " where you can put your values example we are storing two here in a container and the name"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 62.480000000000004,
+      "end": 67.24000000000001,
+      "text": " of that container is x. Of course you can give any name doesn't matter you can say ABC"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 67.24000000000001,
+      "end": 72.32000000000001,
+      "text": " you can say a box you can give any name right? So we can say x equal to two and the moment"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 72.32000000000001,
+      "end": 77.4,
+      "text": " I say enter now this is the first time when you said enter and you have not got any output"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 77.4,
+      "end": 82.12,
+      "text": " right? So in the earlier prompts what we did is when we said any operation it was giving"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 82.12,
+      "end": 87.92,
+      "text": " you some output. Here we have not got any output it's just an assignment operation."
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 87.92,
+      "end": 92.88000000000001,
+      "text": " So in assignment what we do is we have a variable name equal to a value. So we are assigning"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 92.88000000000001,
+      "end": 99.28,
+      "text": " two to x. Okay that works. So can I do this now? Can I say x plus three? Yes right because"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 99.28,
+      "end": 104.28,
+      "text": " in x we have a value which is two. Oh it works you can see we got five that works. Can I"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 104.36,
+      "end": 109.96000000000001,
+      "text": " store three as well? Let's try. So I will say y is equal to three. Now we have two variables"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 109.96000000000001,
+      "end": 116.96000000000001,
+      "text": " x and y so we have two boxes and now I will say x plus y. Oh it works right? It works"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 117.2,
+      "end": 123.28,
+      "text": " so we can say x has two y has three and we are adding them. Okay so that's why we can"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 123.28,
+      "end": 128.12,
+      "text": " use them. But then why they are called as variables? Now normally when you say variable"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 128.12,
+      "end": 133.16,
+      "text": " this term simply means you can change the value. Can we change here? Can I say x equal"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 133.16,
+      "end": 137.72,
+      "text": " to nine? Can I change the value from two to nine? Let's try. And the moment I say enter"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 137.72,
+      "end": 144.72,
+      "text": " oh it works there was no error. But now if I try to do this if I say x plus y x will"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 146.6,
+      "end": 151.48,
+      "text": " have a value which is two or nine that's a question because we are changing it but there"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 151.48,
+      "end": 157.07999999999998,
+      "text": " is no error. Enter. Oh you got twelve that means the value of x now is nine. Okay so"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 157.07999999999998,
+      "end": 162.56,
+      "text": " we can change the value and now we can justify that word as variables right? So what is variable?"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 162.56,
+      "end": 167.0,
+      "text": " It's a box where you can have a value. Now do we need to define the type of the variable?"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 167.0,
+      "end": 171.12,
+      "text": " You don't need to. So the moment I assign a value it automatically detects what type"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 171.12,
+      "end": 175.64000000000001,
+      "text": " of value you are assigning. So in this case it is integer. Now let me just do this thing."
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 175.64000000000001,
+      "end": 181.04,
+      "text": " What if I say x and if I say enter what it will do? So the moment you say x and enter"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 181.04,
+      "end": 185.96,
+      "text": " it will print the value of x in this case which is nine right? What if I use a variable"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 185.96,
+      "end": 189.84,
+      "text": " abc? Now of course we have not defined this variable right? And we are still trying to"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 189.84,
+      "end": 195.92000000000002,
+      "text": " use it. The moment I say enter you got an error. The error is it says name error abc"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 195.92000000000002,
+      "end": 201.84,
+      "text": " name abc is not defined and that's why we have not defined abc yet. So if you are using"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 201.84,
+      "end": 205.48000000000002,
+      "text": " a variable which is not defined so it will of course give you an error. Now I will do"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 205.48000000000002,
+      "end": 209.52,
+      "text": " one more thing. I will say x plus ten so of course it will give you nineteen. Now what"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 209.52,
+      "end": 216.16,
+      "text": " if I want to add nineteen with y? I mean something in this way I would say nineteen plus y. But"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 216.16,
+      "end": 220.79999999999998,
+      "text": " then if you think about this nineteen this is the output of the previous operation right?"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 220.79999999999998,
+      "end": 225.68,
+      "text": " Now if you want to use the output of the previous operation we can use underscore. So underscore"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 225.68,
+      "end": 229.8,
+      "text": " represents the output of the previous operation and if I say enter you can see we got twenty"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 229.8,
+      "end": 234.2,
+      "text": " two. So it is nineteen plus three which is twenty two. So even this works right? So this"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 234.2,
+      "end": 238.0,
+      "text": " is amazing you know there are so many things you can you can work with this. So we can"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 238.0,
+      "end": 243.6,
+      "text": " use variables for numbers right? So we can use it for float or integer. What about string?"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 243.6,
+      "end": 248.64,
+      "text": " Can I use names with can I use variables with string or a string variable? Let's try."
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 248.64,
+      "end": 254.56,
+      "text": " So I will get a variable as name and I will use a name as YouTube and if I say enter oh"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 254.56,
+      "end": 260.12,
+      "text": " it works and if I print name we got YouTube so it is perfectly working. So we can use"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 260.12,
+      "end": 266.36,
+      "text": " string as well. So example I can say name plus YouTube rocks. So you can see we got"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 266.36,
+      "end": 271.08,
+      "text": " YouTube rocks. So it is name which is YouTube plus rocks. Ok this even this work that's"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 271.08,
+      "end": 276.84,
+      "text": " perfectly fine. In fact let me just do an experiment. Can I say name and space rocks?"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 276.84,
+      "end": 280.59999999999997,
+      "text": " Ok this is not working. So we have to make sure that you put plus there because if you"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 280.59999999999997,
+      "end": 285.47999999999996,
+      "text": " have plus then only it will try to interpret that. But there is one thing which is very"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 285.47999999999996,
+      "end": 289.71999999999997,
+      "text": " fancy here you know. So we talk about YouTube it's a string right? And it's a combination"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 289.71999999999997,
+      "end": 295.84,
+      "text": " of characters. That means if I want to fetch one character it should be able to do that"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 295.84,
+      "end": 300.47999999999996,
+      "text": " right? And yes we can do that. So if I say name and if I want to fetch one character"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 300.48,
+      "end": 304.76,
+      "text": " how will I do that? So let's say if I have a YouTube here and YouTube has seven letters"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 304.76,
+      "end": 308.76,
+      "text": " or seven characters. If you when you break it down it will create an array or you can"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 308.76,
+      "end": 313.08000000000004,
+      "text": " say collection of characters. The numbering starts with zero because normally in computers"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 313.08000000000004,
+      "end": 318.28000000000003,
+      "text": " numbering always starts with zero. So here if you want to fetch it we have to use a square"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 318.28000000000003,
+      "end": 323.44,
+      "text": " bracket and you have to mention zero. So we are specifying hey I want to fetch the first"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 323.44,
+      "end": 330.16,
+      "text": " letter of name. So in this case it is Y. How it works? So now I will fetch the last one"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 330.16,
+      "end": 336.08000000000004,
+      "text": " which is six which is E in this case. Now we got E. That works. Now I will fetch let's"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 336.08000000000004,
+      "end": 341.20000000000005,
+      "text": " say eight. See we don't have eight we don't have nine characters right? We only have seven"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 341.20000000000005,
+      "end": 346.0,
+      "text": " characters. So the first one is zero. The last one is six. How about eight? The moment"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 346.0,
+      "end": 351.6,
+      "text": " you do that it will give you an error. It says index error string index out of range."
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 351.6,
+      "end": 356.0,
+      "text": " So of course you are going out of your limit right? So you cannot do that. OK. Can I use"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 356.0,
+      "end": 361.88,
+      "text": " negative numbers? Let's try. I will use minus one. So I want to I want your guess here what"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 361.88,
+      "end": 366.96,
+      "text": " you think it will what it will do. Come on think about it. OK. So let me just enter it"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 366.96,
+      "end": 371.72,
+      "text": " and let's see what happens. So when I say enter you got E. OK. So the answer is when"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 371.72,
+      "end": 376.96,
+      "text": " you say minus number it will start from right to left. OK. So it will it will start with"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 376.96,
+      "end": 381.24,
+      "text": " the ending. So which is E in this case. That means if I say minus two it will give you"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 381.24,
+      "end": 386.40000000000003,
+      "text": " the second last letter which is B. That's right. And if I say minus seven which will"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 386.40000000000003,
+      "end": 390.96000000000004,
+      "text": " be the first one right which is Y. Oh it works. It goes in reverse order now. Now what if"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 390.96000000000004,
+      "end": 396.44,
+      "text": " I want to print two characters not one two. So let's say I want to print Y and O. So in"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 396.44,
+      "end": 401.08,
+      "text": " this case I will say name and I will start with zero. Of course we want to print zero"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 401.08,
+      "end": 404.72,
+      "text": " the first character and the second character right. That means we will give two. Now this"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 404.72,
+      "end": 409.12,
+      "text": " two doesn't mean number of characters it means the ending. So I want to start with zero and"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 409.12,
+      "end": 413.96,
+      "text": " one. So first two characters and you can see we got Y zero. The same thing if I do"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 413.96,
+      "end": 420.0,
+      "text": " it for one colon four. So come on guess. So one means second character right. So it will"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 420.0,
+      "end": 425.92,
+      "text": " start with O and it will end at three because you cannot include four. So it will it is"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 425.92,
+      "end": 435.0,
+      "text": " exclusive of four. So it is one which is O U and T. Oh it works. We got out. Yes. Yes"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 435.0,
+      "end": 440.64,
+      "text": " out. It works. Now what if I specify only one and colon. If I don't specify the ending"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 440.64,
+      "end": 445.56,
+      "text": " what happens. In this case it will start with one and it will come it will go till the end."
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 445.56,
+      "end": 449.48,
+      "text": " OK. That how it works. So if you don't specify the ending part it will go in that way. What"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 449.48,
+      "end": 454.76,
+      "text": " if I specify the ending part but not the starting point. Example if I say if I if I keep it"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 454.76,
+      "end": 459.36,
+      "text": " blank and after colon I will say four. Now in this case it will start with the first"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 459.36,
+      "end": 464.68,
+      "text": " letter and it will end at three which is before four. And that's where you got Y O U T. So"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 464.68,
+      "end": 470.16,
+      "text": " this is fun. Right. OK. What else we can do here. What if I specify name and I will"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 470.16,
+      "end": 475.24,
+      "text": " give the wrong values. I will say three colon. Of course we don't have 10 characters right."
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 475.24,
+      "end": 479.52,
+      "text": " Now in this case it will end at the last one which is available. So it will not give you"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 479.52,
+      "end": 485.4,
+      "text": " any error in this at this case. You can see we got T U B E. T starts with T and then it's"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 485.4,
+      "end": 489.4,
+      "text": " end at E because we don't have any other characters. So if you don't if you want to avoid errors"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 489.4,
+      "end": 494.47999999999996,
+      "text": " this is what this one way. OK. Now can I change the letter example I don't want it"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 494.47999999999996,
+      "end": 504.44,
+      "text": " to be YouTube. I want to I want it to be my tube. So I will say name from 0 to 3. I want"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 504.44,
+      "end": 510.52,
+      "text": " to change this with my. Can I do that. So I'm changing Y O U to my. The moment I say"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 510.52,
+      "end": 515.76,
+      "text": " enter you've got an error. It says string object does not support item assignment. So"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 515.76,
+      "end": 520.3199999999999,
+      "text": " the thing is once you assign the value you cannot change it. Not even for one character."
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 520.3199999999999,
+      "end": 525.4399999999999,
+      "text": " If I say 0 I want to change the first character to the thought you even this will not work."
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 525.4399999999999,
+      "end": 529.4,
+      "text": " You can see we got the error so you cannot change the value. That means strings in Python"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 529.4,
+      "end": 534.8,
+      "text": " is immutable. You cannot change the value of it. That's awesome. Right. But then that"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 534.8,
+      "end": 538.76,
+      "text": " doesn't mean you cannot you cannot change while printing example. If I if I want to"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 538.76,
+      "end": 545.4399999999999,
+      "text": " print my job you can do that. So first I will print my and then I will give up. I will give"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 545.44,
+      "end": 550.0,
+      "text": " a space and then plus I want to print to write. So in that case I will say 3 colon"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 550.0,
+      "end": 555.5600000000001,
+      "text": " 6. How maybe the ending part. So you can see we got my tube. If you don't want space you"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 555.5600000000001,
+      "end": 560.08,
+      "text": " can do that you can say my and then without space you can type it to. So this works. Yeah."
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 560.08,
+      "end": 564.96,
+      "text": " So this is how you work with the string. You work with variables. You can have a number"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 564.96,
+      "end": 569.12,
+      "text": " of variables you can have a float variables and you can have a string variable as well."
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 569.12,
+      "end": 574.24,
+      "text": " In fact with string we have one more thing. Let's say if you define a string which is"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 574.24,
+      "end": 580.24,
+      "text": " let's say my name is a variable and my name here is Navin Reddy. And if I want to know"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 580.24,
+      "end": 585.16,
+      "text": " the length of my name we can do that. So we have a length function and we can pass my"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 585.16,
+      "end": 590.2,
+      "text": " name as I as I mentioned there are some inbuilt functions available in Python and one of them"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 590.2,
+      "end": 596.04,
+      "text": " is length length. So you can see we got 11 characters. So that's it. That's it from this"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 596.04,
+      "end": 601.5600000000001,
+      "text": " video. We have talked about different variables assignments and stuff. So I hope you are enjoying"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 601.56,
+      "end": 604.92,
+      "text": " my session. Let me know in the comment section and do leave a like button if you're enjoying"
+    },
+    {
+      "number": "4",
+      "title": "Python Tutorial for Beginners | Variables in Python",
+      "start": 604.92,
+      "end": 607.3199999999999,
+      "text": " it. Thanks for watching everyone. Bye bye."
+    }
+  ],
+  "text": " Welcome back aliens, my name is Davin Reddy and let's continue with this series on Python. In fact, in the earlier videos we have talked about what is Python, we have installed two softwares and we have also worked with certain operations, right? We had fun in the last session. Now in this video we are going to talk about what is variable. But first of all, why do we need one? Let's try something here. So what I will do is I will go back to my previous example, you know, we were adding two and three. So we have done with that, right? We are saying two plus three. Now if you remember in maths, what we do is we of course we work with numbers, but then when the moment you start with algebra, you have this concept of using x and y. So what we do is we say let x is equal to five, can we do that here? So we have x equal to two. So I'm storing this value two in a variable called x and that's a new word now what is variable. So basically variable is a container where you can put your values example we are storing two here in a container and the name of that container is x. Of course you can give any name doesn't matter you can say ABC you can say a box you can give any name right? So we can say x equal to two and the moment I say enter now this is the first time when you said enter and you have not got any output right? So in the earlier prompts what we did is when we said any operation it was giving you some output. Here we have not got any output it's just an assignment operation. So in assignment what we do is we have a variable name equal to a value. So we are assigning two to x. Okay that works. So can I do this now? Can I say x plus three? Yes right because in x we have a value which is two. Oh it works you can see we got five that works. Can I store three as well? Let's try. So I will say y is equal to three. Now we have two variables x and y so we have two boxes and now I will say x plus y. Oh it works right? It works so we can say x has two y has three and we are adding them. Okay so that's why we can use them. But then why they are called as variables? Now normally when you say variable this term simply means you can change the value. Can we change here? Can I say x equal to nine? Can I change the value from two to nine? Let's try. And the moment I say enter oh it works there was no error. But now if I try to do this if I say x plus y x will have a value which is two or nine that's a question because we are changing it but there is no error. Enter. Oh you got twelve that means the value of x now is nine. Okay so we can change the value and now we can justify that word as variables right? So what is variable? It's a box where you can have a value. Now do we need to define the type of the variable? You don't need to. So the moment I assign a value it automatically detects what type of value you are assigning. So in this case it is integer. Now let me just do this thing. What if I say x and if I say enter what it will do? So the moment you say x and enter it will print the value of x in this case which is nine right? What if I use a variable abc? Now of course we have not defined this variable right? And we are still trying to use it. The moment I say enter you got an error. The error is it says name error abc name abc is not defined and that's why we have not defined abc yet. So if you are using a variable which is not defined so it will of course give you an error. Now I will do one more thing. I will say x plus ten so of course it will give you nineteen. Now what if I want to add nineteen with y? I mean something in this way I would say nineteen plus y. But then if you think about this nineteen this is the output of the previous operation right? Now if you want to use the output of the previous operation we can use underscore. So underscore represents the output of the previous operation and if I say enter you can see we got twenty two. So it is nineteen plus three which is twenty two. So even this works right? So this is amazing you know there are so many things you can you can work with this. So we can use variables for numbers right? So we can use it for float or integer. What about string? Can I use names with can I use variables with string or a string variable? Let's try. So I will get a variable as name and I will use a name as YouTube and if I say enter oh it works and if I print name we got YouTube so it is perfectly working. So we can use string as well. So example I can say name plus YouTube rocks. So you can see we got YouTube rocks. So it is name which is YouTube plus rocks. Ok this even this work that's perfectly fine. In fact let me just do an experiment. Can I say name and space rocks? Ok this is not working. So we have to make sure that you put plus there because if you have plus then only it will try to interpret that. But there is one thing which is very fancy here you know. So we talk about YouTube it's a string right? And it's a combination of characters. That means if I want to fetch one character it should be able to do that right? And yes we can do that. So if I say name and if I want to fetch one character how will I do that? So let's say if I have a YouTube here and YouTube has seven letters or seven characters. If you when you break it down it will create an array or you can say collection of characters. The numbering starts with zero because normally in computers numbering always starts with zero. So here if you want to fetch it we have to use a square bracket and you have to mention zero. So we are specifying hey I want to fetch the first letter of name. So in this case it is Y. How it works? So now I will fetch the last one which is six which is E in this case. Now we got E. That works. Now I will fetch let's say eight. See we don't have eight we don't have nine characters right? We only have seven characters. So the first one is zero. The last one is six. How about eight? The moment you do that it will give you an error. It says index error string index out of range. So of course you are going out of your limit right? So you cannot do that. OK. Can I use negative numbers? Let's try. I will use minus one. So I want to I want your guess here what you think it will what it will do. Come on think about it. OK. So let me just enter it and let's see what happens. So when I say enter you got E. OK. So the answer is when you say minus number it will start from right to left. OK. So it will it will start with the ending. So which is E in this case. That means if I say minus two it will give you the second last letter which is B. That's right. And if I say minus seven which will be the first one right which is Y. Oh it works. It goes in reverse order now. Now what if I want to print two characters not one two. So let's say I want to print Y and O. So in this case I will say name and I will start with zero. Of course we want to print zero the first character and the second character right. That means we will give two. Now this two doesn't mean number of characters it means the ending. So I want to start with zero and one. So first two characters and you can see we got Y zero. The same thing if I do it for one colon four. So come on guess. So one means second character right. So it will start with O and it will end at three because you cannot include four. So it will it is exclusive of four. So it is one which is O U and T. Oh it works. We got out. Yes. Yes out. It works. Now what if I specify only one and colon. If I don't specify the ending what happens. In this case it will start with one and it will come it will go till the end. OK. That how it works. So if you don't specify the ending part it will go in that way. What if I specify the ending part but not the starting point. Example if I say if I if I keep it blank and after colon I will say four. Now in this case it will start with the first letter and it will end at three which is before four. And that's where you got Y O U T. So this is fun. Right. OK. What else we can do here. What if I specify name and I will give the wrong values. I will say three colon. Of course we don't have 10 characters right. Now in this case it will end at the last one which is available. So it will not give you any error in this at this case. You can see we got T U B E. T starts with T and then it's end at E because we don't have any other characters. So if you don't if you want to avoid errors this is what this one way. OK. Now can I change the letter example I don't want it to be YouTube. I want to I want it to be my tube. So I will say name from 0 to 3. I want to change this with my. Can I do that. So I'm changing Y O U to my. The moment I say enter you've got an error. It says string object does not support item assignment. So the thing is once you assign the value you cannot change it. Not even for one character. If I say 0 I want to change the first character to the thought you even this will not work. You can see we got the error so you cannot change the value. That means strings in Python is immutable. You cannot change the value of it. That's awesome. Right. But then that doesn't mean you cannot you cannot change while printing example. If I if I want to print my job you can do that. So first I will print my and then I will give up. I will give a space and then plus I want to print to write. So in that case I will say 3 colon 6. How maybe the ending part. So you can see we got my tube. If you don't want space you can do that you can say my and then without space you can type it to. So this works. Yeah. So this is how you work with the string. You work with variables. You can have a number of variables you can have a float variables and you can have a string variable as well. In fact with string we have one more thing. Let's say if you define a string which is let's say my name is a variable and my name here is Navin Reddy. And if I want to know the length of my name we can do that. So we have a length function and we can pass my name as I as I mentioned there are some inbuilt functions available in Python and one of them is length length. So you can see we got 11 characters. So that's it. That's it from this video. We have talked about different variables assignments and stuff. So I hope you are enjoying my session. Let me know in the comment section and do leave a like button if you're enjoying it. Thanks for watching everyone. Bye bye."
+}

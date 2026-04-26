@@ -1,0 +1,1223 @@
+{
+  "chunks": [
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 0.0,
+      "end": 9.28,
+      "text": " Welcome back aliens. My name is Devin Reddy. And let's continue with this series of Python."
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 9.28,
+      "end": 13.36,
+      "text": " Now we have talked about what is Python and we have talked about how to install Python"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 13.36,
+      "end": 17.36,
+      "text": " on your machine. It's time to start with the actual stuff right and we are waiting for"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 17.36,
+      "end": 22.6,
+      "text": " this. Now the step one would be of course you need to open your IDE. Like remember,"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 22.6,
+      "end": 27.080000000000002,
+      "text": " in the installation we have installed two softwares. One is the interpreter and second"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 27.08,
+      "end": 32.199999999999996,
+      "text": " is your PyCharm. But we will not be using PyCharm in this tutorial. We will start with"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 32.199999999999996,
+      "end": 38.04,
+      "text": " the basics so that you will be having that hands on experience on IDLE as well. So let's"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 38.04,
+      "end": 45.04,
+      "text": " try it out. So what I will do is I will open my IDLE and in that so this is your prompt."
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 45.04,
+      "end": 48.36,
+      "text": " So this is your prompt. This is where you will type your code now. Now before going"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 48.36,
+      "end": 53.239999999999995,
+      "text": " for the actual code, we have a question here. Why do we code and why do we write a code?"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 53.24,
+      "end": 56.800000000000004,
+      "text": " Now think about this. We are living in a world where everything is done with the help"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 56.800000000000004,
+      "end": 62.08,
+      "text": " of computers. Right. Example, if you want to send an SMS, if you want to send an email,"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 62.08,
+      "end": 66.0,
+      "text": " you don't have to do that. Your computer will do it for you if you instruct it. Example,"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 66.0,
+      "end": 70.96000000000001,
+      "text": " nowadays we have this amazing thing. You know, we have Siri on iPhone and then we have Google"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 70.96000000000001,
+      "end": 76.16,
+      "text": " Assistant on Android phones. You know, you can ask them to do things for you. Example,"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 76.16,
+      "end": 80.28,
+      "text": " you want to set an alarm. You can, you know, they will do it for you. But then how they"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 80.28,
+      "end": 84.48,
+      "text": " understand what you want to say. So you need to talk to a computer. And if you want to"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 84.48,
+      "end": 89.02,
+      "text": " talk to a computer, you need to understand their language. Right. And the language which"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 89.02,
+      "end": 93.4,
+      "text": " computer understands is binary code, which is zeros and ones. Now, that means if you"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 93.4,
+      "end": 97.24000000000001,
+      "text": " want to talk to computer, you need to you need to talk to them in terms of zeros and"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 97.24000000000001,
+      "end": 101.0,
+      "text": " ones. Now, it is not technically possible. Right. Of course. So what you have to do is"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 101.0,
+      "end": 106.34,
+      "text": " you need to use a language which will which both will understand. And of course, do we."
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 106.34,
+      "end": 111.3,
+      "text": " So we all know English language, but computer will not understand plain English. Right."
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 111.3,
+      "end": 116.34,
+      "text": " Because we have some grammatical stuff here. So what we have done is we have created programming"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 116.34,
+      "end": 121.7,
+      "text": " languages. Now, those are not actually example, we have high level languages. Now, those are"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 121.7,
+      "end": 128.62,
+      "text": " not exactly a binary code and they're not even exactly same as English. They are somewhat,"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 128.62,
+      "end": 132.94,
+      "text": " you know, they have their own protocols. They have their own grammar, which we use. So when"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 132.94,
+      "end": 137.3,
+      "text": " I say English, so we have level one English, then we have level two, which is programming"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 137.3,
+      "end": 141.62,
+      "text": " language. And then we have level three, which is your which is your binary format. So you"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 141.62,
+      "end": 145.1,
+      "text": " understand English. So what you will do is you will learn a programming language, let's"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 145.1,
+      "end": 150.18,
+      "text": " say Python in this case. And then you will write a Python code which will get converted"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 150.18,
+      "end": 154.02,
+      "text": " into binary format, which a computer will understand. So if you say, hey, computer,"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 154.02,
+      "end": 157.57999999999998,
+      "text": " do something for me. So let's go with a very simple stuff here. Let's say I want to add"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 157.57999999999998,
+      "end": 162.34,
+      "text": " two numbers. So you will say, hey, computer, two plus three, a computer will say, OK, five."
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 162.74,
+      "end": 165.70000000000002,
+      "text": " So then how do you talk to a computer in this case, so we are using Python, and then we"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 165.70000000000002,
+      "end": 170.06,
+      "text": " have interpreter. In fact, in Python is one of as we as we discussed, it's one of the"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 170.06,
+      "end": 173.94,
+      "text": " easiest language, right? So what I will do is I will say two plus three, this is the"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 173.94,
+      "end": 178.42000000000002,
+      "text": " simplest task you can do on Python. So I will say two plus three. It works. You can see"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 178.42000000000002,
+      "end": 183.14000000000001,
+      "text": " we got five. Yes, this is working. What else? What about subtraction? You know, we love"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 183.14000000000001,
+      "end": 187.38,
+      "text": " mathematics, right? So let's apply all the arithmetic operations here. Let's try nine"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 187.54,
+      "end": 192.74,
+      "text": " minus eight. It should be one. We got one. So, yes, subtraction also works. OK, what"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 192.74,
+      "end": 198.42,
+      "text": " else we can use? Can we use multiplication? Let's try four into six. It should be 24."
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 198.42,
+      "end": 202.26,
+      "text": " Yeah, that's right. We got the answer. So, yes, addition, subtraction, multiplication"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 202.26,
+      "end": 206.9,
+      "text": " works. What about division? OK, let's try. So when I say division, it should be eight"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 206.9,
+      "end": 212.9,
+      "text": " divided by four. And I'm expecting the answer to be two. Yeah, it's two. But hold on. There"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 212.9,
+      "end": 217.3,
+      "text": " is a difference here. You can see when we say two plus three, we got five, nine minus"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 217.3,
+      "end": 222.02,
+      "text": " eight, which is one. So when you subtract two numbers, we are getting that number. Right."
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 222.02,
+      "end": 226.34,
+      "text": " And specifically, these are integer numbers, right? We all use integers. But then when"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 226.34,
+      "end": 232.34,
+      "text": " you divide a number, it is giving you a point value. Now, this point is also float numbers."
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 232.34,
+      "end": 237.70000000000002,
+      "text": " So we have integers and then we have float. Now, float stands for floating point representation."
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 237.78,
+      "end": 244.98,
+      "text": " OK, but why it is 2.0? Because when you divide numbers, you might get point values. For example,"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 244.98,
+      "end": 249.78,
+      "text": " when you say five divided by two, you will get 2.5. Example, let's try it out. So if I say five"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 249.78,
+      "end": 254.98,
+      "text": " divided by two, you got 2.5 and you want that point five value, right? That's why it converts"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 254.98,
+      "end": 260.41999999999996,
+      "text": " your number or your output into a float value because you want it. They want to give you"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 260.41999999999996,
+      "end": 265.53999999999996,
+      "text": " the exact value. But what if you don't want it? What if you want only the quotient part?"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 265.54,
+      "end": 270.26000000000005,
+      "text": " Example, when I say five divided by two, you want only two. You don't want point five value."
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 270.26000000000005,
+      "end": 274.98,
+      "text": " So we can do that. You know, if you want only integer output, so we don't want float. Now,"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 274.98,
+      "end": 279.46000000000004,
+      "text": " we want only integer. You can do that. You can say five. Instead of giving one slash,"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 279.46000000000004,
+      "end": 283.86,
+      "text": " you have to give two slash. Now, this is also called as integer division or it is also called"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 283.86,
+      "end": 288.82000000000005,
+      "text": " flow division. So when I said on this code, you got two. So this is working. Yeah. OK."
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 288.82000000000005,
+      "end": 293.06,
+      "text": " What else we can do here? Can I do in a combination of this arithmetic operation?"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 293.06,
+      "end": 300.34,
+      "text": " Example, let's say eight plus nine. Yeah. And then subtracted by let's say 10. Is it possible?"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 300.34,
+      "end": 304.34,
+      "text": " And let's try it. So it works, you know, so you can have multiple operations,"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 304.34,
+      "end": 309.06,
+      "text": " but then we have to follow grammar. Right. If you say eight plus nine and then subtract,"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 309.06,
+      "end": 314.26,
+      "text": " you forgot to type 10 there. It will give you an error, which is invalid syntax. And that's why"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 314.26,
+      "end": 319.14,
+      "text": " you need to follow the grammar as well. So as in when you learn a language, you need to follow"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 319.14,
+      "end": 323.21999999999997,
+      "text": " grammar in the same way in programming as well. You have to follow grammar. Can I use those"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 323.21999999999997,
+      "end": 328.65999999999997,
+      "text": " brackets stuff which we used to use in mathematics? Yes, we can. Example, let's say we have eight"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 328.65999999999997,
+      "end": 334.26,
+      "text": " and then I'm adding that value. But then I also have a value which is two into three. Now, which"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 334.26,
+      "end": 338.26,
+      "text": " one will be done first? Of course, the multiplication part. Right. But then what if you"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 338.26,
+      "end": 343.62,
+      "text": " want to do it? Let's try this first. So you can see we got 14, which is eight plus six. But what"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 343.62,
+      "end": 348.18,
+      "text": " if I want to say eight plus two, which is 10 and then three? So in that case, you need to use"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 348.18,
+      "end": 352.98,
+      "text": " brackets. Right. If you remember the board muscle. So I would say eight plus two, which is in the"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 352.98,
+      "end": 357.78000000000003,
+      "text": " brackets and then into three. So you can see we got 30. So, yes, this also works. So when you"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 357.78000000000003,
+      "end": 362.18,
+      "text": " multiply. So if you give a bracket, it will be solved first. OK, this is good. Right now, what"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 362.18,
+      "end": 367.38,
+      "text": " else we can do here? What if I want to find a power of or you can say exponent? You know, so"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 367.38,
+      "end": 373.22,
+      "text": " let's say if you have two to three or five to six, how can I do that? So I will say two. I want to"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 373.22,
+      "end": 380.90000000000003,
+      "text": " find cube of two. So in that case, I can say two into two into two. We can do that. But then what"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 380.90000000000003,
+      "end": 385.3,
+      "text": " if you have to ten? You cannot simply type two into two into two in ten times. So this will give"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 385.3,
+      "end": 391.06,
+      "text": " you an answer is eight. Otherwise, you can say two. You can give double star and three. So double"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 391.06,
+      "end": 396.34000000000003,
+      "text": " star or double hashtag symbol simply means power of. So when you say two is two three. So this is"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 396.34000000000003,
+      "end": 401.46000000000004,
+      "text": " two hashtag hashtags three. And you can see we got eight. So that's how you have to find you have to"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 401.46,
+      "end": 405.78,
+      "text": " do this all this operation. So now we know how to add two numbers, how to subtract two numbers and"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 405.78,
+      "end": 410.9,
+      "text": " then multiplication, division, a flow division. What else we can do here? In fact, you know, we"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 410.9,
+      "end": 415.78,
+      "text": " can we can also do modulus. Now, what is modulus here? Let's say I'm dividing it. I'm doing two"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 415.78,
+      "end": 421.94,
+      "text": " numbers, which is ten divided by two or maybe three in this case. Now, it's a ten divided by"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 421.94,
+      "end": 425.94,
+      "text": " three. It will give you three. Right. But then we also have a remainder here, which is one."
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 425.94,
+      "end": 430.97999999999996,
+      "text": " So if I when I said ten divided by which is the integer division, you got three. That's right."
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 430.98,
+      "end": 436.1,
+      "text": " But what if I want the remainder part of it? So I would say ten. And we have to use a special"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 436.1,
+      "end": 440.58000000000004,
+      "text": " symbol here, which is modulus. And we'll say three. You can see we got one, which is a remainder. So"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 440.58000000000004,
+      "end": 445.22,
+      "text": " when you say ten mod three, you will get a remainder, which is one. OK, this works. Yeah."
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 445.86,
+      "end": 450.18,
+      "text": " Now, you know, all the operators, right? Now, what else we can do here? Now, till this point,"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 450.18,
+      "end": 455.78000000000003,
+      "text": " we have discussed about, you know, the we have discussed about two types. One is the integer"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 455.78,
+      "end": 460.9,
+      "text": " type, which we have done here. And then we have talked about float. What other types we can have"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 460.9,
+      "end": 465.38,
+      "text": " here? Can we have string? You know what a string means? It's a combination of characters. Example,"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 465.38,
+      "end": 471.7,
+      "text": " my name, Naveen, is a string. Python is a string. Camera is a string. YouTube is a string. Right."
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 471.7,
+      "end": 476.5,
+      "text": " So we have to use can we can we use string here? We can. Let's try. So what I will do is whenever"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 476.5,
+      "end": 481.21999999999997,
+      "text": " you want to use string, you should you should always use single quote or double quote. So let's"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 481.22,
+      "end": 486.26000000000005,
+      "text": " try. So I will use my name first. So I will say single quote and Naveen. So we have to use a quote"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 486.26000000000005,
+      "end": 490.82000000000005,
+      "text": " here. So you have to say Naveen and enter. You can see we got the same value. I mean, we got Naveen."
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 490.82000000000005,
+      "end": 494.98,
+      "text": " Now, there's another way of printing these values. You know, you can also print by providing some"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 494.98,
+      "end": 500.1,
+      "text": " functions. Oh, that's a new word now. Not a functions in Python language. We have certain"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 500.1,
+      "end": 504.82000000000005,
+      "text": " functions which we can use. And one of the function is print. Now, what print means or"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 504.82000000000005,
+      "end": 511.14000000000004,
+      "text": " what function means is it is a set of tasks which you will be doing. So example, in print, which is"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 511.62,
+      "end": 518.02,
+      "text": " inbuilt, it has a task which it will do. You just need to call it. Can we define our own functions?"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 518.02,
+      "end": 523.86,
+      "text": " Yes, we can. So print is an inbuilt function. We can define our own functions as well. So you can"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 523.86,
+      "end": 528.8199999999999,
+      "text": " do all these operations in one function. You can do that. But we'll see that later. How do we define"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 528.8199999999999,
+      "end": 533.3,
+      "text": " our own function? But time being, let's use print. And whenever you have a print, you normally give"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 533.3,
+      "end": 537.9399999999999,
+      "text": " this round back edge to pass any parameter. Let's say if you want to pass something to the function,"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 537.94,
+      "end": 542.2600000000001,
+      "text": " you can do it here. In this case, I want to pass my own name. So I'm saying print Naveen."
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 543.1400000000001,
+      "end": 548.6600000000001,
+      "text": " So you can see it works. We got Naveen as a value there. OK, that works. Now, if you see a difference"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 548.6600000000001,
+      "end": 553.7800000000001,
+      "text": " between Naveen, the earlier command here, if you compare this one with this one, see the output."
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 553.7800000000001,
+      "end": 558.34,
+      "text": " So the earlier one, the single code is getting printed as well. But in the second one, it is"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 558.34,
+      "end": 563.22,
+      "text": " only printing my name. And that looks beautiful. OK, let's try to print something else. I will say"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 563.22,
+      "end": 569.7,
+      "text": " print. And here I want to print, let's say, Naveen's laptop. So Naveen's laptop. It should"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 569.7,
+      "end": 575.22,
+      "text": " print Naveen's laptop. Right. When I say enter. Oh, we got an error. That's weird. Now, what went"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 575.22,
+      "end": 579.3000000000001,
+      "text": " wrong here? Now, if you observe here, we have single code as a starting one. And then we also"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 579.3000000000001,
+      "end": 585.5400000000001,
+      "text": " have a single code here. So that means that is one string. And then this thing, which is S laptop,"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 585.5400000000001,
+      "end": 590.6600000000001,
+      "text": " it is not as a part of that single code. That's where the problem starts. So you cannot simply"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 590.66,
+      "end": 595.62,
+      "text": " have single code anywhere. Right. So how do you solve this problem? To solve this problem,"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 595.62,
+      "end": 600.3399999999999,
+      "text": " we have two solutions. The first one is you instead of using single code, you can use double"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 600.3399999999999,
+      "end": 606.5,
+      "text": " codes. Example, you can say print and in double codes, you can say Naveen's laptop. Now, since"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 606.5,
+      "end": 609.9399999999999,
+      "text": " so starting and ending is done with the help of double codes, you don't have to worry about the"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 609.9399999999999,
+      "end": 615.78,
+      "text": " single code in between. And if I say enter and you can see we got the output as Naveen's laptop."
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 615.78,
+      "end": 619.38,
+      "text": " Now, what else? What are the commands we can do? So this this thing works here. I will let"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 619.38,
+      "end": 624.98,
+      "text": " me think about this. What if I want to print double codes in a statement? Let's say we have"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 624.98,
+      "end": 631.06,
+      "text": " print inside the book codes. I'm saying Naveen laptop, but I want to print laptop in double"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 631.06,
+      "end": 636.34,
+      "text": " codes. Can I do that? Example, the output should be Naveen and laptop, but then the laptop should"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 636.34,
+      "end": 640.34,
+      "text": " be in double codes. We cannot do that because, you know, the first double codes and second double"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 640.34,
+      "end": 645.22,
+      "text": " codes will be getting entered here. So this this is my first string. What about this laptop? Now,"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 645.22,
+      "end": 651.22,
+      "text": " in that case, we will be using single code. So single code and end with single code. So you have"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 651.22,
+      "end": 656.9,
+      "text": " to make sure the string part should be different from the part which are inside. So if inside we"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 656.9,
+      "end": 661.38,
+      "text": " have double codes, then outside we should be using single code. Right. That makes sense. Right. So"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 661.38,
+      "end": 666.74,
+      "text": " you can see we got the output. But here's a trick. What if I what if I have both in the string?"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 666.74,
+      "end": 673.38,
+      "text": " Example, let's say we have print. I want to say Naveen's laptop. And you can see we have both."
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 673.38,
+      "end": 678.26,
+      "text": " Now we have double codes and we have single code both. That's where the problem starts. So what you"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 678.26,
+      "end": 684.42,
+      "text": " will do now, because if I say enter, you got invalid syntax. In that case, we will say single"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 684.42,
+      "end": 690.26,
+      "text": " code Naveen's and then in double codes, we'll say laptop. The issue is with this S, right? This S is"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 690.26,
+      "end": 695.22,
+      "text": " coming before a single code. So we have to tell your Python, hey, Python, can you just skip that"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 695.78,
+      "end": 700.82,
+      "text": " special meaning of that single code? And the way you do that is by giving a slash. So when you say"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 700.82,
+      "end": 704.9000000000001,
+      "text": " backslash, it will make sure that you it will ignore the special meaning of that single code."
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 704.9000000000001,
+      "end": 710.0200000000001,
+      "text": " So when I say enter, it works. So these are the basic fundamentals which we're talking about."
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 710.0200000000001,
+      "end": 713.5400000000001,
+      "text": " Now let's do some fun here. So again, we'll continue with the print later. But we have some"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 713.5400000000001,
+      "end": 718.6600000000001,
+      "text": " fun thing here. What if you want to print Naveen two times or you want to print Naveen three times?"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 718.6600000000001,
+      "end": 723.7,
+      "text": " Can I do that? Of course we can. Right. You can type Naveen and then Naveen again. Or you can"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 723.7,
+      "end": 728.2600000000001,
+      "text": " also use a plus character here. So if you want to concatenate two strings, so we have two strings"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 728.26,
+      "end": 733.62,
+      "text": " here, right? We have Naveen and we have Naveen. So when I say enter, so you can see we have Naveen"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 733.62,
+      "end": 738.1,
+      "text": " and Naveen. So we are combining it. What if I want to print Naveen three times or ten times?"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 738.1,
+      "end": 742.74,
+      "text": " In that case, you know, you can play with the numbers as well. So you can say ten into in"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 742.74,
+      "end": 746.74,
+      "text": " single code, you can say Naveen and say enter. You can see we got Naveen ten times. Yeah."
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 746.74,
+      "end": 751.54,
+      "text": " So Python is fun, actually. You know, you can you can play with it. You can do some experiment."
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 751.54,
+      "end": 756.74,
+      "text": " That's amazing. What if I want to print this one? You tell me. OK, you get you try to guess it."
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 756.74,
+      "end": 761.22,
+      "text": " Will it work or not? Just pause the video, guess it. Let me know in the comments section if it will"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 761.22,
+      "end": 766.82,
+      "text": " work or not, and then we can continue. What I will do is I will print something. I would say C colon slash."
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 766.82,
+      "end": 772.9,
+      "text": " I have a directory called docs slash Naveen. So pause the video, think about it and let's see"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 773.46,
+      "end": 779.78,
+      "text": " what output you're giving. Let's try and say enter. Oh, this is weird. We were expecting it will print"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 779.78,
+      "end": 786.42,
+      "text": " C colon docs slash Naveen. But unfortunately, it is giving a new line and then Avin. What's wrong?"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 787.22,
+      "end": 793.94,
+      "text": " Now, slash N has a special meaning in Python. What is that special meaning? And the meaning is"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 793.94,
+      "end": 799.54,
+      "text": " it means new line. So slash N means new line. And that's what is happening here. It prints. It is"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 799.54,
+      "end": 805.22,
+      "text": " printing C colon slash docs. And then it comes to a new line because of slash and it is saying Avin."
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 805.22,
+      "end": 810.66,
+      "text": " OK, what I do is I want to print it. I want to print it as it is. How do I do that? It's very"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 810.66,
+      "end": 816.42,
+      "text": " simple. You just need to cancel the special meaning of that thing. Right. So you want to"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 816.42,
+      "end": 821.86,
+      "text": " print this string as it is, which is also called a raw string. So I want to print this one as a raw"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 821.86,
+      "end": 828.74,
+      "text": " string. In that case, you just specify R before the thing and you will say C colon slash docs"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 828.74,
+      "end": 833.62,
+      "text": " slash Naveen. So we are printing this stuff as it is. So when you say R, it means raw string."
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 833.62,
+      "end": 838.1,
+      "text": " Don't try to convert it. That's what you are saying to Python. Hey, don't just try to don't"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 838.1,
+      "end": 843.7,
+      "text": " try to convert that slash into a new special character and center. It works. Yeah. So everything"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 843.7,
+      "end": 848.9,
+      "text": " is looking good now. So I hope you enjoyed this stuff, which we are doing here, playing with this"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 848.9,
+      "end": 853.0600000000001,
+      "text": " stuff. And in this video, we have only talked about how can we use certain operators and then"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 853.0600000000001,
+      "end": 857.78,
+      "text": " playing with printf. In the next video, we're going to talk about how to use variables. Now,"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 857.78,
+      "end": 862.5,
+      "text": " if you are enjoying this series, let me know in the comment section about your thoughts. And if"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 862.5,
+      "end": 866.82,
+      "text": " you have any questions, you can put that as well. I do read your comments, by the way. And so that I"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 866.82,
+      "end": 870.82,
+      "text": " can answer that in the next video. And if you are liking my videos, so click on the like button"
+    },
+    {
+      "number": "3",
+      "title": "Python Tutorial for Beginners | Getting Started with Python",
+      "start": 870.82,
+      "end": 874.5,
+      "text": " and do subscribe the channel for further videos. Thank you so much, everyone. Bye."
+    }
+  ],
+  "text": " Welcome back aliens. My name is Devin Reddy. And let's continue with this series of Python. Now we have talked about what is Python and we have talked about how to install Python on your machine. It's time to start with the actual stuff right and we are waiting for this. Now the step one would be of course you need to open your IDE. Like remember, in the installation we have installed two softwares. One is the interpreter and second is your PyCharm. But we will not be using PyCharm in this tutorial. We will start with the basics so that you will be having that hands on experience on IDLE as well. So let's try it out. So what I will do is I will open my IDLE and in that so this is your prompt. So this is your prompt. This is where you will type your code now. Now before going for the actual code, we have a question here. Why do we code and why do we write a code? Now think about this. We are living in a world where everything is done with the help of computers. Right. Example, if you want to send an SMS, if you want to send an email, you don't have to do that. Your computer will do it for you if you instruct it. Example, nowadays we have this amazing thing. You know, we have Siri on iPhone and then we have Google Assistant on Android phones. You know, you can ask them to do things for you. Example, you want to set an alarm. You can, you know, they will do it for you. But then how they understand what you want to say. So you need to talk to a computer. And if you want to talk to a computer, you need to understand their language. Right. And the language which computer understands is binary code, which is zeros and ones. Now, that means if you want to talk to computer, you need to you need to talk to them in terms of zeros and ones. Now, it is not technically possible. Right. Of course. So what you have to do is you need to use a language which will which both will understand. And of course, do we. So we all know English language, but computer will not understand plain English. Right. Because we have some grammatical stuff here. So what we have done is we have created programming languages. Now, those are not actually example, we have high level languages. Now, those are not exactly a binary code and they're not even exactly same as English. They are somewhat, you know, they have their own protocols. They have their own grammar, which we use. So when I say English, so we have level one English, then we have level two, which is programming language. And then we have level three, which is your which is your binary format. So you understand English. So what you will do is you will learn a programming language, let's say Python in this case. And then you will write a Python code which will get converted into binary format, which a computer will understand. So if you say, hey, computer, do something for me. So let's go with a very simple stuff here. Let's say I want to add two numbers. So you will say, hey, computer, two plus three, a computer will say, OK, five. So then how do you talk to a computer in this case, so we are using Python, and then we have interpreter. In fact, in Python is one of as we as we discussed, it's one of the easiest language, right? So what I will do is I will say two plus three, this is the simplest task you can do on Python. So I will say two plus three. It works. You can see we got five. Yes, this is working. What else? What about subtraction? You know, we love mathematics, right? So let's apply all the arithmetic operations here. Let's try nine minus eight. It should be one. We got one. So, yes, subtraction also works. OK, what else we can use? Can we use multiplication? Let's try four into six. It should be 24. Yeah, that's right. We got the answer. So, yes, addition, subtraction, multiplication works. What about division? OK, let's try. So when I say division, it should be eight divided by four. And I'm expecting the answer to be two. Yeah, it's two. But hold on. There is a difference here. You can see when we say two plus three, we got five, nine minus eight, which is one. So when you subtract two numbers, we are getting that number. Right. And specifically, these are integer numbers, right? We all use integers. But then when you divide a number, it is giving you a point value. Now, this point is also float numbers. So we have integers and then we have float. Now, float stands for floating point representation. OK, but why it is 2.0? Because when you divide numbers, you might get point values. For example, when you say five divided by two, you will get 2.5. Example, let's try it out. So if I say five divided by two, you got 2.5 and you want that point five value, right? That's why it converts your number or your output into a float value because you want it. They want to give you the exact value. But what if you don't want it? What if you want only the quotient part? Example, when I say five divided by two, you want only two. You don't want point five value. So we can do that. You know, if you want only integer output, so we don't want float. Now, we want only integer. You can do that. You can say five. Instead of giving one slash, you have to give two slash. Now, this is also called as integer division or it is also called flow division. So when I said on this code, you got two. So this is working. Yeah. OK. What else we can do here? Can I do in a combination of this arithmetic operation? Example, let's say eight plus nine. Yeah. And then subtracted by let's say 10. Is it possible? And let's try it. So it works, you know, so you can have multiple operations, but then we have to follow grammar. Right. If you say eight plus nine and then subtract, you forgot to type 10 there. It will give you an error, which is invalid syntax. And that's why you need to follow the grammar as well. So as in when you learn a language, you need to follow grammar in the same way in programming as well. You have to follow grammar. Can I use those brackets stuff which we used to use in mathematics? Yes, we can. Example, let's say we have eight and then I'm adding that value. But then I also have a value which is two into three. Now, which one will be done first? Of course, the multiplication part. Right. But then what if you want to do it? Let's try this first. So you can see we got 14, which is eight plus six. But what if I want to say eight plus two, which is 10 and then three? So in that case, you need to use brackets. Right. If you remember the board muscle. So I would say eight plus two, which is in the brackets and then into three. So you can see we got 30. So, yes, this also works. So when you multiply. So if you give a bracket, it will be solved first. OK, this is good. Right now, what else we can do here? What if I want to find a power of or you can say exponent? You know, so let's say if you have two to three or five to six, how can I do that? So I will say two. I want to find cube of two. So in that case, I can say two into two into two. We can do that. But then what if you have to ten? You cannot simply type two into two into two in ten times. So this will give you an answer is eight. Otherwise, you can say two. You can give double star and three. So double star or double hashtag symbol simply means power of. So when you say two is two three. So this is two hashtag hashtags three. And you can see we got eight. So that's how you have to find you have to do this all this operation. So now we know how to add two numbers, how to subtract two numbers and then multiplication, division, a flow division. What else we can do here? In fact, you know, we can we can also do modulus. Now, what is modulus here? Let's say I'm dividing it. I'm doing two numbers, which is ten divided by two or maybe three in this case. Now, it's a ten divided by three. It will give you three. Right. But then we also have a remainder here, which is one. So if I when I said ten divided by which is the integer division, you got three. That's right. But what if I want the remainder part of it? So I would say ten. And we have to use a special symbol here, which is modulus. And we'll say three. You can see we got one, which is a remainder. So when you say ten mod three, you will get a remainder, which is one. OK, this works. Yeah. Now, you know, all the operators, right? Now, what else we can do here? Now, till this point, we have discussed about, you know, the we have discussed about two types. One is the integer type, which we have done here. And then we have talked about float. What other types we can have here? Can we have string? You know what a string means? It's a combination of characters. Example, my name, Naveen, is a string. Python is a string. Camera is a string. YouTube is a string. Right. So we have to use can we can we use string here? We can. Let's try. So what I will do is whenever you want to use string, you should you should always use single quote or double quote. So let's try. So I will use my name first. So I will say single quote and Naveen. So we have to use a quote here. So you have to say Naveen and enter. You can see we got the same value. I mean, we got Naveen. Now, there's another way of printing these values. You know, you can also print by providing some functions. Oh, that's a new word now. Not a functions in Python language. We have certain functions which we can use. And one of the function is print. Now, what print means or what function means is it is a set of tasks which you will be doing. So example, in print, which is inbuilt, it has a task which it will do. You just need to call it. Can we define our own functions? Yes, we can. So print is an inbuilt function. We can define our own functions as well. So you can do all these operations in one function. You can do that. But we'll see that later. How do we define our own function? But time being, let's use print. And whenever you have a print, you normally give this round back edge to pass any parameter. Let's say if you want to pass something to the function, you can do it here. In this case, I want to pass my own name. So I'm saying print Naveen. So you can see it works. We got Naveen as a value there. OK, that works. Now, if you see a difference between Naveen, the earlier command here, if you compare this one with this one, see the output. So the earlier one, the single code is getting printed as well. But in the second one, it is only printing my name. And that looks beautiful. OK, let's try to print something else. I will say print. And here I want to print, let's say, Naveen's laptop. So Naveen's laptop. It should print Naveen's laptop. Right. When I say enter. Oh, we got an error. That's weird. Now, what went wrong here? Now, if you observe here, we have single code as a starting one. And then we also have a single code here. So that means that is one string. And then this thing, which is S laptop, it is not as a part of that single code. That's where the problem starts. So you cannot simply have single code anywhere. Right. So how do you solve this problem? To solve this problem, we have two solutions. The first one is you instead of using single code, you can use double codes. Example, you can say print and in double codes, you can say Naveen's laptop. Now, since so starting and ending is done with the help of double codes, you don't have to worry about the single code in between. And if I say enter and you can see we got the output as Naveen's laptop. Now, what else? What are the commands we can do? So this this thing works here. I will let me think about this. What if I want to print double codes in a statement? Let's say we have print inside the book codes. I'm saying Naveen laptop, but I want to print laptop in double codes. Can I do that? Example, the output should be Naveen and laptop, but then the laptop should be in double codes. We cannot do that because, you know, the first double codes and second double codes will be getting entered here. So this this is my first string. What about this laptop? Now, in that case, we will be using single code. So single code and end with single code. So you have to make sure the string part should be different from the part which are inside. So if inside we have double codes, then outside we should be using single code. Right. That makes sense. Right. So you can see we got the output. But here's a trick. What if I what if I have both in the string? Example, let's say we have print. I want to say Naveen's laptop. And you can see we have both. Now we have double codes and we have single code both. That's where the problem starts. So what you will do now, because if I say enter, you got invalid syntax. In that case, we will say single code Naveen's and then in double codes, we'll say laptop. The issue is with this S, right? This S is coming before a single code. So we have to tell your Python, hey, Python, can you just skip that special meaning of that single code? And the way you do that is by giving a slash. So when you say backslash, it will make sure that you it will ignore the special meaning of that single code. So when I say enter, it works. So these are the basic fundamentals which we're talking about. Now let's do some fun here. So again, we'll continue with the print later. But we have some fun thing here. What if you want to print Naveen two times or you want to print Naveen three times? Can I do that? Of course we can. Right. You can type Naveen and then Naveen again. Or you can also use a plus character here. So if you want to concatenate two strings, so we have two strings here, right? We have Naveen and we have Naveen. So when I say enter, so you can see we have Naveen and Naveen. So we are combining it. What if I want to print Naveen three times or ten times? In that case, you know, you can play with the numbers as well. So you can say ten into in single code, you can say Naveen and say enter. You can see we got Naveen ten times. Yeah. So Python is fun, actually. You know, you can you can play with it. You can do some experiment. That's amazing. What if I want to print this one? You tell me. OK, you get you try to guess it. Will it work or not? Just pause the video, guess it. Let me know in the comments section if it will work or not, and then we can continue. What I will do is I will print something. I would say C colon slash. I have a directory called docs slash Naveen. So pause the video, think about it and let's see what output you're giving. Let's try and say enter. Oh, this is weird. We were expecting it will print C colon docs slash Naveen. But unfortunately, it is giving a new line and then Avin. What's wrong? Now, slash N has a special meaning in Python. What is that special meaning? And the meaning is it means new line. So slash N means new line. And that's what is happening here. It prints. It is printing C colon slash docs. And then it comes to a new line because of slash and it is saying Avin. OK, what I do is I want to print it. I want to print it as it is. How do I do that? It's very simple. You just need to cancel the special meaning of that thing. Right. So you want to print this string as it is, which is also called a raw string. So I want to print this one as a raw string. In that case, you just specify R before the thing and you will say C colon slash docs slash Naveen. So we are printing this stuff as it is. So when you say R, it means raw string. Don't try to convert it. That's what you are saying to Python. Hey, don't just try to don't try to convert that slash into a new special character and center. It works. Yeah. So everything is looking good now. So I hope you enjoyed this stuff, which we are doing here, playing with this stuff. And in this video, we have only talked about how can we use certain operators and then playing with printf. In the next video, we're going to talk about how to use variables. Now, if you are enjoying this series, let me know in the comment section about your thoughts. And if you have any questions, you can put that as well. I do read your comments, by the way. And so that I can answer that in the next video. And if you are liking my videos, so click on the like button and do subscribe the channel for further videos. Thank you so much, everyone. Bye."
+}

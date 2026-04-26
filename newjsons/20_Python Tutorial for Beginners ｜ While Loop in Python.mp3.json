@@ -1,0 +1,166 @@
+{
+    "chunks": [
+        {
+            "number": "20",
+            "title": "Python Tutorial for Beginners | While Loop in Python",
+            "start": 0.0,
+            "end": 38.800000000000004,
+            "text": " Welcome back aliens my name is Avin20 and let's continue with the series on Python and  in this video we will talk about loops.  Now what exactly loop means?  Now in programming what you do is you sometimes you need to repeat the statements.  Example let's say you have written 5 statements and maybe you want to repeat them.  How will you repeat them?  Of course there is one way you can copy paste the same code multiple times.  Example let's say I want to print telescope.  So I want to print telescope once and if I run this code of course it will print only  once.  What if I want to print telescope 2 times?  So what we can do is we can just copy paste it."
+        },
+        {
+            "number": "20",
+            "title": "Python Tutorial for Beginners | While Loop in Python",
+            "start": 38.800000000000004,
+            "end": 71.36,
+            "text": " So we are good with this.  So I will copy paste it and we got 2 telescopes and if I run this code you can see we got  2 telescopes.  That's working.  What if I want to print telescope 10 times?  What you will do now?  Of course you can copy paste it 10 times.  But don't you think you are doing manual work?  What if I want to print 1000 times?  It will be difficult to do that right?  Now the best way to do it is applying a loop.  What you can do here is you can say hey python I want to repeat the same statement multiple  times.  To do that we can use loops.  And we can use 2 type of loops."
+        },
+        {
+            "number": "20",
+            "title": "Python Tutorial for Beginners | While Loop in Python",
+            "start": 71.36,
+            "end": 101.52,
+            "text": " One is called as while loop and second is called as for loop.  Let's focus on while here.  So we can use a while.  So while is a keyword and then you have to specify the condition.  See while will say ok my job is to repeat this statement multiple times but then tell  me for how much time you want to do that.  I will say ok do it for 5 times.  But how will I do that?  So when you say you want to do it for 5 times we count right?  We need a counter here.  Example if I say hey you say hello 5 times.  I am talking to you here ok.  So say hello 5 times."
+        },
+        {
+            "number": "20",
+            "title": "Python Tutorial for Beginners | While Loop in Python",
+            "start": 101.52,
+            "end": 137.0,
+            "text": " What you will do is in your mind you will be saying hello once ok hello second time  hello hello and hello.  So you have a counter there right?  In the same way we need a counter here.  For that I will be using a variable called as i and I will say i starts with 1 and then  every time ok first of all you have to check right?  How will I check?  If the value of i is less than equal to 5.  Ok we have to apply a condition right?  So step 1 would be take a counter a variable which is i in this case and check if the value  of i is less than 5 and every time you print the disco just increment the value of i right?"
+        },
+        {
+            "number": "20",
+            "title": "Python Tutorial for Beginners | While Loop in Python",
+            "start": 137.0,
+            "end": 170.1,
+            "text": " So because you are doing it here right?  So you are saying hello hello.  So you are incrementing the value.  So you will say i is equal to i plus 1.  That's it.  It's so simple.  And remember the syntax.  So we have to use a while then we have to specify the condition and a colon.  Now this colon specifies whatever is coming ahead is a part of this block.  And this to statement belongs to the same suit.  Because we are using a proper indentation here.  And now let me just run this code and you can see we got the disco 5 times.  So what is happening behind the scene?  And how do I know that?  It's very simple."
+        },
+        {
+            "number": "20",
+            "title": "Python Tutorial for Beginners | While Loop in Python",
+            "start": 170.1,
+            "end": 204.7,
+            "text": " So I have the breakpoint and now let's debug it.  I love this thing debugging and then say f8 and you can see the value of i is 1.  Okay that's done.  And then if I again say f8 it is printing the disco once and you can see that in the  console.  Okay you can see that we got hello once and if I go back to debug it again the value of  i now so the moment I say f8 the value of i becomes 2.  You can see the value of i is 2 now and it will check if 2 is less than 5.  Yes it will go ahead and it will print telescope.  You can see if I go back to console it telescope will print second time and then if I say f8"
+        },
+        {
+            "number": "20",
+            "title": "Python Tutorial for Beginners | While Loop in Python",
+            "start": 204.7,
+            "end": 234.18,
+            "text": " again you can see we got value of i is 3.  Is 3 less than 5?  Yes it will go ahead it will print.  It will then try to print the statement which is telescope and you can see in the console  we got telescope 3 times and now the value of i is 4.  So you can see the value of i is 4.  And then if I say f8 it will print telescope fourth time.  You can see that in console.  If I switch back to there you can see we got telescope 4 times and then the value of i  now is 5.  Is 5 less than or equal to 5?  Yes you can see we have equal to there."
+        },
+        {
+            "number": "20",
+            "title": "Python Tutorial for Beginners | While Loop in Python",
+            "start": 234.18,
+            "end": 268.74,
+            "text": " The evaluation is also true.  You can see that the pop up.  If I say f8 it will print telescope fifth time.  You can see we got fifth time and if I go to debug it again say f8 and you can see the  value of i is 6.  Now the value of i is 6.  Is 6 less than or equal to 5?  No that's a false.  You can see the pop up which is false and if I say f8 now it will come out and that's  why you got 5 times telescope.  So this is how you can use while loop.  Now three things are important here.  First is the initialization.  Second is the condition and third one is increment."
+        },
+        {
+            "number": "20",
+            "title": "Python Tutorial for Beginners | While Loop in Python",
+            "start": 268.74,
+            "end": 300.06,
+            "text": " Oh can we do decrement here?  Yes we can do decrement as well.  So you can do reverse right.  Sometimes we go in this way hello hello hello hello hello or we can say so let's say we  will do reverse.  Hello hello hello hello hello right.  So we can do that as well.  So we start with 5 and then we reverse the condition we'll say i is greater than or equal  to 1 and instead of saying i is equal to i plus 1 we'll say i is equal to i minus 1.  We are going reverse order.  Let's run this code.  It works.  You can see we got 5 times hello.  So we can go ascending or we can do descending your choice."
+        },
+        {
+            "number": "20",
+            "title": "Python Tutorial for Beginners | While Loop in Python",
+            "start": 300.06,
+            "end": 330.65999999999997,
+            "text": " So there are three things important here.  One assign the value then condition and then increment or decrement.  Now let's say I don't want to print telescope here.  I want to print the value itself or maybe I want to print telescope with the value.  So we can do that.  So we can say space comma I want to print the value of i as well.  Let's run this code and you can see it is printing telescope 5 telescope 4 telescope  3 telescope 2 telescope 1.  So you can do that.  OK this is how you work with while loop.  Now can I use multiple while inside of while you can do that.  So we have done that before as well."
+        },
+        {
+            "number": "20",
+            "title": "Python Tutorial for Beginners | While Loop in Python",
+            "start": 330.65999999999997,
+            "end": 366.29999999999995,
+            "text": " Right.  Example I will print telescope once and then while I'm printing telescope once I want to  print telescope rocks multiple times.  I want to print telescope rocks.  I want to print rocks five times.  So I will do I will say while.  Oh now I want to say five times I have to use a different variable.  Right.  And I will be using a variable here which is J is equal to 1 again.  We'll say J less than equal to 4.  Let's say I want to I want to print rocks four times.  We'll give a colon and we'll say print rocks.  That's good.  So it will print telescope and then rocks four times.  I don't want to print the value of i now."
+        },
+        {
+            "number": "20",
+            "title": "Python Tutorial for Beginners | While Loop in Python",
+            "start": 366.29999999999995,
+            "end": 400.90000000000003,
+            "text": " So it will print telescope and rocks four times.  So before executing this you try to get the output.  OK.  It's you it's depend upon you now.  You tell me what's the output.  OK.  Will it print telescope rocks.  See telescope itself will get will be getting printed five times.  Right.  And then on every line you will get rocks four times.  This is what you want.  Right.  But if I run this code.  Oh that's weird.  It's not stopping anywhere.  You know why it's not stopping because we forgot to increment the value of J.  And now you learn from mistakes.  Let's run this code once again.  And you can see we got the telescope rocks rocks rocks four times and then again telescope"
+        },
+        {
+            "number": "20",
+            "title": "Python Tutorial for Beginners | While Loop in Python",
+            "start": 400.90000000000003,
+            "end": 433.21999999999997,
+            "text": " four times.  That's that's that is not something which we want.  What is going wrong here.  Let's try to debug this.  You know.  So I will just say hey debug the application.  Now you can see the value of i is five.  In fact you know just to make it more simple.  Let's go with one.  Let's go with increment so that it will be easier for understanding because once you  understand the basic stuff you can try it on your own.  And remember this we are using while inside a while.  So this is nested while loop.  Let me just debug this by applying a breakpoint.  Let me say F8 and you can see the value of i is one."
+        },
+        {
+            "number": "20",
+            "title": "Python Tutorial for Beginners | While Loop in Python",
+            "start": 433.21999999999997,
+            "end": 468.42,
+            "text": " Remember this values the value of J is one is one less than five.  Yes let's go inside.  It will print telescope of course and you can see in the output console we will be getting  telescope now.  We got telescope.  Now what's the value of J.  It's one one less than four.  Yes it will go ahead it will print rocks.  It will execute this J equal to J plus one.  So now the value for J is two.  If I say F8 the value of J is two.  But look at the jump.  It is not jumping outside.  It's not jumping back to this loop.  It is jumping back to the inner loop because first it will complete the inner loop then"
+        },
+        {
+            "number": "20",
+            "title": "Python Tutorial for Beginners | While Loop in Python",
+            "start": 468.42,
+            "end": 503.18,
+            "text": " it will go back to the outer loop.  Right.  It is something like you know we have seven days a week and each day has 24 hours.  Right.  So you can imagine the number of days is the outer loop and the number of hours is the  inner loop.  Right.  So what it means.  Let's say if you start with Sunday.  Sunday has 24 hours.  It will start with 0th hour then 1 hour 2nd hour 3rd hour 4th hour.  Now when you complete the entire 24 hours it will go for the new day which is Monday  in this case.  On Monday as well we have the same hours right 0th hour 1th hour.  So that means every time you change your day it will restart the number of counting for"
+        },
+        {
+            "number": "20",
+            "title": "Python Tutorial for Beginners | While Loop in Python",
+            "start": 503.18,
+            "end": 535.86,
+            "text": " your hours.  So it will first complete the hours.  Right.  So the same thing is happening here.  So if I say F8 again it prints rocks.  It will it will increment the value of J to three.  And that's why you can see if you see the output we got one telescope but two time rocks.  OK.  So that works.  In fact we wanted this right.  We wanted one telescope and four rocks.  OK.  We'll do that.  We'll think about that.  If I run this you can see we got rocks and once it is getting completed once the value  of J becomes five you can see that the value of J now is five.  If I run this again it is false and now it is focusing on I."
+        },
+        {
+            "number": "20",
+            "title": "Python Tutorial for Beginners | While Loop in Python",
+            "start": 535.86,
+            "end": 571.4200000000001,
+            "text": " So I value is two now.  It went back there and then again if I say F8 it will print telescope of course.  But look at the value of J. J is five.  That's what things are going wrong.  Now since J is five it is not continuing ahead.  That was a mistake.  So to solve this problem what we can do is first we have to do two things.  I want to print rocks on the same line.  Right.  I don't want to print rocks on new line.  So what we can do is after telescope I can give a comma and say and is equal to double  quotes.  Now what it means by default when you say print it will print the statement and comes"
+        },
+        {
+            "number": "20",
+            "title": "Python Tutorial for Beginners | While Loop in Python",
+            "start": 571.4200000000001,
+            "end": 605.78,
+            "text": " on new line.  I don't want new line.  I want to print on same line.  Example here if you see it is printing telescope and then it is coming on new line.  I don't want that.  I want it to be.  I want it to print telescope and stay on the same line.  Same thing can be done for rocks.  I would say hey don't go on new line stay on the same line.  Now I hope it will come on same line.  If I say run.  So that we got everything on same line.  OK we don't want that.  We don't want all telescope on same line.  We want telescope on new line.  So after incrementing I will say print because see after completing one telescope I want"
+        },
+        {
+            "number": "20",
+            "title": "Python Tutorial for Beginners | While Loop in Python",
+            "start": 605.78,
+            "end": 638.5,
+            "text": " to print on new line.  So I will say run.  You can see we got telescope on new lines but then rocks is coming only for four times  here.  What is going wrong.  The value of j reached 5 here.  So what I will do is every time I start with the outer loop I want to restart the value  for j which is 1.  It's important every time.  In fact we don't we should not be declaring the value here.  Let's start here.  OK so it will initialize here.  For the condition here and then increment here itself.  Let's run this.  This we want.  So we got telescope rocks rocks rocks.  Now how it is working.  Let's again go for debug."
+        },
+        {
+            "number": "20",
+            "title": "Python Tutorial for Beginners | While Loop in Python",
+            "start": 638.5,
+            "end": 667.98,
+            "text": " We'll say debug and say f8.  You can see the value of i is 1.  i less than 5.  Yes it's 1.  It will print telescope and it will not go on new line.  OK it will stay on the same line.  Let me jump to console and you can see if I say f8 telescope on same line.  OK there is not jumping to next line.  The value for j is 1.  Is 1 less than 4.  Yes it will go ahead.  And it will print rocks.  And you can see rocks on the same line.  And then the value of j is getting incremented to 2 now.  So you can see the value for j is 2 here."
+        },
+        {
+            "number": "20",
+            "title": "Python Tutorial for Beginners | While Loop in Python",
+            "start": 667.98,
+            "end": 700.02,
+            "text": " And then again it will come back.  It will print rocks and it will go for j value which is 3.  And then it will again 3 is less than 4.  It will print rocks and then j value is 4.  And then it will check is 4 equal to 4.  Yes it will print rocks.  And the value for j is now 5.  Now 5 is not less than equal to 4.  It will come out.  But where?  It will come out to this next statement which is i is equal to i plus 1.  Now in this case i equal to i plus 1 will increment the value for i.  So it will make it 2.  And then since we are printing."
+        },
+        {
+            "number": "20",
+            "title": "Python Tutorial for Beginners | While Loop in Python",
+            "start": 700.02,
+            "end": 732.5799999999999,
+            "text": " Since we are doing print it will come on new line.  You can see the cursor now.  Cursor is on new line.  I will say.  I mean it will continue.  OK so it will do the same thing which we have done till now.  So if I go fast fast fast see that.  See the sequence.  So this is how your loops are working.  Now see since I am doing this I have worked on this for a long time.  So I know how it works.  Now if you are a fresher you might find this thing difficult.  But trust me the only thing is this is not difficult.  This is just unfamiliar.  You just need to practice it.  The more you practice this concept it will make your concept very clear."
+        },
+        {
+            "number": "20",
+            "title": "Python Tutorial for Beginners | While Loop in Python",
+            "start": 732.5799999999999,
+            "end": 749.7800000000001,
+            "text": " OK.  So we will be doing that.  We will be doing some more examples with this.  You know printing the patterns like star star star real stuff.  So we will do that in the further sessions.  I hope you got some idea about while loop.  In the next video we will talk about for loops.  So if you are enjoying this series let me know in the comment section and do click the  like button if you are enjoying it.  Thanks for watching everyone."
+        }
+    ],
+    "text": " Welcome back aliens my name is Avin20 and let's continue with the series on Python and in this video we will talk about loops. Now what exactly loop means? Now in programming what you do is you sometimes you need to repeat the statements. Example let's say you have written 5 statements and maybe you want to repeat them. How will you repeat them? Of course there is one way you can copy paste the same code multiple times. Example let's say I want to print telescope. So I want to print telescope once and if I run this code of course it will print only once. What if I want to print telescope 2 times? So what we can do is we can just copy paste it. So we are good with this. So I will copy paste it and we got 2 telescopes and if I run this code you can see we got 2 telescopes. That's working. What if I want to print telescope 10 times? What you will do now? Of course you can copy paste it 10 times. But don't you think you are doing manual work? What if I want to print 1000 times? It will be difficult to do that right? Now the best way to do it is applying a loop. What you can do here is you can say hey python I want to repeat the same statement multiple times. To do that we can use loops. And we can use 2 type of loops. One is called as while loop and second is called as for loop. Let's focus on while here. So we can use a while. So while is a keyword and then you have to specify the condition. See while will say ok my job is to repeat this statement multiple times but then tell me for how much time you want to do that. I will say ok do it for 5 times. But how will I do that? So when you say you want to do it for 5 times we count right? We need a counter here. Example if I say hey you say hello 5 times. I am talking to you here ok. So say hello 5 times. What you will do is in your mind you will be saying hello once ok hello second time hello hello and hello. So you have a counter there right? In the same way we need a counter here. For that I will be using a variable called as i and I will say i starts with 1 and then every time ok first of all you have to check right? How will I check? If the value of i is less than equal to 5. Ok we have to apply a condition right? So step 1 would be take a counter a variable which is i in this case and check if the value of i is less than 5 and every time you print the disco just increment the value of i right? So because you are doing it here right? So you are saying hello hello. So you are incrementing the value. So you will say i is equal to i plus 1. That's it. It's so simple. And remember the syntax. So we have to use a while then we have to specify the condition and a colon. Now this colon specifies whatever is coming ahead is a part of this block. And this to statement belongs to the same suit. Because we are using a proper indentation here. And now let me just run this code and you can see we got the disco 5 times. So what is happening behind the scene? And how do I know that? It's very simple. So I have the breakpoint and now let's debug it. I love this thing debugging and then say f8 and you can see the value of i is 1. Okay that's done. And then if I again say f8 it is printing the disco once and you can see that in the console. Okay you can see that we got hello once and if I go back to debug it again the value of i now so the moment I say f8 the value of i becomes 2. You can see the value of i is 2 now and it will check if 2 is less than 5. Yes it will go ahead and it will print telescope. You can see if I go back to console it telescope will print second time and then if I say f8 again you can see we got value of i is 3. Is 3 less than 5? Yes it will go ahead it will print. It will then try to print the statement which is telescope and you can see in the console we got telescope 3 times and now the value of i is 4. So you can see the value of i is 4. And then if I say f8 it will print telescope fourth time. You can see that in console. If I switch back to there you can see we got telescope 4 times and then the value of i now is 5. Is 5 less than or equal to 5? Yes you can see we have equal to there. The evaluation is also true. You can see that the pop up. If I say f8 it will print telescope fifth time. You can see we got fifth time and if I go to debug it again say f8 and you can see the value of i is 6. Now the value of i is 6. Is 6 less than or equal to 5? No that's a false. You can see the pop up which is false and if I say f8 now it will come out and that's why you got 5 times telescope. So this is how you can use while loop. Now three things are important here. First is the initialization. Second is the condition and third one is increment. Oh can we do decrement here? Yes we can do decrement as well. So you can do reverse right. Sometimes we go in this way hello hello hello hello hello or we can say so let's say we will do reverse. Hello hello hello hello hello right. So we can do that as well. So we start with 5 and then we reverse the condition we'll say i is greater than or equal to 1 and instead of saying i is equal to i plus 1 we'll say i is equal to i minus 1. We are going reverse order. Let's run this code. It works. You can see we got 5 times hello. So we can go ascending or we can do descending your choice. So there are three things important here. One assign the value then condition and then increment or decrement. Now let's say I don't want to print telescope here. I want to print the value itself or maybe I want to print telescope with the value. So we can do that. So we can say space comma I want to print the value of i as well. Let's run this code and you can see it is printing telescope 5 telescope 4 telescope 3 telescope 2 telescope 1. So you can do that. OK this is how you work with while loop. Now can I use multiple while inside of while you can do that. So we have done that before as well. Right. Example I will print telescope once and then while I'm printing telescope once I want to print telescope rocks multiple times. I want to print telescope rocks. I want to print rocks five times. So I will do I will say while. Oh now I want to say five times I have to use a different variable. Right. And I will be using a variable here which is J is equal to 1 again. We'll say J less than equal to 4. Let's say I want to I want to print rocks four times. We'll give a colon and we'll say print rocks. That's good. So it will print telescope and then rocks four times. I don't want to print the value of i now. So it will print telescope and rocks four times. So before executing this you try to get the output. OK. It's you it's depend upon you now. You tell me what's the output. OK. Will it print telescope rocks. See telescope itself will get will be getting printed five times. Right. And then on every line you will get rocks four times. This is what you want. Right. But if I run this code. Oh that's weird. It's not stopping anywhere. You know why it's not stopping because we forgot to increment the value of J. And now you learn from mistakes. Let's run this code once again. And you can see we got the telescope rocks rocks rocks four times and then again telescope four times. That's that's that is not something which we want. What is going wrong here. Let's try to debug this. You know. So I will just say hey debug the application. Now you can see the value of i is five. In fact you know just to make it more simple. Let's go with one. Let's go with increment so that it will be easier for understanding because once you understand the basic stuff you can try it on your own. And remember this we are using while inside a while. So this is nested while loop. Let me just debug this by applying a breakpoint. Let me say F8 and you can see the value of i is one. Remember this values the value of J is one is one less than five. Yes let's go inside. It will print telescope of course and you can see in the output console we will be getting telescope now. We got telescope. Now what's the value of J. It's one one less than four. Yes it will go ahead it will print rocks. It will execute this J equal to J plus one. So now the value for J is two. If I say F8 the value of J is two. But look at the jump. It is not jumping outside. It's not jumping back to this loop. It is jumping back to the inner loop because first it will complete the inner loop then it will go back to the outer loop. Right. It is something like you know we have seven days a week and each day has 24 hours. Right. So you can imagine the number of days is the outer loop and the number of hours is the inner loop. Right. So what it means. Let's say if you start with Sunday. Sunday has 24 hours. It will start with 0th hour then 1 hour 2nd hour 3rd hour 4th hour. Now when you complete the entire 24 hours it will go for the new day which is Monday in this case. On Monday as well we have the same hours right 0th hour 1th hour. So that means every time you change your day it will restart the number of counting for your hours. So it will first complete the hours. Right. So the same thing is happening here. So if I say F8 again it prints rocks. It will it will increment the value of J to three. And that's why you can see if you see the output we got one telescope but two time rocks. OK. So that works. In fact we wanted this right. We wanted one telescope and four rocks. OK. We'll do that. We'll think about that. If I run this you can see we got rocks and once it is getting completed once the value of J becomes five you can see that the value of J now is five. If I run this again it is false and now it is focusing on I. So I value is two now. It went back there and then again if I say F8 it will print telescope of course. But look at the value of J. J is five. That's what things are going wrong. Now since J is five it is not continuing ahead. That was a mistake. So to solve this problem what we can do is first we have to do two things. I want to print rocks on the same line. Right. I don't want to print rocks on new line. So what we can do is after telescope I can give a comma and say and is equal to double quotes. Now what it means by default when you say print it will print the statement and comes on new line. I don't want new line. I want to print on same line. Example here if you see it is printing telescope and then it is coming on new line. I don't want that. I want it to be. I want it to print telescope and stay on the same line. Same thing can be done for rocks. I would say hey don't go on new line stay on the same line. Now I hope it will come on same line. If I say run. So that we got everything on same line. OK we don't want that. We don't want all telescope on same line. We want telescope on new line. So after incrementing I will say print because see after completing one telescope I want to print on new line. So I will say run. You can see we got telescope on new lines but then rocks is coming only for four times here. What is going wrong. The value of j reached 5 here. So what I will do is every time I start with the outer loop I want to restart the value for j which is 1. It's important every time. In fact we don't we should not be declaring the value here. Let's start here. OK so it will initialize here. For the condition here and then increment here itself. Let's run this. This we want. So we got telescope rocks rocks rocks. Now how it is working. Let's again go for debug. We'll say debug and say f8. You can see the value of i is 1. i less than 5. Yes it's 1. It will print telescope and it will not go on new line. OK it will stay on the same line. Let me jump to console and you can see if I say f8 telescope on same line. OK there is not jumping to next line. The value for j is 1. Is 1 less than 4. Yes it will go ahead. And it will print rocks. And you can see rocks on the same line. And then the value of j is getting incremented to 2 now. So you can see the value for j is 2 here. And then again it will come back. It will print rocks and it will go for j value which is 3. And then it will again 3 is less than 4. It will print rocks and then j value is 4. And then it will check is 4 equal to 4. Yes it will print rocks. And the value for j is now 5. Now 5 is not less than equal to 4. It will come out. But where? It will come out to this next statement which is i is equal to i plus 1. Now in this case i equal to i plus 1 will increment the value for i. So it will make it 2. And then since we are printing. Since we are doing print it will come on new line. You can see the cursor now. Cursor is on new line. I will say. I mean it will continue. OK so it will do the same thing which we have done till now. So if I go fast fast fast see that. See the sequence. So this is how your loops are working. Now see since I am doing this I have worked on this for a long time. So I know how it works. Now if you are a fresher you might find this thing difficult. But trust me the only thing is this is not difficult. This is just unfamiliar. You just need to practice it. The more you practice this concept it will make your concept very clear. OK. So we will be doing that. We will be doing some more examples with this. You know printing the patterns like star star star real stuff. So we will do that in the further sessions. I hope you got some idea about while loop. In the next video we will talk about for loops. So if you are enjoying this series let me know in the comment section and do click the like button if you are enjoying it. Thanks for watching everyone."
+}

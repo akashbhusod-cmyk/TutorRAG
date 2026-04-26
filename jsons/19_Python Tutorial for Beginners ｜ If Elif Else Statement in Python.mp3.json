@@ -1,0 +1,1202 @@
+{
+  "chunks": [
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 0.0,
+      "end": 9.28,
+      "text": " Welcome back aliens my name is Avin Reddy and let's continue with the series on Python and in"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 9.28,
+      "end": 14.72,
+      "text": " this video we'll talk about CPU. Oh hold on this is a Python series right why we need to know about"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 14.72,
+      "end": 22.240000000000002,
+      "text": " CPU? In fact everyone knows about CPU right CPU has three parts CU MU and ALU. We have worked with"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 22.240000000000002,
+      "end": 26.84,
+      "text": " MU till this point because MU basically means memory unit so we were using variables we were"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 26.84,
+      "end": 34.16,
+      "text": " trying to save data so it was there. Then we have a unit which is ALU which is in which we have two"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 34.16,
+      "end": 40.36,
+      "text": " parts one is AU which is arithmetic unit and the second one is logical unit. Now when it comes to"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 40.36,
+      "end": 44.28,
+      "text": " arithmetic unit it performs calculations right so whatever calculation we have done till now"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 44.28,
+      "end": 48.92,
+      "text": " addition, subtraction, division, multiplication and binary conversion of course. Now it's time to"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 48.92,
+      "end": 53.44,
+      "text": " talk about logical unit. Now when you say logical unit this is something which makes your computer"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 53.44,
+      "end": 57.599999999999994,
+      "text": " think of course your computer will not think automatically as a programmer you do it right."
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 57.599999999999994,
+      "end": 63.519999999999996,
+      "text": " You let your computer think so you have to write a code right so in real world when you say you are"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 63.519999999999996,
+      "end": 67.67999999999999,
+      "text": " taking a decision what it means so you apply different conditions right so example you know"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 67.67999999999999,
+      "end": 72.96,
+      "text": " in in real life we go with the flow so example we'll do this we'll do this we'll do this and then"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 72.96,
+      "end": 77.52,
+      "text": " at certain point we decide okay so either we have to go this way or that way example even after"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 77.52,
+      "end": 82.24,
+      "text": " completing your 10th standard we have to decide which field you want to go for after completing"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 83.03999999999999,
+      "end": 87.44,
+      "text": " your graduation you will decide which company to join right so we always take decision based"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 87.44,
+      "end": 91.6,
+      "text": " on certain conditions. Can we do that in programming? So in programming as well we"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 91.6,
+      "end": 95.36,
+      "text": " write statements right so we write one statement second statement third statement and then"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 95.36,
+      "end": 99.84,
+      "text": " we realize okay we have two flows now either we have to go this way or we have to go that way"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 99.84,
+      "end": 105.44,
+      "text": " and that's where you have to apply conditions. How will you implement that here? For that we have a"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 105.44,
+      "end": 112.56,
+      "text": " special keyword called as if right so we will we will be using if here so using if you can actually"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 112.56,
+      "end": 116.56,
+      "text": " specify the flow of your execution either you have to go in this way or that way. I would also"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 116.56,
+      "end": 121.75999999999999,
+      "text": " recommend you to learn about flowcharts of course as a programmer it's a good to know concept if you"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 121.75999999999999,
+      "end": 126.08,
+      "text": " know how flowchart works it will be helpful for your programming career. So let's understand how"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 126.08,
+      "end": 130.72,
+      "text": " this how this if works so if you can see we have three statements here right so after this three"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 130.72,
+      "end": 134.48,
+      "text": " statement we have two flow now either we want to execute this set of statements or I want to"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 134.48,
+      "end": 140.64,
+      "text": " execute the other set of statements. How will you decide what what statement you want to execute here?"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 140.64,
+      "end": 145.44,
+      "text": " Based on some conditions if this is true I will execute the first block if this is false I will"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 145.44,
+      "end": 150.39999999999998,
+      "text": " execute the second block and to implement that we use if. Now if you talk about the syntax this is"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 150.39999999999998,
+      "end": 155.44,
+      "text": " how it looks like so we have to use if right that's a keyword we have to use and then we will"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 155.44,
+      "end": 161.44,
+      "text": " we have to specify either true or false. Now if you say this is true then it will execute this"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 161.44,
+      "end": 166.48,
+      "text": " statement so if it is true only then it will execute this statement right so let's say the"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 166.48,
+      "end": 171.84,
+      "text": " statement is I'm right that's it I want to print I'm right so if it is true it will print I'm right"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 171.84,
+      "end": 178.24,
+      "text": " that's it let's run this and you can see we got the answer which is I'm right if this is false"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 178.24,
+      "end": 183.36,
+      "text": " then it will not execute the particular block so this is false let me run this code and you can"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 183.36,
+      "end": 188.07999999999998,
+      "text": " see it is not executing the block so that's how your if works if it is true then only to execute"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 188.08,
+      "end": 193.44000000000003,
+      "text": " the block but hold on what is that block and what is this colon and what is this statement"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 193.44000000000003,
+      "end": 200.72000000000003,
+      "text": " so thing is whenever we use if, if is basically a block and in python we call them as suit where"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 200.72000000000003,
+      "end": 206.24,
+      "text": " you can write multiple statements but then how will you mention that this statement belongs to"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 206.24,
+      "end": 211.12,
+      "text": " if because see if I write one more statement here I mean just below that if I say print"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 211.12,
+      "end": 217.04000000000002,
+      "text": " and if I say by now what do you think we are saying false right it is false so will it execute by or"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 217.04,
+      "end": 222.56,
+      "text": " not if this print statement belongs to if then it will not execute by because this is false"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 222.56,
+      "end": 227.44,
+      "text": " if this statement does not belong to if then it will execute by right let's try this if I run this"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 227.44,
+      "end": 233.51999999999998,
+      "text": " code you can see we got by but why by it is saying false right it's because this statement does not"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 233.51999999999998,
+      "end": 241.35999999999999,
+      "text": " belong to if why it's because we have to follow certain indentation how you specify if the"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 241.35999999999999,
+      "end": 245.84,
+      "text": " statement because in if we can have multiple statements right so if you want to specify all"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 245.84,
+      "end": 251.76,
+      "text": " the statements belongs to if we do use some certain indentation and what is indentation"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 251.76,
+      "end": 257.36,
+      "text": " some specific spaces it can be one space two space three space ten space it can be hundred spaces you"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 257.36,
+      "end": 264.0,
+      "text": " have to use certain number of spaces so if I use four space here for this one as well I need to"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 264.0,
+      "end": 268.96,
+      "text": " use four space even if I use three space you can see it will give you error okay so it says"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 270.08,
+      "end": 274.88,
+      "text": " unintended does not match any other indentation level so you have to make sure that it belongs"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 274.88,
+      "end": 279.6,
+      "text": " to the other use either one space so you have to throw out you have to use one space if you use"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 279.6,
+      "end": 284.8,
+      "text": " two space throughout you have to use two space okay but normally we always use four spaces okay"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 284.8,
+      "end": 290.96,
+      "text": " example if I say even if I say three spaces for both they do work okay there's no error so you"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 290.96,
+      "end": 295.6,
+      "text": " might get a warning by saying you know it should be using four or four spaces so it's better to"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 295.6,
+      "end": 301.28,
+      "text": " always use four spaces in fact the tab one tab is four space right by default so I would also prefer"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 301.28,
+      "end": 306.71999999999997,
+      "text": " to use tab instead of using spaces because you might make a mistake with spaces so use one tab"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 306.71999999999997,
+      "end": 311.44,
+      "text": " and that's fine and if you are using an IDE just say enter by default it will it will use the"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 311.44,
+      "end": 317.28,
+      "text": " indentation okay I don't want to keep by inside if so I will write it outside somewhere here"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 317.28,
+      "end": 321.84,
+      "text": " right so this by doesn't belongs to a block but then question arise we will not be writing true"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 321.84,
+      "end": 326.96,
+      "text": " and false in a code itself right this true and false will evaluate from an expression right of"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 326.96,
+      "end": 330.96,
+      "text": " course it is depend upon user input is depend upon the data in the database it depend upon the data"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 330.96,
+      "end": 335.52,
+      "text": " on the server it's all depend upon the value you are passing and the condition so how will you do"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 335.52,
+      "end": 340.4,
+      "text": " it here maybe I will try this to understand this list of an example let's say I want to check if"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 340.4,
+      "end": 345.84,
+      "text": " the given number is even or odd maybe the input is coming from the user or I will take my own input"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 345.84,
+      "end": 349.91999999999996,
+      "text": " let me take my own input and you can try it with the user input I will take the number as three"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 349.91999999999996,
+      "end": 355.35999999999996,
+      "text": " okay if the number so when you say even number odd number what it means if the number gets divided by"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 355.36,
+      "end": 360.48,
+      "text": " two if the remainder is zero then it's an even number right if the remainder is not zero which"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 360.48,
+      "end": 365.28000000000003,
+      "text": " is one in this case it will be odd number how do I verify that so what I will do is I will use a"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 365.28000000000003,
+      "end": 372.24,
+      "text": " variable r and I will save the remainder which is either zero or one so I will say x mod remember"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 372.24,
+      "end": 378.72,
+      "text": " the symbol which we have used mod two right so in r it is either zero or it is one right"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 378.72,
+      "end": 386.08000000000004,
+      "text": " so instead of using false I want to check if my r is equal to equal to zero because if my r is"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 386.08000000000004,
+      "end": 392.48,
+      "text": " equal to equal to zero then it will print even right so if my r is equal to zero that means"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 392.48,
+      "end": 398.08000000000004,
+      "text": " that's an even number okay that works let's try I will run this code oh okay so that we got by you"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 398.08000000000004,
+      "end": 404.96000000000004,
+      "text": " know why we got by is because x is three and it's not number let's try with eight eight is an even"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 404.96,
+      "end": 409.59999999999997,
+      "text": " number right let's try this we got the answer which is even and by so yes we got even number"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 409.59999999999997,
+      "end": 413.68,
+      "text": " because that's an even number and we got by because it should be printed anyway this is how"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 413.68,
+      "end": 418.4,
+      "text": " you work with if so if this is true okay this is important if this is true then it will print even"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 418.4,
+      "end": 423.76,
+      "text": " if this is false it will not execute the block it will not execute the statement inside that if"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 423.76,
+      "end": 428.79999999999995,
+      "text": " how about seven of course seven is an odd number right I want to print even it is even I want to"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 428.79999999999995,
+      "end": 434.56,
+      "text": " print odd as well we were not doing that at this point okay how do I print odd because if I print"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 435.36,
+      "end": 440.8,
+      "text": " outside the if lock I will say odd the thing is it will print odd anyway doesn't matter if your"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 440.8,
+      "end": 446.32,
+      "text": " value is even or odd example if I run this code you can see we got odd in this case and if the"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 446.32,
+      "end": 452.0,
+      "text": " value is eight then only then also it will print all I mean it is printing even then all as well"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 452.0,
+      "end": 457.76,
+      "text": " we don't want order for even numbers right so I want to execute this one only when the number is"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 458.4,
+      "end": 465.52,
+      "text": " okay so that means I want to print this only when so we will say if if r is equal to equal to one"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 465.52,
+      "end": 470.71999999999997,
+      "text": " okay so we are doing that right so we are checking if r is zero then print even if r is one print"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 470.71999999999997,
+      "end": 478.08,
+      "text": " order that works let's try oh we got even because it's an even number and I will try with nine let's"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 478.08,
+      "end": 483.59999999999997,
+      "text": " say run or we got odd so it is working so eight is even it was working nine is odd it's working"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 484.40000000000003,
+      "end": 488.48,
+      "text": " but don't you think if the number is even okay everything is working as of now but"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 488.48,
+      "end": 493.68,
+      "text": " we there's a twist here see as a programmer we also want to improve the performance right"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 494.40000000000003,
+      "end": 498.16,
+      "text": " it's not just about writing code it's not just about getting the output it's about writing the"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 498.16,
+      "end": 504.0,
+      "text": " efficient code and this is not efficient you know why because when you say your number is eight and"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 504.0,
+      "end": 510.08000000000004,
+      "text": " eight is even we know that so it will check if r is zero yes it will print even that's right but"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 510.47999999999996,
+      "end": 515.4399999999999,
+      "text": " if the number is even why you have to check this as well because it will go in the flow right example"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 515.4399999999999,
+      "end": 520.48,
+      "text": " if I if I debug this application let me just add a break point here if remember we have done that"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 520.48,
+      "end": 526.72,
+      "text": " before I will say debug and let's try f8 so you can see if I say f8 it is it is saying yes r is"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 526.72,
+      "end": 532.48,
+      "text": " zero it will print it will print a1 and then I don't want to check for odd right because it is"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 532.48,
+      "end": 539.28,
+      "text": " even so but still it will check r for one as well I don't want it to check for r is equal to one"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 539.28,
+      "end": 543.92,
+      "text": " because it doesn't make any sense it's an even number so that means what I'm what I'm expecting"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 543.92,
+      "end": 550.0,
+      "text": " here is if it is checking for this number if it is checking for even if it is true then it should"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 550.0,
+      "end": 555.04,
+      "text": " not be checking this one in that case what you will do is you instead of saying r is equal to"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 555.04,
+      "end": 562.24,
+      "text": " one you can say else you know what else means if it's true then execute the block otherwise go for"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 562.24,
+      "end": 567.68,
+      "text": " the else block if this is getting executed it will not be when checking the else condition let me"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 567.76,
+      "end": 575.68,
+      "text": " prove my point I will put a break point here I will say debug right like debug and f8 for the"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 575.68,
+      "end": 582.0799999999999,
+      "text": " flow you can see r is zero yes it's going to even and now it has skipped the else block so this is"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 582.0799999999999,
+      "end": 588.2399999999999,
+      "text": " how you improve the performance so instead of using to if we can use if and else it works right"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 588.2399999999999,
+      "end": 593.5999999999999,
+      "text": " so these are you you work with if else now can I only use else of course not else comes with if"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 593.6800000000001,
+      "end": 598.64,
+      "text": " so you have to remember that so you can write if or else instead of writing two ifs or there are"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 598.64,
+      "end": 601.84,
+      "text": " certain conditions which are different from each other it's not dependent so of course you have to"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 601.84,
+      "end": 608.48,
+      "text": " use two if there can I have if inside an if is it possible let's try after printing even I also want"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 608.48,
+      "end": 617.28,
+      "text": " to check if the number is greater than five right we can do that so we can check if x is greater"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 617.28,
+      "end": 622.72,
+      "text": " than five then I want to print something else I want to print greater that's it I want to print"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 623.12,
+      "end": 627.0400000000001,
+      "text": " great that's it I would just want to print great it doesn't make any sense I know printing great"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 627.0400000000001,
+      "end": 634.88,
+      "text": " but then the idea is we can have if inside an if so this if will be checked only when this is true"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 634.88,
+      "end": 639.84,
+      "text": " right so when you say if this is getting if this is true it will execute even and then we have like"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 639.84,
+      "end": 645.44,
+      "text": " we are writing another if and see this see the indentation so this print great belongs to the"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 645.44,
+      "end": 650.4,
+      "text": " second if not the first if right so if this is true then it will print even then it will check"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 650.4,
+      "end": 655.76,
+      "text": " for the another condition and then it will print great right so this is called as nested if which"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 655.76,
+      "end": 662.0799999999999,
+      "text": " is if inside the if now how do you know that this is inside the if because of indentation right we"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 662.0799999999999,
+      "end": 668.0,
+      "text": " can have a entire tree of ifs you know if inside the if and if inside the if that works for this"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 668.0,
+      "end": 673.68,
+      "text": " one also we can write else now this else is a pairing with this if not the above if okay and"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 673.68,
+      "end": 679.36,
+      "text": " if I say print I will say not so good not so great right so what do you think what is the output now"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 679.36,
+      "end": 683.92,
+      "text": " of course great right so let me just run this code and you can see oh we got an error can you"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 683.92,
+      "end": 688.64,
+      "text": " guess the error that's right you can see that error here the error symbol so we should be using"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 688.64,
+      "end": 693.6,
+      "text": " a colon my mistake there so whenever you use if else we have to provide a colon let's run this"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 693.6,
+      "end": 699.6800000000001,
+      "text": " code and it works you can see we got even great and by if the value is not greater than five if"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 699.6800000000001,
+      "end": 704.8000000000001,
+      "text": " it is three let's run this code and you can see we got odd and by because this is an odd number"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 704.8,
+      "end": 709.4399999999999,
+      "text": " it is not even going there and then it is printing all so that works so this is how you"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 709.4399999999999,
+      "end": 715.3599999999999,
+      "text": " work with if and else let me add one more twist here the twist is in fact not the but not with"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 715.3599999999999,
+      "end": 722.0799999999999,
+      "text": " this code let me just try one more code here we also have a concept of if elif and else now what"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 722.0799999999999,
+      "end": 727.92,
+      "text": " that means let's say let's take an example here if a user enters one I want to print o and e which"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 727.92,
+      "end": 732.7199999999999,
+      "text": " is one in what format if a user says two I want to print two if a user says three I want to print"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 732.72,
+      "end": 737.2,
+      "text": " three if a user says four I want to print four let's do it here I will take a random number I"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 737.2,
+      "end": 742.4,
+      "text": " will take two because it doesn't matter maybe you can take this input from the user you can try that"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 742.4,
+      "end": 747.6800000000001,
+      "text": " I will check if oh can I can I use round brackets and the answer is yes if you want to put the"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 747.6800000000001,
+      "end": 751.52,
+      "text": " condition you can put that condition round brackets as well now what happens you know if"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 751.52,
+      "end": 756.1600000000001,
+      "text": " you are coming from other programming language like c c++ java or c sharp you have this tendency"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 756.1600000000001,
+      "end": 760.72,
+      "text": " of using round brackets there so in python also you can use it it's optional you want to use it"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 760.72,
+      "end": 766.24,
+      "text": " or not that is your choice what I'm talking about is this one so if I can say if x is equal to one"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 766.24,
+      "end": 771.9200000000001,
+      "text": " so instead of putting that open you can also put that in a round bracket but you know open looks"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 771.9200000000001,
+      "end": 778.72,
+      "text": " cool let's use that so we got x is equal to equal to one in this case I will print one so that's one"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 778.72,
+      "end": 784.1600000000001,
+      "text": " right and then we can check it for other other numbers as well we can say if s is equal to x is"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 784.1600000000001,
+      "end": 789.0400000000001,
+      "text": " equal to two in this case we'll print so when you when your x is equal to two then we can print two"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 789.04,
+      "end": 793.8399999999999,
+      "text": " and we can do that for other other statements as well so let's try that for the values so I will"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 793.8399999999999,
+      "end": 798.0799999999999,
+      "text": " say so this is how we can do with for other numbers right if I run this code you can see it is"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 798.0799999999999,
+      "end": 804.0799999999999,
+      "text": " printing two and if I change the value to let's say four it will print it will print four so it is"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 804.0799999999999,
+      "end": 808.9599999999999,
+      "text": " working right everything is working but again the same problem right what if the value is one and"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 808.9599999999999,
+      "end": 812.88,
+      "text": " then when you run this code don't you think it will print one of course but it will checking it"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 812.88,
+      "end": 818.0799999999999,
+      "text": " is it will check for every other number in that case if you don't want it to check with every"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 818.08,
+      "end": 825.0400000000001,
+      "text": " other number we can use instead of using if we can also use elif now what is elif means is if this"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 825.0400000000001,
+      "end": 829.84,
+      "text": " is not true then only it will go for the next one the same thing you can apply everywhere you can"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 829.84,
+      "end": 838.64,
+      "text": " say elif and elif so elif stands for else if so if this is false then only it will check other"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 838.64,
+      "end": 843.6,
+      "text": " conditions if I run this code you can see we got one and if I put a break point here and if I run"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 843.6,
+      "end": 850.48,
+      "text": " this code in fact we can simply debug it and let's say f8 and you can see if this is true it will"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 850.48,
+      "end": 855.84,
+      "text": " directly jump outside okay it is not going for further instructions but if I say this is three"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 855.84,
+      "end": 861.6800000000001,
+      "text": " or maybe let's go for two in this case so if I debug it let's trace it so you can see it is going"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 861.6800000000001,
+      "end": 868.1600000000001,
+      "text": " for the first statement since it is false it will jump to elif right because the first one is false"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 868.1600000000001,
+      "end": 872.64,
+      "text": " and now this is true because the value is two it will execute two okay and then it will come out"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 873.28,
+      "end": 878.48,
+      "text": " yeah so this is awesome you know okay what if the value is five now this is not matching with"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 878.48,
+      "end": 882.8,
+      "text": " anyone right there is not it is not one it's not two it's not three it's not four so they see the"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 882.8,
+      "end": 889.4399999999999,
+      "text": " jumping now so if I debug see the jumping it's jumping to elif which is false jumping to next"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 889.4399999999999,
+      "end": 894.56,
+      "text": " elif which is also false jumping to elif is also false and then it's come out so in that case we"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 894.56,
+      "end": 899.4399999999999,
+      "text": " should be printing wrong input but how will I print that we can do that in else if none of"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 899.44,
+      "end": 905.12,
+      "text": " this matching we can print wrong input that's awesome right so this is how you can work with if"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 905.7600000000001,
+      "end": 910.48,
+      "text": " elif and else again you can try out different combination you will find the assignment in"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 910.48,
+      "end": 916.4000000000001,
+      "text": " in the at the end of the video so try it out and let me know your thoughts on if elif and else"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 916.4000000000001,
+      "end": 919.2800000000001,
+      "text": " so that's it thank you so much for watching everyone I hope you are enjoying my series let"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 919.2800000000001,
+      "end": 922.5600000000001,
+      "text": " me know in the comment section and do click the like button if you're enjoying it thank you so"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 922.5600000000001,
+      "end": 924.96,
+      "text": " much for watching everyone bye bye"
+    },
+    {
+      "number": "19",
+      "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+      "start": 929.44,
+      "end": 929.94,
+      "text": " you"
+    }
+  ],
+  "text": " Welcome back aliens my name is Avin Reddy and let's continue with the series on Python and in this video we'll talk about CPU. Oh hold on this is a Python series right why we need to know about CPU? In fact everyone knows about CPU right CPU has three parts CU MU and ALU. We have worked with MU till this point because MU basically means memory unit so we were using variables we were trying to save data so it was there. Then we have a unit which is ALU which is in which we have two parts one is AU which is arithmetic unit and the second one is logical unit. Now when it comes to arithmetic unit it performs calculations right so whatever calculation we have done till now addition, subtraction, division, multiplication and binary conversion of course. Now it's time to talk about logical unit. Now when you say logical unit this is something which makes your computer think of course your computer will not think automatically as a programmer you do it right. You let your computer think so you have to write a code right so in real world when you say you are taking a decision what it means so you apply different conditions right so example you know in in real life we go with the flow so example we'll do this we'll do this we'll do this and then at certain point we decide okay so either we have to go this way or that way example even after completing your 10th standard we have to decide which field you want to go for after completing your graduation you will decide which company to join right so we always take decision based on certain conditions. Can we do that in programming? So in programming as well we write statements right so we write one statement second statement third statement and then we realize okay we have two flows now either we have to go this way or we have to go that way and that's where you have to apply conditions. How will you implement that here? For that we have a special keyword called as if right so we will we will be using if here so using if you can actually specify the flow of your execution either you have to go in this way or that way. I would also recommend you to learn about flowcharts of course as a programmer it's a good to know concept if you know how flowchart works it will be helpful for your programming career. So let's understand how this how this if works so if you can see we have three statements here right so after this three statement we have two flow now either we want to execute this set of statements or I want to execute the other set of statements. How will you decide what what statement you want to execute here? Based on some conditions if this is true I will execute the first block if this is false I will execute the second block and to implement that we use if. Now if you talk about the syntax this is how it looks like so we have to use if right that's a keyword we have to use and then we will we have to specify either true or false. Now if you say this is true then it will execute this statement so if it is true only then it will execute this statement right so let's say the statement is I'm right that's it I want to print I'm right so if it is true it will print I'm right that's it let's run this and you can see we got the answer which is I'm right if this is false then it will not execute the particular block so this is false let me run this code and you can see it is not executing the block so that's how your if works if it is true then only to execute the block but hold on what is that block and what is this colon and what is this statement so thing is whenever we use if, if is basically a block and in python we call them as suit where you can write multiple statements but then how will you mention that this statement belongs to if because see if I write one more statement here I mean just below that if I say print and if I say by now what do you think we are saying false right it is false so will it execute by or not if this print statement belongs to if then it will not execute by because this is false if this statement does not belong to if then it will execute by right let's try this if I run this code you can see we got by but why by it is saying false right it's because this statement does not belong to if why it's because we have to follow certain indentation how you specify if the statement because in if we can have multiple statements right so if you want to specify all the statements belongs to if we do use some certain indentation and what is indentation some specific spaces it can be one space two space three space ten space it can be hundred spaces you have to use certain number of spaces so if I use four space here for this one as well I need to use four space even if I use three space you can see it will give you error okay so it says unintended does not match any other indentation level so you have to make sure that it belongs to the other use either one space so you have to throw out you have to use one space if you use two space throughout you have to use two space okay but normally we always use four spaces okay example if I say even if I say three spaces for both they do work okay there's no error so you might get a warning by saying you know it should be using four or four spaces so it's better to always use four spaces in fact the tab one tab is four space right by default so I would also prefer to use tab instead of using spaces because you might make a mistake with spaces so use one tab and that's fine and if you are using an IDE just say enter by default it will it will use the indentation okay I don't want to keep by inside if so I will write it outside somewhere here right so this by doesn't belongs to a block but then question arise we will not be writing true and false in a code itself right this true and false will evaluate from an expression right of course it is depend upon user input is depend upon the data in the database it depend upon the data on the server it's all depend upon the value you are passing and the condition so how will you do it here maybe I will try this to understand this list of an example let's say I want to check if the given number is even or odd maybe the input is coming from the user or I will take my own input let me take my own input and you can try it with the user input I will take the number as three okay if the number so when you say even number odd number what it means if the number gets divided by two if the remainder is zero then it's an even number right if the remainder is not zero which is one in this case it will be odd number how do I verify that so what I will do is I will use a variable r and I will save the remainder which is either zero or one so I will say x mod remember the symbol which we have used mod two right so in r it is either zero or it is one right so instead of using false I want to check if my r is equal to equal to zero because if my r is equal to equal to zero then it will print even right so if my r is equal to zero that means that's an even number okay that works let's try I will run this code oh okay so that we got by you know why we got by is because x is three and it's not number let's try with eight eight is an even number right let's try this we got the answer which is even and by so yes we got even number because that's an even number and we got by because it should be printed anyway this is how you work with if so if this is true okay this is important if this is true then it will print even if this is false it will not execute the block it will not execute the statement inside that if how about seven of course seven is an odd number right I want to print even it is even I want to print odd as well we were not doing that at this point okay how do I print odd because if I print outside the if lock I will say odd the thing is it will print odd anyway doesn't matter if your value is even or odd example if I run this code you can see we got odd in this case and if the value is eight then only then also it will print all I mean it is printing even then all as well we don't want order for even numbers right so I want to execute this one only when the number is okay so that means I want to print this only when so we will say if if r is equal to equal to one okay so we are doing that right so we are checking if r is zero then print even if r is one print order that works let's try oh we got even because it's an even number and I will try with nine let's say run or we got odd so it is working so eight is even it was working nine is odd it's working but don't you think if the number is even okay everything is working as of now but we there's a twist here see as a programmer we also want to improve the performance right it's not just about writing code it's not just about getting the output it's about writing the efficient code and this is not efficient you know why because when you say your number is eight and eight is even we know that so it will check if r is zero yes it will print even that's right but if the number is even why you have to check this as well because it will go in the flow right example if I if I debug this application let me just add a break point here if remember we have done that before I will say debug and let's try f8 so you can see if I say f8 it is it is saying yes r is zero it will print it will print a1 and then I don't want to check for odd right because it is even so but still it will check r for one as well I don't want it to check for r is equal to one because it doesn't make any sense it's an even number so that means what I'm what I'm expecting here is if it is checking for this number if it is checking for even if it is true then it should not be checking this one in that case what you will do is you instead of saying r is equal to one you can say else you know what else means if it's true then execute the block otherwise go for the else block if this is getting executed it will not be when checking the else condition let me prove my point I will put a break point here I will say debug right like debug and f8 for the flow you can see r is zero yes it's going to even and now it has skipped the else block so this is how you improve the performance so instead of using to if we can use if and else it works right so these are you you work with if else now can I only use else of course not else comes with if so you have to remember that so you can write if or else instead of writing two ifs or there are certain conditions which are different from each other it's not dependent so of course you have to use two if there can I have if inside an if is it possible let's try after printing even I also want to check if the number is greater than five right we can do that so we can check if x is greater than five then I want to print something else I want to print greater that's it I want to print great that's it I would just want to print great it doesn't make any sense I know printing great but then the idea is we can have if inside an if so this if will be checked only when this is true right so when you say if this is getting if this is true it will execute even and then we have like we are writing another if and see this see the indentation so this print great belongs to the second if not the first if right so if this is true then it will print even then it will check for the another condition and then it will print great right so this is called as nested if which is if inside the if now how do you know that this is inside the if because of indentation right we can have a entire tree of ifs you know if inside the if and if inside the if that works for this one also we can write else now this else is a pairing with this if not the above if okay and if I say print I will say not so good not so great right so what do you think what is the output now of course great right so let me just run this code and you can see oh we got an error can you guess the error that's right you can see that error here the error symbol so we should be using a colon my mistake there so whenever you use if else we have to provide a colon let's run this code and it works you can see we got even great and by if the value is not greater than five if it is three let's run this code and you can see we got odd and by because this is an odd number it is not even going there and then it is printing all so that works so this is how you work with if and else let me add one more twist here the twist is in fact not the but not with this code let me just try one more code here we also have a concept of if elif and else now what that means let's say let's take an example here if a user enters one I want to print o and e which is one in what format if a user says two I want to print two if a user says three I want to print three if a user says four I want to print four let's do it here I will take a random number I will take two because it doesn't matter maybe you can take this input from the user you can try that I will check if oh can I can I use round brackets and the answer is yes if you want to put the condition you can put that condition round brackets as well now what happens you know if you are coming from other programming language like c c++ java or c sharp you have this tendency of using round brackets there so in python also you can use it it's optional you want to use it or not that is your choice what I'm talking about is this one so if I can say if x is equal to one so instead of putting that open you can also put that in a round bracket but you know open looks cool let's use that so we got x is equal to equal to one in this case I will print one so that's one right and then we can check it for other other numbers as well we can say if s is equal to x is equal to two in this case we'll print so when you when your x is equal to two then we can print two and we can do that for other other statements as well so let's try that for the values so I will say so this is how we can do with for other numbers right if I run this code you can see it is printing two and if I change the value to let's say four it will print it will print four so it is working right everything is working but again the same problem right what if the value is one and then when you run this code don't you think it will print one of course but it will checking it is it will check for every other number in that case if you don't want it to check with every other number we can use instead of using if we can also use elif now what is elif means is if this is not true then only it will go for the next one the same thing you can apply everywhere you can say elif and elif so elif stands for else if so if this is false then only it will check other conditions if I run this code you can see we got one and if I put a break point here and if I run this code in fact we can simply debug it and let's say f8 and you can see if this is true it will directly jump outside okay it is not going for further instructions but if I say this is three or maybe let's go for two in this case so if I debug it let's trace it so you can see it is going for the first statement since it is false it will jump to elif right because the first one is false and now this is true because the value is two it will execute two okay and then it will come out yeah so this is awesome you know okay what if the value is five now this is not matching with anyone right there is not it is not one it's not two it's not three it's not four so they see the jumping now so if I debug see the jumping it's jumping to elif which is false jumping to next elif which is also false jumping to elif is also false and then it's come out so in that case we should be printing wrong input but how will I print that we can do that in else if none of this matching we can print wrong input that's awesome right so this is how you can work with if elif and else again you can try out different combination you will find the assignment in in the at the end of the video so try it out and let me know your thoughts on if elif and else so that's it thank you so much for watching everyone I hope you are enjoying my series let me know in the comment section and do click the like button if you're enjoying it thank you so much for watching everyone bye bye you"
+}

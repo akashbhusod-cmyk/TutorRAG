@@ -1,0 +1,1636 @@
+{
+  "chunks": [
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 0.0,
+      "end": 8.0,
+      "text": " Welcome back aliens my name is Avin Reddy and let's continue the series on Python."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 8.0,
+      "end": 12.64,
+      "text": " Till this point we have talked about loops right we have talked about for loop and while loop."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 12.64,
+      "end": 17.04,
+      "text": " In this video we'll talk about three keywords break, continue and pass."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 17.04,
+      "end": 20.2,
+      "text": " Again why do we need that let's say in the code itself."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 20.2,
+      "end": 23.64,
+      "text": " So let's design a vending machine of course not a physical machine here."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 23.64,
+      "end": 26.68,
+      "text": " Let's write a simple code just to mimic vending machine here."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 26.68,
+      "end": 33.48,
+      "text": " So what we'll do is if a user says hey I want five candies you have to give five candies not a physically candies."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 33.48,
+      "end": 36.04,
+      "text": " But then we'll write only candies or print candies."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 36.04,
+      "end": 37.76,
+      "text": " Okay, so if I say one candy it's one time."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 37.76,
+      "end": 41.8,
+      "text": " So if a user say I want five candies you will print candies five times."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 41.8,
+      "end": 44.4,
+      "text": " So that's what we want to do. So let's write here."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 44.4,
+      "end": 49.68,
+      "text": " So first of all we have a variable and we'll say X and the value for this variable will be coming from user."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 50.2,
+      "end": 54.760000000000005,
+      "text": " Input so we'll say int input and in this bracket you will mention how many"
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 55.239999999999995,
+      "end": 57.0,
+      "text": " candies you want."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 57.0,
+      "end": 61.32,
+      "text": " Okay once you got this statement I what I want to do is I want to print candies right."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 61.32,
+      "end": 64.92,
+      "text": " So if a user says hey I want five candies you will print candy five times."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 64.92,
+      "end": 68.2,
+      "text": " If you want to do something multiple times you will simply use a loop."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 68.2,
+      "end": 71.72,
+      "text": " So we'll use a while loop here again you can use for loop that's your choice okay."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 71.72,
+      "end": 73.32,
+      "text": " But I love for a while loop here."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 73.32,
+      "end": 77.16,
+      "text": " So I will take a variable which is increment variable I will say i is equal to one."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 77.16,
+      "end": 82.6,
+      "text": " And then we'll use a while loop here and we'll say if i less than equal to x."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 82.6,
+      "end": 87.88,
+      "text": " Because depending upon the number of value a user is entering will print will go for so many candies."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 87.88,
+      "end": 90.75999999999999,
+      "text": " And every time this loop runs you will print candy."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 90.75999999999999,
+      "end": 92.75999999999999,
+      "text": " That's what we want to do here right."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 92.75999999999999,
+      "end": 95.72,
+      "text": " And then after every statement we need to also increment it."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 95.72,
+      "end": 101.56,
+      "text": " In fact we can so if you can write i equal to i plus one or you can use a shortcut here."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 101.56,
+      "end": 104.44,
+      "text": " Which is i plus equal to one because we have seen that right."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 104.44,
+      "end": 109.08,
+      "text": " So instead of saying i equal to i plus one we can also use i plus equal to one."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 109.08,
+      "end": 110.52,
+      "text": " Shortcut for the same thing."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 110.52,
+      "end": 111.56,
+      "text": " Now this should work right."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 111.56,
+      "end": 112.84,
+      "text": " So this should work let's try."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 112.84,
+      "end": 115.88,
+      "text": " So if run this code you can see it is asking for the number of candies."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 115.88,
+      "end": 118.76,
+      "text": " I would say four candies enter you got candy four times."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 118.76,
+      "end": 120.76,
+      "text": " That means you're getting candies from the machine."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 120.76,
+      "end": 122.44,
+      "text": " And I will just run this code once again."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 122.44,
+      "end": 124.76,
+      "text": " I will this time I will go for let's say eight."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 124.76,
+      "end": 126.44,
+      "text": " And you can see we got candy eight times."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 126.44,
+      "end": 127.4,
+      "text": " So it is working."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 127.4,
+      "end": 128.44,
+      "text": " Now here is a twist."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 128.44,
+      "end": 133.32,
+      "text": " The twist is what if a user says hey I want hundred candies okay."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 133.32,
+      "end": 136.6,
+      "text": " And then in your machine in the vending machine we don't have hundred candies."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 136.6,
+      "end": 139.56,
+      "text": " You have let's say 50 candies or maybe 80 candies."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 139.56,
+      "end": 140.44,
+      "text": " So what you will do now."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 140.44,
+      "end": 142.52,
+      "text": " You have two choice you can stop the transaction."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 142.52,
+      "end": 145.07999999999998,
+      "text": " You can say hey user we don't have so many candies."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 145.07999999999998,
+      "end": 147.72,
+      "text": " Or what you can do is you can give 80 candies."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 147.72,
+      "end": 150.52,
+      "text": " And you can say we are out of stock right."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 150.52,
+      "end": 151.24,
+      "text": " Can you do it here."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 151.24,
+      "end": 152.12,
+      "text": " So I want to do that here."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 152.12,
+      "end": 157.8,
+      "text": " So the available candies I would say I would use a variable called as av which is available candies."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 157.8,
+      "end": 161.56,
+      "text": " And let's say in my machine I have only 10 candies okay."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 161.56,
+      "end": 164.52,
+      "text": " If a user says five candies no issue you can take five candies."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 164.52,
+      "end": 165.8,
+      "text": " Example if I run this code now."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 165.8,
+      "end": 168.6,
+      "text": " And if a user says hey I want 10 candies that's completely fine."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 168.6,
+      "end": 169.8,
+      "text": " We have 10 candies."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 169.8,
+      "end": 174.04000000000002,
+      "text": " But if a user says hey I want 20 candies we don't have that much right."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 174.04000000000002,
+      "end": 175.4,
+      "text": " So what you will do here."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 175.4,
+      "end": 179.24,
+      "text": " So in that case before printing candies what we can do is."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 179.24,
+      "end": 183.8,
+      "text": " So here we can check if the number of if the value of i."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 183.8,
+      "end": 187.64000000000001,
+      "text": " Because see if you have 10 candies and if a user says we want 20 candies."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 187.64000000000001,
+      "end": 189.72000000000003,
+      "text": " What you can do is you can give 10 candies right."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 189.72000000000003,
+      "end": 191.64000000000001,
+      "text": " So the value of i is important here."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 191.64000000000001,
+      "end": 197.08,
+      "text": " So if the value of i is greater than your number of available candies which is av."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 197.08,
+      "end": 200.76000000000002,
+      "text": " In that case you will stop the execution or we forgot one colon there."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 200.76000000000002,
+      "end": 202.60000000000002,
+      "text": " So we need to stop the execution."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 202.60000000000002,
+      "end": 204.60000000000002,
+      "text": " But which execution not the entire code execution."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 204.60000000000002,
+      "end": 209.48000000000002,
+      "text": " Because maybe at the end of your code outside your while loop I want to print by."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 209.48000000000002,
+      "end": 213.16000000000003,
+      "text": " So I don't want to stop the execution because you can do that by saying exit or something."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 213.16000000000003,
+      "end": 215.16000000000003,
+      "text": " I don't want to end the execution of the code."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 215.16000000000003,
+      "end": 218.12,
+      "text": " I just want to come out of while loop."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 218.12,
+      "end": 222.52,
+      "text": " And the way you can do that is by using a statement called as break."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 222.52,
+      "end": 226.68,
+      "text": " The moment you say break it means hey just could just jump out of the loop right."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 226.68,
+      "end": 229.8,
+      "text": " So let me just run this code and you can see it is saying how many candies you want."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 229.8,
+      "end": 231.72,
+      "text": " I would say I want five candies."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 231.72,
+      "end": 234.20000000000002,
+      "text": " No issue you got five candies and you got by as well."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 234.20000000000002,
+      "end": 235.32,
+      "text": " It should be get lost right."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 235.32,
+      "end": 239.08,
+      "text": " Okay so if I say 11 candies now and you can see we got how many candies here."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 239.08,
+      "end": 239.8,
+      "text": " So we got one."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 239.8,
+      "end": 242.68,
+      "text": " In fact let me reduce the number because it is difficult to count."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 242.68,
+      "end": 243.88,
+      "text": " We don't have much time."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 243.88,
+      "end": 246.92000000000002,
+      "text": " So I would say I want six candies and see how many candies you got."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 246.92000000000002,
+      "end": 249.24,
+      "text": " You got one two three four five."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 249.24,
+      "end": 251.64000000000001,
+      "text": " So total number of candies available is five."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 251.64000000000001,
+      "end": 253.56,
+      "text": " But then a user says I want six candies."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 253.56,
+      "end": 256.6,
+      "text": " What you will get is only six candies right."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 256.6,
+      "end": 258.44,
+      "text": " So this thing is important."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 258.44,
+      "end": 260.28000000000003,
+      "text": " So this is how you can stop."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 260.28000000000003,
+      "end": 262.12,
+      "text": " You can just jump out of the loop."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 262.12,
+      "end": 264.12,
+      "text": " So there are so many application of this break statement."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 264.12,
+      "end": 265.88,
+      "text": " You can use it in your in your applications."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 265.88,
+      "end": 267.48,
+      "text": " But then this is how it works."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 267.48,
+      "end": 271.24,
+      "text": " So if you want to just jump out of the block you can simply use break."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 271.24,
+      "end": 274.28000000000003,
+      "text": " In fact if you wanted to print a message by saying hey we are out of stock."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 274.28000000000003,
+      "end": 275.0,
+      "text": " We can do that here."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 275.0,
+      "end": 278.12,
+      "text": " So you can say print out of stock."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 278.12,
+      "end": 281.64000000000004,
+      "text": " And now if you run this code let's say I want I want eight candies."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 281.64000000000004,
+      "end": 284.04,
+      "text": " You can see after printing five candies it's saying out of stock."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 284.04,
+      "end": 286.12,
+      "text": " You know this is what happens when you buy something."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 286.12,
+      "end": 287.4,
+      "text": " Buy a new phone online."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 287.4,
+      "end": 288.76,
+      "text": " You know we have this open sale."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 289.4,
+      "end": 292.04,
+      "text": " So some people can buy it and then it says out of stock."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 292.04,
+      "end": 295.16,
+      "text": " Anyway so this is how your break statement works."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 295.16,
+      "end": 297.4,
+      "text": " The next statement we have is continue."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 297.4,
+      "end": 300.52,
+      "text": " So the question is so in the last video I have given you the assignment."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 300.52,
+      "end": 304.36,
+      "text": " Which is you need to print numbers from 1 to 100 or 1 to 20."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 304.36,
+      "end": 308.28000000000003,
+      "text": " But then don't print the values which are divisible by 3 or 5."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 308.28000000000003,
+      "end": 310.04,
+      "text": " Okay so you have to skip those values."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 310.04,
+      "end": 312.76,
+      "text": " So basically what I want is I want to print 1 2 3."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 312.76,
+      "end": 314.2,
+      "text": " I want to print 1 2."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 314.2,
+      "end": 315.8,
+      "text": " I don't want to print 3."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 315.8,
+      "end": 318.2,
+      "text": " Then I because it's divisible by 3."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 318.2,
+      "end": 319.32,
+      "text": " I want to print 4."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 319.32,
+      "end": 321.72,
+      "text": " I don't want to print 5 because it's divisible by 5."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 321.72,
+      "end": 324.52000000000004,
+      "text": " I don't want to print 6 because it is divisible by 3."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 324.52000000000004,
+      "end": 326.6,
+      "text": " I want to print 7 8."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 326.6,
+      "end": 329.40000000000003,
+      "text": " Then I will not print 9 because it is divisible by 3."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 329.40000000000003,
+      "end": 331.24,
+      "text": " Okay so I want to skip those numbers."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 331.24,
+      "end": 332.44,
+      "text": " How can we do that here?"
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 332.44,
+      "end": 334.04,
+      "text": " Of course we'll shorten the code."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 334.04,
+      "end": 335.16,
+      "text": " We'll not be focusing on 5."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 335.16,
+      "end": 336.12,
+      "text": " Only focus on 3."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 336.12,
+      "end": 339.8,
+      "text": " Okay so I want to print all the values from 1 to 100."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 339.8,
+      "end": 341.24,
+      "text": " But then I don't want to."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 341.24,
+      "end": 344.12,
+      "text": " I want to skip those values which are divisible by 3."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 344.12,
+      "end": 346.36,
+      "text": " And to do that what I will do is I'll write a code."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 346.36,
+      "end": 347.64,
+      "text": " And this time we'll go for for loop."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 347.64,
+      "end": 349.96,
+      "text": " Okay we can go for while loop or for loop your choice."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 349.96,
+      "end": 353.96,
+      "text": " I will say for i in and then we'll use a range here."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 353.96,
+      "end": 357.64,
+      "text": " And I will go till 1 0 1 because that's what I want to go for."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 357.64,
+      "end": 359.0,
+      "text": " I don't want to print 0."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 359.0,
+      "end": 360.6,
+      "text": " So let me start with 1."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 360.6,
+      "end": 362.12,
+      "text": " Okay so that's my for loop."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 362.12,
+      "end": 364.76,
+      "text": " And then I just want to print the value of i."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 364.76,
+      "end": 366.76,
+      "text": " Now what will happen it will print all the values."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 366.76,
+      "end": 369.16,
+      "text": " It will print the values from 1 to 100."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 369.16,
+      "end": 369.8,
+      "text": " Let's check it out."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 369.8,
+      "end": 372.36,
+      "text": " So let's say run and you can see we got all the values."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 372.36,
+      "end": 374.12,
+      "text": " But I don't want to print all the values right."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 374.12,
+      "end": 377.24,
+      "text": " I want to I don't want to print the value which is divisible by 3."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 377.24,
+      "end": 384.68,
+      "text": " In that case what we'll do is I will say if if my i value which is i mod 3 is equal to equal to 0."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 384.68,
+      "end": 386.6,
+      "text": " Okay let's not use on brackets there."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 386.6,
+      "end": 393.08000000000004,
+      "text": " If this is equal to 0 in that case I don't I just want to skip the remaining statements."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 393.08000000000004,
+      "end": 397.24,
+      "text": " Okay when I say remaining statement I don't want to skip the statement outside the loop."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 397.24,
+      "end": 401.08000000000004,
+      "text": " Example if I say at the end and it's a good idea to print by at the end"
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 401.08,
+      "end": 403.08,
+      "text": " because at least you will know what is happening."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 403.08,
+      "end": 409.8,
+      "text": " So what will happen now is when you say for i in range 1 to 100 every time you say if it is 3."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 409.8,
+      "end": 412.52,
+      "text": " In that case I don't want to print i."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 412.52,
+      "end": 414.44,
+      "text": " I just want it to continue with the loop."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 415.0,
+      "end": 417.24,
+      "text": " Let me just run this code for you."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 417.24,
+      "end": 418.68,
+      "text": " Oh we got an error."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 418.68,
+      "end": 419.47999999999996,
+      "text": " What's wrong?"
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 419.47999999999996,
+      "end": 421.32,
+      "text": " Oh we are missing one thing right."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 421.32,
+      "end": 422.68,
+      "text": " Now how will you how will you continue?"
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 422.68,
+      "end": 425.4,
+      "text": " So you have to say a statement which is continue."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 425.4,
+      "end": 427.64,
+      "text": " So continue will skip the remaining stuff."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 427.71999999999997,
+      "end": 432.03999999999996,
+      "text": " If I run this code and you can see we got all the values and look at the output now."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 432.03999999999996,
+      "end": 432.84,
+      "text": " We got 1, 2."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 432.84,
+      "end": 435.64,
+      "text": " We are there's no 3 because it is divisible by 3."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 435.64,
+      "end": 436.84,
+      "text": " We don't have 6 again."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 436.84,
+      "end": 437.56,
+      "text": " We don't have 9."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 437.56,
+      "end": 438.59999999999997,
+      "text": " We don't have 12."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 438.59999999999997,
+      "end": 440.76,
+      "text": " So this is how you work with continue."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 440.76,
+      "end": 444.12,
+      "text": " So what continue will do it will skip the further execution."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 444.12,
+      "end": 446.84,
+      "text": " If you say continue it will not jump out of the loop."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 446.84,
+      "end": 449.0,
+      "text": " It will only skip the remaining statements."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 449.0,
+      "end": 453.88,
+      "text": " In fact in the assignment what we have done is so in the assignment question it was 3 or 5 right."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 453.88,
+      "end": 457.88,
+      "text": " So we can do we can say or I mean we have to use a or symbol here."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 457.88,
+      "end": 461.56,
+      "text": " So we have to say or i mod 5 is equal to 0 right."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 461.56,
+      "end": 465.4,
+      "text": " So now it will skip all the values which are divisible by 3 or 5."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 465.4,
+      "end": 466.6,
+      "text": " So you can see we don't have 3."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 466.6,
+      "end": 467.32,
+      "text": " We don't have 5."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 467.32,
+      "end": 468.12,
+      "text": " We don't have 9."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 468.12,
+      "end": 469.0,
+      "text": " We don't have 10 right."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 469.0,
+      "end": 470.2,
+      "text": " So this is how it works."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 470.2,
+      "end": 475.4,
+      "text": " In fact we can also do it for and so only skip those values which are divisible by 3 and 5."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 475.4,
+      "end": 477.32,
+      "text": " Example 15 right."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 477.32,
+      "end": 478.36,
+      "text": " So we have 30."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 478.36,
+      "end": 479.48,
+      "text": " So all these values."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 479.48,
+      "end": 483.56,
+      "text": " So if I run this code once again and you can see it will skip only those values which are"
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 483.56,
+      "end": 484.76,
+      "text": " divisible by both."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 484.76,
+      "end": 485.96,
+      "text": " In this case it is 15."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 485.96,
+      "end": 487.16,
+      "text": " You can see we don't have 15."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 487.16,
+      "end": 489.56,
+      "text": " So that's how you can practice and also we have continue here."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 489.56,
+      "end": 490.52,
+      "text": " It works right."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 490.52,
+      "end": 492.76,
+      "text": " So the next one we have is pass."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 492.76,
+      "end": 493.72,
+      "text": " Now when you will use pass."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 493.72,
+      "end": 495.72,
+      "text": " So just imagine we want to print 1 to 100."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 495.72,
+      "end": 495.96,
+      "text": " Okay."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 495.96,
+      "end": 500.6,
+      "text": " So I want to print all the values but then I don't want to print those values which are"
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 500.6,
+      "end": 502.04,
+      "text": " let's say odd numbers."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 502.04,
+      "end": 502.36,
+      "text": " Okay."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 502.36,
+      "end": 504.28,
+      "text": " Again we are going for a simple example."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 504.28,
+      "end": 507.4,
+      "text": " I don't want to print values which are odd numbers."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 507.4,
+      "end": 510.28,
+      "text": " So my condition here is don't print odd numbers."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 510.28,
+      "end": 511.88,
+      "text": " See I'm not thinking about even."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 511.88,
+      "end": 513.64,
+      "text": " I'm thinking only on odd numbers."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 513.64,
+      "end": 515.72,
+      "text": " So my logic here is on odd."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 515.72,
+      "end": 516.68,
+      "text": " How do I check odd?"
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 516.68,
+      "end": 521.64,
+      "text": " So we'll say I want to print the value of i but it should not be an odd number."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 521.64,
+      "end": 524.92,
+      "text": " So in that case my condition is only on odd."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 524.92,
+      "end": 525.56,
+      "text": " So I want to do."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 525.56,
+      "end": 527.8,
+      "text": " So I want to print in else condition."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 527.8,
+      "end": 530.52,
+      "text": " So I will say in else you have to print this."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 530.52,
+      "end": 536.68,
+      "text": " So if i mod 2 is not equal to 0 then don't do it."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 536.68,
+      "end": 539.24,
+      "text": " But only if it is in the else condition I want to print it."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 539.88,
+      "end": 541.8,
+      "text": " That's what I'm trying to do here."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 541.8,
+      "end": 546.4399999999999,
+      "text": " Now I know you will be saying why don't why what if you simply use even if you check for"
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 546.4399999999999,
+      "end": 547.56,
+      "text": " even and print it."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 547.56,
+      "end": 551.0799999999999,
+      "text": " But imagine if you have a scenario where you are checking for the odd values."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 551.0799999999999,
+      "end": 553.56,
+      "text": " You're not focusing on even you're focusing on odd."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 553.56,
+      "end": 556.52,
+      "text": " In that case I want to print it in else part."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 556.52,
+      "end": 557.9599999999999,
+      "text": " But then you can see it will not work."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 557.9599999999999,
+      "end": 559.7199999999999,
+      "text": " You can see it is giving you an error."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 559.7199999999999,
+      "end": 563.0799999999999,
+      "text": " You cannot simply put an if as an empty block right."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 563.0799999999999,
+      "end": 565.64,
+      "text": " So in that case you will say hey I don't have anything here."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 566.3599999999999,
+      "end": 567.3199999999999,
+      "text": " I'm typing pass."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 567.3199999999999,
+      "end": 569.56,
+      "text": " So pass simply means there is no code."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 569.56,
+      "end": 570.3599999999999,
+      "text": " Ignore it."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 570.3599999999999,
+      "end": 570.76,
+      "text": " Right."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 570.76,
+      "end": 573.16,
+      "text": " So just pass the if block."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 573.16,
+      "end": 577.4,
+      "text": " In fact in other languages like C, C++ we have curly brackets so we can fill it up."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 577.4,
+      "end": 580.92,
+      "text": " But unfortunately we don't use curly brackets here so we have to use pass."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 580.92,
+      "end": 584.12,
+      "text": " So if in this code you can see we got all the values all even numbers."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 584.12,
+      "end": 586.84,
+      "text": " Oh we got all the values which are not odd."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 586.84,
+      "end": 589.08,
+      "text": " Okay so just rephrasing the point."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 589.08,
+      "end": 592.36,
+      "text": " So that's how we use break, continue and pass."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 592.36,
+      "end": 594.6,
+      "text": " So in the next video we'll talk about some more patterns."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 594.6,
+      "end": 596.04,
+      "text": " Since we have talked about this thing now."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 596.6,
+      "end": 599.4,
+      "text": " So the next video will be very exciting where we'll talk about different patterns."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 599.4,
+      "end": 600.76,
+      "text": " So I hope you are enjoying the series."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 600.76,
+      "end": 604.4399999999999,
+      "text": " Let me know in the comment section and if you have any questions let me know that as well."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 604.4399999999999,
+      "end": 605.56,
+      "text": " So thank you so much everyone."
+    },
+    {
+      "number": "22",
+      "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+      "start": 605.56,
+      "end": 606.36,
+      "text": " Bye."
+    }
+  ],
+  "text": " Welcome back aliens my name is Avin Reddy and let's continue the series on Python. Till this point we have talked about loops right we have talked about for loop and while loop. In this video we'll talk about three keywords break, continue and pass. Again why do we need that let's say in the code itself. So let's design a vending machine of course not a physical machine here. Let's write a simple code just to mimic vending machine here. So what we'll do is if a user says hey I want five candies you have to give five candies not a physically candies. But then we'll write only candies or print candies. Okay, so if I say one candy it's one time. So if a user say I want five candies you will print candies five times. So that's what we want to do. So let's write here. So first of all we have a variable and we'll say X and the value for this variable will be coming from user. Input so we'll say int input and in this bracket you will mention how many candies you want. Okay once you got this statement I what I want to do is I want to print candies right. So if a user says hey I want five candies you will print candy five times. If you want to do something multiple times you will simply use a loop. So we'll use a while loop here again you can use for loop that's your choice okay. But I love for a while loop here. So I will take a variable which is increment variable I will say i is equal to one. And then we'll use a while loop here and we'll say if i less than equal to x. Because depending upon the number of value a user is entering will print will go for so many candies. And every time this loop runs you will print candy. That's what we want to do here right. And then after every statement we need to also increment it. In fact we can so if you can write i equal to i plus one or you can use a shortcut here. Which is i plus equal to one because we have seen that right. So instead of saying i equal to i plus one we can also use i plus equal to one. Shortcut for the same thing. Now this should work right. So this should work let's try. So if run this code you can see it is asking for the number of candies. I would say four candies enter you got candy four times. That means you're getting candies from the machine. And I will just run this code once again. I will this time I will go for let's say eight. And you can see we got candy eight times. So it is working. Now here is a twist. The twist is what if a user says hey I want hundred candies okay. And then in your machine in the vending machine we don't have hundred candies. You have let's say 50 candies or maybe 80 candies. So what you will do now. You have two choice you can stop the transaction. You can say hey user we don't have so many candies. Or what you can do is you can give 80 candies. And you can say we are out of stock right. Can you do it here. So I want to do that here. So the available candies I would say I would use a variable called as av which is available candies. And let's say in my machine I have only 10 candies okay. If a user says five candies no issue you can take five candies. Example if I run this code now. And if a user says hey I want 10 candies that's completely fine. We have 10 candies. But if a user says hey I want 20 candies we don't have that much right. So what you will do here. So in that case before printing candies what we can do is. So here we can check if the number of if the value of i. Because see if you have 10 candies and if a user says we want 20 candies. What you can do is you can give 10 candies right. So the value of i is important here. So if the value of i is greater than your number of available candies which is av. In that case you will stop the execution or we forgot one colon there. So we need to stop the execution. But which execution not the entire code execution. Because maybe at the end of your code outside your while loop I want to print by. So I don't want to stop the execution because you can do that by saying exit or something. I don't want to end the execution of the code. I just want to come out of while loop. And the way you can do that is by using a statement called as break. The moment you say break it means hey just could just jump out of the loop right. So let me just run this code and you can see it is saying how many candies you want. I would say I want five candies. No issue you got five candies and you got by as well. It should be get lost right. Okay so if I say 11 candies now and you can see we got how many candies here. So we got one. In fact let me reduce the number because it is difficult to count. We don't have much time. So I would say I want six candies and see how many candies you got. You got one two three four five. So total number of candies available is five. But then a user says I want six candies. What you will get is only six candies right. So this thing is important. So this is how you can stop. You can just jump out of the loop. So there are so many application of this break statement. You can use it in your in your applications. But then this is how it works. So if you want to just jump out of the block you can simply use break. In fact if you wanted to print a message by saying hey we are out of stock. We can do that here. So you can say print out of stock. And now if you run this code let's say I want I want eight candies. You can see after printing five candies it's saying out of stock. You know this is what happens when you buy something. Buy a new phone online. You know we have this open sale. So some people can buy it and then it says out of stock. Anyway so this is how your break statement works. The next statement we have is continue. So the question is so in the last video I have given you the assignment. Which is you need to print numbers from 1 to 100 or 1 to 20. But then don't print the values which are divisible by 3 or 5. Okay so you have to skip those values. So basically what I want is I want to print 1 2 3. I want to print 1 2. I don't want to print 3. Then I because it's divisible by 3. I want to print 4. I don't want to print 5 because it's divisible by 5. I don't want to print 6 because it is divisible by 3. I want to print 7 8. Then I will not print 9 because it is divisible by 3. Okay so I want to skip those numbers. How can we do that here? Of course we'll shorten the code. We'll not be focusing on 5. Only focus on 3. Okay so I want to print all the values from 1 to 100. But then I don't want to. I want to skip those values which are divisible by 3. And to do that what I will do is I'll write a code. And this time we'll go for for loop. Okay we can go for while loop or for loop your choice. I will say for i in and then we'll use a range here. And I will go till 1 0 1 because that's what I want to go for. I don't want to print 0. So let me start with 1. Okay so that's my for loop. And then I just want to print the value of i. Now what will happen it will print all the values. It will print the values from 1 to 100. Let's check it out. So let's say run and you can see we got all the values. But I don't want to print all the values right. I want to I don't want to print the value which is divisible by 3. In that case what we'll do is I will say if if my i value which is i mod 3 is equal to equal to 0. Okay let's not use on brackets there. If this is equal to 0 in that case I don't I just want to skip the remaining statements. Okay when I say remaining statement I don't want to skip the statement outside the loop. Example if I say at the end and it's a good idea to print by at the end because at least you will know what is happening. So what will happen now is when you say for i in range 1 to 100 every time you say if it is 3. In that case I don't want to print i. I just want it to continue with the loop. Let me just run this code for you. Oh we got an error. What's wrong? Oh we are missing one thing right. Now how will you how will you continue? So you have to say a statement which is continue. So continue will skip the remaining stuff. If I run this code and you can see we got all the values and look at the output now. We got 1, 2. We are there's no 3 because it is divisible by 3. We don't have 6 again. We don't have 9. We don't have 12. So this is how you work with continue. So what continue will do it will skip the further execution. If you say continue it will not jump out of the loop. It will only skip the remaining statements. In fact in the assignment what we have done is so in the assignment question it was 3 or 5 right. So we can do we can say or I mean we have to use a or symbol here. So we have to say or i mod 5 is equal to 0 right. So now it will skip all the values which are divisible by 3 or 5. So you can see we don't have 3. We don't have 5. We don't have 9. We don't have 10 right. So this is how it works. In fact we can also do it for and so only skip those values which are divisible by 3 and 5. Example 15 right. So we have 30. So all these values. So if I run this code once again and you can see it will skip only those values which are divisible by both. In this case it is 15. You can see we don't have 15. So that's how you can practice and also we have continue here. It works right. So the next one we have is pass. Now when you will use pass. So just imagine we want to print 1 to 100. Okay. So I want to print all the values but then I don't want to print those values which are let's say odd numbers. Okay. Again we are going for a simple example. I don't want to print values which are odd numbers. So my condition here is don't print odd numbers. See I'm not thinking about even. I'm thinking only on odd numbers. So my logic here is on odd. How do I check odd? So we'll say I want to print the value of i but it should not be an odd number. So in that case my condition is only on odd. So I want to do. So I want to print in else condition. So I will say in else you have to print this. So if i mod 2 is not equal to 0 then don't do it. But only if it is in the else condition I want to print it. That's what I'm trying to do here. Now I know you will be saying why don't why what if you simply use even if you check for even and print it. But imagine if you have a scenario where you are checking for the odd values. You're not focusing on even you're focusing on odd. In that case I want to print it in else part. But then you can see it will not work. You can see it is giving you an error. You cannot simply put an if as an empty block right. So in that case you will say hey I don't have anything here. I'm typing pass. So pass simply means there is no code. Ignore it. Right. So just pass the if block. In fact in other languages like C, C++ we have curly brackets so we can fill it up. But unfortunately we don't use curly brackets here so we have to use pass. So if in this code you can see we got all the values all even numbers. Oh we got all the values which are not odd. Okay so just rephrasing the point. So that's how we use break, continue and pass. So in the next video we'll talk about some more patterns. Since we have talked about this thing now. So the next video will be very exciting where we'll talk about different patterns. So I hope you are enjoying the series. Let me know in the comment section and if you have any questions let me know that as well. So thank you so much everyone. Bye."
+}
