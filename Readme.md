@@ -1,145 +1,182 @@
-# TutorRAG
+# TutorRAG – RAG-Based AI Teaching Assistant
 
-TutorRAG is a local RAG-based course assistant for Python learning content. It helps you ask questions like where a topic is taught, then returns the most relevant video, video number, and exact timestamp from your course data.
+TutorRAG is a Retrieval-Augmented Generation (RAG) system that helps users find **exact topics from a Python course with timestamps** and provides clear, context-based answers.
 
-The project now runs as a Flask web app on `localhost`, includes a cleaner chat-style UI, and stores prompt/response history in SQLite.
+It combines **semantic search (embeddings)** with a **local LLM** to deliver accurate responses.
 
-## Features
+---
 
-- Local Flask web interface
-- Course-topic search using embeddings
-- Exact video and timestamp lookup
-- Fast retrieval-based answer generation
-- SQLite storage for prompts and responses
-- Prompt and response logging to `prompt.txt` and `response.txt`
+## 🚀 Features
 
-## Current Stack
+* Ask course-related questions
+* Get **video number + exact timestamp**
+* Clean, concise answers
+* ChatGPT-style web UI (Flask)
+* Semantic search using embeddings (`bge-m3`)
+* Local LLM inference (Llama 3.2 / DeepSeek)
+* SQLite database (`tutorrag.db`) for chat history
 
-- Python
-- Flask
-- Pandas
-- NumPy
-- Scikit-learn
-- Joblib
-- Requests
-- SQLite3
-- Ollama embeddings API
+---
 
-## Project Structure
+## 🧠 How It Works
 
-```text
+1. Videos → converted to audio
+2. Audio → converted to JSON subtitles
+3. JSON → chunked and merged
+4. Embeddings generated using `bge-m3`
+5. User query → embedding
+6. Cosine similarity → best matching chunk
+7. LLM generates final answer using context
+
+---
+
+## 📁 Project Structure
+
+```bash
 TutorRAG/
-├── app.py
-├── process_incoming.py
-├── embeddings.joblib
-├── prompt.txt
-├── response.txt
-├── Readme.md
+│
+├── app.py                    # Flask web app
+├── process_incoming.py       # RAG pipeline (retrieval + LLM)
+├── preprocess_json.py        # Embedding generation
+├── merge_chunks.py           # Chunk merging logic
+├── mp3_to_json.py            # Audio → JSON conversion
+├── video_to_mp3.py           # Video → audio conversion
+│
+├── embeddings.joblib         # Stored embeddings
+├── tutorrag.db               # SQLite database
+│
+├── audios/                   # Extracted audio files
+├── videos/                   # Source videos
+├── jsons/                    # Raw JSON transcripts
+├── newjsons/                 # Processed chunks
+│
 ├── templates/
-│   └── index.html
-├── audios/
-├── jsons/
-├── newjsons/
-├── unused/
-└── videos/
+│   └── index.html            # Web UI
+│
+├── unused/                   # Experimental / unused files
+├── __pycache__/              # Python cache (ignored)
+│
+├── prompt.txt                # Debug prompt
+├── response.txt              # Debug response
+├── README.md
+├── .gitignore
 ```
 
-## How It Works
+---
 
-1. The user enters a course question in the web UI.
-2. The query is converted into an embedding using Ollama.
-3. Cosine similarity is used to find the best matching transcript chunk.
-4. Title, video number, and timestamp are taken from the top match.
-5. A clean answer is built from the retrieved lesson content.
-6. The interaction is stored in SQLite.
-
-## Setup
-
-### 1. Install Python packages
+## ⚙️ Installation
 
 ```bash
-pip install flask pandas numpy scikit-learn joblib requests
+git clone https://github.com/akashbhusod-cmyk/TutorRAG.git
+cd TutorRAG
+
 ```
 
-### 2. Install Ollama
+---
 
-Download Ollama from [ollama.com](https://ollama.com)
-
-Then pull the embedding model used by this project:
-
-```bash
-ollama pull bge-m3
-```
-
-### 3. Start Ollama
-
-```bash
-ollama serve
-```
-
-Ollama should be available at:
-
-```text
-http://localhost:11434
-```
-
-## Run The App
-
-Start the Flask app:
+## ▶️ Run the Application
 
 ```bash
 python app.py
 ```
 
-Then open:
+Open in browser:
 
-```text
+```
 http://127.0.0.1:5000
 ```
 
-## Example Questions
+---
 
-- Where is tuple explained in the course?
-- Which video covers swapping two variables?
-- Where is list taught in Python?
-- Which lesson explains user input?
+## 🧾 Data Processing Pipeline
 
-## Database
+Run these steps only when preparing data:
 
-TutorRAG stores interactions in a SQLite database file:
+### 1. Convert video → audio
 
-```text
-tutorrag.db
+```bash
+python video_to_mp3.py
 ```
 
-The database is created automatically when the app starts.
+### 2. Convert audio → JSON
 
-### Stored Table
-
-```text
-rag_history
+```bash
+python mp3_to_json.py
 ```
 
-### Stored Fields
+### 3. Merge chunks
 
-- `user_query`
-- `prompt`
-- `response`
-- `status`
-- `created_at`
+```bash
+python merge_chunks.py
+```
 
-## Files Updated During Runtime
+### 4. Generate embeddings
 
-- `prompt.txt` stores the latest constructed prompt/context
-- `response.txt` stores the latest generated answer
-- `tutorrag.db` stores interaction history
+```bash
+python preprocess_json.py
+```
 
-## Notes
+---
 
-- The app depends on `embeddings.joblib` being present in the project root.
-- If Ollama is not running, the app will show a connection-related error.
-- The current response flow is optimized for fast and accurate course lookup rather than long-form generated answers.
+## 🗄️ Database
 
-## Author
+* SQLite database: `tutorrag.db`
+* Stores:
 
-Akki
+  * user queries
+  * generated responses
+
+---
+
+## 🧰 Tech Stack
+
+* Python
+* Flask
+* SQLite
+* Pandas / NumPy
+* Scikit-learn (cosine similarity)
+* Ollama (local LLM)
+* bge-m3 embeddings
+
+---
+
+## 💡 Example Query
+
+> Where is swapping variables taught?
+
+**Output:**
+
+> Video 17: Swap 2 Variables in Python [0:00 – 0:35]
+> Demonstrates swapping values using a temporary variable.
+
+---
+
+## 📌 Future Improvements
+
+* Streaming responses (typing effect)
+* Chat history sidebar
+* Vector database (FAISS / Chroma)
+* Multi-course support
+* Deployment (Render / Railway)
+
+---
+
+## 📷 Demo
+
+*Add your UI screenshot here*
+
+```
+![App Screenshot](screenshot.png)
+```
+
+---
+
+## 👨‍💻 Author
+
+Akash Bhusod
+
+---
+
+## 📜 License
+
+For educational and portfolio purposes.
