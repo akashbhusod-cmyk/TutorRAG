@@ -1,1 +1,7 @@
+# Ignore frontend from stats
+*.html linguist-vendored
+*.css linguist-vendored
+*.js linguist-vendored
 
+# Python detection
+*.py linguist-detectable=true
