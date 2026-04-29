@@ -2,7 +2,9 @@ from flask import Flask, render_template, request
 import process_incoming as rag
 
 app = Flask(__name__)
-rag.init_database()
+
+if hasattr(rag, "init_database"):
+    rag.init_database()
 
 
 @app.route("/", methods=["GET", "POST"])
@@ -14,16 +16,17 @@ def home():
     if request.method == "POST":
         query = request.form.get("query", "").strip()
 
-        try:
-            answer = rag.get_answer(query)
-        except Exception as exc:
-            error = (
-                "The RAG engine could not generate a response. "
-                "Make sure Ollama is running on http://localhost:11434."
-            )
-            answer = str(exc)
-            if query:
-                rag.save_interaction(query, "", answer, "error")
+        if query:
+            try:
+                answer = rag.get_answer(query)
+            except Exception as exc:
+                error = (
+                    "The RAG engine could not generate a response. "
+                    "Make sure Ollama is running on http://localhost:11434."
+                )
+                answer = str(exc)
+                if hasattr(rag, "save_interaction"):
+                    rag.save_interaction(query, "", answer, "error")
 
     return render_template(
         "index.html",

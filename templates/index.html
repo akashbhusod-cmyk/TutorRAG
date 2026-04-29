@@ -6,20 +6,16 @@
     <title>TutorRAG</title>
     <style>
         :root {
-            --bg: #f7f7f8;
-            --panel: #ffffff;
-            --panel-muted: #f3f4f6;
-            --panel-border: #e5e7eb;
-            --text: #111827;
-            --muted: #6b7280;
-            --accent: #10a37f;
-            --accent-hover: #0e8f70;
-            --user-bubble: #f0fdf8;
-            --assistant-bubble: #ffffff;
-            --error-bg: #fff7ed;
-            --error-border: #fdba74;
-            --shadow: 0 12px 40px rgba(15, 23, 42, 0.06);
-            --radius: 18px;
+            --bg: #050816;
+            --panel: #0c1326;
+            --panel-border: rgba(125, 155, 255, 0.16);
+            --text: #f4f7ff;
+            --muted: #91a0c0;
+            --accent: #7cc7ff;
+            --accent-soft: rgba(124, 199, 255, 0.14);
+            --student: #ffb27d;
+            --assistant: #7ee2c2;
+            --error: #ff9a7a;
         }
 
         * {
@@ -29,449 +25,230 @@
         body {
             margin: 0;
             min-height: 100vh;
-            font-family: "Segoe UI", Arial, sans-serif;
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            padding: 16px;
+            font-family: "Segoe UI Variable Display", "Segoe UI", sans-serif;
             color: var(--text);
             background:
-                radial-gradient(circle at top, rgba(16, 163, 127, 0.08), transparent 22%),
-                linear-gradient(180deg, #fbfbfc 0%, var(--bg) 100%);
+                radial-gradient(circle at top, rgba(124, 199, 255, 0.12), transparent 28%),
+                linear-gradient(180deg, #030611 0%, #07101d 52%, #040713 100%);
         }
 
         .app-shell {
-            width: min(1200px, calc(100% - 32px));
-            margin: 24px auto;
-            border: 1px solid var(--panel-border);
+            width: min(860px, 100%);
+            padding: 24px;
             border-radius: 28px;
-            overflow: hidden;
-            background: var(--panel);
-            box-shadow: var(--shadow);
-            display: grid;
-            grid-template-columns: 280px 1fr;
-            min-height: calc(100vh - 48px);
-        }
-
-        .sidebar {
-            background: #f9fafb;
-            border-right: 1px solid var(--panel-border);
-            padding: 24px 18px;
-            display: flex;
-            flex-direction: column;
-            gap: 18px;
+            border: 1px solid var(--panel-border);
+            background: rgba(12, 19, 38, 0.92);
+            box-shadow: 0 30px 80px rgba(0, 0, 0, 0.42);
         }
 
         .brand {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            padding: 12px 14px;
-            border-radius: 16px;
-            background: #ffffff;
-            border: 1px solid var(--panel-border);
+            margin-bottom: 18px;
         }
 
-        .brand-mark {
-            width: 34px;
-            height: 34px;
-            border-radius: 12px;
-            display: grid;
-            place-items: center;
-            background: linear-gradient(135deg, #10a37f, #0f766e);
-            color: white;
-            font-size: 0.95rem;
+        .brand-tag {
+            display: inline-block;
+            margin-bottom: 12px;
+            padding: 7px 12px;
+            border-radius: 999px;
+            background: var(--accent-soft);
+            color: var(--accent);
+            font-size: 0.8rem;
             font-weight: 700;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
         }
 
-        .brand h1 {
+        h1 {
             margin: 0;
-            font-size: 1.02rem;
-            font-weight: 700;
+            font-size: clamp(2rem, 5vw, 3.1rem);
+            line-height: 1.02;
+            letter-spacing: -0.04em;
         }
 
-        .brand p {
-            margin: 2px 0 0;
-            color: var(--muted);
-            font-size: 0.88rem;
-        }
-
-        .sidebar-card {
-            padding: 18px;
-            border-radius: 18px;
-            background: #ffffff;
-            border: 1px solid var(--panel-border);
-        }
-
-        .sidebar-card h2 {
-            margin: 0 0 10px;
-            font-size: 0.95rem;
-            font-weight: 700;
-        }
-
-        .sidebar-card p {
-            margin: 0;
-            color: var(--muted);
-            line-height: 1.6;
-            font-size: 0.92rem;
-        }
-
-        .mini-list {
-            display: grid;
-            gap: 10px;
-            margin-top: 14px;
-        }
-
-        .mini-item {
-            padding: 12px 14px;
-            border-radius: 14px;
-            background: var(--panel-muted);
-            color: #374151;
-            font-size: 0.91rem;
-        }
-
-        .main {
-            display: flex;
-            flex-direction: column;
-            min-width: 0;
-        }
-
-        .main.empty {
-            justify-content: flex-start;
-        }
-
-        .topbar {
-            padding: 14px 22px;
-            border-bottom: 1px solid var(--panel-border);
-            display: flex;
-            align-items: center;
-            justify-content: flex-start;
-            gap: 16px;
-            background: rgba(255, 255, 255, 0.92);
-            backdrop-filter: blur(8px);
-        }
-
-        .topbar-title h2 {
-            margin: 0;
-            font-size: 1.15rem;
-            font-weight: 700;
-        }
-
-        .topbar-title p {
-            margin: 4px 0 0;
-            color: var(--muted);
-            font-size: 0.92rem;
-        }
-
-        .conversation {
-            flex: 1;
-            padding: 12px 18px 8px;
-            background: linear-gradient(180deg, #ffffff 0%, #fafafa 100%);
-            overflow: auto;
-        }
-
-        .conversation.empty {
-            flex: 0;
-            padding-bottom: 2px;
-            overflow: visible;
-        }
-
-        .welcome {
-            max-width: 760px;
-            margin: 0 auto 10px;
-            text-align: center;
-        }
-
-        .welcome h3 {
-            margin: 0 0 6px;
-            font-size: clamp(1.6rem, 3vw, 2.3rem);
-            font-weight: 700;
-            letter-spacing: -0.03em;
-        }
-
-        .welcome p {
-            margin: 0 auto;
-            max-width: 620px;
+        .subtitle {
+            margin: 8px 0 0;
+            max-width: 52ch;
             color: var(--muted);
             line-height: 1.55;
             font-size: 0.95rem;
         }
 
-        .messages {
-            max-width: 860px;
-            margin: 0 auto;
-            display: grid;
-            gap: 14px;
-        }
-
-        .message {
-            display: grid;
-            grid-template-columns: 44px 1fr;
-            gap: 14px;
-            align-items: start;
-        }
-
-        .message.user {
-            grid-template-columns: 1fr 44px;
-        }
-
-        .avatar {
-            width: 44px;
-            height: 44px;
-            border-radius: 14px;
-            display: grid;
-            place-items: center;
-            font-size: 0.95rem;
-            font-weight: 700;
-            border: 1px solid var(--panel-border);
-        }
-
-        .avatar.user {
-            background: #eefcf7;
-            color: #047857;
-        }
-
-        .avatar.assistant {
-            background: #111827;
-            color: #ffffff;
-        }
-
-        .message.user .avatar {
-            order: 2;
-        }
-
-        .message.user .bubble {
-            order: 1;
-        }
-
-        .bubble {
-            border-radius: 20px;
-            padding: 14px 16px;
-            border: 1px solid var(--panel-border);
-            line-height: 1.7;
-            white-space: pre-wrap;
-            box-shadow: 0 6px 18px rgba(15, 23, 42, 0.04);
-        }
-
-        .bubble.user {
-            background: var(--user-bubble);
-            max-width: 78%;
-            justify-self: end;
-        }
-
-        .bubble.assistant {
-            background: var(--assistant-bubble);
-        }
-
-        .bubble.error {
-            background: var(--error-bg);
-            border-color: var(--error-border);
-        }
-
-        .label {
-            margin-bottom: 8px;
-            color: var(--muted);
-            font-size: 0.82rem;
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 0.06em;
-        }
-
-        .composer-wrap {
-            border-top: 1px solid var(--panel-border);
-            padding: 10px 14px 12px;
-            background: #ffffff;
-        }
-
-        .composer {
-            max-width: 860px;
-            margin: 0 auto;
-        }
-
-        .composer-form {
-            display: grid;
-            gap: 8px;
-            padding: 8px 10px;
-            border: 1px solid var(--panel-border);
-            border-radius: 18px;
-            background: #ffffff;
-            box-shadow: 0 10px 30px rgba(15, 23, 42, 0.06);
+        form {
+            margin-top: 18px;
         }
 
         textarea {
             width: 100%;
-            min-height: 44px;
-            max-height: 90px;
-            resize: none;
-            border: 0;
+            min-height: 112px;
+            padding: 14px 16px;
+            border: 1px solid rgba(124, 199, 255, 0.16);
+            border-radius: 20px;
+            resize: vertical;
             outline: none;
-            padding: 4px 8px 0;
             font: inherit;
-            font-size: 0.96rem;
-            line-height: 1.4;
             color: var(--text);
-            background: transparent;
+            background: #0a1122;
+            transition: border-color 0.2s ease, box-shadow 0.2s ease;
         }
 
-        .composer-actions {
+        textarea:focus {
+            border-color: rgba(124, 199, 255, 0.5);
+            box-shadow: 0 0 0 4px rgba(124, 199, 255, 0.1);
+        }
+
+        textarea::placeholder {
+            color: #7182a8;
+        }
+
+        .form-row {
             display: flex;
-            align-items: center;
             justify-content: space-between;
-            gap: 14px;
+            align-items: center;
+            gap: 16px;
+            margin-top: 12px;
             flex-wrap: wrap;
         }
 
-        .chips {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-        }
-
-        .chip {
-            padding: 6px 10px;
-            border-radius: 999px;
-            background: var(--panel-muted);
-            color: #4b5563;
-            font-size: 0.82rem;
+        .form-row span {
+            color: var(--muted);
+            font-size: 0.92rem;
         }
 
         button {
             border: 0;
-            border-radius: 999px;
-            padding: 10px 16px;
-            background: var(--accent);
-            color: #ffffff;
-            font-size: 0.9rem;
+            border-radius: 16px;
+            padding: 12px 18px;
+            font: inherit;
             font-weight: 700;
+            color: #03111d;
+            background: linear-gradient(135deg, #8ddcff, #7ee2c2);
             cursor: pointer;
-            transition: background 0.2s ease, transform 0.2s ease;
+            transition: transform 0.2s ease, filter 0.2s ease;
         }
 
         button:hover {
-            background: var(--accent-hover);
             transform: translateY(-1px);
+            filter: brightness(1.03);
+        }
+
+        .response-area {
+            margin-top: 18px;
+            display: grid;
+            gap: 12px;
+        }
+
+        .card {
+            padding: 16px 18px;
+            border-radius: 20px;
+            background: #0a1122;
+            border: 1px solid rgba(255, 255, 255, 0.06);
+        }
+
+        .card-label {
+            display: block;
+            margin-bottom: 10px;
+            font-size: 0.78rem;
+            font-weight: 700;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: var(--muted);
+        }
+
+        .student {
+            border-left: 4px solid var(--student);
+        }
+
+        .assistant {
+            border-left: 4px solid var(--assistant);
+        }
+
+        .error {
+            border-left: 4px solid var(--error);
+        }
+
+        .card p,
+        .empty-state p {
+            margin: 0;
+            line-height: 1.7;
+            white-space: pre-wrap;
         }
 
         .empty-state {
-            max-width: 860px;
-            margin: 0 auto;
-            padding: 14px 16px;
-            border: 1px dashed #d1d5db;
-            border-radius: 16px;
-            background: rgba(249, 250, 251, 0.9);
+            margin-top: 18px;
+            padding: 18px 16px;
+            border-radius: 20px;
+            background: #0a1122;
+            border: 1px dashed rgba(124, 199, 255, 0.14);
             color: var(--muted);
-            line-height: 1.55;
         }
 
-        @media (max-width: 960px) {
+        @media (max-width: 640px) {
+            body {
+                padding: 10px;
+                align-items: flex-start;
+            }
+
             .app-shell {
-                grid-template-columns: 1fr;
-                width: min(100%, calc(100% - 20px));
-                margin: 10px auto;
-                min-height: calc(100vh - 20px);
-                border-radius: 20px;
+                padding: 18px;
+                border-radius: 22px;
             }
 
-            .sidebar {
-                border-right: 0;
-                border-bottom: 1px solid var(--panel-border);
-            }
-
-            .topbar,
-            .conversation,
-            .composer-wrap {
-                padding-left: 18px;
-                padding-right: 18px;
-            }
-
-            .welcome {
-                text-align: left;
+            textarea {
+                min-height: 96px;
             }
         }
     </style>
 </head>
 <body>
     <main class="app-shell">
-        <aside class="sidebar">
-            <section class="brand">
-                <div class="brand-mark">TR</div>
-                <div>
-                    <h1>TutorRAG</h1>
-                    <p>Local course assistant</p>
-                </div>
+        <section class="brand">
+            <span class="brand-tag">TutorRAG</span>
+            <h1>Ask your teaching assistant.</h1>
+            <p class="subtitle">Get a clean explanation, summary, or concept breakdown from your course knowledge base.</p>
+        </section>
+
+        <form method="POST">
+            <textarea name="query" placeholder="Ask a topic or paste your question here..." required>{{ user_query or "" }}</textarea>
+            <div class="form-row">
+                <span>Learn.</span>
+                <button type="submit">Ask Now</button>
+            </div>
+        </form>
+
+        {% if error %}
+            <section class="response-area">
+                <article class="card error">
+                    <span class="card-label">System Notice</span>
+                    <p>{{ error }}</p>
+                </article>
             </section>
+        {% endif %}
 
-            <section class="sidebar-card">
-                <h2>How it feels</h2>
-                <p>A quieter, chat-first workspace inspired by modern AI assistants, with less landing-page styling and more focus on the conversation.</p>
-            </section>
-
-            <section class="sidebar-card">
-                <h2>What it helps with</h2>
-                <div class="mini-list">
-                    <div class="mini-item">Find the exact video for a Python topic</div>
-                    <div class="mini-item">Get timestamp-based answers from course content</div>
-                    <div class="mini-item">Ask naturally and read responses clearly</div>
-                </div>
-            </section>
-        </aside>
-
-        <section class="main {% if not answer %}empty{% endif %}">
-            <header class="topbar">
-                <div class="topbar-title">
-                    <h2>RAG Course Chat</h2>
-                    <p>Ask a topic and get a grounded answer from your local course data.</p>
-                </div>
-            </header>
-
-            <section class="conversation {% if not answer %}empty{% endif %}">
-                <div class="welcome" {% if answer %}style="display:none;"{% endif %}>
-                    <h3>Ask anything from your Python course.</h3>
-                    <p>The app retrieves the most relevant lesson chunk first, then turns it into a cleaner answer with title and timestamp guidance.</p>
-                </div>
+        {% if user_query or answer %}
+            <section class="response-area">
+                {% if user_query %}
+                    <article class="card student">
+                        <span class="card-label">Your Question</span>
+                        <p>{{ user_query }}</p>
+                    </article>
+                {% endif %}
 
                 {% if answer %}
-                <div class="messages">
-                    {% if user_query %}
-                    <article class="message user">
-                        <div class="avatar user">You</div>
-                        <div class="bubble user">
-                            {{ user_query }}
-                        </div>
+                    <article class="card assistant">
+                        <span class="card-label">Assistant Response</span>
+                        <p>{{ answer }}</p>
                     </article>
-                    {% endif %}
-
-                    <article class="message">
-                        <div class="avatar assistant">AI</div>
-                        <div class="bubble assistant {% if error %}error{% endif %}">
-                            <div class="label">{% if error %}Connection Issue{% else %}TutorRAG{% endif %}</div>
-                            {% if error %}{{ error }}&#10;&#10;{% endif %}{{ answer }}
-                        </div>
-                    </article>
-                </div>
-                {% else %}
-                <div class="empty-state">
-                    Start with a question like "where is tuple explained?" or "which video covers swapping two variables?" and the conversation will appear here in a cleaner chat layout.
-                </div>
                 {% endif %}
             </section>
-
-            <section class="composer-wrap">
-                <div class="composer">
-                    <form class="composer-form" method="POST">
-                        <textarea
-                            name="query"
-                            placeholder="Message TutorRAG..."
-                            required
-                        >{{ user_query or '' }}</textarea>
-                        <div class="composer-actions">
-                            <div class="chips">
-                                <span class="chip">Concept lookup</span>
-                                <span class="chip">Video discovery</span>
-                                <span class="chip">Timestamp guidance</span>
-                            </div>
-                            <button type="submit">Ask TutorRAG</button>
-                        </div>
-                    </form>
-                </div>
+        {% else %}
+            <section class="empty-state">
+                <p>Ready.</p>
             </section>
-        </section>
+        {% endif %}
     </main>
 </body>
 </html>
