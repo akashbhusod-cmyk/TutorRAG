@@ -154,8 +154,7 @@ python preprocess_json.py
 
 # Author
 
-## Akash Bhusod
-
+# Akash Bhusod
 ---
 
 # License
