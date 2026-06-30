@@ -12,13 +12,13 @@ End-to-end pipeline from video/audio to searchable knowledge
 Lightweight and runs locally without external API dependency
 
 # Tech Stack
-Backend: Python
-Embeddings: BGE-M3 model
-ffmpeg: for converting adudio or video in text
-LLM: Ollama (local inference)
-Database: SQLite / local storage
-Frontend: HTML (templates)
-Tools: FFmpeg, Joblib
+- Backend: Python
+- Embeddings: BGE-M3 model
+- ffmpeg: for converting adudio or video in text
+- LLM: Ollama (local inference)
+- Database: SQLite / local storage
+- Frontend: HTML (templates)
+- Tools: FFmpeg, Joblib, VS code
 
 # How It Works
 
