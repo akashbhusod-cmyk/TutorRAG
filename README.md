@@ -14,6 +14,7 @@ Lightweight and runs locally without external API dependency
 # Tech Stack
 Backend: Python
 Embeddings: BGE-M3 model
+ffmpeg: for converting adudio or video in text
 LLM: Ollama (local inference)
 Database: SQLite / local storage
 Frontend: HTML (templates)
@@ -137,16 +138,6 @@ python preprocess_json.py
 
 > Video 17: Swap 2 Variables in Python [0:00 – 0:35]
 > Demonstrates swapping values using a temporary variable.
-
----
-
-# Future Improvements
-
-* Streaming responses (typing effect)
-* Chat history sidebar
-* Vector database (FAISS / Chroma)
-* Multi-course support
-* Deployment (Render / Railway)
 
 ---
 
