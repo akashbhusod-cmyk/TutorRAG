@@ -150,13 +150,5 @@ python preprocess_json.py
 
 ---
 
----
-
 # Author
-
 # Akash Bhusod
----
-
-# License
-
-For educational and portfolio purposes.
