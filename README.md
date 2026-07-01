@@ -122,8 +122,8 @@ python preprocess_json.py
 
 **Output:**
 
-> Video 17: Swap 2 Variables in Python [0:00 – 0:35]
-> Demonstrates swapping values using a temporary variable.
+- Video 17: Swap 2 Variables in Python [0:00 – 0:35]
+- Demonstrates swapping values using a temporary variable.
 
 ---
 
